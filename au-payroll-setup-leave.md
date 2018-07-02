@@ -30,14 +30,14 @@ Annual Leave is accrued as a percent of the rate of the employee’s pay for the
 
 A period is the duration of the leave period for the leave accrual. Leave Accrual periods are setup in the system using Calculation Methods for entitlement.  
 
-* [Pro-Rata](#Pro-rata)
-* [Pro Rata Days Worked](#Pro-rata-days-worked)
-* Pro Rata No Carry
-* Anniversary
-* Anniversary No Carry
-* Percentage
-* Percentage No Carry
-* Return to Period
+* [Pro-Rata](#pro-rata)
+* [Pro-Rata Time Worked](#pro-rata-time-worked)
+* [Pro-Rata No Carry](#pro-rata-no-carry)
+* [Anniversary](#anniversary)
+* [Anniversary No Carry](#anniversary-no-carry)
+* [Percentage](#percentage)
+* [Percentage No Carry](#percentage-no-carry)
+* [Return to Period](#return-to-period)
 
 ## Pro-Rata
 
@@ -49,7 +49,7 @@ No. Days Accrued = No. Days Accrued Prior Periods + (No. Days to Date in Period 
 
 Leave Rate = Ordinary Earnings Rate * Conversion Factor
 
-## Pro-Rata Days Worked
+## Pro-Rata Time Worked
 
 This Calculation Method must be used for Leave based in hours and is the same as Pro-Rata except that the first number (N) is the number of hours worked in the period.
 
@@ -57,7 +57,7 @@ No. Days Accrued = No. Days Accrued Prior Periods + (No. Days worked in Period /
 
 Leave Rate = Ordinary Earnings Rate * Conversion Factor.
  
-## Pro-rata No Carry
+## Pro-Rata No Carry
 
 This Calculation Method is the same as Pro-Rata except that it does not carry forward the previous period’s entitlement.
 
@@ -87,35 +87,39 @@ This Calculation Method accrues an amount that is a percentage of ordinary earni
 Leave Value = Leave Percentage * Ordinary Earnings
  
 ## Percentage No Carry
+
 This Calculation Method is the same as Percentage Calculation Method, except that it does not carry forward the previous period’s entitlement.
  
-Return to Period 
+## Return to Period 
+
 Loop back to a previous period.
 
-The end of the previous period is determined using the starting Award Period No. on the Employee 
-Leave Accrual Table.
+The end of the previous period is determined using the starting Award Period No. on the Employee Leave Accrual Table.
 
-Where the method “Percentage” or “Percentage No Carry” is used, the percentage to divide the ordinary earnings must be set up.  These earnings can be made to exclude over award amounts.
-Where days are to be accrued at half pay, a conversion factor can be set-up against the leave type.  This conversion factor will affect the value of the entitlement.
-In order to track leave taken for leave accruals, pay transaction types must be set up to “apply to leave taken” against the leave accrual codes.
+Where the method **Percentage or Percentage No Carry** is used, the percentage to divide the ordinary earnings must be set up.  These earnings can be made to exclude over award amounts.
 
-Annual Leave can be accrued according to any of the above Calculation Methods.  A maximum number of days to accrue can also be entered.
+Where days are to be **accrued at half pay**, a conversion factor can be set-up against the leave type.  This conversion factor will affect the value of the entitlement.
 
-Leave Loading may be setup as a separate leave type, or as part of “Another leave” type.  When leave loading is setup, a transaction type to use for generated leave loading must be entered with a percentage-loading factor.  A maximum salary to calculate loading percentage against can be setup. 
+In order to track leave taken for leave accruals, pay transaction types must be set up to **apply to leave taken** against the leave accrual codes.
 
-Long Service Leave may be accrued according to any of the above Calculation Methods.  LSL may be set-up to appear on reports after a set number of years.  A specific LSL percentage to report for the first number of years of service may be set up.
+**Annual Leave** can be accrued according to any of the above Calculation Methods.  A maximum number of days to accrue can also be entered.
 
-Personal can use any of the Calculation Methods for entitlement calculation.  A maximum number of days to accrue can be set-up against sick leave accruals.
+**Leave Loading** may be setup as a separate leave type, or as part of “Another leave” type.  When leave loading is setup, a transaction type to use for generated leave loading must be entered with a percentage-loading factor.  A maximum salary to calculate loading percentage against can be setup. 
 
-Time in Lieu entitlement is calculated using the employee’s average hours and worked hours.
+**Long Service Leave** may be accrued according to any of the above Calculation Methods.  LSL may be set-up to appear on reports after a set number of years.  A specific LSL percentage to report for the first number of years of service may be set up.
+
+**Personal Leave** can use any of the Calculation Methods for entitlement calculation.  A maximum number of days to accrue can be set-up against sick leave accruals.
+
+**Time in Lieu** entitlement is calculated using the employee’s average hours and worked hours.
 
 Time in Lieu Hours Accrued formula = (Hours Worked – Average Hours) / Hours Worked.
 
-In order to calculate the hours accrued for a pay period, the result of this formula is multiplied by the hours worked in the pay period (determined by the pay transactions that are flagged as “Apply to Time in Lieu”). 
+In order to calculate the hours accrued for a pay period, the result of this formula is multiplied by the hours worked in the pay period (determined by the [pay transactions](au-payroll-setup-pay-transaction-types.md) that are flagged as **Apply to Time in Lieu**). 
  
 An accrual transaction is generated for the employee with a value of the calculated number of hours multiplied by the employee’s pay rate.  The resulting value is used to reduce the employee’s pay for the period.
 
 The transaction type to generate for accruals is entered on the Time in Lieu Setup table.
+
 To enable tracking Time in Lieu taken, one or more pay transaction types must be set up as affecting the Time in Lieu Award.
 
 The transaction used to take Time in Lieu can be set up to “Apply to Time in Lieu”.  This means that the user could enter 8 hours as the time taken, but only reduce the Entitlement by the formula result hours.
