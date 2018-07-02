@@ -17,11 +17,11 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
   
 |Field |Description |  
 |:---------------------------------|:---------------------------------------|  
-|**No.**|This field is used to identify this Payroll throughout the Payroll Granule. You can type the name of the Payroll that you wish to use or select a number from the Payroll Number Series by selecting the **ArrowDown**.|
-|**Group Account No.**|The Group Account No. field will display the information as entered into the Payroll card.|
-|**Company Name**|The Company Name field will display the Company Name of the Payroll you are viewing.|
-|**Ship-To Contact**|The Ship-To Contact will display the contact of the Payroll you are viewing.|
-|**Company Phone No.**|The Company Phone No. will display the information as entered on the Payroll card.|
+|**No.** |This field is used to identify this Payroll throughout the Payroll Granule. You can type the name of the Payroll that you wish to use or select a number from the Payroll Number Series by selecting the **ArrowDown**.|
+|**Group Account No.** |The Group Account No. field will display the information as entered into the Payroll card.|
+|**Company Name** |The Company Name field will display the Company Name of the Payroll you are viewing.|
+|**Ship-To Contact** |The Ship-To Contact will display the contact of the Payroll you are viewing.|
+|**Company Phone No.** |The Company Phone No. will display the information as entered on the Payroll card.|
 
 3.  Click on the *Actions/Edit* if you wish to edit this Payroll, Click on the **Periods** Button if you wish to view/edit the Pay Periods associated to this Payroll, OR Click on the **CLOSE** button to close this window.
 
@@ -30,7 +30,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 5.  On the **General** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-| --------------------------------- | --------------------------------------- | 
+|:--------------------------------- |:--------------------------------------- | 
 |**No.**|This field is used to identify this Payroll throughout the Payroll Granule. You can type the name of the Payroll that you wish to use or select a number from the Payroll Number Series by selecting the **ArrowDown**.|
 |**Company Name**|The contents of the Name and Address fields are printed on documents including Payment Summaries and must be entered.  This field populates from the Company setup in the General ledger.  You can over type the Company Name if you wish.|
 |**Company Name 2**|The “Company Name 2” is used to extend the “Company Name” when a longer name is required.|
@@ -48,7 +48,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 6.  On the **Communications** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-| --------------------------------- | ---------------------------------------| 
+|:--------------------------------- |:---------------------------------------| 
 |**Company Phone No.**|The “Company Phone No.” is the Company’s telephone number.  Use a standard format for the telephone number so that it will look uniform on printouts.|
 |**Company Fax No.**|The “Company Fax No.” is the Company's fax number.  Use a standard format to enter the fax Number so that it will look uniform on printouts.|
 |**Company Email**|The “Company E-Mail” is the Company's E-Mail address. When your program is integrated with an E-Mail system, you can click the button located next to the field to create and send messages.  If you have entered an address in the E-Mail field, the program automatically fills in this address in the ‘To’. Field.|
@@ -58,7 +58,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 7.  On the **Shipping** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Ship-To Contact**|Enter the name of the person to send mail to for this payroll.|
 |**Ship-to Address**|Enter the address items are sent for this payroll.|
 |**Ship-To Address 2**|Line two of the “Ship To Address”.|
@@ -68,7 +68,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 8.  On the **Integration** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**G/L Integration**|A checkmark in this field indicates that integration to the General Ledger granule. An example of where you might use this is when you want to post entries into the General Ledger.|
 |**Job Cost Integration**|A checkmark in this field indicates integration into the Jobs granule. An example of where you might use this is when you want to post entries into the Jobs where job information is entered into the Pay Journal.|
 |**Customer Integration**|A checkmark in this field indicates integration into the Sales & Receivables granule. An example of where you might use this is when you want to post entries to Customers if your employee is setup as a customer.|
@@ -86,7 +86,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 9.  On the **Pay Periods** FastTab, review the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Pay Period Frequency**|This field defines the frequency for this  Payroll.  Select from the following options: Weekly, Fortnightly, 4 Weekly, Monthly, and  Quarterly.|
 |**No. Pays Per Year**|This field is used to define the number of Pay Periods in the Payroll Tax Year for this Payroll.|
 |**No. Tax Weeks per Pay Run**|This field defaults based upon the “No. Pays Per Year” (E.g. 52 weekly = 1 tax week, 12 monthly = 4.3333 tax weeks, 13 4-weekly = 4 tax weeks).|
@@ -98,7 +98,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 10.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Printer Name**|This field is used to select a default Printer when a different printer is required to print payroll documents from your default windows printer.  When a different printer is required  you must select a Printer previously set up in the Windows Printer table.  Select the Printer from the **ArrowDown**.|
 |**Max. Overtime Before Warning**|This field is used to set the maximum allowed before a warning is triggered on the Payroll “Entry Validation” report.|
 |**Max. Worked Before Warning**|This field is used to set the maximum allowed before a warning is triggered on the Payroll “Entry Validation” report.|
@@ -121,7 +121,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 11.  On the **Pay Advice** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Pay Advice Report ID**|This field is used to select the Pay Advice Report Id.  The report Id is used to define the format of the Pay Advice.  The Standard Pay Advice Report Id is 16000473 for internal employees or 16003876 for Labour Hire which includes an Incorporated Company RCTI.  To use a custom pay advice we recommend a new Report ID is used.|
 |**Pay Advice Report Name**|This field is populated with the name of the Pay Advice selected and cannot be changed.|
 |**Pay Advice Message**|Use this field to enter a message to print on all Pay Advices.  The message can be overridden when printing pay advices during the pay process.|
@@ -139,7 +139,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 12.  On the **Defaults** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Default Superannuation Company**|This field defines the Employer‘s standard Superannuation Company used for SGC payments. **Note: You must setup the Superannuation Company before making your selection. Select a Superannuation Companies from the ArrowDown.**|
 |**Default Annual Leave Type**|This field defines the default Annual Leave Type used for employees attached to this payroll.   The Leave Type(s) must be setup before making your selection.  To display the Leave Types assigned an Accumulation Type of “Annual Leave” select the **ArrowDown**.|
 |**Default Annual Leave Code**|This field defines the default Annual Leave Code used for employees attached to this payroll.  The Leave code defines the accrual rules for the leave.  The Leave Code must be setup before making the selection. To display Leave Codes with a Leave Type of Annual Leave select the **ArrowDown**.|
@@ -172,7 +172,7 @@ The Pay Period card is used to maintain the Pay Periods for this Payroll.  The 
 1.  You can access the Pay Periods window, by clicking on the “Periods” Button on the Home ribbon.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Tax Year**|This field indicates the Tax Year.|
 |**No.**|This field indicates the Period Number within the tax year.  This field starts at 1 for each new Payroll Tax Year.|
 |**Starting Date**|This field defines the first date (inclusive) of the Corresponding Period No.|
@@ -192,7 +192,7 @@ The Pay Period card is used to maintain the Pay Periods for this Payroll.  The 
 [GoToTop](#how-to-setup-payroll)
 
 
-### Create a New Tax Year
+## Create a New Tax Year
 
 **Note:  After the first tax year has been created, you cannot change the starting date if payrolls have been processed against any of the pay periods. All subsequent tax years start the date after the previous tax year.**
 
@@ -201,7 +201,7 @@ When you create a Payroll Tax Year, the equivalent to a year’s worth of pay pe
 1.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Payroll No.**|This field identifies the currently selected Payroll.|
 |**Starting Date**|This field defines the first date of the first pay period for the year.  The day after the last pay period end date of the previous tax year is the default.|
 |**Pay Period Frequency**|This field defaults to” Weekly”.  You must select the correct frequency from the list.|
@@ -214,12 +214,12 @@ When you create a Payroll Tax Year, the equivalent to a year’s worth of pay pe
 
  
 
-### Delete Tax Year
+## Delete Tax Year
 
 1.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Payroll No.**|This field identifies the currently selected Payroll.|
 |**Tax Year**|This field identifies the Tax Year you wish to delete for the currently selected Payroll.|
 |**Starting Date**|This field defines the first date of the first pay period for the year.|
@@ -232,12 +232,12 @@ When you create a Payroll Tax Year, the equivalent to a year’s worth of pay pe
 
 
 
-### Modify Pay Periods
+## Modify Pay Periods
 
 1.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+|:---------------------------------|:---------------------------------------| 
 |**Payroll No.**|This field identifies the currently selected Payroll.|
 |**Starting Date**|This field indicates the pay period start date you wish to modify.|
 |**Pay Period Frequency**|This field can be changed by selecting the **ArrowDown** and selecting from list. Once changed; all Pay Periods from the starting date are converted to the new frequency. Example of changing from a weekly to a monthly frequency during a tax year follows. Decide on the first period to be changed to monthly, preferably one with an Ending Date in the same month as the start date  The sequence you apply the following date changes must never allow periods to overlap.   1. In the Pay Periods window change the Ending Date of the last weekly period to the last date of the month 2. Change the Starting Date for the first monthly period to the first date of the month.  3. Select the first monthly period, go to the Modify Pay Periods window and change the frequency to monthly. After you exit this window, all future periods have changed to monthly.|
@@ -248,7 +248,7 @@ When you create a Payroll Tax Year, the equivalent to a year’s worth of pay pe
 
 [GoToTop](#how-to-setup-payroll)
 
-### Closing Pay Periods
+## Closing Pay Periods
 
 The 2 options available to close a pay period are:
 
