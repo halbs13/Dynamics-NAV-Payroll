@@ -25,7 +25,9 @@ The following instructions outline the procedures for installing and implementin
 
 5.	[Import the Employee BSB numbers.](au-payroll-setup-import-bsb-numbers.md)
 
-6.	Set up the Payroll General Codes
+6.	Set up the following areas;
+
+      * [Payroll General Codes](au-payroll-setup-payroll-general-codes.md)
 
       * [Leave Accruals](au-payroll-setup-leave.md) - Review the defaults set up as part of the Payroll-Initialise and modify if required.
       * [Payroll Setup card](au-payroll-setup-payroll-setup.md) - Set up the required Payroll Cards, Tax Years and Hours.
