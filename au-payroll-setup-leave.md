@@ -5,7 +5,7 @@ You can set up unlimited Leave Types and Accruals.  Each employee can have more 
 * Types
 * Accruals
 
-After you setup the Types and Accrual rules you can assign them to your employees.  
+After you setup the [Leave Types](#au-payroll-setup-leave-types.md) and [Leave Accrual](#au-payroll-setup-leave-accruals.md) rules you can assign them to your employees.  
 
 Default Leave Codes and Types can be setup to default for each [Payroll](au-payroll-setup-payrolls.md) for Annual Leave, Leave Loading, Personal Leave, and Long Service Leave.  The defaults are used for each Payroll Employee assigned to the Payroll. You can change and delete the defaults for the individual employees prior to their first pay from the [Leave Accruals](au-payroll-create-payroll-employee-leave-accruals.md) on the [Payroll Employee card](au-payroll-create-payroll-employee.md).  
 
