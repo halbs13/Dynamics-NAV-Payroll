@@ -24,5 +24,8 @@ Leave Types can be one of the following types:
 
 3.  Click on the **OK** button to close this window.
 
+
 To learn more about setting up [Leave Accruals](au-payroll-setup-leave-accruals.md)
+
+
 To learn more about setting up [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md)
