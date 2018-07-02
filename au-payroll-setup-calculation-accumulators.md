@@ -55,6 +55,8 @@ Transaction Types*
 |**Negative Accumulator**|Tick this field if you expect the calculation base to be a negative value.|
 
 4.  Click on the **OK** button to close this window.
+
+
    
 To learn more about setting up [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md)
 
