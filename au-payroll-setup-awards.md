@@ -37,7 +37,7 @@ On the Payroll Employee Card a second Over Award Rate can be added in addition t
 
 ## To setup Award Classifications
 
-The Award and Classifications menu options are only displayed after you flag the “Allow Award Pay Rates” check box in the “Payroll > Setup> Payroll Setup> Payroll Controls > Payroll Setup > Options FastTab”.
+The Award and Classifications menu options are only displayed after you flag the **Allow Award Pay Rates** check box on the **Options** FastTab, of the [Payroll Setup](au-payroll-setup-payroll-setup.md) card.
 
 The Awards card is used to maintain Awards and to link the Award to Gross, Allowances, Associated Transactions, and Classifications. (For example shift allowances that apply to hours worked on a specific shift or to associate Leave Loading with Annual Leave.
 
