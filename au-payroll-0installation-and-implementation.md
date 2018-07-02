@@ -28,7 +28,7 @@ The following instructions outline the procedures for installing and implementin
 6.	Reivew or set up the following areas;
 
       * [Leave Accruals](au-payroll-setup-leave.md) - Review the defaults set up as part of the Payroll-Initialise function and modify if required.
-      * [Payrolls](au-payroll-setup-payrolls.md) - Set up the required Payroll which will determine ther frequency in which the employee is paid, the Tax Years and Payroll defaults.  
+      * [Payrolls](au-payroll-setup-payrolls.md) - Set up the required Payrolls which determine the frequency in which the employee is paid, the Tax Years and Payroll defaults.  
       * [YTD Accumulators](au-payroll-setup-ytd-accumulators.md)
       * [Awards, Award Classifications and Rates](au-payroll-setup-awards.md) - if Award Rates is ticked in the Payroll Setup.  You will need to determine the awards required for your company.
       * [Payroll Posting Setup](au-payroll-setup-posting-group-setup.md) - Assign General Ledger accounts to the transaction posting groups.
@@ -37,14 +37,15 @@ The following instructions outline the procedures for installing and implementin
       * [Work Cover Rates & Locations](au-payroll-setup-work-cover.md) 
       
 
-7.	Create Employees in the [Human Resources](au-payroll-create-employee.md) & [Payroll](au-payroll-create-payroll-employee.md)granules:
-      * Add the [Pay Dissections](au-payroll-create-payroll-employee-pay-dissections.md).
-      * Add the [Employee Pay Rates](au-payroll-create-payroll-employee-pay-rates.md) 
-      * Add any permanent [Allowances and Associated Transactions](au-payroll-create-payroll-employee-gross-allowances.md) 
-      * Add any permanent [Deductions](au-payroll-create-payroll-employee-deductions.md) 
-      * Add the [Superannuation configurations](au-payroll-create-payroll-employee-superannuation.md) for the employee including employee and employer contributions.
-      * Add any [Oncost Calculations](au-payroll-create-payroll-employee-accumulation-calculations.md) and [Cost Allocations](au-payroll-create-payroll-employee-cost-allocations.md).
-      * Add the [Leave types](au-payroll-create-payroll-employee-leave-accruals.md).
+7.	Create Employees in the [Human Resources](au-payroll-create-employee.md) & [Payroll](au-payroll-create-payroll-employee.md) granules:
+      * Add the [Pay Dissections](au-payroll-create-payroll-employee-pay-dissections.md),
+      * Add the [Employee Pay Rates](au-payroll-create-payroll-employee-pay-rates.md),
+      * Add any permanent [Allowances and Associated Transactions](au-payroll-create-payroll-employee-gross-allowances.md),
+      * Add any permanent [Deductions](au-payroll-create-payroll-employee-deductions.md), 
+      * Add the [Superannuation Product](au-payroll-create-payroll-employee-superannuation.md) and any additional contributions.  
+      * Add any [Oncost Calculations](au-payroll-create-payroll-employee-accumulation-calculations.md) and [Cost Allocations](au-payroll-create-payroll-employee-cost-allocations.md),
+      * Add the [Leave types](au-payroll-create-payroll-employee-leave-accruals.md),
+      * Add the [Work Schedule](au-payroll-create-payroll-employee-work-schedule.md), is applicable.
 
 8.	Set up employee [Work Gangs](au-payroll-create-work-gangs.md), if applicable.
 
