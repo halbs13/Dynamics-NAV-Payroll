@@ -1,3 +1,73 @@
+# Award Overview
+
+An Award is set up by:
+
+- Defining the Award 
+- Creating one or more Award Classifications 
+- Creating Classification Rates for each Award Classification (Optional) 
+
+At least one Award and Classification must be setup for each company to process the payrolls.  
+
+The default Award is automatically created by the Initialisation Codeunit when payroll is implemented and is called “GENERAL” for both the Award and Classification: 
+
+ * All employees Pay Rates are associated with the default Award until you create your own Awards and assign them to Employees. 
+ * Setting up additional Awards and Classifications is optional. 
+ * Awards are broken down into Classifications (Grades) that may apply for a specific period of service until they increment to a higher classification.
+ * Classifications may have Pay Rates that apply from a specified date. 
+ * Each Classification can have the “Number of Months of Service” for which the Classification is applicable, and a “Next Classification” that applies on completion of the Number of Months.  When the specified “Number of Months of Service” is complete, an Employee is automatically incremented to the “Next Classification”.
+ * Each Classification can have an effective date specified for each Pay Rate that you can set to increment and apply to the Employee’s in the Classification. 
+ * Awards have a Weekly Rate and may have an Over Award Rate applied to Payroll Employees.
+ * A second Over Award Rate added in addition to the Over Award Rate may be applied to individual Employees. 
+ * Classifications may have additional Allowances generated for each Employee in a Classification.  These allowances are granted each Pay-run for those Employees.
+
+Each Employee must be allocated to a Classification in order to obtain a rate of Pay.  The date of Employment is used to determine the date from which to calculate the Employee length of service.
+
+When the Payroll is processed and the rate is not set up in the Pay Transaction Type the following applies: 
+
+* The Classification of the Employee or the Classification entered against the Employee Hours in the pay journal is used to determine the Pay rate to assign to the Pay transaction.
+
+Awards may have Associated Transactions. When a pay is run the Associated Transactions are generated for each Employee covered by the
+Award.  These affect each Pay-run for Employees that falls within the date range of the Award Associated Transactions.  When the date fields are left blank no date limitation apply.
+
+When an award has standard allowances (e.g. for uniforms) applicable to all persons on the payroll that are under that award, these can
+be set up by creating Gross / Allowances for that Award.
+
+On the Payroll Employee Card a second Over Award Rate can be added in addition to the Over Award Rate.
+
+
+## To setup Award Classifications
+
+The Award and Classifications menu options are only displayed after you flag the “Allow Award Pay Rates” check box in the “Payroll > Setup> Payroll Setup> Payroll Controls > Payroll Setup > Options FastTab”.
+
+The Awards card is used to maintain Awards and to link the Award to Gross, Allowances, Associated Transactions, and Classifications. (For example shift allowances that apply to hours worked on a specific shift or to associate Leave Loading with Annual Leave.
+
+1.  To access the Award setup, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Award/Awards &
+Associated Transactions*
+
+2.  To create a new record, click on the **New** button.
+
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Code**|This field is used to uniquely identify this Award.|
+|**Description**|This field is used to name this Award.|
+|**Gross/Allowances**|This field is automatically populated with a checkmark after transaction has been set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.|
+|**Associated Transactions**|This field is automatically ticked after an Associated Transaction is set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.|
+|**Position Code**|This field is optional and is used to indicate the Award is only used for a specific Position.  The position is attached to either a Payroll Employee.|
+|**Position Description**|This field is the description of the Position Code selected.|
+|**Customer No.**|The Customer No. field is used to identify that this Award pertains to a particular customer.|
+|**Public Holiday Calendar**|This field is optional and is used to assign a calendar to determine Public Holidays for this Award for the purposes of Award Interpretation.  Alternatively the Calendar can be attached to the Employee’s Branch and the Employee assigned to the Branch.|
+|**Certification Date**|This field is Mandatory and is used to enter  the date the Award is certified for use.   If this date is left blank you cannot setup the Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.|
+|**Blocked**|This field is used to block the Award and any of its Classifications for use.|
+|**Comments**|This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the “Navigation Menu” and then select the Comments icon.|
+
+3. Click on the **OK** button to close this window.
+  
+ 
+[GoToTop](#how-to-setup-payroll)
+
+
+
+
 Award
 An Award is set up by:
 1.	Defining the Award
