@@ -16,7 +16,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 2.  The **Payroll List** window contains the following fields as described in the following table.
   
 |Field |Description |  
-| --------------------------------- | --------------------------------------- |  
+|  ---------------------------------   |   ---------------------------------------   |  
 |**No.**|This field is used to identify this Payroll throughout the Payroll Granule. You can type the name of the Payroll that you wish to use or select a number from the Payroll Number Series by selecting the **ArrowDown**.|
 |**Group Account No.**|The Group Account No. field will display the information as entered into the Payroll card.|
 |**Company Name**|The Company Name field will display the Company Name of the Payroll you are viewing.|
@@ -30,7 +30,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 5.  On the **General** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+| --------------------------------- | --------------------------------------- | 
 |**No.**|This field is used to identify this Payroll throughout the Payroll Granule. You can type the name of the Payroll that you wish to use or select a number from the Payroll Number Series by selecting the **ArrowDown**.|
 |**Company Name**|The contents of the Name and Address fields are printed on documents including Payment Summaries and must be entered.  This field populates from the Company setup in the General ledger.  You can over type the Company Name if you wish.|
 |**Company Name 2**|The “Company Name 2” is used to extend the “Company Name” when a longer name is required.|
@@ -48,7 +48,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 6.  On the **Communications** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|---------------------------------|---------------------------------------| 
+| --------------------------------- | ---------------------------------------| 
 |**Company Phone No.**|The “Company Phone No.” is the Company’s telephone number.  Use a standard format for the telephone number so that it will look uniform on printouts.|
 |**Company Fax No.**|The “Company Fax No.” is the Company's fax number.  Use a standard format to enter the fax Number so that it will look uniform on printouts.|
 |**Company Email**|The “Company E-Mail” is the Company's E-Mail address. When your program is integrated with an E-Mail system, you can click the button located next to the field to create and send messages.  If you have entered an address in the E-Mail field, the program automatically fills in this address in the ‘To’. Field.|
