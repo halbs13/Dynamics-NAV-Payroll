@@ -42,10 +42,10 @@ Cheques to the superannuation fund can be automatically printed from the system.
 |**Min. Salary Check Frequency**|This field is the period relating to minimum salary, and is checked during each *Calculate Pays* function.|
 |**Payroll Tax Exempt**|This field indicates if payroll tax is calculated against the amounts contributed.|
 |**Vendor No.**|If you have vendor Integration turned on and you wish to create Vendor Invoices for this Superannuation Company you must select the Superannuation Company's corresponding Vendor Number.|
-|**SGC Type Code**|After you have set up the [Pay Transaction Type](#to-setup-pay-transaction-types) you should select the corresponding Transaction for this field.  This is the Standard SGC Transaction Type.|
-|**Pre-Tax Transaction Type Code**|After you have set up the [Pay Transaction Type](#to-setup-pay-transaction-types) you should select the corresponding Transaction for this field.  This is the Salary Sacrifice Transaction Type.|
-|**Post-Tax Transaction Type Code**|After you have set up the [Pay Transaction Type](#to-setup-pay-transaction-types) you should select the corresponding Transaction for this field.  This is the Employee After Tax  Transaction Type (Non Concessional).|
-|**Non-SGC Transaction Type Code**|After you have set up the [Pay Transaction Type](#to-setup-pay-transaction-types) you should select the corresponding Transaction for this field.  This is the Employer Non - SGC Transaction Type.|
+|**SGC Type Code**|After you have set up the [Pay Transaction Type](au-payroll-setup-pay-transaction-types.md) you should select the corresponding Transaction for this field.  This is the Standard SGC Transaction Type.|
+|**Pre-Tax Transaction Type Code**|After you have set up the [Pay Transaction Type](au-payroll-setup-pay-transaction-types.md) you should select the corresponding Transaction for this field.  This is the Salary Sacrifice Transaction Type.|
+|**Post-Tax Transaction Type Code**|After you have set up the [Pay Transaction Type](au-payroll-setup-pay-transaction-types.md) you should select the corresponding Transaction for this field.  This is the Employee After Tax  Transaction Type (Non Concessional).|
+|**Non-SGC Transaction Type Code**|After you have set up the [Pay Transaction Type](au-payroll-setup-pay-transaction-types.md) you should select the corresponding Transaction for this field.  This is the Employer Non - SGC Transaction Type.|
    
  4. On the **Defaults** FastTab, fill the fields in the following table.
 
