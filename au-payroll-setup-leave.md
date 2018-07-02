@@ -5,7 +5,7 @@ You can set up unlimited Leave Types and Accruals.  Each employee can have more 
 * Types
 * Accruals
 
-After you setup the [Leave Types](#au-payroll-setup-leave-types.md) and [Leave Accrual](#au-payroll-setup-leave-accruals.md) rules you can assign them to your employees.  
+After you setup the [Leave Types](au-payroll-setup-leave-types.md) and [Leave Accrual](au-payroll-setup-leave-accruals.md) rules you can assign them to your employees.  
 
 Default Leave Codes and Types can be setup to default for each [Payroll](au-payroll-setup-payrolls.md) for Annual Leave, Leave Loading, Personal Leave, and Long Service Leave.  The defaults are used for each Payroll Employee assigned to the Payroll. You can change and delete the defaults for the individual employees prior to their first pay from the [Leave Accruals](au-payroll-create-payroll-employee-leave-accruals.md) on the [Payroll Employee card](au-payroll-create-payroll-employee.md).  
 
@@ -126,10 +126,10 @@ The transaction used to take Time in Lieu can be set up to “Apply to Time in L
 
 Additional Information:
 
-[Leave Types](#au-payroll-setup-leave-types.md)
-[Leave Accruals}(#au-payroll-setup-leave-accruals.md)
-[Pro Rata Leave Calculation Methods](#au-payroll-setup-pro-rata-leave-calculation-methods.md)
-[Leave Accruals Provision Posting](#au-payroll-setup-leave-accruals-provision-posting.md)
-[Post Leave Accruals Only Flag](#au-payroll-setup-post-leave-accruals-only-flag.md)
+[Leave Types](au-payroll-setup-leave-types.md)
+[Leave Accruals}(au-payroll-setup-leave-accruals.md)
+[Pro Rata Leave Calculation Methods](au-payroll-setup-pro-rata-leave-calculation-methods.md)
+[Leave Accruals Provision Posting](au-payroll-setup-leave-accruals-provision-posting.md)
+[Post Leave Accruals Only Flag](au-payroll-setup-post-leave-accruals-only-flag.md)
 
 [GoToTop](#leave-overview)
