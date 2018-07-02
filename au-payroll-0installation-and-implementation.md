@@ -1,10 +1,13 @@
-9	INSTALLATION AND IMPLEMENTATION
+# INSTALLATION AND IMPLEMENTATION
+
 The following instructions outline the procedures for installing and implementing the Payroll granule.  
 
-Note: Not all steps are required for every implementation.
+## Note: Not all steps are required for every implementation.##
+
 1.	Import the payroll objects to the database.
 2.	In the object designer: 
-•	To set up default Pay Transaction Types, Leave, Awards, Posting Groups, etc. Run the following Codeunit  ID 16000400  Payroll-Initialise 
+
+  •	To set up default Pay Transaction Types, Leave, Awards, Posting Groups, etc. Run the following Codeunit  ID 16000400  Payroll-        Initialise 
 •	To set up the default MS Dynamics NAV security payroll permission groups - run the Codeunit: ID 16000401 Payroll-Initialise Permissions.  
 •	'PAY-READONLY' to give users read only permission, 
 •	'PAY-STANDARD' to give general read write permission, 
