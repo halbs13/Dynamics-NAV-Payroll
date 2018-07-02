@@ -2,7 +2,7 @@
 
 The following instructions outline the procedures for installing and implementing the Payroll granule.  
 
-**Note: Not all steps are required for every implementation.**
+**Note: Not all steps are required for every implementation and will be dependant upon your organisation's payroll requirements.**
 
 1.	Import the payroll objects to the database.
 
@@ -31,8 +31,8 @@ The following instructions outline the procedures for installing and implementin
       * [Payrolls](au-payroll-setup-payrolls.md) - Set up the required Payroll which will determine ther frequency in which the employee is paid, the Tax Years and Payroll defaults.  
       * [YTD Accumulators](au-payroll-setup-ytd-accumulators.md)
       * [Awards, Award Classifications and Rates](au-payroll-setup-awards.md) - if Award Rates is ticked in the Payroll Setup.  You will need to determine the awards required for your company.
-      * [Payroll Posting Setup](au-payroll-setup-posting-group-setup.md) - You must determine the General Ledger accounts required
-      * [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) - determine allowances and deductions required by your company by reviewing your current payroll.
+      * [Payroll Posting Setup](au-payroll-setup-posting-group-setup.md) - Assign General Ledger accounts to the transaction posting groups.
+      * [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) - determine allowances and deductions required by your company by reviewing your existing payroll requirements for your organisation.
       * [Superannuation Funds](au-payroll-setup-superannuation-funds.md) & [Superannuation Products](au-payroll-setup-superannuation-products.md)
       * [Work Cover Rates & Locations](au-payroll-setup-work-cover.md) 
       
