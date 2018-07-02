@@ -8,13 +8,13 @@ The following instructions outline the procedures for installing and implementin
 
 2.	In the object designer: 
 
-  * To set up default Pay Transaction Types, Leave, Awards, Posting Groups, etc. Run the following Codeunit: ID **16000400  Payroll-        Initialise** 
+    * To set up default Pay Transaction Types, Leave, Awards, Posting Groups, etc. Run the following Codeunit: ID **16000400  Payroll-        Initialise** 
   
-  * To set up the default MS Dynamics NAV security payroll permission groups.  Run the Codeunit: ID **16000401 Payroll-Initialise Permissions**  
+    * To set up the default MS Dynamics NAV security payroll permission groups.  Run the Codeunit: ID **16000401 Payroll-Initialise Permissions**  
       
-  * **PAY-READONLY** to give users read only permission,
-  * **PAY-STANDARD** to give general read write permission, 
-  * **PAY-SUPER** to give all payroll permissions.
+    * **PAY-READONLY** to give users read only permission,
+    * **PAY-STANDARD** to give general read write permission, 
+    * **PAY-SUPER** to give all payroll permissions.
       
 3.	Set up Payroll Users and Permissions
 
