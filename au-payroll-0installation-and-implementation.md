@@ -2,7 +2,7 @@
 
 The following instructions outline the procedures for installing and implementing the Payroll granule.  
 
-## Note: Not all steps are required for every implementation.##
+#Note: Not all steps are required for every implementation.#
 
 1.	Import the payroll objects to the database.
 2.	In the object designer: 
