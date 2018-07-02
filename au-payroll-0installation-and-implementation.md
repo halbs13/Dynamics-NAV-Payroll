@@ -21,7 +21,7 @@ The following instructions outline the procedures for installing and implementin
       * You must grant at least one user the **PAY-SUPER** permission.
       * Assign the user either the **Payroll Officer** or **Payroll Supervisor Role Centre**.
   
-4.	[Import the current Tax Scale text file](au-payroll-import-tax-scales.md)
+4.	[Import the current Tax Scale text file](au-payroll-setup-import-tax-scales.md)
 
 5.	[Import the Employee BSB numbers.](au-payroll-setup-import-bsb-numbers.md)
 
