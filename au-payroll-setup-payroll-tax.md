@@ -6,7 +6,7 @@ provide you with the ability to calculate your payroll tax liability based on th
 To setup Payroll Tax:
 
 - Setup the [Payroll Code Setup](au-payroll-setup-payroll-codes.md) - Payroll Tax and Payroll Tax Group: 
-- Defines the state Set up [Branch](au-payroll-setup-branches.md): Attaches the Payroll Tax State to the Branch
+- Defines the state Set up [Branch](au-payroll-setup-branches.md) - Attaches the Payroll Tax State to the Branch
 - Assign the Branch to the [Payroll Employee](au-payroll-create-payroll-employee.md) - Attaches the Branch associated to the Payroll Tax State to the employee
 - Setup Payroll Tax Rates - Defines the Rates and Thresholds for each state and effective dates
 - Flag [Payroll Transaction Types](au-payroll-setup-pay-transaction-types.md) on the Parameter tab - Defines the transactions attracting Payroll Tax
