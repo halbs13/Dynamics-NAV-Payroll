@@ -12,14 +12,13 @@ The following instructions outline the procedures for installing and implementin
   
   •	To set up the default MS Dynamics NAV security payroll permission groups - run the Codeunit: ID **16000401 Payroll-Initialise Permissions**  
       
-      •	**PAY-READONLY** to give users read only permission, 
-      •	**PAY-STANDARD** to give general read write permission, 
-      •	**PAY-SUPER** to give all payroll permissions.
+   •	**PAY-READONLY** to give users read only permission, 
+   •	**PAY-STANDARD** to give general read write permission, 
+   •	**PAY-SUPER** to give all payroll permissions.
       
 3.	Set up Payroll Users and Permissions
 
   •	You must grant at least one user the **PAY-SUPER** permission.
-  
   •	Assign the user either the **Payroll Officer** or **Payroll Supervisor Role Centre**.
   
 4.	Import the current Tax Scale text file.
