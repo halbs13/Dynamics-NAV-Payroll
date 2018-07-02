@@ -124,10 +124,10 @@ To enable tracking Time in Lieu taken, one or more pay transaction types must be
 
 The transaction used to take Time in Lieu can be set up to “Apply to Time in Lieu”.  This means that the user could enter 8 hours as the time taken, but only reduce the Entitlement by the formula result hours.
 
-Additional Information:
+### Additional Information:
 
 [Leave Types](au-payroll-setup-leave-types.md)
-[Leave Accruals}(au-payroll-setup-leave-accruals.md)
+[Leave Accruals](au-payroll-setup-leave-accruals.md)
 [Pro Rata Leave Calculation Methods](au-payroll-setup-pro-rata-leave-calculation-methods.md)
 [Leave Accruals Provision Posting](au-payroll-setup-leave-accruals-provision-posting.md)
 [Post Leave Accruals Only Flag](au-payroll-setup-post-leave-accruals-only-flag.md)
