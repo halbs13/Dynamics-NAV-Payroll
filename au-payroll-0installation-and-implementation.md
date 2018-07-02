@@ -23,7 +23,7 @@ The following instructions outline the procedures for installing and implementin
   
 4.	Import the current Tax Scale text file.
 
-5.	[Import the Employee BSB numbers.][#au-payroll-import-bsb-numbers.md]
+5.	[Import the Employee BSB numbers.][https://github.com/halbs13/Dynamics-NAV-Payroll/au-payroll-import-bsb-numbers.md]
 
 6.	Set up the Payroll General Codes
 
