@@ -1,6 +1,6 @@
 # To setup Employee Types
 
-Employee Types are assigned to Employees in the [Payroll Employee](au-payroll-create-payroll-employee) card (General FastTab) and determine what type of employee they are:
+Employee Types are assigned to Employees in the [Payroll Employee](au-payroll-create-payroll-employee.md) card (General FastTab) and determine what type of employee they are:
 
 - Shift
 - Casual
