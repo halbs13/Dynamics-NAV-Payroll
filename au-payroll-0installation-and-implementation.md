@@ -1,4 +1,4 @@
-# INSTALLATION AND IMPLEMENTATION
+# PAYROLL INSTALLATION AND IMPLEMENTATION
 
 The following instructions outline the procedures for installing and implementing the Payroll granule.  
 
