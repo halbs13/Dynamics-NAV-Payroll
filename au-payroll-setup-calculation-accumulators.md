@@ -56,6 +56,30 @@ Transaction Types*
 
 4.  Click on the **OK** button to close this window.
 
+## Posting Setup
+
+During the Post Journal Lines process, General Ledger Accounts are resolved for each transaction where amounts will be consolidated
+according to:
+
+- GL Account
+- Global Dimensions and Shortcut Dimensions
+
+With On Cost transactions they are calculated and post both sides of the journal entry.  Where an amount of $20 is calculated, a debit entry is generated and posted to the nominated expense account and an equal credit entry is generated and posted to the nominated provision account.
+
+Transaction Posting groups must be setup and specified to ensure that the provision and expense go the correct General Ledger account.
+
+## On Cost Generation 
+On Costs are generated automatically as there is a flag used to identify any transaction types that should be generated automatically if the code in question is found in the rateset applicable to the resource allocation.
+
+### Calculate Pays
+When the Calculate Pays function is run, the following process happens:
+
+- Check Rateset for any transactions that are flagged as Auto Generate.
+- Generate Transactions and calculate values based on rateset rate.  If there is no rateset rate found then the rate found on the Pay Transaction Type will be used. 
+
+### Branch/Division/Global Dimensions/Shortcut Dimension
+
+When the On Cost transactions are generated, Branch, Division, Global Dimension codes can be assigned automatically to the transactions.
 
    
 To learn more about setting up [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md)
