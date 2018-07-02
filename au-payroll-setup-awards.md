@@ -4,7 +4,7 @@ An Award is set up by:
 
 - Defining the [Award](#to-setup-award-classifications) 
 - Creating one or more [Award Classifications](#award-classification-list) 
-- Creating [Classification Rates](#award-classifications-&-rates) for each Award Classification (Optional) 
+- Creating [Classification Rates](#award-classifications-rates) for each Award Classification (Optional) 
 
 At least one Award and Classification must be setup for each company to process the payrolls.  
 
@@ -177,7 +177,7 @@ The Classification Rates entered automatically update the employee classificatio
 
 [GoToTop](#award-overview)
  
-## Award Classifications & Rates
+## Award Classifications Rates
 
 This form is used to define the Classification Rates of Pay.
 
