@@ -1,0 +1,25 @@
+4.8	General Ledger Posting
+After you have posted the Payroll and Superannuation Transactions to the General Ledger you can verify that the Dimensions have flowed through by reviewing the Chart of Accounts in the General Ledger granule.  The transaction values are summarised by the Account and Dimension Codes.
+
+ 
+4.8.1	Chart of Accounts
+
+To see the chart of accounts you need to open the General Ledger and then select the “Chart of Accounts” menu.  
+
+Select the account number you wish to check and select either the “Net Change” or “Balance” fields.  A list arrow displays.  Select the arrow to display the entries made to the account.
+
+4.8.2	Overview General Ledger Dimensions
+
+From the General Ledger Entries, you will able to view an overview of the Dimensions.  
+
+ 
+
+
+
+
+Click the “G/L Dimension Overview” icon and then the “Show Matrix” icon on the Home ribbon. 
+
+ 
+
+
+ 
