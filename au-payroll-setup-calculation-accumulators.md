@@ -81,7 +81,7 @@ When the Calculate Pays function is run, the following process happens:
 
 When the On Cost transactions are generated, Branch, Division, Global Dimension codes can be assigned automatically to the transactions.
 
-   
+
 To learn more about setting up [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md)
 
 To learn more about setting up [Payroll Posting Groups](au-payroll-setup-posting-group-setup.md)
