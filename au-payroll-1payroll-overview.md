@@ -1,4 +1,4 @@
-##PAYROLL OVERVIEW##
+#PAYROLL OVERVIEW#
 
 The Payroll granule is used to process an Australian payroll and calculate PAYG tax.
 
