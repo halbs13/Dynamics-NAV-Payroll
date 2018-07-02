@@ -1,4 +1,5 @@
-4.9.1	Back Pay Calculations
+# PROCESSING BACK PAY CALCLUATIONS
+
 When award rates have changed and are backdated prior to the current period, this function is used to generate the pay variance for the periods affected by the new pay rate.  The Back pay adjustments are created in the current pay period for the selected Payroll.  
 
 Before you can generate Back Pays you must first change the Award Classification and or Employee Over award Rate using a past period date for the change to become effective. 
