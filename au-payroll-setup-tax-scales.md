@@ -51,4 +51,6 @@ The current Tax Scale coefficients are provided when the Payroll granule is inst
 
 7.  Click on the **CLOSE** button to close this window.
 
+To learn more about [Importing Tax Scales](au-payroll-setup-import-tax-scales.md)
+
 [GoToTop](#to-setup-tax-scales)
