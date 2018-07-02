@@ -1,5 +1,8 @@
-7.2	Import Tax Scales
-When the ATO changes the PAYG tax rates a file containing the new tax scale coefficients is sent to customers who have a current Payroll Annual Software Subscription.  This file must be imported into the Payroll granule.  The user must have Supervisor security privilege (See “User” setup) to import the tax scales 
+# Payroll Setup - Import Tax Scales
+
+When the ATO changes the PAYG tax rates a file containing the new tax scale coefficients is sent to customers who have a current Payroll Annual Software Subscription.  This file must be imported into the Payroll granule.  
+
+The user must have Supervisor security privilege as setup in the [Payroll User Setup](au-payroll-setup-payroll-user.md) to import the tax scales. 
 
 To open the Import Tax Scales window,
 
