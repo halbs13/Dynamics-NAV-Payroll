@@ -126,4 +126,4 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 |**ETP Tax Rate Under Preservation Age Above Cap**| This field is used to indicate the ETP Tax Rate Under Preservation Age above cap.  This information is supplied by the ATO, annually.|    
 |**ETP Tax Rate Over Whole of Income Cap**| This field is used to indicate the ETP Tax Rate Over Whole of Income Cap.  This information is supplied by the ATO, annually.|
 
-[GoToTop](#how-to-setup-payroll)
+[GoToTop](#to-setup-payroll-setup)
