@@ -2,9 +2,9 @@
 
 An Award is set up by:
 
-- Defining the Award 
-- Creating one or more Award Classifications 
-- Creating Classification Rates for each Award Classification (Optional) 
+- Defining the [Award](#to-setup-award-classifications) 
+- Creating one or more [Award Classifications](#award-classification-list) 
+- Creating [Classification Rates](#award-classifications-&-rates) for each Award Classification (Optional) 
 
 At least one Award and Classification must be setup for each company to process the payrolls.  
 
@@ -102,10 +102,11 @@ Where an award has allowances (e.g. uniform allowance) applicable to all employe
 |**Apportion Cost**|	Tick this field to apportion the allowance to jobs entered into the pay journal for the employee.
 |**Not Used**|	Tick this box to temporarily stop this transaction line from generating for the current pay period only.  To effectively end transactions you should use the Start and End date fields.
 
+[GoToTop](#award-overview)
  
 ## Awards & Associated Transactions 
 
-The Award Code is associated to Pay Transaction Types to create “Award Associated Transaction” records.
+The Award Code is associated to Pay Transaction Types to create **Award Associated Transaction** records.
 
 Awards may have Associated Transactions created to generate Pay Transactions for each Employee covered by that Award.  These will affect each Pay-run that falls within the date range specified.  If the date fields are blank no date limitations apply.
 
@@ -124,6 +125,8 @@ Awards may have Associated Transactions created to generate Pay Transactions for
 |**Once Only Per Pay Run**|	Tick this box if the associated transaction is only generated once per employee in the pay run regardless of the number of times the originating transaction is used.
 |**Not Used**|	This field is ticked when this transaction is not used for this pay period only.  To effectively end transactions, you must use the Start and End date fields.  
 
+[GoToTop](#award-overview)
+
 ## Award Leave Setup 
 
 The Award Leave Setup is used to defined the rules for Leave specific to each of the Awards.  An award has the potential to dictate what rules are to be incorporated when leave is applied for through the Dynamics AX HRPayFocus portal.
@@ -141,7 +144,9 @@ An example of a requirement is where Compassionate Leave in some awards allows u
 |**Maximum Days Per Year**|	This field is used to define the maximum days allowed per year.   An example of where this might be used is where Parental Leave has a maximum of 12 months of leave per incident. 
 |**Maximum Days Per Occurrence**|	This field is used to define the maximum days allowed per occurrence/application.
 
- 
+[GoToTop](#award-overview)
+
+
 ## Award Classification List
 
 Classifications are linked to an Award Code to create an “Award Classification” record. 
@@ -170,7 +175,7 @@ The Classification Rates entered automatically update the employee classificatio
 |**Position Code**|	This field is used to attach a specific position to the Award Classification.
 |**Sub Band**|	This field is used to define the Sub Band code which will be setup within HRPayFocus.
 
-
+[GoToTop](#award-overview)
  
 ## Award Classifications & Rates
 
@@ -205,3 +210,5 @@ This form is used to define the Classification Rates of Pay.
 |**Shift Code**|	This field indicates the shift this Award classification is applicable against Award Rate.	The pay rate for this Award Classification line.
 |**Over Award Rate**|	This field is the over award pay rate for this Award Classification.  The Award plus the Over Award rate is the total weekly rate for this Award Classification.
 |**Charge Rate**|	This field is used to enter the charge rate for Jobs.
+
+[GoToTop](#award-overview)
