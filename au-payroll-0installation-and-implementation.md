@@ -23,14 +23,13 @@ The following instructions outline the procedures for installing and implementin
   
 4.	[Import the current Tax Scale text file](au-payroll-setup-import-tax-scales.md)
 
-5.	[Import the Employee BSB numbers.](au-payroll-setup-import-bsb-numbers.md)
+5.	[Import the Employee BSB numbers](au-payroll-setup-import-bsb-numbers.md)
 
 6.	Set up the following areas;
 
       * [Payroll General Codes](au-payroll-setup-payroll-general-codes.md)
-
-      * [Leave Accruals](au-payroll-setup-leave.md) - Review the defaults set up as part of the Payroll-Initialise and modify if required.
-      * [Payroll Setup card](au-payroll-setup-payroll-setup.md) - Set up the required Payroll Cards, Tax Years and Hours.
+      * [Leave Accruals](au-payroll-setup-leave.md) - Review the defaults set up as part of the Payroll-Initialise function and modify if required.
+      * [Payrolls](au-payroll-setup-payroll-setup.md) - Set up the required Payroll which will determine ther frequency in which the employee is paid, the Tax Years and Payroll defaults.  
       * [YTD Accumulators](au-payroll-setup-ytd-accumulators.md)
       * [Awards, Award Classifications and Rates](au-payroll-setup-awards.md) - if Award Rates is ticked in the Payroll Setup.  You will need to determine the awards required for your company.
       * [Payroll Posting Setup](au-payroll-setup-posting-group-setup.md) - You must determine the General Ledger accounts required
