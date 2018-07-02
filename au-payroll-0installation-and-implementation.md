@@ -45,7 +45,7 @@ The following instructions outline the procedures for installing and implementin
       * Add the [Superannuation Product](au-payroll-create-payroll-employee-superannuation.md) and any additional contributions,  
       * Add any [Oncost Calculations](au-payroll-create-payroll-employee-accumulation-calculations.md) and [Cost Allocations](au-payroll-create-payroll-employee-cost-allocations.md),
       * Add the [Leave types](au-payroll-create-payroll-employee-leave-accruals.md),
-      * Add the [Work Schedule](au-payroll-create-payroll-employee-work-schedule.md), is applicable.
+      * Add the [Work Schedule](au-payroll-create-payroll-employee-work-schedule.md), if applicable.
 
 8.	Set up employee [Work Gangs](au-payroll-create-work-gangs.md), if applicable.
 
