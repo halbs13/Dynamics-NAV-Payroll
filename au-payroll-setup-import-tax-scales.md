@@ -4,11 +4,8 @@ When the ATO changes the PAYG tax rates a file containing the new tax scale coef
 
 The user must have Supervisor security privilege as setup in the [Payroll User Setup](au-payroll-setup-payroll-user.md) to import the tax scales. 
 
-To open the Import Tax Scales window,
+1.  In the **Search** box, enter in **Import Tax Scales**, and then choose the related link.  Or go to the following menu:  *Departments/Payroll/Periodic Activities/Periodic Maintenance/Import Tax Scales*
 
-Departments/Payroll/Periodic Activities/Periodic Maintenance/Import Tax Scales
+2.  When you select the **Import Tax Scales** link, you will be taken to Windows directory. From here you will need to select the file that you will have saved previously into a directory you have access to.
 
-  Note the user must be setup as a Payroll Supervisor in the Payroll User Setup before they can import tax scales.
-
-When you select the “Import Tax Scales” link, you will be taken to Windows directory. From here you will need to select the file that you will have saved previously.
-
+3.  Once you have located the file, click **OK**.
