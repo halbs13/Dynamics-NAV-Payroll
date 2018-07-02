@@ -23,29 +23,29 @@ The following instructions outline the procedures for installing and implementin
   
 4.	[Import the current Tax Scale text file](au-payroll-import-tax-scales.md)
 
-5.	[Import the Employee BSB numbers.](au-payroll-import-bsb-numbers.md)
+5.	[Import the Employee BSB numbers.](au-payroll-setup-import-bsb-numbers.md)
 
 6.	Set up the Payroll General Codes
 
-      * [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) - determine allowances and deductions required by your company by reviewing your current payroll.
-      * [Leave Accruals](au-payroll-setup-leave.md) - Review the defaults set up as part of the Payroll-Initialise and modify if required
+      * [Leave Accruals](au-payroll-setup-leave.md) - Review the defaults set up as part of the Payroll-Initialise and modify if required.
       * [Payroll Setup card](au-payroll-setup-payroll-setup.md) - Set up the required Payroll Cards, Tax Years and Hours.
       * [YTD Accumulators](au-payroll-setup-ytd-accumulators.md)
       * [Awards, Award Classifications and Rates](au-payroll-setup-awards.md) - if Award Rates is ticked in the Payroll Setup.  You will need to determine the awards required for your company.
-      •	Payroll Posting Setup. - You must determine the General Ledger accounts required
-      •	Superannuation Funds & Superannuation Companies.
-      •	Set up the Workers Compensation Rates and Workers Compensation Locations.
-      •	Set up the Employees in the Human Resources granule.
+      * [Payroll Posting Setup](au-payroll-setup-posting-group-setup.md) - You must determine the General Ledger accounts required
+      * [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) - determine allowances and deductions required by your company by reviewing your current payroll.
+      * [Superannuation Funds](au-payroll-setup-superannuation-funds.md) & [Superannuation Products](au-payroll-setup-superannuation-products.md)
+      * [Work Cover Rates & Locations](au-payroll-setup-work-cover.md) 
+      
 
-7.	Set up the Employees in the Payroll granule:
-      •	Add the Pay Dissections for the employee.
-      •	Add the Pay Rate for the employee.
-      •	Add any permanent Allowances and Associated Transactions for the employee.
-      •	Add any permanent Deductions for the employee.
-      •	Add the Superannuation configurations for the employee including employee and employer contributions.
-      •	Create any Oncost and Cost Allocations for the employee.
-      •	Add the Leave types to the employee.
+7.	Create Employees in the [Human Resources](au-payroll-create-employee.md) & [Payroll](au-payroll-create-payroll-employee.md)granules:
+      * Add the [Pay Dissections](au-payroll-create-payroll-employee-pay-dissections.md).
+      * Add the [Employee Pay Rates](au-payroll-create-payroll-employee-pay-rates.md) 
+      * Add any permanent [Allowances and Associated Transactions](au-payroll-create-payroll-employee-gross-allowances.md) 
+      * Add any permanent [Deductions](au-payroll-create-payroll-employee-deductions.md) 
+      * Add the [Superannuation configurations](au-payroll-create-payroll-employee-superannuation.md) for the employee including employee and employer contributions.
+      * Add any [Oncost Calculations](au-payroll-create-payroll-employee-accumulation-calculations.md) and [Cost Allocations](au-payroll-create-payroll-employee-cost-allocations.md).
+      * Add the [Leave types](au-payroll-create-payroll-employee-leave-accruals.md).
 
-8.	Set up employee work Gangs.
+8.	Set up employee [Work Gangs](au-payroll-create-work-gangs.md), if applicable.
 
 9.	**CONDUCT PAYROLL TESTING.**
