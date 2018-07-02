@@ -1,65 +1,72 @@
-10.8	Leave
+# Payroll Setup - Leave
+
 You can set up unlimited Leave Types and Accruals.  Each employee can have more than one Leave Type and Accrual assigned to them. To setup the parameters for Leave you must setup:
-•	Types
-•	Accruals
 
-After you setup the Types and Accrual rules you must assign them to your employees.  
+* Types
+* Accruals
 
-Default Leave Codes and Types can be setup to default for each Payroll for Annual Leave, Leave Loading, Personal Leave, and Long Service Leave.  The defaults are used for each Payroll Employee assigned to the Payroll. You can change and delete the defaults for the individual employees prior to their first pay on the Employee card /Navigate ribbon/Leave/Accruals.  
+After you setup the Types and Accrual rules you can assign them to your employees.  
+
+Default Leave Codes and Types can be setup to default for each [Payroll](au-payroll-setup-payrolls.md) for Annual Leave, Leave Loading, Personal Leave, and Long Service Leave.  The defaults are used for each Payroll Employee assigned to the Payroll. You can change and delete the defaults for the individual employees prior to their first pay from the [Leave Accruals section](au-payroll-create-payroll-employee-leave-accruals.md) on the [Payroll Employee card](au-payroll-create-payroll-employee.md).  
 
 Leave Accruals can be one of the following types:
 
-•	Annual Leave
-•	Leave Loading
-•	Long Service Leave
-•	Personal Leave
-•	Other Leave
-•	Time in Lieu
+* Annual Leave
+* Leave Loading
+* Long Service Leave
+* Personal Leave
+* Other Leave
+* Time in Lieu
 
 Each Type can have a different method of entitlement calculated dependant on the length of service.
 
-Example 1: 
+### Example 1: 
 Annual Leave is setup to give the employee an Entitlement of four weeks on the first anniversary of employment.  
 
 After the first year of service the calculation method automatically moves to Pro-rata and entitlement is granted according to the percentage of the leave period (Usually 12 months) that has passed. 
 
-Example 2: 
+### Example 2: 
 Annual Leave is accrued as a percent of the rate of the employee’s pay for the first year of employment, and then accrued as days after that time.  You can use this method to prevent an employee from being paid leave in the first year of employment, upon termination of employment; they are paid the value of their leave entitlement.
 
 A period is the duration of the leave period for the leave accrual. Leave Accrual periods are setup in the system using Calculation Methods for entitlement.  
 
-•	Pro-Rata
-•	Pro Rata Days Worked
-•	Pro Rata No Carry
-•	Anniversary
-•	Anniversary No Carry
-•	Percentage
-•	Percentage No Carry
-•	Return to Period
+* Pro-Rata
+* Pro Rata Days Worked
+* Pro Rata No Carry
+* Anniversary
+* Anniversary No Carry
+* Percentage
+* Percentage No Carry
+* Return to Period
 
-Pro-Rata
+## Pro-Rata
+
 This Calculation Method calculates the number of days since the end of the previous period of service (N) and the total number of days in the current period (D).
 
 It uses the ratio of these two numbers (N/D) to calculate the proportion of leave entitlement for the period to accrue.
 
 No. Days Accrued = No. Days Accrued Prior Periods + (No. Days to Date in Period / Total No. Days in Period) * No. Days leave entitlement for the period.)
+
 Leave Rate = Ordinary Earnings Rate * Conversion Factor
 
-Pro-Rata Days Worked
+## Pro-Rata Days Worked
+
 This Calculation Method must be used for Leave based in hours and is the same as Pro-Rata except that the first number (N) is the number of hours worked in the period.
 
 No. Days Accrued = No. Days Accrued Prior Periods + (No. Days worked in Period / Total Days in Period) * No. Days leave entitlement for the period.)
 
 Leave Rate = Ordinary Earnings Rate * Conversion Factor.
  
-Pro-rata No Carry
+## Pro-rata No Carry
+
 This Calculation Method is the same as Pro-Rata except that it does not carry forward the previous period’s entitlement.
 
 No. Days Accrued = (No. Days to day in Period / Total No. Days in Period) * No. Days leave entitlement for the period.)
 
 Leave Rate = Ordinary Earnings Rate * Conversion factor.
  
-Anniversary
+## Anniversary
+
 This Calculation Method uses the number of days in the entitlement on anniversary of the number of months for accrual.
 
 When anniversary is reached then: 
@@ -67,19 +74,19 @@ When anniversary is reached then:
 No. Days Accrued = No Days Accrued Prior Period + No Days Entitlement for the period.
 Leave Rate = Ordinary Earnings Rate * Conversion Factor
 
-Anniversary No Carry
+## Anniversary No Carry
+
 This Calculation Method is the same as the Anniversary Calculation Method, except that it does not carry forward the previous period’s entitlement.
 
-When anniversary is reached then: 
-
-No. Days Accrued = No. Days Entitlement.
+When anniversary is reached then: No. Days Accrued = No. Days Entitlement.
  
-Percentage
+## Percentage
+
 This Calculation Method accrues an amount that is a percentage of ordinary earnings for the period.
 
 Leave Value = Leave Percentage * Ordinary Earnings
  
-Percentage No Carry
+## Percentage No Carry
 This Calculation Method is the same as Percentage Calculation Method, except that it does not carry forward the previous period’s entitlement.
  
 Return to Period 
