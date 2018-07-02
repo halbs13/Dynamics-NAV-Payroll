@@ -7,7 +7,7 @@ You can set up unlimited Leave Types and Accruals.  Each employee can have more 
 
 After you setup the Types and Accrual rules you can assign them to your employees.  
 
-Default Leave Codes and Types can be setup to default for each [Payroll](au-payroll-setup-payrolls.md) for Annual Leave, Leave Loading, Personal Leave, and Long Service Leave.  The defaults are used for each Payroll Employee assigned to the Payroll. You can change and delete the defaults for the individual employees prior to their first pay from the [Leave Accruals section](au-payroll-create-payroll-employee-leave-accruals.md) on the [Payroll Employee card](au-payroll-create-payroll-employee.md).  
+Default Leave Codes and Types can be setup to default for each [Payroll](au-payroll-setup-payrolls.md) for Annual Leave, Leave Loading, Personal Leave, and Long Service Leave.  The defaults are used for each Payroll Employee assigned to the Payroll. You can change and delete the defaults for the individual employees prior to their first pay from the [Leave Accruals](au-payroll-create-payroll-employee-leave-accruals.md) on the [Payroll Employee card](au-payroll-create-payroll-employee.md).  
 
 Leave Accruals can be one of the following types:
 
@@ -30,8 +30,8 @@ Annual Leave is accrued as a percent of the rate of the employee’s pay for the
 
 A period is the duration of the leave period for the leave accrual. Leave Accrual periods are setup in the system using Calculation Methods for entitlement.  
 
-* Pro-Rata
-* Pro Rata Days Worked
+* [Pro-Rata](#Pro-rata)
+* [Pro Rata Days Worked](#Pro-rata-days-worked)
 * Pro Rata No Carry
 * Anniversary
 * Anniversary No Carry
