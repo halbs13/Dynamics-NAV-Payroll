@@ -1,4 +1,4 @@
-## To setup Payroll 
+# To setup Payroll 
 
 The Payroll Card is used to maintain the Payrolls used to pay the employees.  Each employee is assigned to a specific Payroll in the Payroll Employee card.
 
@@ -74,7 +74,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 |**Customer Integration**|A checkmark in this field indicates integration into the Sales & Receivables granule. An example of where you might use this is when you want to post entries to Customers if your employee is setup as a customer.|
 |**Vendor Integration**|A checkmark in this field indicates integration into the Purchase & Payables granule.  An example of where you might use this is when you want to post deduction entries to a Vendor when posting the pay journal.|
 |**Create Vendor Invs. For Super**|A checkmark in this field indicates to post unpaid invoices to the Purchase & Payables granule.  This field is available only when Vendor Integration has been ticked. An example of this is Superannuation deductions, Health and Union deductions.|
-|**Payroll Posting Group**|Enter or select the posting group for this payroll by selecting the **ArrowDown**. Payroll Posting Groups are used to help define the General Ledger Account Number to post payroll transactions against. See [Payroll Posting Setup](au-payroll-setup-posting-setup).|
+|**Payroll Posting Group**|Enter or select the posting group for this payroll by selecting the **ArrowDown**. Payroll Posting Groups are used to help define the General Ledger Account Number to post payroll transactions against. See [Payroll Posting Setup](au-payroll-setup-posting-group-setup.md).|
 |**Journal Template Name**|This field defines the journal template used to process Employee Pays.  This field must be selected from previously defined templates.  Select the “ArrowDown” in the field to select the Journal Template Name.|
 |**Journal Batch Name**|This field defines the journal batch used to process Employee Pays.  This field must be selected from previously defined batches.  Select the **ArrowDown** in the field to select the Journal Batch Name.|
 |**Time Journal Template Name**|This field defines the journal batch used to process Time.  This field must be selected from previously defined batches.  Select the **ArrowDown** in the field to select the Journal Template Name.|
@@ -122,7 +122,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 
 |Field|Description|  
 |---------------------------------|---------------------------------------| 
-|**Pay Advice Report ID**|This field is used to select the Pay Advice Report Id.  The report Id is used to define the format of the Pay Advice.  The Standard Pay Advice Report Id is16000473 for internal employees or 16003876 for Labour Hire which includes an Incorporated Company RCTI.  To use a custom pay advice we recommend a new Report ID is used.|
+|**Pay Advice Report ID**|This field is used to select the Pay Advice Report Id.  The report Id is used to define the format of the Pay Advice.  The Standard Pay Advice Report Id is 16000473 for internal employees or 16003876 for Labour Hire which includes an Incorporated Company RCTI.  To use a custom pay advice we recommend a new Report ID is used.|
 |**Pay Advice Report Name**|This field is populated with the name of the Pay Advice selected and cannot be changed.|
 |**Pay Advice Message**|Use this field to enter a message to print on all Pay Advices.  The message can be overridden when printing pay advices during the pay process.|
 |**Weekly Rate on Pay Advice**|Tick this field to print the employee’s weekly rate of pay on the pay advice.  This is only applicable for internal employees.|
@@ -157,34 +157,15 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 |**Default Payment Method**|This field defines the Payment method for the majority of employees attached to this payroll.  This field can be overridden at the employee level.  Select from Cash, Cheque, or EFT.|
 |**Default Tax Scale No.**|This field defines the PAYG Tax Scale used by the majority of employees attached to this payroll.  This field can be overridden at the employee level.|
 
-13.  On the **Labour Hire** FastTab, fill the fields as described in the following table.
 
-|Field|Description|  
-|---------------------------------|---------------------------------------| 
-|**Employment Agency Reg. No.**|The Employment Agency Reg. No. field is used to record the Employment Agency Reg. No. for your organisation if applicable.|
-|**Day Of Week That Week Starts**|This field determines the Day that the Week Starts.   The options are 1 through to 7 where “1” represents “Monday”, etc.|
-|**Week Day Name**|This field determines the name of the day from the selection of the above field.|
-|**Default Posting From Job**|Tick this field if you wish the posting information to default from the Job Posting Group attached to the Job. If contractors work on multiple jobs and GL cost transactions should be posted to where worked.|
-|**Branch/Division from Job**|Tick this field if the Branch/Division should default from the Job Posting Group attached to the Job.  If contractors work on multiple jobs and Branch/Division should default from the Job.|
-|**Clear All Timesheets**|Tick this field if you wish all the unused timesheets to be cleared when generating timesheets for a new period.|
-|**Generate Timesheet per Period**|Tick this field if you wish for a timesheet to generate per period. An example of this is where the payroll is a Fortnightly Payroll and 2 timesheets for each W/E date within the fortnightly period is required.|
-|**Central Close Payroll Periods**|Tick this field if you wish this payroll to be included when closing the payroll period for other like payrolls. An example of where you would use this is when the pay frequencies are the same, i.e. Weekly and they are of the same period dates.|
-|**Skip Processing All Employees**|This field is used to suspend the message generated at the time of calculating the pays. If this field is ticked, a message will be presented after the pays are calculated to advise how many employees are attached to the payroll and how many were processed and paid.   If this field is not ticked, the message will not be generated and therefore the calculation process speed is increased.|
-|**Skip Generate Std. Allowances**|This field is used to by-pass generating standard allowances within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no standard allowances which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.
-|**Skip Generate Std. Deductions**|This field is used to by-pass generating standard deductions within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no standard deductions which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
-|**Skip Generate Std. Super.**|This field is used to by-pass generating standard superannuation process within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no standard superannuation processes which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
-|**Skip Generate Leave Accruals**|This field is used to by-pass generating leave accruals within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no leave accruals which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
-|**Skip Generate On Costs**|This field is used to by-pass generating on cost transactions within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no on cost transactions which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
-|**Skip Gen On Cost Allow. & Dedct**|This field is used to by-pass generating on cost allowances and deductions within the Labour Hire module and is designed to increase the calculation speed of the payroll. If this field is not ticked, no on cost allowance and deductions which may be setup within the Payroll Employee card will be generated as part of the pay calculation process.|
-
-14.  Click on the “Periods" Button if you wish to view/edit the Pay Periods associated to this Payroll, OR Click on the “OK” button to close this window.
-   
+13.  Click on the “Periods" Button if you wish to view/edit the Pay Periods associated to this Payroll, OR Click on the “OK” button to close this window.
+  
 
 [GoToTop](#how-to-setup-payroll)
 
  
 
-## To setup Pay Periods
+# To setup Pay Periods
 
 The Pay Period card is used to maintain the Pay Periods for this Payroll.  The card is nested within the Payroll Card so fields maintained on this card only update this specific Payroll Card.
 
