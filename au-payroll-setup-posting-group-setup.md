@@ -1,4 +1,4 @@
-# To setup Payroll Posting Group
+# To setup Payroll Posting Groups
 
 Payroll Posting Groups define the Bank Account to pay the employee from for the payroll.  They are also used to determine the General Ledger accounts used for posting.
 
@@ -21,7 +21,7 @@ The **Setup** icon opens the [Payroll Posting Setup](#to-setup-payroll-posting-s
 
 The **Dimensions** icon allows for Dimensions to be setup and used to default when posting Leave Transactions with missing dimensions.
 
-[GoToTop](#how-to-setup-payroll-posting-group)
+[GoToTop](#how-to-setup-payroll-posting-groups)
 
 
 # To setup Transaction Posting Groups
@@ -40,7 +40,7 @@ Setup/Transaction Posting Group*
 
 3.  Click on the **OK** button after you have completed your selection.
 
-The “Setup” button opens the “Payroll Posting Setup”.  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
+The **Setup** icon opens the [Payroll Posting Setup](#to-setup-payroll-posting-setup).  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
 
 [GoToTop](#how-to-setup-payroll-posting-groups)
 
@@ -77,6 +77,6 @@ Setup/Payroll Posting Setup*
 
 3.  Click on the **OK** button after you have completed your selection.
 
-[GoToTop](#how-to-setup-payroll-posting-group)
+[GoToTop](#how-to-setup-payroll-posting-groups)
 
 
