@@ -119,8 +119,7 @@ Awards may have Associated Transactions created to generate Pay Transactions for
 |**Transaction Type Description**|	This displays the description of the selected Transaction Type.
 |**Fixed Units**|	This field is used to enter Fixed Units. When a value is entered here it overrides the value entered on a transaction it is associated with.
 |**Fixed Value**|	The field id used to enter the Value.  When a value is entered here it overrides the value entered on a transaction with which it is associated with.
-|**Conversion Factor**|	This field is used for conversions of Pay.  Up to three decimal places may be entered.  The conversion factor is applied to the Pay Journal line.  The conversion factor is taken from the Pay Transaction Type.  The hourly rate is multiplied by the conversion factor to obtain the Pay Rate for the Pay Journal line.  The units in the Pay Journal line multiply the Pay Rate.
-**Example the transaction type equals ‘no value’. (E.g. sick with no entitlement available) then the conversion factor must be zero.**
+|**Conversion Factor**|	This field is used for conversions of Pay.  Up to three decimal places may be entered.  The conversion factor is applied to the Pay Journal line.  The conversion factor is taken from the Pay Transaction Type.  The hourly rate is multiplied by the conversion factor to obtain the Pay Rate for the Pay Journal line.  The units in the Pay Journal line multiply the Pay Rate. **Example the transaction type equals ‘no value’. (E.g. sick with no entitlement available) then the conversion factor must be zero.**|
 |**Number of Units before Used**|	This field is used to enter the total number of units the originating transaction must total before this associated transaction is generated.
 |**Once Only Per Pay Run**|	Tick this box if the associated transaction is only generated once per employee in the pay run regardless of the number of times the originating transaction is used.
 |**Not Used**|	This field is ticked when this transaction is not used for this pay period only.  To effectively end transactions, you must use the Start and End date fields.  
@@ -131,29 +130,22 @@ The Award Leave Setup is used to defined the rules for Leave specific to each of
 
 An example of a requirement is where Compassionate Leave in some awards allows up to 2 days per incidence whereas others may allow for 3 days.
 
- 
-
-
-
-Field	Comments
-Award Code	This field is used to identify the Award Code the Award Leave Setup is being configured.
-Award Description	This field is used to identify the name of the Award.
-Transaction Type Code	This field is used to identify the Transaction Type of the Leave that is being configured in the Award Leave Setup.
-
-Select a Transaction Type code from the “ArrowDown”.
-Transaction Type Description	This field displays the description of the Transaction Type code.
-Blocked	This field can be used to block this particular transaction from the Award Leave Setup so that it may longer be in use.
-Minimum Service (Months)	This field is used to define the minimum service in months for this particular transaction.  
-
-An example of where this might be used is where Parental Leave requires at least 12 months of service before it can be applied for.
-Maximum Days Per Year	This field is used to define the maximum days allowed per year.  
-
-An example of where this might be used is where Parental Leave has a maximum of 12 months of leave per incident. 
-Maximum Days Per Occurrence	This field is used to define the maximum days allowed per occurrence/application.
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Award Code**| This field is used to identify the Award Code the Award Leave Setup is being configured.
+|**Award Description**|	This field is used to identify the name of the Award.
+|**Transaction Type Code**|	This field is used to identify the Transaction Type of the Leave that is being configured in the Award Leave Setup.  Select a Transaction Type code from the **ArrowDown**.
+|**Transaction Type Description**|	This field displays the description of the Transaction Type code.
+|**Blocked**|	This field can be used to block this particular transaction from the Award Leave Setup so that it may longer be in use.
+|**Minimum Service (Months)**|	This field is used to define the minimum service in months for this particular transaction.  An example of where this might be used is where Parental Leave requires at least 12 months of service before it can be applied for.
+|**Maximum Days Per Year**|	This field is used to define the maximum days allowed per year.   An example of where this might be used is where Parental Leave has a maximum of 12 months of leave per incident. 
+|**Maximum Days Per Occurrence**|	This field is used to define the maximum days allowed per occurrence/application.
 
  
-10.7.2	Award Classification List
+## Award Classification List
+
 Classifications are linked to an Award Code to create an “Award Classification” record. 
+
 In the Award Classifications window Classifications assigned to the selected Award are displayed.  New classification can be created from this card and from the menu option.  Classification can only exist in one Award
 
 Each Employee is allocated a Classification Code.  The Description of the Classification is printed on various reports.
@@ -161,66 +153,55 @@ Once a Classification Rate has been used in a pay-run, it cannot be updated or d
 
 The Classification Rates entered automatically update the employee classification rates 
 
-To open the Award Classification List window, 
+1.  To access the Award Classifications, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Award/Classifications*
 
-Departments/Payroll/Setup/Payroll Setup/Award/Classifications
- 
+2.  To create a new record, click on the **New** button.
 
-Field	Comments
-Code	This field is used to identify this Award Classification.
-Description	This field is used to name this classification code.
-Award Code	This field is used to select records defined in Awards & Associated Transactions.
-
-Select an Award Code from the “ArrowDown”.
-Description	This field is used to name this Award Code.  
-No. Months Service	This field defines the number of months that must be completed by an employee before automatically incremented to the next classification.
-Next Classification Code	This field is used to define the Next Classification the employee will automatically increment to after completion of the number of months of service.
-The Next Classification must belong to the same Award as the current Classification.
-
-Select a Classification Code from the “ArrowDown”.
-Shift Code	This field is used to select a permanent shift for this Award classification if required
-Work Cover Code	Enter the Work Cover Code applicable to this Classification
-Position Code	This field is used to attach a specific position to the Award Classification.
-Sub Band	This field is used to define the Sub Band code which will be setup within HRPayFocus.
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Code**|This field is used to uniquely identify this Award Classification.
+|**Description**|	This field is used to name this classification code.
+|**Award Code**|	This field is used to select records defined in Awards & Associated Transactions.  Select an Award Code from the **ArrowDown**.
+|**Description**|	This field is used to name this Award Code.  
+|**No. Months Service**|	This field defines the number of months that must be completed by an employee before automatically incremented to the next classification.
+|**Next Classification Code**|	This field is used to define the Next Classification the employee will automatically increment to after completion of the number of months of service.  The Next Classification must belong to the same Award as the current Classification.  Select a Classification Code from the **ArrowDown**.
+|**Shift Code**|	This field is used to select a permanent shift for this Award classification if required
+|**Work Cover Code**|	Enter the Work Cover Code applicable to this Classification
+|**Position Code**|	This field is used to attach a specific position to the Award Classification.
+|**Sub Band**|	This field is used to define the Sub Band code which will be setup within HRPayFocus.
 
 
  
-10.7.3	Award Classifications & Rates
+## Award Classifications & Rates
+
 This form is used to define the Classification Rates of Pay.
 
-To open the Classifications & Rates window, 
+1.  To access the Classifications & Rates, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Award/Classifications & Rates*
 
-Departments/Payroll/Setup/Payroll Setup/Award/Classifications & Rates
-Select the “Edit” icon once you have launched the window.
+2.  Select **Edit** once you have launched the window.  
 
- 
+3.  On the **General** FastTab, fill the following fields;
 
-10.7.3.1	Classifications & Rates – General FastTab
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Code**| Used to identify the Award Classification.
+|**Description**|	Used to name this classification code.
+|**Award Code**|	Select the Award Code from the **ArrowDown**.
+|**Next Classification Code**|	This field is used to define the Classification an employee will automatically increment to on completion of the number of months of service.  The Next Classification must belong to the same Award as the current Classification.
+|**No. Months Service**|	This field defines the number of month’s service that must be completed by an employee before incrementing to the next classification.
+|**Position Code**|	This field is used to attach a specific position to the Award Classification.
 
-Field	Comments
-Code	Used to identify the Award Classification.
-Description	Used to name this classification code.
-Award Code	Select the Award Code from the “ArrowDown”.
-Next Classification Code	This field is used to define the Classification an employee will automatically increment to on completion of the number of months of service.
-The Next Classification must belong to the same Award as the current Classification.
-No. Months Service	This field defines the number of month’s service that must be completed by an employee before incrementing to the next classification.
-Position Code	This field is used to attach a specific position to the Award Classification.
+4.  On the **Workers Comp** FastTab, fill the following fields;
 
-10.7.3.2	Classifications & Rates – Workers Comp FastTab 
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Work Cover Code**| This field is used to assign the Workers Compensation Rate to this Classification.  Select the Work Cover Code from the **ArrowDown**.
 
-Field	Comments
-Work Cover Code	This field is used to assign the Workers Compensation Rate to this Classification
+5.  In the **Award Classification Subform** FastTab, fill the following fields; 
 
-Select the Work Cover Code from the “ArrowDown”.
-
-10.7.3.3	Classifications & Rates – Award Classification Subform FastTab 
-
-Field	Comments
-Starting Date	The Starting Date is used to define the date this rate is effective for this Award Classification.
-Shift Code	This field indicates the shift this Award classification is applicable against
-Award Rate	The pay rate for this Award Classification line.
-Over Award Rate	This field is the over award pay rate for this Award Classification.
-The Award plus the Over Award rate is the total weekly rate for this Award Classification.
-Charge Rate	This field is used to enter the charge rate for Jobs
-
-
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Starting Date**| The Starting Date is used to define the date this rate is effective for this Award Classification.
+|**Shift Code**|	This field indicates the shift this Award classification is applicable against Award Rate.	The pay rate for this Award Classification line.
+|**Over Award Rate**|	This field is the over award pay rate for this Award Classification.  The Award plus the Over Award rate is the total weekly rate for this Award Classification.
+|**Charge Rate**|	This field is used to enter the charge rate for Jobs.
