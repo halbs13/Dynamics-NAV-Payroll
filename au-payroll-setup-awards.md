@@ -48,17 +48,17 @@ Associated Transactions*
 
 |Field|Description|  
 |:---------------------------------|:---------------------------------------|  
-|**Code**|This field is used to uniquely identify this Award.|
-|**Description**|This field is used to name this Award.|
-|**Gross/Allowances**|This field is automatically populated with a checkmark after transaction has been set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.|
-|**Associated Transactions**|This field is automatically ticked after an Associated Transaction is set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.|
-|**Position Code**|This field is optional and is used to indicate the Award is only used for a specific Position.  The position is attached to either a Payroll Employee.|
-|**Position Description**|This field is the description of the Position Code selected.|
-|**Customer No.**|The Customer No. field is used to identify that this Award pertains to a particular customer.|
-|**Public Holiday Calendar**|This field is optional and is used to assign a calendar to determine Public Holidays for this Award for the purposes of Award Interpretation.  Alternatively the Calendar can be attached to the Employee’s Branch and the Employee assigned to the Branch.|
-|**Certification Date**|This field is Mandatory and is used to enter  the date the Award is certified for use.   If this date is left blank you cannot setup the Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.|
-|**Blocked**|This field is used to block the Award and any of its Classifications for use.|
-|**Comments**|This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the “Navigation Menu” and then select the Comments icon.|
+|**Code**|This field is used to uniquely identify this Award.
+|**Description**|This field is used to name this Award.
+|**Gross/Allowances**|This field is automatically populated with a checkmark after transaction has been set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.
+|**Associated Transactions**|This field is automatically ticked after an Associated Transaction is set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.
+|**Position Code**|This field is optional and is used to indicate the Award is only used for a specific Position.  The position is attached to either a Payroll Employee.
+|**Position Description**|This field is the description of the Position Code selected.
+|**Customer No.**|The Customer No. field is used to identify that this Award pertains to a particular customer.
+|**Public Holiday Calendar**|This field is optional and is used to assign a calendar to determine Public Holidays for this Award for the purposes of Award Interpretation.  Alternatively the Calendar can be attached to the Employee’s Branch and the Employee assigned to the Branch.
+|**Certification Date**|This field is Mandatory and is used to enter  the date the Award is certified for use.   If this date is left blank you cannot setup the Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.
+|**Blocked**|This field is used to block the Award and any of its Classifications for use.
+|**Comments**|This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the “Navigation Menu” and then select the Comments icon.
 
 3. Click on the **OK** button to close this window.
   
@@ -90,17 +90,17 @@ Where an award has allowances (e.g. uniform allowance) applicable to all employe
 
 |Field|Description|  
 |:---------------------------------|:---------------------------------------|  
-|**Transaction Type Code**|This field is used to select the Pay Transaction Type Code for the Gross and Allowance record. Select a “Transaction Type Code” from the **ArrowDown**. You can only select Transaction Types with an “Accumulation Summary Type” of Gross.|
-|**Shift Code**|	This field is used to filter the allowance to a specific shift worked by the employees under this award. Select a “Shift Code” from the **ArrowDown**. You can setup several Allowance line for each shift your employees use.|
-|**Start Date**|	This field determines the effective date from which this transaction is used.  An “End Date” must be entered when a “Start Date” is entered.|
-|**End Date**|	This field determines the date this transaction is no longer used.  An “End Date” must be entered when a “Start Date” is entered.|
-|**Description**| 	This field is used to display the description of the selected “Transaction Type”.|
-|**Use Full Week Hours**|	Tick this field to use the employees default hours from the Employee Pay card Rate tab.|
-|**Units**|	This field indicates the number of units paid by this transaction.|
-|**Fixed Value**|	This field determines the dollar value paid by this transaction.|
-|**Classification**|	This field is used to select the classification.| 
-|**Apportion Cost**|	Tick this field to apportion the allowance to jobs entered into the pay journal for the employee.|
-|**Not Used**|	Tick this box to temporarily stop this transaction line from generating for the current pay period only.  To effectively end transactions you should use the Start and End date fields.|  
+|**Transaction Type Code**|This field is used to select the Pay Transaction Type Code for the Gross and Allowance record. Select a “Transaction Type Code” from the **ArrowDown**. You can only select Transaction Types with an “Accumulation Summary Type” of Gross.
+|**Shift Code**|	This field is used to filter the allowance to a specific shift worked by the employees under this award. Select a “Shift Code” from the **ArrowDown**. You can setup several Allowance line for each shift your employees use.
+|**Start Date**|	This field determines the effective date from which this transaction is used.  An “End Date” must be entered when a “Start Date” is entered.
+|**End Date**|	This field determines the date this transaction is no longer used.  An “End Date” must be entered when a “Start Date” is entered.
+|**Description**| 	This field is used to display the description of the selected “Transaction Type”.
+|**Use Full Week Hours**|	Tick this field to use the employees default hours from the Employee Pay card Rate tab.
+|**Units**|	This field indicates the number of units paid by this transaction.
+|**Fixed Value**|	This field determines the dollar value paid by this transaction.
+|**Classification**|	This field is used to select the classification.
+|**Apportion Cost**|	Tick this field to apportion the allowance to jobs entered into the pay journal for the employee.
+|**Not Used**|	Tick this box to temporarily stop this transaction line from generating for the current pay period only.  To effectively end transactions you should use the Start and End date fields.
 
  
 ## Awards & Associated Transactions 
@@ -111,12 +111,12 @@ Awards may have Associated Transactions created to generate Pay Transactions for
 
 |Field|Description|  
 |:---------------------------------|:---------------------------------------|  
-|**Originating Tran. Type Code**| This field is used to select the originating Transaction Type Code the Associated Transaction Type applies its conversion factor against. Only Transactions Types with an Accumulation Type other than Deduction, Advance, Tax and Net may be used.| 
-|**Transaction Type Code**|	This field is used to select the Pay Transaction Type Code generated when the Originating Transaction Type Code is used.  Valid Transaction Types are those with an Accumulation Type not equal to “Net”.|
-|**Shift Code**|	This field is used to filter the generation of Associated Transactions to a specific Shift. Select a Shift Code from the **ArrowDown**.|
-|**Start Date**|	This field determines the date from which this transaction is effective.  An “End Date” must be entered when a “Start Date” is entered.|
-|**End Date**|	This field determines the date after this transaction is not used.  An “End Date” must be entered when a “Start Date” has been entered.|
-|**Transaction Type Description**|	This displays the description of the selected Transaction Type.|
+|**Originating Tran. Type Code**| This field is used to select the originating Transaction Type Code the Associated Transaction Type applies its conversion factor against. Only Transactions Types with an Accumulation Type other than Deduction, Advance, Tax and Net may be used.
+|**Transaction Type Code**|	This field is used to select the Pay Transaction Type Code generated when the Originating Transaction Type Code is used.  Valid Transaction Types are those with an Accumulation Type not equal to “Net”.
+|**Shift Code**|	This field is used to filter the generation of Associated Transactions to a specific Shift. Select a Shift Code from the **ArrowDown**.
+|**Start Date**|	This field determines the date from which this transaction is effective.  An “End Date” must be entered when a “Start Date” is entered.
+|**End Date**|	This field determines the date after this transaction is not used.  An “End Date” must be entered when a “Start Date” has been entered.
+|**Transaction Type Description**|	This displays the description of the selected Transaction Type.
 |**Fixed Units**|	This field is used to enter Fixed Units. When a value is entered here it overrides the value entered on a transaction it is associated with.
 |**Fixed Value**|	The field id used to enter the Value.  When a value is entered here it overrides the value entered on a transaction with which it is associated with.
 |**Conversion Factor**|	This field is used for conversions of Pay.  Up to three decimal places may be entered.  The conversion factor is applied to the Pay Journal line.  The conversion factor is taken from the Pay Transaction Type.  The hourly rate is multiplied by the conversion factor to obtain the Pay Rate for the Pay Journal line.  The units in the Pay Journal line multiply the Pay Rate.
