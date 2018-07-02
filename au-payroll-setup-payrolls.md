@@ -16,7 +16,7 @@ the following information Pay frequency (weekly, fortnightly, 4 weekly, monthly 
 2.  The **Payroll List** window contains the following fields as described in the following table.
   
 |Field |Description |  
-|  ---------------------------------   |   ---------------------------------------   |  
+|:---------------------------------|:---------------------------------------|  
 |**No.**|This field is used to identify this Payroll throughout the Payroll Granule. You can type the name of the Payroll that you wish to use or select a number from the Payroll Number Series by selecting the **ArrowDown**.|
 |**Group Account No.**|The Group Account No. field will display the information as entered into the Payroll card.|
 |**Company Name**|The Company Name field will display the Company Name of the Payroll you are viewing.|
