@@ -4,7 +4,9 @@ Shift Rosters are used to define work patterns for employees and Shift codes are
 
 ## Default Shift Rosters 
 
-This can be created as templates or default rosters.  No payment to the employee will be made to employees from this card.  You must copy the Default Shift Roster to the” Weekly Shift Roster” card to create payments.
+This can be created as templates or default rosters.  No payment to the employee will be made to employees from this card.  
+
+You must copy the Default Shift Roster to the” Weekly Shift Roster” card to create payments.
 
 1. In the **Search** box, enter **Shift Roster**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Shift Roster/Default Shift Roster*.
 
