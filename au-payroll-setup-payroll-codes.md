@@ -98,7 +98,7 @@ Payroll Tax is used to setup the codes for each state that you need for payroll 
 [GoToTop](#payroll-codes-setup) 
 
 
-## Payroll Tax Group
+## Payroll Tax Groups
 
 A Payroll Tax Group is used to group entities for the purpose of payroll tax.  
 Payroll Tax Groups are used for reporting of payroll tax from one entity (Organisation) where multiple Payrolls exist within the system.
