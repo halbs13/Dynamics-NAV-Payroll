@@ -75,11 +75,9 @@ This card is used to maintain your Classifications for use with the Award Interp
 |:---------------------------------|:---------------------------------------| 
 |**Position Code**| This field is optional and is used to indicate the Award Classification is only used for this Position. The position is attached to a Payroll Employee.
 
-To review the Pay and Allowance Criteria specific to this Award Classification
+To review the Pay and Allowance Criteria specific to this Award Classification, in the Award Classification List, select the classification that you wish to review the Pay Items or Allowance Items.
 
-In the Award Classification List select the classification that you wish to review the Pay Items or Allowance Items
-
-Click the Class button and select from the following options;
+Select the **Class** icon, and select from the following options;
 
 •	[Pay Item Criteria](au-payroll-setup-award-interpreter-pay-item-criteria.md)
 
