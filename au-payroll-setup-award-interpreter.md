@@ -7,9 +7,9 @@ The Employee Timesheet entries can be manually entered or imported into the Empl
  
 ## Setup Award Interpreter
 
-After the Payroll has been setup and your [Award and Classification](au-payroll-setup-award.md) Structure defined in the base payroll you must setup the following items in sequence for the Award Interpreter:
+After the Payroll has been setup and your [Award and Classification](au-payroll-setup-awards.md) Structure defined in the base payroll you must setup the following items in sequence for the Award Interpreter:
 
-## [Public Holiday Calendars](au-payroll-setup-public-holiday-calendars.md)
+## [Public Holiday Calendars](au-payroll-setup-public-holiday-calendar.md)
 
 •	Base- Australian Wide – the Country Calendar is assigned to the Payroll Setup.
 •	State - State Wide – the State Calendar is setup against the Branch Code
@@ -78,18 +78,18 @@ To maintain an Award for use with the Award Interpreter you must complete the fo
 |:---------------------------------|:---------------------------------------| 
 |**Position Code**| This field is optional and is used to indicate the Award is only used for a specific Position. The position is attached to a Payroll Employee.
 |**Public Holiday Calendar Code**|	This field is optional and is used to assign a calendar to determine Public Holidays for this Award. Alternately the Calendar can be attached to the Employee's Branch and the Employee assigned to the Branch. 
-Certification Date.  This field is **Mandatory** and is used to enter the date the Award is Certified for use. If this date is left blank you cannot setup Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.
+|**Certification Date**| This field is **Mandatory** and is used to enter the date the Award is Certified for use. If this date is left blank you cannot setup Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.
 |**Comment**| This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the Award Button and then select the Comment menu option.
 |**Blocked**|	This field is used to block the Award and any of its Classifications from use.
 
  
-### Award Interpreter Pay Item Criteria List
+## Award Interpreter Pay Item Criteria List
 
 The fields on this form are for display purposes only. The Pay Item Criteria records that have been setup to interpret the hours into Pay Transaction Types for the Award or the Award Classification are listed.
 
 They are maintained in the Item Criteria Worksheet. 
 
-1. On the **General** FastTab, fill the fields in the following table.
+1. Fill the fields in the following table.
 
 |Field|Description|  
 |:---------------------------------|:---------------------------------------|  
@@ -128,24 +128,24 @@ They are maintained in the Item Criteria Worksheet.
 
 
     
- 
-10.13.9	Award Interpreter Allowance Item Criteria List
+## Award Interpreter Allowance Item Criteria List
+
 The fields on this form are for display purposes only. The Allowance Item Criteria records that have been setup to interpret the hours into Pay Transaction Types for the Award or the Award Classification are listed.
 
 They are maintained in the Item Criteria Worksheet. 
 
- 
-10.13.9.1	Allowance Item Criteria Card – General FastTab
+1. Fill the fields in the following table.
 
-Field	Comments
-Classification Code	This field is displays the Award Classification Code
-Award Code	This field displays the Award
-Pay Transaction Type	This field displays the Pay Transaction Type code that is generated from this Allowance Item criterion. The pay Transaction type must have an Accumulation Type of Allowance
-Pay Tran. type Description	This field displays the Pay Transaction Type description
-Starting Date	This field displays the date the criteria becomes effective. This date must be on or after the Certification date of the Award Classification
-Sequence No	This field displays the sequence and must be greater then 0. The sequence defines the order that Time and Attendance Allowance Items are applied when the maximum threshold has been reached.
-Line No	This field is used internally by the system.
-Ending Date	This field displays the date the criteria is no longer used. This date must be after the Starting Date.
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Classification Code**| This field is displays the Award Classification Code
+|**Award Code**| This field displays the Award
+|**Pay Transaction Type**| This field displays the Pay Transaction Type code that is generated from this Allowance Item criterion. The pay Transaction type must have an Accumulation Type of Allowance
+|**Pay Tran. type Description**| This field displays the Pay Transaction Type description
+|**Starting Date**| This field displays the date the criteria becomes effective. This date must be on or after the Certification date of the Award Classification
+|**Sequence No**| This field displays the sequence and must be greater then 0. The sequence defines the order that Time and Attendance Allowance Items are applied when the maximum threshold has been reached.
+|**Line No**| This field is used internally by the system.||Per Day - The Allowance is generated only once each day when applicable..
+|**Ending Date	This field displays the date the criteria is no longer used. This date must be after the Starting Date.
 Day of the Week	This field indicates the day this criteria is used.
 Application Type	This field is used to define when the allowance is generated:
 Always - This allowance is always generated
@@ -185,6 +185,7 @@ Minute
 30 Minutes
 Hour
 Deleted	This field indicates the line is no longer used to generate transactions.
+
 
 
 
