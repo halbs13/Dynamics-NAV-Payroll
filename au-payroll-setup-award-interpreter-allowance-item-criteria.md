@@ -54,7 +54,7 @@ They are maintained in the Item Criteria Worksheet.
 ||Hour
 |**Deleted**| This field indicates the line is no longer used to generate transactions.
 
-## Allowance Criteria Worksheet Card 
+## Allowance Criteria Worksheet
 
 The Allowance Item records are used to interpret the hours into Allowance Pay Transaction Types.
 
