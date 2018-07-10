@@ -8,11 +8,11 @@ To setup Work Cover you must:
 
 1.	Complete the [Work Cover Rates.](#work-cover-rates)
 
-2.	Flag Pay Transactions Types applicable to Work Cover on the Parameters tab
+2.	Flag [Pay Transactions Types](au-payroll-setup-pay-transaction-types.md) applicable to Work Cover on the Parameters tab
 
-3.	Assign Employees to Work Cover Rates in the Payroll Employee card
+3.	Assign Employees to Work Cover Rates in the [Payroll Employee card](au-payroll-create-payroll-employee.md)
 
-4.	Optionally enter locations for reporting and Assign to Employees in the Payroll Employee card.
+4.	Optionally enter [Work Cover Locations](#work-cover-locations) for reporting and Assign to Employees in the Payroll Employee card.
 
 
 ## Work Cover Rates
@@ -25,7 +25,7 @@ To setup Work Cover you must:
 |:---------------------------------|:---------------------------------------|  
 |**Code**|	This field is used to enter a unique identification code for the Work Cover Rate.
 |**Name**|	This field is used to enter a name for this Work Cover Rate.
-|**Rate %**|	This field is used to enter the rate applicable when calculating the Work Cover Provision.  This percentage is applied to the value of the [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) that have the “Apply to Workers Compensation” parameter ticked.
+|**Rate %**|	This field is used to enter the rate applicable when calculating the Work Cover Provision.  This percentage is applied to the value of the [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) that have the “Apply to Work Cover” parameter ticked.
 |**Cost Tran. Posting Group**|	This field is used to determine the debit General Ledger account.  Select a Transaction Posting Group from the **ArrowDown**.
 |**Provision Tran. Posting Group**|	This field is used to determine the credit General Ledger account. Select a Transaction Posting Group from the **ArrowDown**.
 
