@@ -1,4 +1,4 @@
-# Payroll Controls
+# Payroll Controls Payroll Setup
 
 Payroll Controls are used to define the parameters and rules for the Payroll Granule at a global level.  Parameters defined at the global level are used as defaults when setting up Payrolls and can be overridden to suit your business requirements. Setup the following Payroll Controls:
                                                                                          
@@ -163,5 +163,5 @@ The ETP Tax tab is used to identify the parameters used in calculating ETP tax.
 |**ETP Tax Rate Over Whole of Income Cap**|	This field is used to indicate the ETP Tax Rate Over Whole of Income Cap.  This information is annually supplied by the ATO.
 
 
-[GoToTop](#payroll-controls)
+[GoToTop](#payroll-controls-payroll-setup)
 
