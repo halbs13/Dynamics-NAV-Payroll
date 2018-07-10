@@ -12,9 +12,7 @@ This method is used to calculate an amount based on the employees standard hours
 
 The system can be flagged to calculate either a flat rate accrual each period or calculate a daily accrual and multiply the daily amount by the number of days in the pay period.
 
-Example:
-
-Annual leave = 20 days per year  
+### Example: Annual leave = 20 days per year  
 
 Employee standard work hours are 40 hours each week / 173.33 hours month.
 
@@ -28,7 +26,7 @@ The employee accrues 0.054945 days per 7 days for the pay period regardless of h
 
 4.	Alternately you can setup the system to only calculate the portion of the leave for each pay period.  The system has an open leave transaction for each pay period accrued within the current anniversary leave period.
 
-To configure part time employees:
+#### To configure part time employees:
 
 1.	The "Hours in a Full Week" field on the Payroll Employee’s card must equal the number of hours the employee works in a week (E.g. 32).
 
@@ -38,9 +36,7 @@ To configure part time employees:
 
 (E.g. 1 day).  
 
-Example
-
-Weekly Accrual = (Full Week Accrual (0.384615) * Days per Week (4) / 5) = 0.307692
+### Example:  Weekly Accrual = (Full Week Accrual (0.384615) * Days per Week (4) / 5) = 0.307692
 
 Hours per Leave Day = (Hours in Full Week / Days per Week) = 8
 
@@ -48,9 +44,7 @@ Hours per Leave Day = (Hours in Full Week / Days per Week) = 8
 
 The pro-rata days worked method is based upon the number of hours an employee actually worked within the pay period.
 
-Example:
-
-Annual Leave = 20 days per year  
+### Example: Annual Leave = 20 days per year  
 
 Employee standard work hours are 40 hours each week / 173.33 hours month.
 
@@ -72,7 +66,7 @@ The system uses these fields to determine the full accrual used for the calculat
 
 Alternatively, you must set up a leave accrual for each employee with different hours and days per week combination.
 
-To configure part time employees:
+#### To configure part time employees:
 
 No special procedure is required as the accrual is based on hours worked and the pay transactions flagged to accrue leave.  If the employee is only paid 30 hours per week they will accrue leave based on the 30 hours.  
 
