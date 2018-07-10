@@ -13,7 +13,7 @@ Pay Codes are used to define the following:
 
 A Pay Location is assigned to each employee to determine where the employee pay advice is printed.  Pay Locations are optional.
 
-1. In the **Search** box, enter **Pay Locations**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Pay Locations.
+1. In the **Search** box, enter **Pay Locations**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Pay Locations*.
 
 2. Fill the fields in the following table.
 
@@ -29,7 +29,7 @@ A Pay Location is assigned to each employee to determine where the employee pay 
 
  A Shift is allocated to an employee to determine the hours that the employee works.  It is not mandatory to create a shift if your organisation does not pay employees on a shift basis. 
 
-1. In the **Search** box, enter **Shifts**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Shifts.
+1. In the **Search** box, enter **Shifts**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Shifts*.
 
 2. Fill the fields in the following table.
 
@@ -49,7 +49,7 @@ A Pay Location is assigned to each employee to determine where the employee pay 
 
 Positions are used for reporting purposes only.  You can assign a position to your employees.  The position history of previously held positions is not kept in the payroll granule. 
 
-1. In the **Search** box, enter **Positions**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Positions.
+1. In the **Search** box, enter **Positions**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Positions*.
 
 2. Fill the fields in the following table.
 
@@ -66,7 +66,7 @@ Positions are used for reporting purposes only.  You can assign a position to yo
 
 The “Report Group” is used to group pay transactions for reporting purposes.  If your organisation does not require grouping for reporting you can leave this setup blank.  Note:  Only one “Report Group” can be assigned to each Pay Transaction type at any one time.
 
-1. In the **Search** box, enter **Report Groups**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Report Groups.
+1. In the **Search** box, enter **Report Groups**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Report Groups*.
 
 2. Fill the fields in the following table.
 
@@ -84,7 +84,7 @@ The “Report Group” is used to group pay transactions for reporting purposes.
 
 Payroll Tax is used to setup the codes for each state that you need for payroll tax purposes.
 
-1. In the **Search** box, enter **Payroll Tax**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Payroll Tax.
+1. In the **Search** box, enter **Payroll Tax**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Payroll Tax*.
 
 2. Fill the fields in the following table.
 
@@ -103,7 +103,7 @@ Payroll Tax is used to setup the codes for each state that you need for payroll 
 A Payroll Tax Group is used to group entities for the purpose of payroll tax.  
 Payroll Tax Groups are used for reporting of payroll tax from one entity (Organisation) where multiple Payrolls exist within the system.
 
-1. In the **Search** box, enter **Payroll Tax Group**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Payroll Tax Group.
+1. In the **Search** box, enter **Payroll Tax Group**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Payroll Tax Group*.
 
 2. Fill the fields in the following table.
 
