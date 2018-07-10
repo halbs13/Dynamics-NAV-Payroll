@@ -26,97 +26,90 @@ The guidelines are as follows:
 
 1.  On the **General** FastTab, the **Accumulation Type** is set to *Long Service Leave* and the **P.S. YTD Accumulation Code** is *Gross*,
 2.  On the **Calculations** FastTab, the **Lump Sum Tax Method** is set to *None (Termination)*,
-3.  On the **Leave Application** FastTab, the **Apply to Leave Taken** is selected,  
+3.  On the **Leave Application** FastTab, the following fields need to be selected;
+  a. **Apply to Leave Taken** is selected,
+  b. **Leave Type** is set to Long Service Leave,
+  c. **Cause of Absence Code**,
+  d. **Accum. For Leave Calculations** is set to No Accumulation.
+4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected.
+
+### Long Service Leave taxed as a Lump Sum A (35%)
+
+1.  On the **General** FastTab, the **Accumulation Type** is set to *Long Service Leave* and the **P.S. YTD Accumulation Code** is *LUMPA*,
+2.  On the **Calculations** FastTab, the **Lump Sum Tax Method** is set to *None (Termination)*,
+3.  On the **Leave Application** FastTab, the following fields need to be selected;
+  a. **Apply to Leave Taken** is selected,
+  b. **Leave Type** is set to Long Service Leave,
+  c. **Cause of Absence Code**,
+  d. **Accum. For Leave Calculations** is set to No Accumulation.
+4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected. 
 
 
- 
+ ### Long Service Leave taxed as a Lump Sum B 
+
+1.  On the **General** FastTab, the **Accumulation Type** is set to *Long Service Leave* and the **P.S. YTD Accumulation Code** is *LUMPB*,
+2.  On the **Calculations** FastTab, the **Lump Sum Tax Method** is set to *None (Termination)*,
+3.  On the **Leave Application** FastTab, the following fields need to be selected;
+  a. **Apply to Leave Taken** is selected,
+  b. **Leave Type** is set to Long Service Leave,
+  c. **Cause of Absence Code**,
+  d. **Accum. For Leave Calculations** is set to No Accumulation.
+4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected. 
 
 
+### Annual Leave taxed as Gross Salary & Wages (Marginal Tax)
 
- 
-
-
- 
-
- 
-
-
-
-
-10.16.2.2	Long Service Leave taxed as a Lump Sum A (35%)
-
-
- 
-
- 
-
- 
-
-
-
-
- 
-
-
-10.16.2.3	Long Service Leave taxed as Lump Sum B 
-
- 
-
- 
-
- 
-
- 
-
-
-
-10.16.2.4	Annual Leave taxed as Gross Salary & Wages (Marginal Tax)
+1.  On the **General** FastTab, the **Accumulation Type** is set to *Annual Leave* and the **P.S. YTD Accumulation Code** is *Gross*,
+2.  On the **Calculations** FastTab, the **Lump Sum Tax Method** is set to *None (Termination)*,
+3.  On the **Leave Application** FastTab, the following fields need to be selected;
+  a. **Apply to Leave Taken** is selected,
+  b. **Leave Type** is set to Annual Leave,
+  c. **Cause of Absence Code**,
+  d. **Accum. For Leave Calculations** is set to No Accumulation.
+4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected.
 
  
+If your organisation accrues and pays leave loading then this will be setup similar to the Annual Leave transaction, however the Rate Conversion Factor on the Calculations FastTab will be set to 0.175 to refelct the 17.5% percentage pay rate.
 
  
+### Annual Leave taxed as a Lump Sum A (35%)
 
-
-
-
+1.  On the **General** FastTab, the **Accumulation Type** is set to *Annual Leave* and the **P.S. YTD Accumulation Code** is *LUMPA*,
+2.  On the **Calculations** FastTab, the **Lump Sum Tax Method** is set to *None (Termination)*,
+3.  On the **Leave Application** FastTab, the following fields need to be selected;
+  a. **Apply to Leave Taken** is selected,
+  b. **Leave Type** is set to Annual Leave,
+  c. **Cause of Absence Code**,
+  d. **Accum. For Leave Calculations** is set to No Accumulation.
+4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected.
  
 
- 
 
 If your organisation accrues and pays leave loading then this will be setup similar to the Annual Leave transaction, however the Rate Conversion Factor on the Calculations FastTab will be set to 0.175 to refelct the 17.5% percentage pay rate.
 
 
+### In Lieu of Notice
 
-10.16.2.5	Annual Leave taxed as a Lump Sum A (35%)
-
- 
-
- 
-
- 
-
- 
-
-
-
-If your organisation accrues and pays leave loading then this will be setup similar to the Annual Leave transaction, however the Rate Conversion Factor on the Calculations FastTab will be set to 0.175 to refelct the 17.5% percentage pay rate.
-
-10.16.2.6	In Lieu of Notice
-
- 
-
- 
-
- 
-
- 
+1.  On the **General** FastTab, the **Accumulation Type** is set to *Lump Sum*, the **P.S. YTD Accumulation Code** is *BLANK* and the **Non-P.S. YTD Accumulation Code** is *ETP*,
+2.  On the **Calculations** FastTab, the **Apply Lump Sum Tax Method** is selected and the **Lump Sum Tax Method** is set to *None (Termination)*,
+3.  On the **Leave Application** FastTab, the following fields need to be selected;
+  a. **Accum. For Leave Calculations** is set to No Accumulation.
+4.  On the **Parameters** FastTab, the following fields need to be selected;
+  a. **Apply to Work Cover** is selected,
+  b. **Apply to Superannuation** is selected,
+  c. **Apply to Min. Salary Check (Super)**  is selected.
 
 
 
-10.16.3	Government Paid Parental Leave
+## Government Paid Parental Leave
 
-
- 
+1.  On the **General** FastTab, the **Accumulation Type** is set to *Allowance*, the **P.S. YTD Accumulation Code** is *GROSS*,
+2.  On the **Calculations** FastTab, the **Rate Amount** is entered as the Unit Rate and the **Rate Calculation Method** is set to *Units*,
+3.  On the **Leave Application** FastTab, the following fields need to be selected;
+  a. **Accum. For Leave Calculations** is set to No Accumulation.
+4.  On the **Parameters** FastTab, the following fields need to be selected;
+  a. **Apply to Taxable Income** is selected,
+   
 
  
 
