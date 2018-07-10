@@ -2,9 +2,9 @@
 
 Payroll Controls are used to define the parameters and rules for the Payroll Granule at a global level.  Parameters defined at the global level are used as defaults when setting up Payrolls and can be overridden to suit your business requirements. Setup the following Payroll Controls:
                                                                                          
-* [Payroll Setup](#payroll-setup)
-* [Payroll User Setup](#payroll-user-setup) 
-* [Pay Source Codes](#pay-source-codes)
+* [Payroll Setup](au-payroll-setup-payroll-controls-payroll-setup.md)
+* [Payroll User Setup](au-payroll-setup-payroll-control-payroll-user-setup.md) 
+* [Pay Source Codes](au-payroll-setup-payroll-controls-pay-source-codes.md)
 * [Pay Journal Templates](#pay-journal-templates)
 
 ## Pay Journal Templates
