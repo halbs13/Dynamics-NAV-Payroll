@@ -1,4 +1,4 @@
-# Award Interpreter
+# Award Interpreter Overview
 
 The Award Interpreter Module is used to interpret employee timesheet hours into pay and allowance transactions. 
 
