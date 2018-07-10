@@ -10,10 +10,10 @@ Dimensions and dimension values are user-defined and unlimited which means you c
 
 Dimensions allow the employee costs to be broken down to sub-unit values and consist of the following:
 
-•	Dimensions
-•	Dimension Values
-•	Dimension Combinations
-•	Default Dimension Priorities
+* Dimensions
+* Dimension Values
+* Dimension Combinations
+* Default Dimension Priorities
 
 This section will only discuss and review the Dimensions, otherwise the setup of this information should be conducted by your Finance Department.
 
