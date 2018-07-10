@@ -83,7 +83,7 @@ Click the Class button and select from the following options;
 
 •	[Pay Item Criteria](au-payroll-setup-award-interpreter-pay-item-criteria.md)
 
-•	Allowance Item Criteria(au-payroll-setup-award-interpreter-allowance-item-criteria.md)
+•	[Allowance Item Criteria](au-payroll-setup-award-interpreter-allowance-item-criteria.md)
 
     
  
