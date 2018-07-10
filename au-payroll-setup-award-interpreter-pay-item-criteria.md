@@ -2,9 +2,9 @@
 
 When reviewing the Pay Item Criteria, there are 2 methods of viewing this information;
 
-1. Pay Item Criteria List
+1. [Pay Item Criteria List](#pay-item-criteria-list)
 
-2. Pay Item Criteria Worksheet
+2. [Pay Item Criteria Worksheet](#pay-item-criteria-worksheet)
 
 ## Pay Item Criteria List
 
@@ -70,6 +70,7 @@ The Item Criteria Worksheet is used to setup and maintain the Pay and Allowance 
 Depending on the Criteria Type you wish to setup select from the following tabs:
 
 •	Pay Item Criteria Worksheet Card
+
 •	Allowance Criteria Worksheet Card
 
 ## Pay Item Criteria Worksheet Card
