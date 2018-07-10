@@ -16,17 +16,17 @@ They are maintained in the Item Criteria Worksheet.
 
 |Field|Description|  
 |:---------------------------------|:---------------------------------------|  
-|**Classification Code**| This field is displays the Award Classification Code
-|**Award Code**| This field displays the Award
-|**Pay Transaction Type**| This field displays the Pay Transaction Type code that is generated from this Allowance Item criterion. The pay Transaction type must have an Accumulation Type of Allowance
-|**Pay Tran. type Description**| This field displays the Pay Transaction Type description
-|**Starting Date**| This field displays the date the criteria becomes effective. This date must be on or after the Certification date of the Award Classification
+|**Classification Code**| This field is displays the Award Classification Code.
+|**Award Code**| This field displays the Award.
+|**Pay Transaction Type**| This field displays the Pay Transaction Type code that is generated from this Allowance Item criterion. The pay Transaction type must have an Accumulation Type of Allowance.
+|**Pay Tran. type Description**| This field displays the Pay Transaction Type description.
+|**Starting Date**| This field displays the date the criteria becomes effective. This date must be on or after the Certification date of the Award Classification.
 |**Sequence No**| This field displays the sequence and must be greater then 0. The sequence defines the order that Time and Attendance Allowance Items are applied when the maximum threshold has been reached.
-|**Line No**| This field is used internally by the system.||Per Day - The Allowance is generated only once each day when applicable..
+|**Line No**| This field is used internally by the system.||Per Day - The Allowance is generated only once each day when applicable.
 |**Ending Date**| This field displays the date the criteria is no longer used. This date must be after the Starting Date.
 |**Day of the Week**| This field indicates the day this criteria is used.
 |**Application Type**| This field is used to define when the allowance is generated:
-||Always - This allowance is always generated
+||Always - This allowance is always generated.
 ||After Hours - This allowance is paid after X (Quantity entered in the next field) amount of hours have been worked. 
 ||After Time - This allowance is paid after a certain time of the day has past.
 ||Before Time - This allowance is paid until a certain time of the day has been reached.
@@ -54,7 +54,7 @@ They are maintained in the Item Criteria Worksheet.
 ||Hour
 |**Deleted**| This field indicates the line is no longer used to generate transactions.
 
-## Allowance Criteria Worksheet
+## Allowance Item Criteria Worksheet
 
 The Allowance Item records are used to interpret the hours into Allowance Pay Transaction Types.
 
