@@ -2,11 +2,11 @@
 
 This section will provide examples of how some of the new pay transactions can be setup within the Dynamics NAV Payroll module.  It will specifically discuss;
 
- * Bonus/Commission Payment Transactions – where Method A is used as the tax calculation method.
- * Termination Transactions used in the Termination Wizard
- * Government Paid Parental Leave (GPPL)
+ * [Bonus/Commission Payment Transactions](#bonus-commission-payment-transactions) – where Method A is used as the tax calculation method.
+ * [Termination Transactions](#termination-transactions-using-the-wizard) used in the Termination Wizard
+ * [Government Paid Parental Leave (GPPL)](#government-paid-parental-leave)
 
-## Bonus/Commission Payment Transactions
+## Bonus Commission Payment Transactions
 
 Bonus/Commission payment transactions will need to be setup in a particular way to ensure that the correct method of tax (Method A) is calculated on the value of this pay transaction type.
 
