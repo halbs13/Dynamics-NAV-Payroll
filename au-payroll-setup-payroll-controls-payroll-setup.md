@@ -85,7 +85,7 @@ This tab is used to tailor the content of the Employee Pay Advice.
 |**E-Mail Application Type**| You can specify whether you want the pay advices sent via “Microsoft Outlook” or “SMTP”.
 
 
-6. On the **Pay Advice** FastTab, fill the fields in the following table.
+6. On the **Options** FastTab, fill the fields in the following table.
 
 |Field|Description|  
 |:---------------------------------|:---------------------------------------|  
@@ -101,73 +101,66 @@ This tab is used to tailor the content of the Employee Pay Advice.
 ||Leave taken is posted to the “Gross Salary & Wages” posting group when the Payroll Journal is posted.  The Transaction Posting group on the Leave taken Transaction Type indicates (must be a P&L) the "Gross Salary & Wages” Posting group and can be a different group as indicated on the above corresponding Leave Accrual.
 |**Post Leave Tkn. Adj. in Pay Journal**|	This field is used to indicate Leave Taken is posted to a P&L Posting Group other than the provision account.  Note:  If you select this option you must specify the Leave Taken Transaction Posting Group on each Leave Accrual card. 
 ||The Transaction Posting group on the Leave taken Transaction Type must be a P&L Posting group and must be a different group to the corresponding Leave Accrual.
-|**Don’t Recalc. Pro-Rata Leave**|	Select this field (Recommended) to prevent leave accruals recalculating for employee’s from their last anniversary date each pay period 
-If left blank the Leave Accrual function will re-calculate the employee Pro-rata leave accruals from their last anniversary date to the end of the current pay period each pay period. When the system recalculates the pro-rata leave balance any pro-rata adjustments are ignored. 
-Note: Once this setting has been selected, you cannot change it as it will affect your accrual calculations on employee anniversary
-Produce Individual Employee EOY Payment Summaries per payroll	Select this field to produce separate payment summaries for an employee who is included in different payrolls
-EFT Posting by Dimension	Select this field to post dimensions when posting EFT Journals.  The Dimensions for the EFT line will be inherited from what is setup on the Bank Account.
-Pay Rates are Hourly	If this field is selected then Pay Rates are entered as hourly rates against the employee Pay Rates card. If left blank weekly rates of pay are entered.
-Allow Award Pay Rates	If this field is selected the Award Rates Menu item on the Setup Menu is displayed.  If your organisation does not use Award Pay Rates, leave this field blank and the menu item for this functionality is not displayed.
-Auto Increment Classification	If this field is selected then Auto Incrementing of Classification Rates is done automatically when the pay period of the payroll is closed.
-Term. Empl. On Pay Detail List.	If selected, this will show Terminated Employees on the Pay Details Listing.
+|**Don’t Recalc. Pro-Rata Leave**|	Select this field (Recommended) to prevent leave accruals recalculating for employee’s from their last anniversary date each pay period. If left blank the Leave Accrual function will re-calculate the employee Pro-rata leave accruals from their last anniversary date to the end of the current pay period each pay period. When the system recalculates the pro-rata leave balance any pro-rata adjustments are ignored.   **Note: Once this setting has been selected, you cannot change it as it will affect your accrual calculations on employee anniversary.**
+|**Produce Individual Employee EOY Payment Summaries per payroll**|	Select this field to produce separate payment summaries for an employee who is included in different payrolls.
+|**EFT Posting by Dimension**|	Select this field to post dimensions when posting EFT Journals.  The Dimensions for the EFT line will be inherited from what is setup on the Bank Account.
+|**Pay Rates are Hourly**|	If this field is selected then Pay Rates are entered as hourly rates against the employee Pay Rates card. If left blank weekly rates of pay are entered.
+|**Allow Award Pay Rates**|	If this field is selected the Award Rates Menu item on the Setup Menu is displayed.  If your organisation does not use Award Pay Rates, leave this field blank and the menu item for this functionality is not displayed.
+|**Auto Increment Classification**|	If this field is selected then Auto Incrementing of Classification Rates is done automatically when the pay period of the payroll is closed.
+|**Term. Empl. On Pay Detail List.**|	If selected, this will show Terminated Employees on the Pay Details Listing.
 
 
- 
-10.1.1.6	Payroll Setup - Superannuation FastTab
+7. On the **Superannuation** FastTab, fill the fields in the following table.
+
+
 This tab is used to set-up SGC legislative parameters and the default Employee superannuation transactions are defined.  The superannuation transactions can be overridden at the individual Payroll and Employee levels.
 
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Auto Post Min Threshold Adjustment**|	If selected, the system will automatically adjust the SGC calculation for an employee to the Minimum SGC threshold amount when using on-costing.
+|**Super. Adj. Reason Code**|	From the **ArrowDown** select the Adjustment Reason Code.
+|**Min. Age to Accrue SGC**|	Enter the minimum age for SGC amounts to start calculating for an employee.  If your organisation does not have an age restriction then this field can be left blank.
+|**Max. Age to Accrue SGC**|	Enter the maximum age for SGC amounts to stop calculating for an employee.  If your organisation does not have an age restriction then this field may be left blank.
+|**Hours Worked for Minimum Salary**|	Enter the minimum hours to be worked before SGC will start calculating for an employee.  This field may be left blank if your organisation does not have this restriction.
+|**Quarterly Max. Earnings**|	Enter the maximum Quarterly earnings base for SGC calculations.  The system will automatically restrict the SGC to the maximum earnings base entered if the employee’s earnings exceed this amount.  This field may be left blank if your organisation does have such restrictions.
+|**Monthly Min. Earnings**|	Enter the minimum monthly earnings base that SGC is calculated for an employer contribution.
+|**SGC Accumulator**|	Select the Accumulator that SGC is accumulated when using the On Cost Superannuation setup.
  
+ 
+8. On the **Term. Wizard Setup** FastTab, fill the fields in the following table.
 
-Field	Comments
-Superannuation FastTab
-Auto Post Min Threshold Adjustment	If selected, the system will automatically adjust the SGC calculation for an employee to the Minimum SGC threshold amount when using on-costing
-Super. Adj. Reason Code	From the “ArrowDown” select the Adjustment Reason Code.
-Min. Age to Accrue SGC	Enter the minimum age for SGC amounts to start calculating for an employee.  If your organisation does not have an age restriction then this field can be left blank.
-Max. Age to Accrue SGC	Enter the maximum age for SGC amounts to stop calculating for an employee.  If your organisation does not have an age restriction then this field may be left blank.
-Hours Worked for Minimum Salary	Enter the minimum hours to be worked before SGC will start calculating for an employee.  This field may be left blank if your organisation does not have this restriction.
-Quarterly Max. Earnings	Enter the maximum Quarterly earnings base for SGC calculations.  The system will automatically restrict the SGC to the maximum earnings base entered if the employee’s earnings exceed this amount.  This field may be left blank if your organisation does have such restrictions.
-Monthly Min. Earnings	Enter the minimum monthly earnings base that SGC is calculated for an employee.  This field may be left blank if your organisation does not have such a restriction.
-Payroll Year End Month	Enter the year-end month for payroll taxation.  In Australia the month must be set to June, for other countries set this to your taxation year-end.
-Superannuation Tran Type Code	Select the Transaction Type the system will default for the Employer SGC. This field can be left blank if On Cost Superannuation calculations are not used.
-Super Salary Sacrifice Type	Select the Transaction Type the system will default for Employee Salary Sacrifice contributions. This field can be left blank if On Cost Superannuation calculations are not used.
-Super Post Tax Deduct Type	Select the Transaction Type the system will default for Post Tax Superannuation Deductions.  This field can be left blank if On Cost Superannuation calculations are not used.
-Super Non SGC Employer Contr.	Select the Transaction Type the system will default for Non-SGC Employer contributions.  This field can be left blank if On Cost Superannuation calculations are not used.
-SGC Accumulator	Select the Accumulator that SGC is accumulated when using the On Cost Superannuation setup.
- 
-10.1.1.7	Payroll Setup - Term. Wizard Setup FastTab
 This tab is used to set-up default Termination settings for the Wizard.  The fields are used exclusively by the Termination Wizard
 
- 
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**LSL Accrued Before 16.08.78**|	This field is used to select the Long Service Leave Pre Aug 1978 (Lump Sum B) pay transaction type.
+|**LSL Accrued After16.08.78 Before 17.08.93**|	This field is used to select the Long Service Leave Pre Aug 93 (Lump Sum A) pay transaction type.
+|**LSL Accrued After 16.08.93**|	This field is used to select the Long Service Leave Post Aug 93 (Gross Salary & Wages) pay transaction type.
+|**Annual Leave Before 18.08.93**|	This field is used to select the Annual Leave Pre Aug 93 (Lump Sum A) pay transaction type.
+|**Leave Loading Before 18.08.93**|	This field is used to select the Leave Loading Pre Aug 93 (Lump Sum A) pay transaction type.
+|**Annual Leave After 17.08.93**|	This field is used to select the Annual Leave Post Aug 93 (Gross Salary & Wages) pay transaction type.
+|**Leave Loading After 17.08.93**|	This field is used to select the Leave Loading Post Aug 93 (Gross Salary & Wages) pay transaction type.
+|**Tax on Term. Pay Tran. Code**|	This field is used to select the Tax on Termination pay transaction type.
+|**Tax on ETP Transaction Code**|	This field is used to select the Tax on ETP pay transaction type.
 
-Field	Comments
-Termination FastTab
-LSL Accrued Before 16.08.78	This field is used to select the Long Service Leave Pre Aug 1978 (Lump Sum B) pay transaction type.
-LSL Accrued After16.08.78 Before 17.08.93	This field is used to select the Long Service Leave Pre Aug 93 (Lump Sum A) pay transaction type.
-LSL Accrued After 16.08.93	This field is used to select the Long Service Leave Post Aug 93 (Gross Salary & Wages) pay transaction type.
-Annual Leave Before 18.08.93	This field is used to select the Annual Leave Pre Aug 93 (Lump Sum A) pay transaction type.
-Leave Loading Before 18.08.93	This field is used to select the Leave Loading Pre Aug 93 (Lump Sum A) pay transaction type.
-Annual Leave After 17.08.93	This field is used to select the Annual Leave Post Aug 93 (Gross Salary & Wages) pay transaction type.
-Leave Loading After 17.08.93	This field is used to select the Leave Loading Post Aug 93 (Gross Salary & Wages) pay transaction type.
-Tax on Term. Pay Tran. Code	This field is used to select the Tax on Termination pay transaction type.
-Tax on ETP Transaction Code	This field is used to select the Tax on ETP pay transaction type.
 
-10.1.1.8	Payroll Setup – ETP Tax FastTab
- The ETP Tax tab is used to identify the parameters used in calculating ETP tax.
+9. On the **ETP Tax** FastTab, fill the fields in the following table.
 
- 
+The ETP Tax tab is used to identify the parameters used in calculating ETP tax.
 
-Field	Comments
-ETP Tax FastTab
-ETP Preservation Age	This field is used to indicate the ETP Preservation age.  This information is annually supplied by the ATO.
-ETP Preservation Age Birth Year Threshold	This field is used to indicate the ETP Preservation age birth year threshold.  This information is annually supplied by the ATO.
-ETP Preservation Age Upper Limit	This field is used to indicate the ETP Preservation age upper limit.  This information is annually supplied by the ATO.
-ETP Tax Cap	This field is used to indicate the ETP Tax Cap.  This information is annually supplied by the ATO.
-ETP Tax Whole of Income Cap	This field is used to indicate the ETP Tax Whole of Income Cap.  This information is annually supplied by the ATO.
-ETP Tax Rate Over Preservation Age Below Cap	This field is used to indicate the ETP Tax Rate Over Preservation Age below cap.  This information is annually supplied by the ATO.
-ETP Tax Rate Over Preservation Age Above Cap	This field is used to indicate the ETP Tax Rate Over Preservation Age above Cap.  This information is annually supplied by the ATO.
-ETP Tax Rate Under Preservation Age Below Cap	This field is used to indicate the ETP Tax Rate Under Preservation Age below Cap.  This information is annually supplied by the ATO.
-ETP Tax Rate Under Preservation Age Above Cap	This field is used to indicate the ETP Tax Rate Under Preservation Age above Cap.  This information is annually supplied by the ATO.
-ETP Tax Rate Over Whole of Income Cap	This field is used to indicate the ETP Tax Rate Over Whole of Income Cap.  This information is annually supplied by the ATO.
+
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**ETP Preservation Age**|	This field is used to indicate the ETP Preservation age.  This information is annually supplied by the ATO.
+|**ETP Preservation Age Birth Year Threshold**|	This field is used to indicate the ETP Preservation age birth year threshold.  This information is annually supplied by the ATO.
+|**ETP Preservation Age Upper Limit**|	This field is used to indicate the ETP Preservation age upper limit.  This information is annually supplied by the ATO.
+|**ETP Tax Cap**|	This field is used to indicate the ETP Tax Cap.  This information is annually supplied by the ATO.
+|**ETP Tax Whole of Income Cap**|	This field is used to indicate the ETP Tax Whole of Income Cap.  This information is annually supplied by the ATO.
+|**ETP Tax Rate Over Preservation Age Below Cap**|	This field is used to indicate the ETP Tax Rate Over Preservation Age below cap.  This information is annually supplied by the ATO.
+|**ETP Tax Rate Over Preservation Age Above Cap**|	This field is used to indicate the ETP Tax Rate Over Preservation Age above Cap.  This information is annually supplied by the ATO.
+|**ETP Tax Rate Under Preservation Age Below Cap**|	This field is used to indicate the ETP Tax Rate Under Preservation Age below Cap.  This information is annually supplied by the ATO.
+|**ETP Tax Rate Under Preservation Age Above Cap**|	This field is used to indicate the ETP Tax Rate Under Preservation Age above Cap.  This information is annually supplied by the ATO.
+|**ETP Tax Rate Over Whole of Income Cap**|	This field is used to indicate the ETP Tax Rate Over Whole of Income Cap.  This information is annually supplied by the ATO.
 
 
 
