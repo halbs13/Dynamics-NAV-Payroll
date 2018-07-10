@@ -5,7 +5,7 @@ Branches and Divisions are assigned to Payroll Employee. They are used:
 - In the setup of Payroll Posting Groups to determine the General Ledger accounts for posting.
 - To determine the state for Payroll Tax calculationsIn the relationship between Branch and Division for dimensions 
 - Determining Public HolidaysUsed to default L.S.L Types and L.S.L Codes
-- In reporting to filter informationIn payroll security to restrict access to employee data. 
+- In reporting to filter information in payroll security to restrict access to employee data. 
 
 1. In the **Search** box, enter **Branches**, and then choose the related link.
 
