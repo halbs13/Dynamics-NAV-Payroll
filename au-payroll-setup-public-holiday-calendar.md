@@ -17,8 +17,7 @@
 
 |Field|Description|  
 |:---------------------------------|:---------------------------------------|  
-|**Recurring System	Select from the options:**|
-||•	Annual Recurring|
+|**Recurring System	Select from the options:**|•	Annual Recurring|
 ||•	Weekly Recurring|
 ||•	Blank|
 |**Date**|	Enter the date of the public holiday or leave blank for more than 1 date
