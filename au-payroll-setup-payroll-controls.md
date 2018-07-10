@@ -91,21 +91,17 @@ This tab is used to tailor the content of the Employee Pay Advice.
 |:---------------------------------|:---------------------------------------|  
 |**Show Leave as Hours**| If selected, Leave Balances are shown in hours instead of days on the employee pay advice. If left blank days is displayed.
 |**Post Leave Accruals Only**| Select this field if you want the End of Month Process to only Post the Accruals.   The process increases the Provision and Expenses the Accruals.  It posts the Leave Accruals to the “Leave Provision” and “Leave Expense” posting groups during the “Post Leave Accruals” process. The Leave Accrual Posting tab fields on must be as follows:
-* Accrual Cost Trans Grp = Leave Expense
-* Provision Trans Post Grp = Leave Provision (this field must be the same group as the corresponding Leave Transaction type) 
-* Taken Cost Adj Trans Grp = this field is not required for this setup.  You can enter the Provision Posting group. 
-
-Leave taken is posted to the “Leave Provision” posting group when the Payroll Journal is posted. This reduces the provision account.  The Transaction Posting group on the Leave Taken Transaction Type indicates the Leave Provision Posting group and must be the same group as indicated on the above corresponding Leave Accrual.  Leave blank for The End of Month Process to Post Net Amounts for the sum of Taken and Accrued leave to the leave provision and leave expense posting groups. The Leave Accrual Posting tab fields must be as follows:
-* Accrual Cost Trans Grp = Leave Expense
-* Provision Trans Post Grp = Leave Provision 
-* Taken Cost Adj Trans Grp = The Leave Expense 
-
-Leave taken is posted to the “Gross Salary & Wages” posting group when the Payroll Journal is posted.  The Transaction Posting group on the Leave taken Transaction Type indicates (must be a P&L) the "Gross Salary & Wages” Posting group and can be a different group as indicated on the above corresponding Leave Accrual.
-
-|**Post Leave Tkn. Adj. in Pay Journal**|	This field is used to indicate Leave Taken is posted to a P&L Posting Group other than the provision account.  
-Note:  If you select this option you must specify the Leave Taken Transaction Posting Group on each Leave Accrual card. 
-The Transaction Posting group on the Leave taken Transaction Type must be a P&L Posting group and must be a different group to the corresponding Leave Accrual.
-Don’t Recalc. Pro-Rata Leave	Select this field (Recommended) to prevent leave accruals recalculating for employee’s from their last anniversary date each pay period 
+||* Accrual Cost Trans Grp = Leave Expense
+||* Provision Trans Post Grp = Leave Provision (this field must be the same group as the corresponding Leave Transaction type) 
+||* Taken Cost Adj Trans Grp = this field is not required for this setup.  You can enter the Provision Posting group. 
+||Leave taken is posted to the “Leave Provision” posting group when the Payroll Journal is posted. This reduces the provision account.  The Transaction Posting group on the Leave Taken Transaction Type indicates the Leave Provision Posting group and must be the same group as indicated on the above corresponding Leave Accrual.  Leave blank for The End of Month Process to Post Net Amounts for the sum of Taken and Accrued leave to the leave provision and leave expense posting groups. The Leave Accrual Posting tab fields must be as follows:
+||* Accrual Cost Trans Grp = Leave Expense
+||* Provision Trans Post Grp = Leave Provision 
+||* Taken Cost Adj Trans Grp = The Leave Expense 
+||Leave taken is posted to the “Gross Salary & Wages” posting group when the Payroll Journal is posted.  The Transaction Posting group on the Leave taken Transaction Type indicates (must be a P&L) the "Gross Salary & Wages” Posting group and can be a different group as indicated on the above corresponding Leave Accrual.
+|**Post Leave Tkn. Adj. in Pay Journal**|	This field is used to indicate Leave Taken is posted to a P&L Posting Group other than the provision account.  Note:  If you select this option you must specify the Leave Taken Transaction Posting Group on each Leave Accrual card. 
+||The Transaction Posting group on the Leave taken Transaction Type must be a P&L Posting group and must be a different group to the corresponding Leave Accrual.
+|**Don’t Recalc. Pro-Rata Leave**|	Select this field (Recommended) to prevent leave accruals recalculating for employee’s from their last anniversary date each pay period 
 If left blank the Leave Accrual function will re-calculate the employee Pro-rata leave accruals from their last anniversary date to the end of the current pay period each pay period. When the system recalculates the pro-rata leave balance any pro-rata adjustments are ignored. 
 Note: Once this setting has been selected, you cannot change it as it will affect your accrual calculations on employee anniversary
 Produce Individual Employee EOY Payment Summaries per payroll	Select this field to produce separate payment summaries for an employee who is included in different payrolls
