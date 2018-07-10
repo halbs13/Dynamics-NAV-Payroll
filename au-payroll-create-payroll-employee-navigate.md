@@ -19,7 +19,7 @@ Super contributions by both the Employee and the Employer are set up as a percen
 E.g. an employee’s earnings may be split 50% to cost centre “A” , 25% to cost centre “B” and 25% to cost centre “C”.
 Costs may be split over Branches, Divisions and Dimensions.
  
-•	Accumulation Calculations/Employer On Costs - This button is used to setup the calculations for Employer Costs associated with employees. (Excluding Pay, Allowance, Deductions and Leave Provisions).
+•	Accumulation Calculations/Employer On Costs - This button is used to setup the calculations for Employer Costs associated with employees. (Excluding Pay, Allowance, Deductions and Leave Provisions.)
 On Costs are costs associated with provisioning for superannuation, incentive payments or bonuses etc.  On Costs do not affect the employee actual net or gross pay.  They are used by to accurately reflect the cost of running your business in relation to the cost of an employee.
  
 •	Leave - This option is used to setup and maintain the leave accrual types for the employee. You can enter Leave Breaks to stop the Employee leave accruing for a date range.
