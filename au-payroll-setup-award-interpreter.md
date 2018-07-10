@@ -1,25 +1,30 @@
-Award Interpreter
+# Award Interpreter
+
 The Award Interpreter Module is used to interpret employee timesheet hours into pay and allowance transactions. 
 
 The Employee Timesheet entries can be manually entered or imported into the Employee Timesheet Worksheet, at the same time the timesheets are simultaneously loaded into the Interpretation Worksheet. After the timesheets are loaded or entered the user can interpret the lines and once satisfied you can submit the lines. After the lines are submitted you can transfer them into the Pay Journal for validation and payment.
  
  
-10.13.1	Setup - Award Interpreter
-After the Payroll has been setup and your Award and Classification Structure defined in the base payroll you must setup the following items in sequence for the Award Interpreter:
+## Setup Award Interpreter
 
-10.13.2	Public Holiday Calendars
+After the Payroll has been setup and your [Award and Classification](au-payroll-setup-award.md) Structure defined in the base payroll you must setup the following items in sequence for the Award Interpreter:
+
+## [Public Holiday Calendars](au-payroll-setup-public-holiday-calendars.md)
 
 •	Base- Australian Wide – the Country Calendar is assigned to the Payroll Setup.
 •	State - State Wide – the State Calendar is setup against the Branch Code
 •	Branch – Local – the Branch Calendar is setup against the Branch Code
-10.13.3	Payroll Setup
+
+## [Payroll Setup](au-payroll-setup-payroll-controls-payroll-setup.md)
 
 •	Payroll
 •	Award
 •	Classification
 •	Item Criteria Worksheet
 •	Assign Award to Employee
-10.13.4	Award Interpretation Process 
+
+## Award Interpretation Process 
+
 Once the Award Interpreter has been setup the following steps must be performed in sequence to interpret timesheets:
 
 1.	Timesheet Entry
@@ -31,101 +36,95 @@ Once the Award Interpreter has been setup the following steps must be performed 
 7.	Pay Timesheet Journal
 8.	Pay Journal
  
-10.13.5	Award Interpreter Public Holiday Calendars
+### Award Interpreter Public Holiday Calendars
+
 You can create and maintain all Public Holiday Calendars for the Award Interpreter within the Dynamics NAV Payroll granule.
 
-10.13.6	Award Interpreter Payroll Setup
+### Award Interpreter Payroll Setup
 
-Go to the Payroll Setup card to update the following fields on the Time Sheet Entry tab:
-
-Departments/Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup
+Go to the [Payroll Setup](au-payroll-setup-payroll-controls-payroll-setup.md) card to update the following fields on the **Time Sheet Entry** FastTab: *Departments/Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup*
  
+#### Payroll Setup – Timesheet Entry FastTab 
 
-10.13.6.1	Payroll Setup – Timesheet Entry FastTab 
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Public Holiday Calendar Code**|This field is used to specify the Country Wide calendar used to determine Public Holidays for this Payroll Company.
+|**Auto-Interpret (Timekeeper Only)**| This field is only used for Timekeeper imported Timesheet lines. When this field is ticked the imported timekeeper lines are automatically interpreted.
+|**Summarise Interp. by weeks**| When this field is ticked the Interpretation Worksheet lines are summarised into a week. When this field is blank the fields are summarised into a day. You cannot have a mixture of week and day summarisation.
 
-Field	Comments
-Public Holiday Calendar Code	This field is used to specify the Country Wide calendar used to determine Public Holidays for this Payroll Company.
-Auto-Interpret
-(Timekeeper Only)	This field is only used for Timekeeper imported Timesheet lines. When this field is ticked the imported timekeeper lines are automatically interpreted.
-Summarise Interp. by weeks	When this field is ticked the Interpretation Worksheet lines are summarised into a week. When this field is blank the fields are summarised into a day. You cannot have a mixture of week and day summarisation.
-
+#### Payroll – Options FastTab 
  
-Go to the Payroll card to update the following fields on the Options tab:
-
-Departments/Payroll/Setup/Payroll Setup/General/Payrolls
+Go to the [Payroll](au-payroll-setup-payroll.md) card to update the following fields on the **Options** FastTab:  *Departments/Payroll/Setup/Payroll Setup/General/Payrolls*
  
-
-10.13.6.2	Payrolls – Option FastTab
-Field	Comments
-Timesheet Week Ending Day	This field is used to specify the day of the week to use as the week ending date and determines the Payroll Period for payment.
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Timesheet Week Ending Day**|This field is used to specify the day of the week to use as the week ending date and determines the Payroll Period for payment.
 
  
  
-10.13.7	Award Interpreter Review Award
+## Award Interpreter Review Award
+
 This card is used to maintain your Awards for use with the Award Interpreter. 
 
-To open the Award & Associated Transactions form, 
-
-Departments/Payroll/Setup/Payroll Setup/Award/Award & Associated Transactions
- 
+1. In the **Search** box, enter **Award & Associated Transactions**, and then choose the related link, or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Award/Award & Associated Transactions*.
 
 To set up an Award please refer to the following link Award 
 
 To maintain an Award for use with the Award Interpreter you must complete the following fields:
 
-10.13.7.1	Award
+### Award
 
-Field	Comments
-Position Code	This field is optional and is used to indicate the Award is only used for a specific Position. The position is attached to a Payroll Employee.
-Public Holiday Calendar Code	This field is optional and is used to assign a calendar to determine Public Holidays for this Award. Alternately the Calendar can be attached to the Employee's Branch and the Employee assigned to the Branch. 
-Certification Date	This field is Mandatory and is used to enter the date the Award is Certified for use. If this date is left blank you cannot setup Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.
-Comment	This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the Award Button and then select the Comment menu option.
-Blocked	This field is used to block the Award and any of its Classifications from use.
+|Field|Description|  
+|:---------------------------------|:---------------------------------------| 
+|**Position Code**| This field is optional and is used to indicate the Award is only used for a specific Position. The position is attached to a Payroll Employee.
+|**Public Holiday Calendar Code**|	This field is optional and is used to assign a calendar to determine Public Holidays for this Award. Alternately the Calendar can be attached to the Employee's Branch and the Employee assigned to the Branch. 
+Certification Date.  This field is **Mandatory** and is used to enter the date the Award is Certified for use. If this date is left blank you cannot setup Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.
+|**Comment**| This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the Award Button and then select the Comment menu option.
+|**Blocked**|	This field is used to block the Award and any of its Classifications from use.
 
  
-10.13.8	Award Interpreter Pay Item Criteria List
+### Award Interpreter Pay Item Criteria List
+
 The fields on this form are for display purposes only. The Pay Item Criteria records that have been setup to interpret the hours into Pay Transaction Types for the Award or the Award Classification are listed.
 
 They are maintained in the Item Criteria Worksheet. 
 
- 
+1. On the **General** FastTab, fill the fields in the following table.
 
-10.13.8.1	Pay Item Criteria Card – General FastTab
-
-Field	Comments
-Classification Code	This field displays the Award Classification Code
-Award Code	This field displays the Award Code
-Pay Transaction Type	This field displays the Pay Transaction Type code that is generated from this Pay Item criteria
-Pay Tran. type Description	This field displays the Pay Transaction Type description
-Starting Date	This field displays the date the criteria becomes effective.
-Sequence No	This field displays the sequence and must be greater than 0. The sequence defines the order that Time and Attendance Pay Items are applied when the maximum threshold has been reached.
-Line No
-	This field is used internally by the system
-Ending Date	This field displays the date the criteria is no longer used.
-Day of the Week	This field displays the day of the week
-Max, hours	This field displays the maximum hours worked for this Pay item until the Interpreter moves to the next sequence. It must lie within the range of: 0 - 24
-Max Hours Per Week	This field displays the maximum hours per week for this Pay 
-Min. Hours	This field displays the minimum hours worked for this Pay Item and must lie within the range of: 0 - 24. This field determines the minimum hours that must be worked on the day. When the minimum hours have not been met then the minimum hours of work is paid.
-Start Time	This field displays the earliest start time and must be between 00:00 - 23:59. When a timesheet is processed with hours that lie within the Start and End times the Pay Item is generated
-End Time	This field displays the latest end time and must be between 00:00 - 23:59
-Apply to Following Day	This field is used to apply the Pay Criteria to the next day's week ending date.
-Unpaid Break	This field is used to enter the quantity allowed for unpaid breaks for lunch and tea.
-Applies to Cause of Absence	This field is used to force this transaction to be used instead of Ordinary when the Cause of Absence Code is equal to this field.  This is used to generate Leave etc.
-Rounding method	This field displays the rounding method:
-•	No Rounding
-•	Nearest
-•	Up
-•	Down
-This field works with the rounding precision
-Rounding Precision	This field displays the rounding precision for the rounding method:
-•	Minute
-•	5 Minutes
-•	6 Minutes
-•	15 Minutes
-•	30 Minutes
-•	Hour
-Apply to Following Day	This field is used to apply these hours breaching 12midnight to the next day period end date.
-Deleted	This field indicates the line is no longer used to generate transactions.
+|Field|Description|  
+|:---------------------------------|:---------------------------------------|  
+|**Classification Code**| This field displays the Award Classification Code.
+|**Award Code**|This field displays the Award Code.
+|**Pay Transaction Type**|This field displays the Pay Transaction Type code that is generated from this Pay Item criteria.
+|**Pay Tran. type Description**| This field displays the Pay Transaction Type description.
+|**Starting Date**| This field displays the date the criteria becomes effective.
+|**Sequence No**| This field displays the sequence and must be greater than 0. The sequence defines the order that Time and Attendance Pay Items are applied when the maximum threshold has been reached.
+|**Line No**| This field is used internally by the system.
+|**Ending Date**| This field displays the date the criteria is no longer used.
+|**Day of the Week**| This field displays the day of the week.
+|**Max, hours**| This field displays the maximum hours worked for this Pay item until the Interpreter moves to the next sequence. It must lie within the range of: 0 - 24.
+|**Max Hours Per Week**| This field displays the maximum hours per week for this Pay.
+|**Min. Hours**| This field displays the minimum hours worked for this Pay Item and must lie within the range of: 0 - 24. This field determines the minimum hours that must be worked on the day. When the minimum hours have not been met then the minimum hours of work is paid.
+|**Start Time**| This field displays the earliest start time and must be between 00:00 - 23:59. When a timesheet is processed with hours that lie within the Start and End times the Pay Item is generated
+|**End Time**| This field displays the latest end time and must be between 00:00 - 23:59
+|**Apply to Following Day**| This field is used to apply the Pay Criteria to the next day's week ending date.
+|**Unpaid Break**| This field is used to enter the quantity allowed for unpaid breaks for lunch and tea.
+|**Applies to Cause of Absence**| This field is used to force this transaction to be used instead of Ordinary when the Cause of Absence Code is equal to this field.  This is used to generate Leave etc.
+|**Rounding method**| This field displays the rounding method:
+||•	No Rounding
+||•	Nearest
+||•	Up
+||•	Down
+||This field works with the rounding precision.
+|**Rounding Precision**| This field displays the rounding precision for the rounding method:
+||•	Minute
+||•	5 Minutes
+||•	6 Minutes
+||•	15 Minutes
+||•	30 Minutes
+||•	Hour
+|**Apply to Following Day**| This field is used to apply these hours breaching 12midnight to the next day period end date.
+|**Deleted**| This field indicates the line is no longer used to generate transactions.
 
 
     
