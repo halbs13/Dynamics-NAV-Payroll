@@ -4,7 +4,7 @@ This section discussed the following setup;
 
 * [Public Holiday Calendars](#award-interpreter-public-holiday-calendars)
 * [Payroll Setup](#award-interpreter-payroll-setup)
-* [Payrolls Setup](#payroll-option-fasttab)
+* [Payrolls Setup](#payroll-options-fasttab)
 * [Award](#award-interpreter-award)
 * [Classification](#award-interpreter-classification)
 * [Pay Item Criteria](au-payroll-setup-award-interpreter-pay-item-criteria.md)
@@ -55,7 +55,7 @@ To maintain an Award for use with the Award Interpreter you must complete the fo
 |**Blocked**|	This field is used to block the Award and any of its Classifications from use.
 
 
-## Award Interpreter - Classification
+## Award Interpreter Classification
 
 This card is used to maintain your Classifications for use with the Award Interpreter. 
 
