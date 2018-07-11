@@ -2,7 +2,7 @@
 
 Prior to setting up a Payroll Employee card you must first set up a Human Resources Employee card. 
 
-Departments/Payroll/Employee Maintenance/Employee 
+*Departments/Payroll/Employee Maintenance/Employee* 
 
 After you have setup the Employee card you can then create the Payroll Employee card using the details entered for the Employee card.  
 
