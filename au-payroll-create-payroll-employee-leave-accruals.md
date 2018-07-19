@@ -40,11 +40,22 @@ To access the Employee Leave Accrual Card, click on the “Edit” icon on the H
 
 #### Employee Leave Accrual card – Leave Values FastTab
 
- 
+ |Field|Comments|
+|---|---|
+|Value Only Accrued|This field displays the total leave accrued as a value. |
+|Ordinary Value Earned|This field displays the total value of earnings applicable to leave within the Leave Period.|
+|Last Period Calculated|This field displays the ending date of the last pay period.|
 
  
 #### Employee Leave Accrual card - Long Service Leave FastTab
 
+ |Field|Comments|
+ |---|---|
+ |The fields on this tab are only applicable to Long Service Leave and are unavailable for all other leave Types||
+ |L.S.L. To 15th August 1978|This field displays the amount of Long Service Leave accrued prior to the 15th August 1978.|
+ |L.S.L. Aug. 78 to 17th Aug. 93|This field displays the amount of Long Service Leave accrued between 15th August 1978 and 17th August 1993.|
+ |L.S.L. Leave Entitlements|This field displays the number of Long Service Leave entitlements reached.|
+ 
  
 
 #### Navigate ribbon (Accrual Section)
