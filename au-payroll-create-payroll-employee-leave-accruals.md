@@ -28,6 +28,14 @@ To access the Employee Leave Accrual Card, click on the “Edit” icon on the H
 
 #### Employee Leave Accrual card – Leave Details FastTab
 
+ |Field|Comments|
+ |---|---|
+ |Employee No|This field displays the Employee Code|
+ |Leave Type|This field is used to select the Leave Type you wish to accrue.  (Annual, Sick, LSL, Loading).|
+ |Leave Code|This field is used to select the Leave Accrual code you have previously set up.|
+ |||
+ ||The “Leave Code” is selected from the Leave Accrual List by selecting the “ArrowDown”.|
+ |Starting Date|This field is used to define the date you wish the accrual to start accruing the leave.  The leave calculations are based on this date.|
  
 
 #### Employee Leave Accrual card – Leave Values FastTab
