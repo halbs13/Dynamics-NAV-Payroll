@@ -40,48 +40,39 @@ E.g. If a “Meal Allowance” transaction is associated with an Overtime Pay Tr
 |Pay Details Enquiry|This option allows you to preview the employee’s standard pay for the current pay period.|
 
  
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
 #### Payroll Employee card – Navigate ribbon – Associated Transactions
 
 The “Allowance Associated Trans” window is used to maintain the links between Pay Transaction Types and their “Associated” Pay Transaction Types.  
 
   
-
 For example, a Living Away from Home allowance is associated with the Ordinary Pay Transaction Type for this employee.  Each time the employee is paid Ordinary time the employee also receives the allowance for LAFH.
 
+ 
+ |Field|Comments|
+ |---|---|
+ |Asoc. Transaction Type Code|This field is used to select the Associated Transaction Type.|
+ |||
+ ||Each time an Allowance that the "Assoc. Transaction Type Code" is linked to is used in the Pay Journal, this transaction is automatically generated.|
+ |||
+ ||The “Assoc. Transaction Type Code” is selected from the Pay Transaction Type table; this can be accessed by selecting the “ArrowDown”.|
+ |Shift Code|Similar to the “Shift Code” described above but the Associated Pay Transaction will only be paid if the specific shift has been worked by the employee.|
+ |Start Date|This field is used to enter the date from which this Associated Pay Transaction Type applies|
+ |End Date|This field is used to enter the End Date this Associated Pay Transaction Type ceases.  This field is left blank when the Associated Pay Transaction Type is to apply for an ongoing time|
+ |Description|The "Description" of the Associated Pay Transaction Type.|
+ |Fixed Units|This field is the number of units for the Associated Pay Transaction Type code that is to be paid to the employee.|
+ ||Generally, units are hours, but units can also be kilometres, etc.|
+ ||If the Pay Transaction Type is not a “units” type the field is left zero.|
+ |Fixed Value|This field is the fixed amount the employee is to be paid.|
+ ||This field may is left zero if a fixed amount is not to be paid.|
+ |Use Originating Conv. Factor|This field is used to indicate if the conversion factor for this Associated Pay Transaction Type or the factor from the originating Pay Transaction Type the Associated Pay Transaction is linked to is used.|
+ |Rate|This field is defaulted from the Pay Transaction Type if it is a Units type.|
+ |Conversion Factor|This field allows you to override the Conversion factor set up on the Pay Transaction Type for this employee only.|
+ |Number of Units before Used|Set this field so that a specific number of units must be entered against the originating Pay Transaction Type before this Associated Pay Transaction is paid to the employee.  This is used for an employee working overtime and they must work a certain number of hours before a Meal Allowance is paid.|
+ |Once Only Per Pay Run|Set this flag if you only want the Associated Pay Transaction paid once in a pay run but the originating Pay Transaction Type has been entered for payment on the Pay Journal more than once. |
+||An example of this is where an employee’s Ordinary time is entered multiple times for job costing but you only want a clothing allowance paid once to the employee.|
+|Not Used|This field is ticked when this Associated Pay Transaction is not to be paid for the current pay period only.  The flag will be reset for the next pay period.|
+ 
+ 
+ 
  
  
