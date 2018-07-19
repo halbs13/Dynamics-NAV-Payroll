@@ -45,7 +45,7 @@ Employment Termination Payment is used to enter Employee Termination Pay details
 |Taxable Component|This is the total amount of the payment less the tax free component. This amount is generally assessable income.|
 |Tax Free Component|This is the amount of the payment which is tax free. It consists of any pre-July 1983 segment plus any invalidity segment of the payment|
 |||
-  |ETP Code| the list of ETP codes have been provided by the ATO and furter information is available from the www.ato.gov.au website. The list of ETP codes are:
+  |ETP Code| The list of ETP codes have been provided by the ATO and furter information is available from the www.ato.gov.au website. The list of ETP codes are:
  ||R – Early Retirement, Genuine Redundancy, Invalidity or Compensation|
  ||S – Payment already made in previous tax year early retirement, Redundancy, Invalidity or Compensation|
  ||O – Other ETP not described by Code R|
