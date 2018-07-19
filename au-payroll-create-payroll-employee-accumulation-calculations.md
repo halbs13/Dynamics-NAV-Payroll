@@ -43,4 +43,5 @@ This window is used to define each On Cost pay Transaction Types for an Employee
  |Pay Rate|This field defines the Rate applicable to the On Cost calculation.  The Rate is effectively entered as a percentage of the employee’s Gross pay.|
 |Not Used|This is ticked to prevent the Line from calculating in the Pay Journal|
 
+
  
