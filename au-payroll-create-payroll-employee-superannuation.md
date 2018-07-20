@@ -37,21 +37,21 @@ To access the Employee Superannuation Card, select the “Edit” icon on the Ho
 #### Employee Superannuation card – Employer (Concessional) FastTab
 
  
-
-Field	Comments
-Minimum Salary Check	For Employee contributions this field indicates the employee is subject to the minimum salary check before this transaction is deducted from the employee’s salary.
-When the "Minimum Salary Check" field is ticked the employee must earn at least the amount entered in the "Minimum Salary" field on the Payroll Employee Pay Details card. 
-Employer Factor	The employer contributes a percentage of any employee contribution entered.   
-For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.
-SGC Amount	The standard amount the employer will contribute each pay period
-SGC %	This field is used to enter the percentage the employer contributes calculated on the Employees Earnings or the amount entered in the Base Salary field
-Per Day Worked Amount	The amount contributed for each day the employee works.
-Always Pay Contribution	This field indicates the employee must always receive the employer superannuation contribution regardless of the employee earnings.
-This option can only be used with SGC Amount or Base Salary fields.
-Non SGC Standard Amount	This field is used when the Employer contributes an amount in addition to the Super Guarantee
-Non SGC Standard %	This field is used when the Employer contributes a percentage in addition to the Super Guarantee
-Employer Period to Date Amt.	This field displays Period to Date contributions paid by the employer.
-Employer Life to Date Amt.	This field displays Life to Date contributions paid by the employer. You can drill down to view the ledger entries.
+|Field	|Comments|
+|---|---|
+|Minimum Salary Check|	For Employee contributions this field indicates the employee is subject to the minimum salary check before this transaction is deducted from the employee’s salary.
+||When the "Minimum Salary Check" field is ticked the employee must earn at least the amount entered in the "Minimum Salary" field on the Payroll Employee Pay Details card. 
+|Employer Factor|	The employer contributes a percentage of any employee contribution entered.   
+||For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.
+|SGC Amount|	The standard amount the employer will contribute each pay period
+|SGC %|	This field is used to enter the percentage the employer contributes calculated on the Employees Earnings or the amount entered in the Base Salary field
+|Per Day Worked Amount|	The amount contributed for each day the employee works.
+|Always Pay Contribution|	This field indicates the employee must always receive the employer superannuation contribution regardless of the employee earnings.
+||This option can only be used with SGC Amount or Base Salary fields.
+|Non SGC Standard Amount|	This field is used when the Employer contributes an amount in addition to the Super Guarantee
+|Non SGC Standard %|	This field is used when the Employer contributes a percentage in addition to the Super Guarantee
+|Employer Period to Date Amt.|	This field displays Period to Date contributions paid by the employer.
+|Employer Life to Date Amt.|	This field displays Life to Date contributions paid by the employer. You can drill down to view the ledger entries.
 
 #### Employee Superannuation card - Employee FastTab
 
@@ -89,28 +89,25 @@ Note: Only Employer contributions are reported to the employees using SGC Report
  
 
 
-Field	
-Comments
-Superannuation Code	Use this field to enter or select the Superannuation Product
-Membership No.	Enter the employee Membership No.
-Date Joined	Enter the date the employee joined the fund or the Employee start date.
-Starting Date 	This date is used as the date contributions starts to be contributed for this fund
-Ending Date	This date is used as the date contributions stop to be contributed for this fund
-Employer SGC Amount	The standard amount the employer will contribute.
-Employer SGC %	This field is used to determine the percentage the employer contributes calculated on the Employees Earnings or the amount Entered in the Base Salary field if not zero.  
-Employer Factor	The employer contributes a percentage of any employee contribution entered in the fields.  
-For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.
-Employer Non-SGC Amt	This field is used when the Employer contributes an amount in addition to the Super Guarantee
-Employer Non-SGC %	This field is used when the Employer contributes a percentage in addition to the Super Guarantee
-Employee Salary Sacrifice Amt	This field is used to enter the Pre Tax Employee Contribution amount
-Employee Salary Sacrifice %	This field is used to enter the Pre Tax Employee Contribution percentage.
-Employee Net Pay Contr. Amt.	This field is used to enter the Post Tax Employee Contribution amount
-Employee Net Pay Contr. %.	This field is used to enter the Post Tax Employee Contribution percentage used to calculate against Earnings
-Per Day Worked Amount	Enter the amount of the contribution to be made for each day the employee works
-Minimum Salary Check	If ticked the system checks the minimum salary earned for the month by the employee before contributions are made by the employee.
-Base Salary	This field is used to calculate the Employee SGC % on the value entered instead of on the Pay Transaction Types ticked "Apply to Super".  The amount is entered as the annual salary of the employee. If the "Base Salary" field is zero then the employee’s actual earnings are used to calculate the Amount.
+|Field|	Comments|
+|---|---|
+|Superannuation Code|	Use this field to enter or select the Superannuation Product
+|Membership No.|	Enter the employee Membership No.
+|Date Joined|	Enter the date the employee joined the fund or the Employee start date.
+|Starting Date| 	This date is used as the date contributions starts to be contributed for this fund
+|Ending Date|	This date is used as the date contributions stop to be contributed for this fund
+|Employer SGC Amount|	The standard amount the employer will contribute.
+|Employer SGC %|	This field is used to determine the percentage the employer contributes calculated on the Employees Earnings or the amount Entered in the Base Salary field if not zero.  
+|Employer Factor|	The employer contributes a percentage of any employee contribution entered in the fields.  
+||For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.
+|Employer Non-SGC Amt|	This field is used when the Employer contributes an amount in addition to the Super Guarantee
+|Employer Non-SGC %|	This field is used when the Employer contributes a percentage in addition to the Super Guarantee
+|Employee Salary Sacrifice Amt|	This field is used to enter the Pre Tax Employee Contribution amount
+|Employee Salary Sacrifice %|	This field is used to enter the Pre Tax Employee Contribution percentage.
+|Employee Net Pay Contr. Amt.|	This field is used to enter the Post Tax Employee Contribution amount
+|Employee Net Pay Contr. %.|	This field is used to enter the Post Tax Employee Contribution percentage used to calculate against Earnings
+|Per Day Worked Amount|	Enter the amount of the contribution to be made for each day the employee works
+|Minimum Salary Check|	If ticked the system checks the minimum salary earned for the month by the employee before contributions are made by the employee.
+|Base Salary|	This field is used to calculate the Employee SGC % on the value entered instead of on the Pay Transaction Types ticked "Apply to Super".  The amount is entered as the annual salary of the employee. If the "Base Salary" field is zero then the employee’s actual earnings are used to calculate the Amount.
 
-Related Tasks 
-Superannuation - Calculation Methods
-Superannuation - Setup
  
