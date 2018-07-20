@@ -7,6 +7,7 @@ Note: The Main dissection type pays the balance of the employee net pay to the s
  
 
 |Field|	Comments|
+|---|---|
 |Transaction Type Code|	This field identifies the Pay Transaction Type assigned to the Net Pay 
 The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed by selecting the “ArrowDown” in the field.
 |Pay Dissection Type|	This field is used to select the dissection type used for this bank account;
