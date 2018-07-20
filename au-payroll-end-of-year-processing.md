@@ -189,7 +189,7 @@ Click “End of Tax Year Processing”
 # 6.3.1.3	Payment Summary Proof List – Payroll Employee FastTab
 |Field	|Filter|
 |---|---|
-|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
+|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”|
 |Employee No.	|Select an Employee No(s) to limit the process to 1 or more employee’s for the selected payroll(s)|
 ||If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.|
 |Employee Type Code|	Select an Employee Type Code(s) to use as a filter to limit the process to only a specific Employee Type |
