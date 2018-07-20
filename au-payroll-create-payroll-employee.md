@@ -6,7 +6,7 @@ Prior to setting up a Payroll Employee card you must first set up a Human Resour
 
 After you have setup the Employee card you can then create the Payroll Employee card using the details entered for the Employee card.  
 
-*Departments/Payroll/Employee Maintenance/Payroll Employees
+*Departments/Payroll/Employee Maintenance/Payroll Employees*
 
 Corresponding fields in the Human Resource Employee card populate the Payroll Employee card.  
 
@@ -21,7 +21,7 @@ The following list is used to indicate the field type on each tab:
 
 The Payroll Employee card is used to create your employee records used to calculate remuneration and process the payrolls.
 
-*Departments/Payroll/Employee Maintenance/Payroll Employees
+*Departments/Payroll/Employee Maintenance/Payroll Employees*
 
 You must complete the following tabs and button for each employee
 
@@ -162,60 +162,55 @@ This table is designed to record historical and future dated transactions of the
  
 
 
-Field	Field Type	Comments
-Employee No.	M	This field will contain the Employee’s No.  
-
-It will default to the number of the employee’s record you are working on.
-Starting Date	M	This field is used to identify when the Worked Hours are effective.
-Hours in a Full Week	M	This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
-
-The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  
-
-If the effective date of this transaction is future-dated, the value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period 
-
-Hours Worked for TIL Calc.	M	This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.
-
-The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  
+|Field	Field |Type|	Comments
+|---|---|---|
+|Employee No.|	M	|This field will contain the Employee’s No.  
+|||It will default to the number of the employee’s record you are working on.
+|Starting Date|	M	|This field is used to identify when the Worked Hours are effective.
+|Hours in a Full Week|	M|	This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
+|||The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  
+|||If the effective date of this transaction is future-dated, the value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period 
+|Hours Worked for TIL Calc.|	M|	This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.
+|||The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  
 Days Per Week	M	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
-
-The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.  
-Work Schedule Code	O	The Work Schedule Code is used to define the work pattern worked by an employee.
-
-The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.
-Defunct	O	Tick this field if you wish to inactivate the transactional record.  
+|||The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.  
+|Work Schedule Code|	O	|The Work Schedule Code is used to define the work pattern worked by an employee.
+|||The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.
+|Defunct	|O	|Tick this field if you wish to inactivate the transactional record.  
 
 
+### Payroll Employee card - Tax FastTab
 
-
-3.1.4	Payroll Employee card - Tax FastTab
 The information entered on this tab is obtained from the Employees Tax File Number Declaration form.  The information entered is used with the Declaration tab to calculate PAYG tax withholding amounts for the employee each pay run.
 
 The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This entry prints on the Payment Summaries
 
  
 
-Field	Field Type	Comments
-Tax FastTab
-Tax Scale No.	M	This code defines the Tax Scale for this employee.
-Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.
-To select the Tax Scale No, select the “ArrowDown” 
-HELP Debt	O	This field Indicates the employee has a Higher Education Loan Program.  
-If ticked the employee will pay extra tax.
-Student Loan (SFSS)	O	This field Indicates the employee has a student loan 
-If ticked the employee will pay extra tax.
-Fixed Tax Rate Applicable	O	Tick this field if the employee has applied for and has been granted a variance to their normal tax rate.  A separate letter from the Australian Taxation Office must be provided to the employer before this variation can occur.
-Fixed tax rate Valid Until Date	O	Enter the date the Fixed Tax rate expires.  Once this date has been reached standard taxation according to the Tax Scale outlined above will occur.
-Fixed Tax Rate	O	Enter the percentage value of the fixed tax rate.  The value is entered as a percentage e.g. 25%
-Medicare Reduction Applicable.	O	Tick this field if the employee has been granted a reduction for their Medicare surcharge.  The system automatically calculates the amount of reduction the employee is entitled.
-Number of Dependants	O	This field is used to enter the Number of Dependants if you also ticked the Medicare Reduction Applicable checkbox.  The value entered is used to calculate the Medicare surcharge reduction.
-Payroll Tax Exempt	O	Tick this box if this employee’s earnings are deemed exempt from Payroll Tax (E.g. Apprentice, Registered Trainees)
-G.S.T. Exempt	O	This field is reserved for future development.
-Payment Summary Raised	S	This field is used to indicate the Payment Summary has been issued to the employee.  This field is automatically ticked by the system after Payment Summaries have been printed for this employee and is reset when the first pay is run for the new taxation year.
-Fringe Benefit Amount	O	This field is used to access the Employee FBT Amount List.  
-Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.
+|Field	|Field| Type	Comments|
+|---|---|---|
+|Tax FastTab
+|Tax Scale No.|	M	|This code defines the Tax Scale for this employee.
+|||Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.
+|||To select the Tax Scale No, select the “ArrowDown” 
+|HELP Debt|	O	|This field Indicates the employee has a Higher Education Loan Program.  
+|||If ticked the employee will pay extra tax.
+|Student Loan (SFSS)|	O|	This field Indicates the employee has a student loan 
+|||If ticked the employee will pay extra tax.
+|Fixed Tax Rate Applicable|	O|	Tick this field if the employee has applied for and has been granted a variance to their normal tax rate.  A separate letter from the Australian Taxation Office must be provided to the employer before this variation can occur.
+|Fixed tax rate Valid Until Date|	O|	Enter the date the Fixed Tax rate expires.  Once this date has been reached standard taxation according to the Tax Scale outlined above will occur.
+|Fixed Tax Rate|	O	|Enter the percentage value of the fixed tax rate.  The value is entered as a percentage e.g. 25%
+|Medicare Reduction Applicable.|	O|	Tick this field if the employee has been granted a reduction for their Medicare surcharge.  The system automatically calculates the amount of reduction the employee is entitled.
+|Number of Dependants|	O	|This field is used to enter the Number of Dependants if you also ticked the Medicare Reduction Applicable checkbox.  The value entered is used to calculate the Medicare surcharge reduction.
+|Payroll Tax Exempt|	O|	Tick this box if this employee’s earnings are deemed exempt from Payroll Tax (E.g. Apprentice, Registered Trainees)
+|G.S.T. Exempt|	O|	This field is reserved for future development.
+|Payment Summary Raised	|S	|This field is used to indicate the Payment Summary has been issued to the employee.  This field is automatically ticked by the system after Payment Summaries have been printed for this employee and is reset when the first pay is run for the new taxation year.
+|Fringe Benefit Amount|	O	|This field is used to access the Employee FBT Amount List.  
+|||Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.
 
 
-3.1.5	Payroll Employee card - Declaration FastTab
+### Payroll Employee card - Declaration FastTab
+
 The information entered on this card is obtained from the employees Tax File Number Declaration form.  The information entered is used to work out how much PAYG tax to withhold from payments made to the employee and are used when producing the electronic lodgement file for employment declarations to the ATO.
 
  
@@ -241,39 +236,40 @@ Date Declaration Signed	O	Enter the date the employee signed the declaration.
 Payee Signature	O	Tick this field if the employee has signed their declaration.
 Declaration Lodged	S	The system populates this field when you produce the electronic declaration lodgement file.
 
-3.1.6	Payroll Employee card - Pay Details FastTab
+### Payroll Employee card - Pay Details FastTab
 This tab is used to display pay details for the employees.  Some fields on this tab are calculated and cannot be maintained on this tab.
 
  
 
-Field	Field Type	Comments
-Pay Details FastTab
-Minimum Net Salary	O	This field is used to record the minimum net salary an employee should receive.  An example of where you might store information in this field, is if your employee has a Child Support arrangement and the Child Support Office advises you of the minimum net salary the employee should receive.  Entering an amount in this field ensures the employee will receive this minimum net amount.  
-
-If you have previously entered the amount in the Payroll setup the amount will default from there and you can override the amount 
-Forward Paid Periods	S	This field indicates the number of pay periods that the Employee has been paid in advance.
-Date Paid Up Until	S	This field displays the date to which an Employee has been paid.
-Last Period Paid	S	This field is used to display the last period in which an Employee was paid.
-Gross Pay	S	The “Gross Pay” is the sum of the amounts from Payroll Ledger Entries for gross pay  The default value is year to date, but can be changed using flow filters.
-Net Pay	S	The “Net Pay” is the sum of the amounts from Payroll Ledger Entries for net pay.  The default value is year to date, but can be changed using flow filters.
-Employment Date	S	This field is populated from the Employee card - Employment Date field.  The date cannot be changed 
-Status	O	The default “Status” is Active.  You can Inactivate or Terminate an employee by selecting the value from the look up.
-Inactive Date	O	Enter the date the employee was made “Inactive”.
-Termination Date	S	The “Termination Date” can only be entered on the Employee card 
+|Field|	Field |Type	Comments|
+|---|---|---|
+|Pay Details FastTab
+|Minimum Net Salary|	O	|This field is used to record the minimum net salary an employee should receive.  An example of where you might store information in this field, is if your employee has a Child Support arrangement and the Child Support Office advises you of the minimum net salary the employee should receive.  Entering an amount in this field ensures the employee will receive this minimum net amount.  
+|||If you have previously entered the amount in the Payroll setup the amount will default from there and you can override the amount 
+|Forward Paid Periods|	S	|This field indicates the number of pay periods that the Employee has been paid in advance.
+|Date Paid Up Until	|S|	This field displays the date to which an Employee has been paid.
+|Last Period Paid	|S	|This field is used to display the last period in which an Employee was paid.
+|Gross Pay	|S	|The “Gross Pay” is the sum of the amounts from Payroll Ledger Entries for gross pay  The default value is year to date, but can be changed using flow filters.
+|Net Pay|	S	|The “Net Pay” is the sum of the amounts from Payroll Ledger Entries for net pay.  The default value is year to date, but can be changed using flow filters.
+|Employment Date|	S	|This field is populated from the Employee card - Employment Date field.  The date cannot be changed 
+|Status	|O|	The default “Status” is Active.  You can Inactivate or Terminate an employee by selecting the value from the look up.
+|Inactive Date	|O	|Enter the date the employee was made “Inactive”.
+|Termination Date|	S|The “Termination Date” can only be entered on the Employee card 
 
 
 
  
-3.1.7	Payroll Employee card - Work Cover FastTab
+### Payroll Employee card - Work Cover FastTab
+
 The fields on this tab are used to assign Work Cover details to this employee for the purposes of calculating Work Cover liabilities for your employees.
 
  
 
-
-Field	Field Type	Comments
-Work Cover FastTab
-Work Cover Code	O	Select the “Work Cover Code” for the Employee.
-Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy.  
-Work Cover Location	O	Select the “Work Cover Levy” Location.
+|Field	|Field |Type	Comments
+|---|---|---|
+|Work Cover FastTab
+|Work Cover Code	|O	|Select the “Work Cover Code” for the Employee.
+|||Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy.  
+|Work Cover Location	|O|	Select the “Work Cover Levy” Location.
 
 
