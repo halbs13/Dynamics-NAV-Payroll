@@ -1,4 +1,4 @@
-# 3.0 Create Payroll Employee
+# Create Payroll Employee
 
 Prior to setting up a Payroll Employee card you must first set up a Human Resources Employee card. 
 
@@ -17,7 +17,7 @@ The following list is used to indicate the field type on each tab:
 * **O** = Optional
 * **S** = System Defined
 
-## 3.1 Payroll Employee card
+## Payroll Employee card
 
 The Payroll Employee card is used to create your employee records used to calculate remuneration and process the payrolls
 
@@ -42,7 +42,7 @@ You must complete the following tabs and button for each employee
 * Accumulations Calculations/Employer On Costs
 * Work Schedules 
 
-### 3.1 Payroll Employee card – General FastTab
+### Payroll Employee card – General FastTab
 
 The General FastTab is use to edit the employee name and address details used for Payment Summary production. You must assign the employee to a Payroll which determines the frequency of payment.  You can define the employee’s location, position and payment method. You must select the Employee Type code to determine the type of Payment Summary issued.
 
@@ -85,7 +85,7 @@ The General FastTab is use to edit the employee name and address details used fo
 |E-Mail Payment Summary|	O	|When this field is ticked, the employee will receive the Payment Summary via email. This field can only be ticked if the E-Mail field in the Employee card is populated with a valid email address.
 
 
-### 3.1.2 Payroll Employee card – Posting FastTab
+### Payroll Employee card – Posting FastTab
 
 The Posting FastTab is used to assign the employee to a Branch, Division and the Global Dimensions.  You can also assign a default Job and Task for the employee.
 
@@ -109,7 +109,7 @@ Global Dimensions are used in conjunction with GL Accounts in the General Ledger
 |GST Bus. Posting Group|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
 |Currency Code|	O	|Used if multiple currency is being used.  Only 1 currency type can exist for a payroll.
  
-### 3.1.3 Payroll Employee card – Rate FastTab
+### Payroll Employee card – Rate FastTab
 
 This tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.
 
@@ -154,7 +154,7 @@ This tab is used to determine the standard hours worked and can be used to calcu
 |Pay Period Rate|	S|	This value reflected in this section is the employee’s pay per pay period.  
 |Annual Rate|	S|	The value reflected in this section is the employee annual rate of pay.
 
-#### 3.1.3.1 Payroll Employee card - Employee Worked Hours
+#### Payroll Employee card - Employee Worked Hours
 
 In the “Hours In A Full Week” field, select the “DrillDown” button (Shift+F8) to enter into the Employee Worked Hours table.  
 
@@ -209,7 +209,7 @@ The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This 
 |||Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.
 
 
-### 3.1.4 Payroll Employee card - Declaration FastTab
+### Payroll Employee card - Declaration FastTab
 
 The information entered on this card is obtained from the employees Tax File Number Declaration form.  The information entered is used to work out how much PAYG tax to withhold from payments made to the employee and are used when producing the electronic lodgement file for employment declarations to the ATO.
 
@@ -237,7 +237,7 @@ The information entered on this card is obtained from the employees Tax File Num
 |Payee Signature|	O	|Tick this field if the employee has signed their declaration.
 |Declaration Lodged|	S|	The system populates this field when you produce the electronic declaration lodgement file.
 
-### 3.1.5 Payroll Employee card - Pay Details FastTab
+### Payroll Employee card - Pay Details FastTab
 This tab is used to display pay details for the employees.  Some fields on this tab are calculated and cannot be maintained on this tab.
 
  
@@ -260,7 +260,7 @@ This tab is used to display pay details for the employees.  Some fields on this 
 
 
  
-### 3.1.6 Payroll Employee card - Work Cover FastTab
+### Payroll Employee card - Work Cover FastTab
 
 The fields on this tab are used to assign Work Cover details to this employee for the purposes of calculating Work Cover liabilities for your employees.
 
