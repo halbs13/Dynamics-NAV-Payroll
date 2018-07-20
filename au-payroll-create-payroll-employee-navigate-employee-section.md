@@ -108,47 +108,44 @@ Selecting the Statistics icon will display the employee’s payment summary stat
 
 #### Statistics ETP Payment Summary FastTab
 
-Field	Comments
-Only data from the “Employee Term. Pmt.” Table is shown.
-Termination Date	This field displays the Termination Date as entered into the Employee Termination Payment table.
-Payment Date	This field displays the Payment Date as entered into the Employee Termination Payment table.
-Taxable Component	This field displays the Taxable Component value as entered into the Employee Termination Payment table.
-Tax Free Component	This field displays the Tax Free Component value as entered into the Employee Termination Payment table.
-Tax Instalment	This field displays the Tax Instalment value as entered into the Employee Termination Payment table.
-ETP Code	This field displays the ETP Code value as entered into the Employee Termination Payment table.
-
+|Field| Comments|
+|---|---|
+|Only data from the “Employee Term. Pmt.” Table is shown.
+|Termination Date |This field displays the Termination Date as entered into the Employee Termination Payment table.
+|Payment Date |This field displays the Payment Date as entered into the Employee Termination Payment table.
+|Taxable Component| This field displays the Taxable Component value as entered into the Employee Termination Payment table.
+|Tax Free Component| This field displays the Tax Free Component value as entered into the Employee Termination Payment table.
+|Tax Instalment| This field displays the Tax Instalment value as entered into the Employee Termination Payment table.
+|ETP Code| This field displays the ETP Code value as entered into the Employee Termination Payment table.
 
  
-3.3.11	Payroll Employee card – Navigate ribbon - YTD Accumulations
+### Payroll Employee card – Navigate ribbon - YTD Accumulations
 Selecting the YTD Accumulations icon displays the current year to date accumulations that will print on the Employee's Payment Summary for the employee.  
 
  
 
-3.3.12	Payroll Employee card – Navigate ribbon - Dimensions
+### Payroll Employee card – Navigate ribbon - Dimensions
 
 Selecting the Dimensions icon will allow you to add/review the dimensions recorded against the employee’s record.  Where an organisation has implemented dimensions in addition to the Global Dimensions then these can be entered into this window.  
 
  
 
-3.3.13	Payroll Employee card – Navigate ribbon – Effective Dimensions
+### Payroll Employee card – Navigate ribbon – Effective Dimensions
 
 Selecting the “Effective Dimensions” icon will allow you to add/review dimension sets with effective dates.  Where an organisation has multiple dimensions implemented in addition to the Global Dimensions, then these can be added via the Dimension Set window on the Navigate ribbon.
  
 
  
-Field	Comments
-Employee No.	This field will default with the Employee’s No.
+|Field |Comments|
+|---|---|
+|Employee No.| This field will default with the Employee’s No.
+|Effective Date| This field is used to record the Effective Date of the Dimension change.
+|Global Dimension 1| In the example above, the “Department Code” is setup as Global Dimension 1.  
+||This field is used to record the Global Dimension 1.
+|Global Dimension 2| In the example above, the “Project Code” is setup as Global Dimension 2.  
+||This field is used to record the Global Dimension 2.
 
-Effective Date	This field is used to record the Effective Date of the Dimension change.
-
-Global Dimension 1 	In the example above, the “Department Code” is setup as Global Dimension 1.  
-
-This field is used to record the Global Dimension 1.
-Global Dimension 2	In the example above, the “Project Code” is setup as Global Dimension 2.  
-
-This field is used to record the Global Dimension 2.
-
-3.3.13.1	Effective Dimensions – Navigate ribbon – Employee Effective Dimension Set
+#### Effective Dimensions – Navigate ribbon – Employee Effective Dimension Set
 
 Where an organisation has multiple dimensions implemented in addition to the Global Dimensions, then these can be added via the Dimension Set window.
 
