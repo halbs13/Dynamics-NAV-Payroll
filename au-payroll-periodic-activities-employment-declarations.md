@@ -21,7 +21,6 @@ Department/Payroll/Periodic Activities/Periodic Maintenance/Employment Declarati
 |Supplier Reference|	Enter the "Supplier File Reference" that the ATO quotes when querying any issues relating to this file.  This could be the name of your Payroll Officer.|
 |Reporting Version	|This field will automatically default to “Version 2.2 – Post 1 July 2008”.|
 ||The options available are:|
-
 ||*	Version 1.8 – Pre 1 July 2008|
 ||*	Version 2.2 – Post 1 July 2008|
 ||*	Version 3.0 – Post 1 October 2017|
