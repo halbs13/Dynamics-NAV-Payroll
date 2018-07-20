@@ -134,7 +134,6 @@ Selecting the Dimensions icon will allow you to add/review the dimensions record
 
 Selecting the “Effective Dimensions” icon will allow you to add/review dimension sets with effective dates.  Where an organisation has multiple dimensions implemented in addition to the Global Dimensions, then these can be added via the Dimension Set window on the Navigate ribbon.
  
-
  
 |Field |Comments|
 |---|---|
