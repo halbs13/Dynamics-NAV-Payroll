@@ -1,4 +1,5 @@
-Payroll Employee card – Navigate ribbon - Superannuation
+# Payroll Employee card – Navigate ribbon - Superannuation
+
 The “Employee Superannuation” window is used to maintain the Superannuation contributions for each employee. You select the Superannuation Product (s), date joined, percentages and amounts to calculate for both employer and employee superannuation.   
 
 You can use either Standard Super (posts the costs at the End of Month) or the Oncost method to calculate the SGC % you cannot use both methods for the same employee.  
@@ -8,35 +9,32 @@ Use Oncost if you wish to Expense the cost when you post the Pay Journal.  If yo
 Super contributions by both the Employee and the Employer are set up as a percentage or an amount each pay period.  The Employer can also contribute an additional factor of the Employee's Superannuation contribution. Click the Super button and select the card and complete the tabs.
 
 The Navigate ribbon contains the following options:
-•	Company - Displays the Superannuation card for the Employee Superannuation.
-•	Comments - Used to enter comments for the employee superannuation company.
-•	Ledger Entries - Displays a list of the Employee Superannuation Ledger Entries for this Superannuation Company.
+* Company - Displays the Superannuation card for the Employee Superannuation.
+* Comments - Used to enter comments for the employee superannuation company.
+* Ledger Entries - Displays a list of the Employee Superannuation Ledger Entries for this Superannuation Company.
 To access the Employee Superannuation Card, select the “Edit” icon on the Home ribbon.
 
- 
+#### Employee Superannuation card – General FastTab
 
- 
-
-3.2.5.1	Employee Superannuation card – General FastTab
-Field	Comments
-Superannuation Code	This field is used to select the Superannuation Product Code.
-Membership No.	Enter the employee superannuation fund "Membership No." 
-Base Salary	To use this field you must have the Standard Salary check box flagged on the Superannuation Company's options tab.
-
-This field is then used to calculate the Employee SGC % on this value instead of using the Pay Transaction Types flagged "App to Super".  This amount is entered as an annual salary for the employee. If this field is zero then the employees actual earnings (Pay Transaction types flagged "App to Super".) are used to calculate the SGC super.
-Date Joined Fund	This field is used to enter the date the employee joined the fund.
-Last Period Updated	This field displays the end date of the last pay period that superannuation was calculated for this employee.
-Last Date Modified	This field displays the last date this Employee Superannuation record was changed.
-Ordinary Pay PTD	This field displays the accumulated ordinary earnings of the employee applicable to superannuation for the current pay period.
-Ordinary Pay Life To Date	This field displays the accumulated ordinary earnings of the employee applicable to superannuation to date.
-Navigate ribbon
-Company	This menu option displays the Superannuation Companies card.
-List	This menu option displays a list of superannuation companies set up for the employee.
-Comments	This menu option displays existing comments for this employee, and allows you to enter or modify comments.
-Ledger Entries	This menu option lists superannuation ledger entries for the employees that have been posted to the Payroll Superannuation Sub-Ledger.
+|Field|	Comments|
+|---|---|
+|Superannuation Code|	This field is used to select the Superannuation Product Code.
+|Membership No.|	Enter the employee superannuation fund "Membership No." 
+|Base Salary|	To use this field you must have the Standard Salary check box flagged on the Superannuation Company's options tab.
+||This field is then used to calculate the Employee SGC % on this value instead of using the Pay Transaction Types flagged "App to Super".  This amount is entered as an annual salary for the employee. If this field is zero then the employees actual earnings (Pay Transaction types flagged "App to Super".) are used to calculate the SGC super.
+|Date Joined Fund|	This field is used to enter the date the employee joined the fund.
+|Last Period Updated|	This field displays the end date of the last pay period that superannuation was calculated for this employee.
+|Last Date Modified|	This field displays the last date this Employee Superannuation record was changed.
+|Ordinary Pay PTD|	This field displays the accumulated ordinary earnings of the employee applicable to superannuation for the current pay period.
+|Ordinary Pay Life To Date|	This field displays the accumulated ordinary earnings of the employee applicable to superannuation to date.
+|Navigate ribbon
+|Company|	This menu option displays the Superannuation Companies card.
+|List|	This menu option displays a list of superannuation companies set up for the employee.
+|Comments|	This menu option displays existing comments for this employee, and allows you to enter or modify comments.
+|Ledger Entries|	This menu option lists superannuation ledger entries for the employees that have been posted to the Payroll Superannuation Sub-Ledger.
 
  
-3.2.5.2	Employee Superannuation card – Employer (Concessional) FastTab
+#### Employee Superannuation card – Employer (Concessional) FastTab
 
  
 
@@ -55,33 +53,32 @@ Non SGC Standard %	This field is used when the Employer contributes a percentage
 Employer Period to Date Amt.	This field displays Period to Date contributions paid by the employer.
 Employer Life to Date Amt.	This field displays Life to Date contributions paid by the employer. You can drill down to view the ledger entries.
 
-3.2.5.3	Employee Superannuation card - Employee FastTab
+#### Employee Superannuation card - Employee FastTab
 
  
-
-Field	Comments
-Period to Date Amt.	This field displays the Period to Date contributions paid by the employee.  You can drill down to view the ledger entries.
-Life to Date Amt.	This field displays the Life to Date contributions paid by the employee.  You can drill down to view the ledger entries.
-Non Concessional
-Net Pay Contr. Amount.	This field is used to enter the Post Tax Employee Contribution amount
-Net Pay Contr. %	This field is used to enter the Post Tax Employee Contribution percentage
-Concessional
-Salary Sacrifice Std. Amt	This field is used to enter the Pre Tax Employee Contribution amount
-Salary Sacrifice Std. %	This field is used to enter the Pre Tax Employee Contribution percentage
+|Field|	Comments|
+|---|---|
+|Period to Date Amt.|	This field displays the Period to Date contributions paid by the employee.  You can drill down to view the ledger entries.
+|Life to Date Amt.|	This field displays the Life to Date contributions paid by the employee.  You can drill down to view the ledger entries.
+|Non Concessional
+|Net Pay Contr. Amount.	|This field is used to enter the Post Tax Employee Contribution amount
+|Net Pay Contr. %	|This field is used to enter the Post Tax Employee Contribution percentage
+|Concessional
+|Salary Sacrifice Std. Amt|	This field is used to enter the Pre Tax Employee Contribution amount
+|Salary Sacrifice Std. %	| This field is used to enter the Pre Tax Employee Contribution percentage
  
  
-3.2.5.4	Employee Superannuation card - Contributions FastTab
+#### Employee Superannuation card - Contributions FastTab
 
  
+|Field	|Comments|
+|---|---|
+|Employer Annual Contribution|	This field is used to calculate the "Employer Standard Amt.".  Enter the employer's annual contribution and the system calculates the "Employer Standard Amt" based on the pay period frequency.
+|Employer SGC Amt.|	The "Employer SGC Amount" is the amount of the employer contribution each period.
+|Employee Annual Contribution|	The "Employee Annual Contribution" field is used to calculate the "Employee Standard Amt.".  Enter the employee's annual contribution and the system calculates the "Employee Standard Amt" based on the pay cycle frequency.
+|Employee Net Pay Contr. Amt.|	The "Employee Net Pay Contr. Amount" field is used to display the amount of the employee contribution.
 
-
-Field	Comments
-Employer Annual Contribution	This field is used to calculate the "Employer Standard Amt.".  Enter the employer's annual contribution and the system calculates the "Employer Standard Amt" based on the pay period frequency.
-Employer SGC Amt.	The "Employer SGC Amount" is the amount of the employer contribution each period.
-Employee Annual Contribution	The "Employee Annual Contribution" field is used to calculate the "Employee Standard Amt.".  Enter the employee's annual contribution and the system calculates the "Employee Standard Amt" based on the pay cycle frequency.
-Employee Net Pay Contr. Amt.	The "Employee Net Pay Contr. Amount" field is used to display the amount of the employee contribution.
-
-3.2.5.5	Employee Superannuation – List
+#### Employee Superannuation – List
 
 The Employee Superannuation List displays the Superannuation Companies the employee has used.  You can use this window to add Superannuation Company to an employee.  
 
