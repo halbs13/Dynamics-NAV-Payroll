@@ -33,7 +33,7 @@ Departments/Payroll/Payroll Processing/Back Pay Calculation
 |No. of Back Pay Weeks|	This field is used to display the number of weeks included in the back pay.  | 
 |Document Date|	The Document Date can be a date within the Pay Period and will typically be the first date of the Pay Period.|
 |Posting Date|	The Posting Date defaults to today’s date.  You may select an alternate posting date |
-|Show All Employees	|Select this box to display all selected employees on the report regardless.  Leave this field blank to only display employees that receive a back pay.|
+|Show All Employees	|Select this box to display all selected employees on the report regardless. Leave this field blank to only display employees that receive a back pay.|
 |Report Only|	This field is used to produce a report used to check back pay calculations before you commit them for Payment.| 
 ||Leave this field blank to generate the pay transactions in the Pay Journal.|  
 |Pay Advice No.|	Use this field to enter the Pay Advice No. you want the transactions paid in.|  
