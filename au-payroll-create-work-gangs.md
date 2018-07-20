@@ -19,7 +19,7 @@ To open the Work Gangs card window:
 |Description|	Enter a description for the Work Gang.
 |Shift Code|	This field is used to select a shift for the gang if required
 |Date Applies	|This field is used to enter the date the gang is effective from
-|Count	T|his field is used to display the number of employees attached to this gang
+|Count	|This field is used to display the number of employees attached to this gang
 |Employee No.	|This field is used to select the employees you wish to assign to this work gang.
 |Employee First Name	|This field is used to display the Employee Name.
 |Employee Last Name|	This field is used to display the Employee Name
