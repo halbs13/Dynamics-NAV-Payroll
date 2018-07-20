@@ -172,7 +172,7 @@ This table is designed to record historical and future dated transactions of the
 |||If the effective date of this transaction is future-dated, the value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period 
 |Hours Worked for TIL Calc.|	M|	This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.
 |||The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  
-Days Per Week	M	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
+|Days Per Week	|M	|Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
 |||The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.  
 |Work Schedule Code|	O	|The Work Schedule Code is used to define the work pattern worked by an employee.
 |||The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.
