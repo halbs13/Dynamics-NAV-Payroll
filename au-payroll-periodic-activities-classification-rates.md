@@ -1,4 +1,4 @@
-# 8.1Classification Rates
+# 8.1 Classification Rates
 The Classification Rate Change Report is used to change Payroll Award Classification Rates of Pay.
 
 The rates held in these records are used to update the Employee Classification rate table for employees in the Classification.  These Classification Codes can also be assigned on the fly within the time sheet entry and pay journal for an employee. 
@@ -76,6 +76,7 @@ Departments/Payroll/Periodic Activities/Change Rates/Apply Classification Rate t
 8.1.1.5	Apply Class. Rate to Employees – Apply To Payroll FastTab
 
 |Field|	Filter|
+|---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
 |No.|	Enter a payroll to filter which employees receive the award rate change. | 
 
