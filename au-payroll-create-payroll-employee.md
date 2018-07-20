@@ -19,7 +19,7 @@ The following list is used to indicate the field type on each tab:
 
 ## 3.1 Payroll Employee card
 
-The Payroll Employee card is used to create your employee records used to calculate remuneration and process the payrolls.
+The Payroll Employee card is used to create your employee records used to calculate remuneration and process the payrolls
 
 *Departments/Payroll/Employee Maintenance/Payroll Employees*
 
