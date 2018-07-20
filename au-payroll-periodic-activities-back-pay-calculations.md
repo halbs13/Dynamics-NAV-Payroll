@@ -38,11 +38,11 @@ Departments/Payroll/Payroll Processing/Back Pay Calculation
 ||Leave this field blank to generate the pay transactions in the Pay Journal.|  
 |Pay Advice No.|	Use this field to enter the Pay Advice No. you want the transactions paid in.|  
 ||If left zero the system will place the back pay transactions into the current pay advice.|
-B|atch Name|	You may enter the "Batch Name" of the Pay Journal Batch into which the generated back-pay journal lines are to be placed.|
+|Batch Name|	You may enter the "Batch Name" of the Pay Journal Batch into which the generated back-pay journal lines are to be placed.|
 ||This field defaults to the last Pay Journal Batch used.|
 ||Select a Batch Name by selecting the “ArrowDown".|
 |The following fields are default values that cannot be altered.  They are used to confirm the Payroll, Tax Year and pay Period the back pay transactions generated in.|
-|Current Pay:	||
+|Current Pay:	|
            | Payroll No.	|The selected Payroll number.|
            | Tax Year|	The current Tax Year.|
            | Period No.|	The current Pay Period number.|
