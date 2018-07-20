@@ -9,7 +9,7 @@ This table is designed to record historical and future dated transactions of the
 |Employee No.|	M	|This field will contain the Employee’s No. and will default to the employee’s record that you are working with.
 |Starting Date|	M	|This field is used to identify when the Worked Hours are effective.
 |Hours in a Full Week|	M	|This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
-||Enter the new Worked Hours for Hours in a Full Week.
+|||Enter the new Worked Hours for Hours in a Full Week.
 |Hours Worked for TIL Calc.|	M	|This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.  
 |||Enter the new Worked Hours for the TIL Calc.
 |Days Per Week|	M|	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
