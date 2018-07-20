@@ -42,7 +42,7 @@ Departments/Payroll/Payroll Processing/Back Pay Calculation
 ||This field defaults to the last Pay Journal Batch used.|
 ||Select a Batch Name by selecting the “ArrowDown".|
 |The following fields are default values that cannot be altered.  They are used to confirm the Payroll, Tax Year and pay Period the back pay transactions generated in.|
-|Current Pay:	
+|Current Pay:||	
            | Payroll No.	|The selected Payroll number.|
            | Tax Year|	The current Tax Year.|
            | Period No.|	The current Pay Period number.|
