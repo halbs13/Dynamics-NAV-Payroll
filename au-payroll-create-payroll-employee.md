@@ -215,26 +215,27 @@ The information entered on this card is obtained from the employees Tax File Num
 
  
 
-Field	 Field Type	Comments
-Declaration FastTab
-Resident	O	Tick this field if the employee has indicated they have residential status.
-Tax Status		
-Tax Free Threshold Claimed	O	Tick this field if the employee has is claiming the Tax Free Threshold.
-Claim FTB	O	Tick this field if the employee is claiming the Family Tax Benefit.
-Claim Zone Allowance	O	Tick this field and select the zone region the employee has indicated.
-Zone	O	Select the Zone that applies from the “ArrowDown”.
-HELP Debt	O	Tick this field if the employee has indicated they have a HELP debt. 
-Student Loan (SFSS)	O	Tick this field if the employee has indicated they have a SFSS loan.
-Claim Pension Rebate	O	Tick this field if the employee has indicated they are claiming a Pension Rebate.
-Use TFN for Super	O	Tick this field if the employee has indicated they agree to supply their TFN to their Superannuation Company.
-Senior Australians tax offset claimed	O	Tick this field if the employee has indicated they wish to claim the Senior Australians tax offset.
-Rebates Amt. Claimed	O	Enter the value of rebates the employee has claimed.  The employee’s annual tax will be reduced by this amount.
-A.B.N.	O	This field is used to record the Employee’s ABN number if supplied.
-Tax File No.	O	Enter the employee’s Tax File Number.  If you do not have Payroll Supervisor privileges the TFN will not be shown.
-Birth Date	O	Enter the employee’s birth date 
-Date Declaration Signed	O	Enter the date the employee signed the declaration.
-Payee Signature	O	Tick this field if the employee has signed their declaration.
-Declaration Lodged	S	The system populates this field when you produce the electronic declaration lodgement file.
+|Field	 |Field Type	|Comments|
+|---|---|---|
+|Declaration FastTab
+|Resident	|O|	Tick this field if the employee has indicated they have residential status.
+|Tax Status		
+|Tax Free Threshold Claimed|	O	|Tick this field if the employee has is claiming the Tax Free Threshold.
+|Claim FTB	|O|	Tick this field if the employee is claiming the Family Tax Benefit.
+|Claim Zone Allowance|	O	|Tick this field and select the zone region the employee has indicated.
+|Zone|	O|	Select the Zone that applies from the “ArrowDown”.
+|HELP Debt|	O	|Tick this field if the employee has indicated they have a HELP debt. 
+|Student Loan (SFSS)	|O|	Tick this field if the employee has indicated they have a SFSS loan.
+|Claim Pension Rebate|	O	|Tick this field if the employee has indicated they are claiming a Pension Rebate.
+|Use TFN for Super	|O|	Tick this field if the employee has indicated they agree to supply their TFN to their Superannuation Company.
+|Senior Australians tax offset claimed|	O	|Tick this field if the employee has indicated they wish to claim the Senior Australians tax offset.
+|Rebates Amt. Claimed	|O	|Enter the value of rebates the employee has claimed.  The employee’s annual tax will be reduced by this amount.
+|A.B.N.	|O	|This field is used to record the Employee’s ABN number if supplied.
+|Tax File No.|	O	|Enter the employee’s Tax File Number.  If you do not have Payroll Supervisor privileges the TFN will not be shown.
+|Birth Date|	O|	Enter the employee’s birth date 
+|Date Declaration Signed|	O	|Enter the date the employee signed the declaration.
+|Payee Signature|	O	|Tick this field if the employee has signed their declaration.
+|Declaration Lodged|	S|	The system populates this field when you produce the electronic declaration lodgement file.
 
 ### Payroll Employee card - Pay Details FastTab
 This tab is used to display pay details for the employees.  Some fields on this tab are calculated and cannot be maintained on this tab.
