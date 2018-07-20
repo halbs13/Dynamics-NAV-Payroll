@@ -130,21 +130,21 @@ This tab is used to determine the standard hours worked and can be used to calcu
 |||•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
 |||A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
 |||Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
-D|ays Per Week	|M|	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
+|Days Per Week	|M|	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
 |||Default Days Per Week can be defaulted from the following areas;
 |||•	Payroll Card – the no. of days can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
 |||•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
 |||A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
 |||Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
 |Over Award Applicable	|O	|Tick this field if the employee is entitled to receive Over Award Rates of Pay. Only applicable if using awards
-|Flexitime Applicable|	O	\Tick this field if you wish to calculate an Employee's entitlement based on hours worked.
+|Flexitime Applicable|	O	|Tick this field if you wish to calculate an Employee's entitlement based on hours worked.
 |||If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.
 |Work Schedule Code	|O	|The Work Schedule Code is used to define the work pattern worked by an employee.
 |||Click on the “DrillDown” button to access and update the “Employee Worked Hours” table which is used to record historical and future-dated Worked Hours and where the Work Schedule Code can be entered.
 |||The following fields are for display purpose only.  The fields are set up by clicking the Payroll button and then select Pay Rates from the menu.  The Pay Rate displayed is the Current Payroll Period as of the starting date for the Classification Rate.  See the section on Awards in this manual for more details. The following fields are blank if the Employee Start Date is in a future Pay Period in the Pay Rate card
 |Classification Code|	S|	This field displays the “Classification Code” within the award for this employee
 |Award Code|	S	|This field displays the “Award Code” for the employee.
-|Rate Start Date|	S	\This field displays the date the employee started on this Pay Rate.
+|Rate Start Date|	S	|This field displays the date the employee started on this Pay Rate.
 |Employee Rat|	S	|The Employee Rate is the “Employee Rate” entered for this employee in the Employee Pay Rate Card.
 |Award Rate|	S	|The Award Rate is the rate that applies to this award classification.
 |Over Award Rate|	S	|The over award pay rate for this award classification.
