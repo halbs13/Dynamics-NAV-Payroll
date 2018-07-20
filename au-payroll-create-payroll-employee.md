@@ -95,77 +95,67 @@ Global Dimensions are used in conjunction with GL Accounts in the General Ledger
 
  
 
-Field	Field Type	Comments
-Posting FastTab
-Branch Code	O	This field is used to select the Branch.  The branch is used for Payroll Posting Groups and is associated with a State for Payroll Tax calculations.
-Division Code	O	This field is used to select the Division.
-The division is used for Payroll Posting Groups
-Department Code	O	This field is used to assign Global Dimension 1 to the employee (setup in the Financial Management granule)
-Project Code	O	This field is used to assign Global Dimension 2 to the employee (setup in the Financial Management granule)
-Job No	O	Selected from the Job numbers in the Job window
-Job Task No	O	Mandatory when a Job No is used.  If not entered the Pay Journal will not post.  This field is only used in NAV5
-Gen Bus. Posting Group	O	Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
-GST Bus. Posting Group	O	Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
-Currency Code	O	Used if multiple currency is being used.  Only 1 currency type can exist for a payroll.
+|Field	|Field Type	|Comments
+|---|---|---|
+|Posting FastTab
+|Branch|	O	|This field is used to select the Branch.  The branch is used for Payroll Posting Groups and is associated with a State for Payroll Tax calculations.
+|Division Code|	O	|This field is used to select the Division.
+|||The division is used for Payroll Posting Groups
+|Department Code|	O	|This field is used to assign Global Dimension 1 to the employee (setup in the Financial Management granule)
+|Project Code|	O	|This field is used to assign Global Dimension 2 to the employee (setup in the Financial Management granule)
+|Job No|	O	|Selected from the Job numbers in the Job window
+|Job Task No|	O	|Mandatory when a Job No is used.  If not entered the Pay Journal will not post.  This field is only used in NAV5
+|Gen Bus. Posting Group|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
+|GST Bus. Posting Group|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
+|Currency Code|	O	|Used if multiple currency is being used.  Only 1 currency type can exist for a payroll.
  
-3.1.3	Payroll Employee card – Rate FastTab
+### Payroll Employee card – Rate FastTab
+
 This tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.
 
  
+|Field	|Field Type|	Comments|
+|---|---|---|
+|Rate FastTab
+|The first three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.
+|Hours in a Full Week|	M	|This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
+|||Hours can be defaulted from the following areas;
+|||•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
+|||•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
+|||A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
+|||Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
+|Hours Worked for TIL|	M	|This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.  
+|||Hours can be defaulted from the following areas;
+|||•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
+|||•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
+|||A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
+|||Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
+D|ays Per Week	|M|	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
+|||Default Days Per Week can be defaulted from the following areas;
+|||•	Payroll Card – the no. of days can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
+|||•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
+|||A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
+|||Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
+|Over Award Applicable	|O	|Tick this field if the employee is entitled to receive Over Award Rates of Pay. Only applicable if using awards
+|Flexitime Applicable|	O	\Tick this field if you wish to calculate an Employee's entitlement based on hours worked.
+|||If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.
+|Work Schedule Code	|O	|The Work Schedule Code is used to define the work pattern worked by an employee.
+|||Click on the “DrillDown” button to access and update the “Employee Worked Hours” table which is used to record historical and future-dated Worked Hours and where the Work Schedule Code can be entered.
+|||The following fields are for display purpose only.  The fields are set up by clicking the Payroll button and then select Pay Rates from the menu.  The Pay Rate displayed is the Current Payroll Period as of the starting date for the Classification Rate.  See the section on Awards in this manual for more details. The following fields are blank if the Employee Start Date is in a future Pay Period in the Pay Rate card
+|Classification Code|	S|	This field displays the “Classification Code” within the award for this employee
+|Award Code|	S	|This field displays the “Award Code” for the employee.
+|Rate Start Date|	S	\This field displays the date the employee started on this Pay Rate.
+|Employee Rat|	S	|The Employee Rate is the “Employee Rate” entered for this employee in the Employee Pay Rate Card.
+|Award Rate|	S	|The Award Rate is the rate that applies to this award classification.
+|Over Award Rate|	S	|The over award pay rate for this award classification.
+|Actual Rate 	|S	|The Actual Rate will be the sum of the “Award Rate” plus the “Over Award Rate” plus the “Employee Weekly Rate”.
+|||This sum is the total actual rate for this employee.
+|Pay Rate|	S	|This is the employee’s actual pay rate multiplied by the Hours in a Full Week.
+|Pay Period Rate|	S|	This value reflected in this section is the employee’s pay per pay period.  
+|Annual Rate|	S|	The value reflected in this section is the employee annual rate of pay.
 
-Field	Field Type	Comments
-Rate FastTab
-The first three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.
-Hours in a Full Week	M	This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
+#### Payroll Employee card - Employee Worked Hours
 
-Hours can be defaulted from the following areas;
-
-•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
-•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
-
-A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
-
-Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
-Hours Worked for TIL	M	This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.  
-
-Hours can be defaulted from the following areas;
-
-•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
-•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
-
-A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
-
-Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
-Days Per Week	M	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
-
-Default Days Per Week can be defaulted from the following areas;
-
-•	Payroll Card – the no. of days can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
-•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
-
-A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
-
-Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
-Over Award Applicable	O	Tick this field if the employee is entitled to receive Over Award Rates of Pay. Only applicable if using awards
-Flexitime Applicable	O	Tick this field if you wish to calculate an Employee's entitlement based on hours worked.
-If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.
-Work Schedule Code	O	The Work Schedule Code is used to define the work pattern worked by an employee.
-
-Click on the “DrillDown” button to access and update the “Employee Worked Hours” table which is used to record historical and future-dated Worked Hours and where the Work Schedule Code can be entered.
-The following fields are for display purpose only.  The fields are set up by clicking the Payroll button and then select Pay Rates from the menu.  The Pay Rate displayed is the Current Payroll Period as of the starting date for the Classification Rate.  See the section on Awards in this manual for more details. The following fields are blank if the Employee Start Date is in a future Pay Period in the Pay Rate card
-Classification Code	S	This field displays the “Classification Code” within the award for this employee
-Award Code	S	This field displays the “Award Code” for the employee.
-Rate Start Date	S	This field displays the date the employee started on this Pay Rate.
-Employee Rate	S	The Employee Rate is the “Employee Rate” entered for this employee in the Employee Pay Rate Card.
-Award Rate	S	The Award Rate is the rate that applies to this award classification.
-Over Award Rate	S	The over award pay rate for this award classification.
-Actual Rate 	S	The Actual Rate will be the sum of the “Award Rate” plus the “Over Award Rate” plus the “Employee Weekly Rate”.
-This sum is the total actual rate for this employee.
-Pay Rate	S	This is the employee’s actual pay rate multiplied by the Hours in a Full Week.
-Pay Period Rate	S	This value reflected in this section is the employee’s pay per pay period.  
-Annual Rate	S	The value reflected in this section is the employee annual rate of pay.
-
-3.1.3.1	Payroll Employee card - Employee Worked Hours
 In the “Hours In A Full Week” field, select the “DrillDown” button (Shift+F8) to enter into the Employee Worked Hours table.  
 
 This table is designed to record historical and future dated transactions of the hours an employee has/will work.
