@@ -18,6 +18,7 @@ Departments/Payroll/Payroll Processing/Back Pay Calculation
  
 
 4.9.1.1	Back Pay Calculation – Options FastTab
+
 |Field|	Comments|
 |---|---|
 |The first 4 fields specify the period of time to apply the back pay calculation.|
