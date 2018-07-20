@@ -52,6 +52,7 @@ Departments/Payroll/Payroll Processing/Back Pay Calculation
 4.9.1.2	Back Pay Calculation – Payroll Employee FastTab
 
 |Field	|Filter|
+|---|---|
 |Only the standard fields are covered here.  A full list of fields available as filters can be used, by selecting the first blank line, and selecting the “ArrowDown".|  
 |Employee No.|	Select the Employee(s) No. by selecting the “ArrowDown".|
 ||Leave blank to include all employee in this payroll|
