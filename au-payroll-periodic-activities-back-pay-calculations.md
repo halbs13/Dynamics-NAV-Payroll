@@ -43,10 +43,10 @@ Departments/Payroll/Payroll Processing/Back Pay Calculation
 ||Select a Batch Name by selecting the “ArrowDown".|
 |The following fields are default values that cannot be altered.  They are used to confirm the Payroll, Tax Year and pay Period the back pay transactions generated in.|
 |Current Pay:||	
-           | Payroll No.	|The selected Payroll number.|
-           | Tax Year|	The current Tax Year.|
-           | Period No.|	The current Pay Period number.|
-           | Pay Period Start Date|	The Starting dates of the current Pay Period.|
+| Payroll No.	|The selected Payroll number.|
+| Tax Year|	The current Tax Year.|
+| Period No.|	The current Pay Period number.|
+| Pay Period Start Date|	The Starting dates of the current Pay Period.|
 |Pay Period End Date	|The Ending dates of the current Pay Period.|
 
 4.9.1.2	Back Pay Calculation – Payroll Employee FastTab
