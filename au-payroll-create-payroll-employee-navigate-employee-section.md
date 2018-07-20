@@ -46,7 +46,6 @@ Selecting the Alternative Addresses icon will allow you to add/review any altern
 Selecting the Gangs icon will allow you to review the Work Gangs that has been assigned to the employee’s record.  
 
  
-
  
 ### Payroll Employee card – Navigate ribbon - Posted Pay Advices
 Selecting the “Posted Pay Advices” icon will allow you to review the pay slips which have been posted for the employee.  You can reprint or re-email previously posted pay advices.
@@ -72,40 +71,42 @@ The (Employee) Ledger Entries window lists all the employee’s payroll transact
 
 The Navigate ribbon provides you with other options for further analyse the entries:  
 
-•	G/L Cost Allocations - displays the general ledger cost allocation breakdown of the Employee Ledger Entry line selected in the list.
-•	Job Cost Allocations - displays the job cost allocation breakdown of the Employee Ledger Entry line selected in the list.
-•	Dimensions - displays the Dimension Values used to post the selected entry.
+* G/L Cost Allocations - displays the general ledger cost allocation breakdown of the Employee Ledger Entry line selected in the list.
+* Job Cost Allocations - displays the job cost allocation breakdown of the Employee Ledger Entry line selected in the list.
+* Dimensions - displays the Dimension Values used to post the selected entry.
 
  
-3.3.8	Payroll Employee card – Navigate ribbon - Super Ledger Entries
+### Payroll Employee card – Navigate ribbon - Super Ledger Entries
 The Superannuation Ledger Entries window lists all the employee’s superannuation transactions posted to the Payroll Superannuation Sub-Ledger from the Pay Journal.
 
 Note: On cost superannuation transactions do not display until the Calculate Monthly Superannuation process has been produced.
 
  
-3.3.9	Payroll Employee card – Navigate ribbon - Leave Ledger Entries
+### Payroll Employee card – Navigate ribbon - Leave Ledger Entries
 
 The Leave Ledger Entries window displays all the employee’s leave transactions posted to the Payroll Leave Sub-Ledger.
 
  
-3.3.10	Payroll Employee card – Navigate ribbon - Statistics
+### Payroll Employee card – Navigate ribbon - Statistics
+
 Selecting the Statistics icon will display the employee’s payment summary statistics for the Current Pay Period, Current Year and Last Year.  Information relating the Employee Termination Payment (ETP) can also be viewed.  
 
- 
-
-3.3.10.1	Statistics Payment Summary FastTab
-
-Field	Comments
-Gross	This field displays the Gross value that prints on the Payment Summary (This Year column).  The employee sacrificed super has been deducted from these totals.
-Allowances	This field displays the total of Allowance values that print on the Payment Summary. (This Year column).  
-Union or Prof. Assoc. Fees	This field displays; the total of all Union Fees that print on the Payment Summary as a positive amount
-Lump Sum A	This field displays the total of Lump Sum Payments printed at label A on the Payment Summary.
-Lump Sum B	This field displays the total of Lump Sum Payments printed at label B on the Payment Summary.
-Lump Sum D	This field displays the total of Lump Sum Payments printed at label D on the Payment Summary.
-Tax	This field displays the total Tax printed on the Payment Summary as a positive amount
 
 
-3.3.10.2	Statistics ETP Payment Summary FastTab
+#### Statistics Payment Summary FastTab
+
+|Field |Comments|
+|---|---|
+|Gross |This field displays the Gross value that prints on the Payment Summary (This Year column).  The employee sacrificed super has been deducted from these totals.|
+|Allowances| This field displays the total of Allowance values that print on the Payment Summary. (This Year column).|
+|Union or Prof. Assoc. Fees| This field displays; the total of all Union Fees that print on the Payment Summary as a positive amount
+|Lump Sum A |This field displays the total of Lump Sum Payments printed at label A on the Payment Summary.
+|Lump Sum B |This field displays the total of Lump Sum Payments printed at label B on the Payment Summary.
+|Lump Sum D |This field displays the total of Lump Sum Payments printed at label D on the Payment Summary.
+|Tax| This field displays the total Tax printed on the Payment Summary as a positive amount
+
+
+#### Statistics ETP Payment Summary FastTab
 
 Field	Comments
 Only data from the “Employee Term. Pmt.” Table is shown.
