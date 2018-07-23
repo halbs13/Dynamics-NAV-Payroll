@@ -39,6 +39,7 @@ To open the Mass Adjust Leave Accruals window,
 ||This option is used to enter leave balances for a payroll implementation.
 ||Leave this option blank to post the provision to the General Ledger
 
+
 #### Mass Adjust Leave Accruals – Home ribbon
 
  |Field	|Comments|
@@ -50,6 +51,7 @@ To open the Mass Adjust Leave Accruals window,
 |Page section
 |Refresh|	The Refresh function will refresh data on the Journal page.
 |Find|	The Find function is used to Find information contained in the Journal.
+ 
  
 #### Mass Adjust Leave Accruals – Actions ribbon
 
@@ -68,6 +70,7 @@ The Calculate Leave Provision calculates the Leave Accrual and Entitlements and 
 
 This Report uses the current Leave Days accrued and entitled for each Employee and multiplies these by the current Employee pay rate to calculate the provision value for each Employee.
 
+
 ### Leave Accrual Posting
 
 To open the Calculation Leave Provision window,
@@ -81,7 +84,6 @@ Once you have selected the Payroll the Calculate Leave Provisions form is displa
 This form has three tabs; Leave Type, Payroll Employee and Options:
 
  
-
 #### Calculate Leave Provision – Options FastTab
 
 |Field	|Filter|
@@ -91,6 +93,7 @@ This form has three tabs; Leave Type, Payroll Employee and Options:
 |Post to G/L	|This field is Optional.  Select this option when you wish to post the Leave Expense and Provision to the General Ledger.  
 ||If you leave this option blank you will be previewing the report in “Report Only” mode which generates how the transactions will appear when posted to the General Ledger.
 
+
 #### Calculate Leave Provision – Leave Type FastTab
 
 |Field	|Filter|
@@ -98,6 +101,7 @@ This form has three tabs; Leave Type, Payroll Employee and Options:
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
 |Code	|Select the Leave Type you wish to process.  
 ||If left blank then all leave types are processed.
+
 
 #### Calculate Leave Provision – Payroll Employee FastTab
 
@@ -108,118 +112,123 @@ This form has three tabs; Leave Type, Payroll Employee and Options:
 ||If left blank all employees are processed.
  
  
-5.1.4	Leave Reporting
+### Leave Reporting
 There are 2 leave reports available from within the Leave Processing menu and throughout the Dynamics NAV Payroll module:
 
 1.	Employee Leave Entitlement
 2.	Employee Time In Lieu Adm List
 
-5.1.4.1	Employee Leave Entitlement
+
+### Employee Leave Entitlement
 The Employee Leave Entitlement Report contains Employee Leave accrual information and can be used to reconcile leave provision postings to the General Ledger.
 To generate the Employee Leave Entitlement Report, 
 
-Departments/Payroll/EOM Processing/Leave Processing/Employee Leave Entitlement 
+*Departments/Payroll/EOM Processing/Leave Processing/Employee Leave Entitlement*
  
 
-5.1.4.1.1	Employee Leave Entitlement Report – Options FastTab
-Field	Filter
-As At Date	Enter in the date you wish the leave entitlements to be calculated to.
+#### Employee Leave Entitlement Report – Options FastTab
 
-Please note that this function only works on leave accrual ledger transactions which have been posted to the Leave Accrual Ledger Entry table.  This date will not forecast accruals in the future.
-Exclude Zero Accruals	Select this option if you wish to exclude zero accruals.
-Group by Global Dimension 1	Select this option if you wish to group the entitlements by Global Dimension 1.
-Print Leave As	There are 3 options available for selection;
+|Field	|Filter|
+|---|---|
+|As At Date|	Enter in the date you wish the leave entitlements to be calculated to.
+||Please note that this function only works on leave accrual ledger transactions which have been posted to the Leave Accrual Ledger Entry table.  This date will not forecast accruals in the future.
+|Exclude Zero Accruals|	Select this option if you wish to exclude zero accruals.
+|Group by Global Dimension 1|	Select this option if you wish to group the entitlements by Global Dimension 1.
+|Print Leave As|	There are 3 options available for selection;
+||1.	Decimal Hours – this calculates and reports the accruals in decimal hours
+||2.	Hours & Minutes – this calculates and reports the accruals in hours and minutes
+||3.	Days – this calculates and reports the accruals in days. 
+|Exclude LSL not Provisioned|	Select this option if you wish to exclude Long Service Leave calculations from the report that have not been provisioned or where the employee has not yet reached an entitlement to the Long Service Leave.
 
-1.	Decimal Hours – this calculates and reports the accruals in decimal hours
-2.	Hours & Minutes – this calculates and reports the accruals in hours and minutes
-3.	Days – this calculates and reports the accruals in days. 
-Exclude LSL not Provisioned	Select this option if you wish to exclude Long Service Leave calculations from the report that have not been provisioned or where the employee has not yet reached an entitlement to the Long Service Leave.
 
+#### Employee Leave Entitlement Report – Leave Type FastTab
 
-5.1.4.1.2	Employee Leave Entitlement Report – Leave Type FastTab
-Field	Filter
-Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
-Code	Select the Leave Type you wish to process.  
-If left blank then all leave types are processed.
+|Field|	Filter|
+|---|---|
+|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
+|Code|	Select the Leave Type you wish to process.  
+||If left blank then all leave types are processed.
 
-5.1.4.1.3	Employee Leave Entitlement Report – Payroll Employee FastTab
-Field	Filter
-Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
-Payroll No.	Enter or Select the Payroll No. by selecting the “ArrowDown”.
-If left blank all employees are processed.
-Employee No.	Enter or Select the Employee No. by selecting the “ArrowDown”. 
-If left blank all employees are processed.
-Branch Code	Enter or Select the Branch Code by selecting the “ArrowDown”.
-If left blank all employees are processed.
-Division Code	Enter or Select the Division Code by selecting the “ArrowDown”.
-If left blank all employees are processed.
+#### Employee Leave Entitlement Report – Payroll Employee FastTab
+
+|Field|	Filter|
+|---|---|
+|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
+|Payroll No.|	Enter or Select the Payroll No. by selecting the “ArrowDown”.
+||If left blank all employees are processed.
+|Employee No.|	Enter or Select the Employee No. by selecting the “ArrowDown”. 
+||If left blank all employees are processed.
+|Branch Code|	Enter or Select the Branch Code by selecting the “ArrowDown”.
+||If left blank all employees are processed.
+|Division Code|	Enter or Select the Division Code by selecting the “ArrowDown”.
+||If left blank all employees are processed.
 
  
-5.1.4.1.4	Employee Leave Entitlement Report Preview 
-
+#### Employee Leave Entitlement Report Preview 
  
 
-Field	Filter
-The Header Section of the report contains information such as the Report Name, Date, Page No., User and the filters applied to produce the report.  
+|Field|	Filter|
+|---|---|
+|The Header Section of the report contains information such as the Report Name, Date, Page No., User and the filters applied to produce the report.  
+|Other information contained in the Detailed Section of the report;
+|•	Emp No.
+|•	Employee Name
+|•	Status
+|•	Starting Date
+|•	Leave Code
+|•	YTD Taken – Year To Date Taken value
+|•	LTD Taken – Life To Date Taken value
+|•	Entitled – This field represents the value of leave up until the employee’s last anniversary date.
+|•	Curr-Pro Rata – This field represents the value of the current pro-rata value from the employee’s last anniversary date to the report date.
+|•	Accrued – This field represents the sum of “Entitled” and “Curr-Pro Rata” for the employee.
+|•	Leave Value
+|•	Loading Value – This field represents the value of Leave Loading.
+|•	On-Cost Value – This field represents the value of the On Costs if this has been setup against the Leave Accrual Card.
+|•	Total Leave Value – This field represents the value represents the sum of “Leave Value”, “Loading Value”, “On-Costs Value”.
 
-Other information contained in the Detailed Section of the report;
 
-•	Emp No.
-•	Employee Name
-•	Status
-•	Starting Date
-•	Leave Code
-•	YTD Taken – Year To Date Taken value
-•	LTD Taken – Life To Date Taken value
-•	Entitled – This field represents the value of leave up until the employee’s last anniversary date.
-•	Curr-Pro Rata – This field represents the value of the current pro-rata value from the employee’s last anniversary date to the report date.
-•	Accrued – This field represents the sum of “Entitled” and “Curr-Pro Rata” for the employee.
-•	Leave Value
-•	Loading Value – This field represents the value of Leave Loading.
-•	On-Cost Value – This field represents the value of the On Costs if this has been setup against the Leave Accrual Card.
-•	Total Leave Value – This field represents the value represents the sum of “Leave Value”, “Loading Value”, “On-Costs Value”.
+### Employee Time In Lieu Adm List
 
-
-5.1.4.2	Employee Time In Lieu Adm List
 The Employee Time In Lieu Adm List report contains Employee Time In Lieu accrual information.  
 To generate the Employee Time In Lieu List, 
 
-Departments/Payroll/EOM Processing/Leave Processing/Employee Time In Lieu Adm List 
+*Departments/Payroll/EOM Processing/Leave Processing/Employee Time In Lieu Adm List* 
  
 
-5.1.4.2.1	Employee Time In Lieu Adm List – Options FastTab
-Field	Filter
-Show Employees with Zero Accrued	Select this option if you wish to show employees with zero accruals.
+#### Employee Time In Lieu Adm List – Options FastTab
+
+|Field|	Filter|
+|---|---|
+|Show Employees with Zero Accrued|	Select this option if you wish to show employees with zero accruals.
 
 
-5.1.4.2.2	Employee Leave Entitlement Report – Payroll Employee FastTab
-Field	Filter
-Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
-Payroll No.	Enter or Select the Payroll No. by selecting the “ArrowDown”.
-If left blank all employees are processed.
-Branch Code	Enter or Select the Branch Code by selecting the “ArrowDown”.
-If left blank all employees are processed.
-Division Code	Enter or Select the Division Code by selecting the “ArrowDown”.
-If left blank all employees are processed.
+#### Employee Leave Entitlement Report – Payroll Employee FastTab
+
+|Field|	Filter|
+|---|---|
+|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
+|Payroll No.	|Enter or Select the Payroll No. by selecting the “ArrowDown”.
+||If left blank all employees are processed.
+|Branch Code|	Enter or Select the Branch Code by selecting the “ArrowDown”.
+||If left blank all employees are processed.
+|Division Code|	Enter or Select the Division Code by selecting the “ArrowDown”.
+||If left blank all employees are processed.
 
  
-5.1.4.2.3	Employee Time In Lieu Adm List Preview 
+#### Employee Time In Lieu Adm List Preview 
 
- 
-
-Field	Filter
-The Header Section of the report contains information such as the Report Name, Date, Page No., User and the filters applied to produce the report.  
-
-Other information contained in the Detailed Section of the report;
-
-•	Emp No.
-•	Employee Name
-•	Accrued – This field represents the value accrued in hours.
-•	Taken – This field represents the leave taken value in hours.
-•	Entitled – This field represents the value of entitlement in hours.
-•	Value as Accrued – This field represents the $ value of the accrual.
-•	Value at Current Rate – This field represents the $ value of the accrual at the employee’s current rate.
-•	Adjustment Required – This field represents if there is an adjustment required to record into the General Ledger.
-•	Accrued – This field represents the value accrued if the accrual is recorded as a value.
-•	Taken – This field represents the value taken if the accrual is recorded as a value.
-•	Entitled – This field represents the entitled value if the accrual is recorded as a value.
+|Field	|Filter|
+|---|---|
+|The Header Section of the report contains information such as the Report Name, Date, Page No., User and the filters applied to produce the report.  
+|Other information contained in the Detailed Section of the report;
+|•	Emp No.
+|•	Employee Name
+|•	Accrued – This field represents the value accrued in hours.
+|•	Taken – This field represents the leave taken value in hours.
+|•	Entitled – This field represents the value of entitlement in hours.
+|•	Value as Accrued – This field represents the $ value of the accrual.
+|•	Value at Current Rate – This field represents the $ value of the accrual at the employee’s current rate.
+|•	Adjustment Required – This field represents if there is an adjustment required to record into the General Ledger.
+|•	Accrued – This field represents the value accrued if the accrual is recorded as a value.
+|•	Taken – This field represents the value taken if the accrual is recorded as a value.
+|•	Entitled – This field represents the entitled value if the accrual is recorded as a value.
