@@ -94,45 +94,40 @@ After you have finished this process you may create the payment and then post th
 ||If a Global Dimension 1 is entered, it will be used. To see the Global Dimension 1 values, select the “ArrowDown” in the field.|
 |Global Dimension 2 (This field is named in General Ledger Setup)	|When left blank the Pay Transaction takes the Global Dimension 2 from the default entered on the Payroll Employee card. If a Global Dimension 2 is entered, it will be used. 
 ||To see the Global Dimension 2 values, select the “ArrowDown” in this field.|
-|If your organisation uses additional Dimensions you must add them by selecting the “Navigate ribbon/Dimensions” |
+||If your organisation uses additional Dimensions you must add them by selecting the “Navigate ribbon/Dimensions” |
 |Job No.|	If your organisation uses the Jobs Granule for Payroll enter the Job Number that the employee was working on. | 
-|If left blank the default job from the Payroll Employee card is used.|
+||If left blank the default job from the Payroll Employee card is used.|
 |Job Task No.|	This field is used to select the Task.  |
-|When left blank, the payroll transaction uses the Task Code entered on the Payroll Employee card. |
+||When left blank, the payroll transaction uses the Task Code entered on the Payroll Employee card. |
 ||If a task code is entered, the payroll transaction uses the Task Code entered. |
 ||Task Codes are selected via the “ArrowDown” in the field.|
 |Override Cost Allocations	|This field is used to override the Employee’s Cost Allocation percentage split for this pay journal line.|
-Start Time	Enter a Start and End Time to automatically calculate the Hours / Mins and units
-End Time	Enter a Start and End Time to automatically calculate the Hours / Mins and units
-Hrs: Mins	Enter the hours and minutes worked and the system will calculate the number of units to be paid.
-Units 	The “Units” field is only used for Transaction Types when a "Rate" is entered.
-
-Unit can be Hours/Decimals, Kilometres, Number of occurrences, etc.
-Rate of Pay	This field displays the Rate from the Payroll Employee card and can be overridden.
-Hourly Rate	This field displays the hourly rate of pay for the transaction type and it can be overridden.
-Amount	This field displays the amount to pay to the employee for this pay transaction type.  The amount is calculated by the rules setup for the Pay Transaction Type.  
-
-The amount field cannot be overridden when a value is entered in the Units field.
-Currency Factor	If your organisation is using multiple currencies the currency conversion factor is displayed in this field.
-Currency Code	If your organisation is using multiple currencies then the currency code is displayed.
-Amount (LCY)	This field displays the same value as the “Amount” field and is used by the system when posting the payroll transactions to the General Ledger.
-The value in this field cannot be overridden.
-Charge Hours	If your organisation uses charge out rates for your employees enter the number of hours charged out.
-Charge Rate	If your organisation charges out your employees the “Charge Rate” from the Payroll Employee card is displayed.
-Charge Amount	If your organisation charges out your employees this field displays the amount of the charge out.
-Work Gang No.	If you have selected “Gang” in the “Type” field for this Pay Line you must enter or select the “Work Gang No.”.
-Subtract From Permanent Hours	This field is used to indicate the units entered are subtracted from the units of permanent hours set up on the Payroll Employee card Gross & Allowances.
-
-This field is only used for Auto Pay Employees. To subtract leave hours from ordinary hours
-
-The Pay Transaction Type may have this flag setup as a default, if so you may override the flag for this Pay line.
-Bal. Account Type	This field displays the General Ledger Balancing account type.  You cannot override the value here.
-Bal. Account No.	This field displays the General Ledger Balancing account number.
-Bank Payment Type	This field is used to indicate the Pay Payment Type. EFT, Manual Cheque, Computer Cheque, Cash, etc
+|Start Time	|Enter a Start and End Time to automatically calculate the Hours / Mins and units|
+|End Time|	Enter a Start and End Time to automatically calculate the Hours / Mins and units|
+|Hrs: Mins	|Enter the hours and minutes worked and the system will calculate the number of units to be paid.|
+|Units |	The “Units” field is only used for Transaction Types when a "Rate" is entered.|
+||Unit can be Hours/Decimals, Kilometres, Number of occurrences, etc.|
+|Rate of Pay	|This field displays the Rate from the Payroll Employee card and can be overridden.|
+|Hourly Rate	|This field displays the hourly rate of pay for the transaction type and it can be overridden.|
+|Amount	|This field displays the amount to pay to the employee for this pay transaction type.  The amount is calculated by the rules setup for the Pay Transaction Type. | 
+||The amount field cannot be overridden when a value is entered in the Units field.|
+|Currency Factor	|If your organisation is using multiple currencies the currency conversion factor is displayed in this field.|
+|Currency Code	|If your organisation is using multiple currencies then the currency code is displayed.|
+|Amount (LCY)	|This field displays the same value as the “Amount” field and is used by the system when posting the payroll transactions to the General Ledger.|
+||The value in this field cannot be overridden.|
+|Charge Hours|	If your organisation uses charge out rates for your employees enter the number of hours charged out.|
+|Charge Rate	|If your organisation charges out your employees the “Charge Rate” from the Payroll Employee card is displayed.|
+|Charge Amount|	If your organisation charges out your employees this field displays the amount of the charge out.|
+|Work Gang No.|	If you have selected “Gang” in the “Type” field for this Pay Line you must enter or select the “Work Gang No.”.|
+|Subtract From Permanent Hours|	This field is used to indicate the units entered are subtracted from the units of permanent hours set up on the Payroll Employee card Gross & Allowances.|
+||This field is only used for Auto Pay Employees. To subtract leave hours from ordinary hours|
+||The Pay Transaction Type may have this flag setup as a default, if so you may override the flag for this Pay line.|
+|Bal. Account Type	|This field displays the General Ledger Balancing account type.  You cannot override the value here.|
+|Bal. Account No.	|This field displays the General Ledger Balancing account number.|
+|Bank Payment Type	|This field is used to indicate the Pay Payment Type. EFT, Manual Cheque, Computer Cheque, Cash, etc|
 
 Additional information is displayed below the journal lines on the Pay Journal card.  This information relates to the currently selected journal line. 
 
- 
 
 Field	Comments
 Pay Description	This field displays the description column for the selected transaction journal line.
