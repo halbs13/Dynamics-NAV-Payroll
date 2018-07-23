@@ -82,6 +82,7 @@ In the bottom section of this form the Interpreted Times for the employee within
 10.13.15.2	Interpretation Worksheet - Bottom Section
 
 |Field|	Comments|
+|---|---|
 |Employee no.	|This field displays the employee number entered in the Employee No Filter. |
 |Job No.	|This field is used to display the Job No. the hours worked will post against. |
 |Job Task No	|This field is used to display the Job Task No. the hours worked will post against.|
