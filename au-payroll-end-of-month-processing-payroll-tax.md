@@ -6,11 +6,11 @@ Payroll Tax is calculated as a percentage of the Employee's Pay.
 
 If you are setting up Payroll Tax for the first time you must ensure that the following areas have been established;
 
-1.	Payroll Tax States – these are established in the Payroll Tax menu item in the Payroll Codes Setup (see Section 10.2.4.5 Payroll Tax).
-2.	Payroll Tax Groups – if your organisation has payroll tax groups for the purposes of payroll tax these are established in the Payroll Tax Groups menu in the Payroll Codes Setup (see Section 10.2.4.6 Payroll Tax Group).
-3.	Branches – once the Payroll Tax States have been established they are attached to the Branch Codes which are also defined on the Payroll Employee card when an employee is setup (see Section 10.2.3 General - Branches)
-4.	Payroll Tax on Pay Transaction Types – Payroll Tax codes are established on each of the respective Pay Transaction Types (see Section 10.2.9.7 Pay Transaction Types – Payroll Tax) 
-5.	Payroll Tax Rates – Payroll Tax rates are established for each of the States and Territories (see Section 10.4.2 Payroll Tax).
+1.	Payroll Tax States – these are established in the Payroll Tax menu item in the Payroll Codes Setup.
+2.	Payroll Tax Groups – if your organisation has payroll tax groups for the purposes of payroll tax these are established in the Payroll Tax Groups menu in the Payroll Codes Setup.
+3.	Branches – once the Payroll Tax States have been established they are attached to the Branch Codes which are also defined on the Payroll Employee card when an employee is setup.
+4.	Payroll Tax on Pay Transaction Types – Payroll Tax codes are established on each of the respective Pay Transaction Type.
+5.	Payroll Tax Rates – Payroll Tax rates are established for each of the States and Territories.
 
 Superannuation is also included in the Payroll Tax report and the thresholds are taken into account for each state when calculating the tax.
 
