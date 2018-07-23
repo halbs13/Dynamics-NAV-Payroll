@@ -40,5 +40,5 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Delete Payroll Chan
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown"|
 |Date and Time|	Enter in the Date range of the transactions you wish to delete.|
-|Table No.|	Enter in the Table No. (s) of the data you wish to delete.|
+|Table No.|	Enter in the Table No. (s) of the data you wish to delete|
 
