@@ -91,9 +91,9 @@ After you have finished this process you may create the payment and then post th
 |Payroll Posting Group	|The “Payroll Posting Group” defaults from the Payroll card.|
 |Transaction Posting Group	|The “Transaction Posting Group” defaults from the Transaction Type.  You may override this field.
 |Global Dimension 1 |This field is named in General Ledger Setup)	|When left blank the Pay Transaction takes the Global Dimension 1 from the default entered on the Payroll Employee card. |
-|If a Global Dimension 1 is entered, it will be used. To see the Global Dimension 1 values, select the “ArrowDown” in the field.|
+||If a Global Dimension 1 is entered, it will be used. To see the Global Dimension 1 values, select the “ArrowDown” in the field.|
 |Global Dimension 2 (This field is named in General Ledger Setup)	|When left blank the Pay Transaction takes the Global Dimension 2 from the default entered on the Payroll Employee card. If a Global Dimension 2 is entered, it will be used. 
-To see the Global Dimension 2 values, select the “ArrowDown” in this field.|
+||To see the Global Dimension 2 values, select the “ArrowDown” in this field.|
 |If your organisation uses additional Dimensions you must add them by selecting the “Navigate ribbon/Dimensions” |
 |Job No.|	If your organisation uses the Jobs Granule for Payroll enter the Job Number that the employee was working on. | 
 |If left blank the default job from the Payroll Employee card is used.|
