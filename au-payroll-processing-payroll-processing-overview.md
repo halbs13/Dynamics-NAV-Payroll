@@ -59,32 +59,27 @@ After you have finished this process you may create the payment and then post th
 ||You can enter an Employee Code. or select a code by selecting the “ArrowDown”.|
 |Display Sequence|	This field is used to change the sequence of the displayed journal lines |
 ||Select an option by selecting the “Arrow Down”.|
-|The fields described below may not be required by every organisation.  To select or hide columns in the Pay Journal Line by right clicking in the Journal Headings, select “Choose Columns” then select the columns you wish to Show or Hide.|
+||The fields described below may not be required by every organisation.  To select or hide columns in the Pay Journal Line by right clicking in the Journal Headings, select “Choose Columns” then select the columns you wish to Show or Hide.|
 |Posting Date	|This field displays the posting date.  |
 ||The date must be the same for every record in this pay run.  Any records in the current pay run that have a different Posting Date will cause errors during payroll posting. | 
-|This field is populated using the “Pay Date” entered when calculating the pays.|
+||This field is populated using the “Pay Date” entered when calculating the pays.|
 |Document Date|	This field is used to select the Work date. | 
 ||The default date is the work date entered in the Work Date field.  If the Work date field is left blank then the current pay period end date is used.|
 |From / To Date|	These fields are used to enter leave or specific transaction date ranges if required. | 
-A combination of the Document Date
- and the To Date for the Period prints on the Standard Pay Advice against the Leave Transaction.
-Document No.	This field displays the Document Number for the Document Type.
-Document Type	This field displays the Document Type (Superannuation, EFT, Pay Cheque or Cash).
-Type	This field displays the type (Employee, Bank Account or Gang).
-
-Note Bank Account is system generated for EFT payments and represents the amount to be paid to the employer bank.  
-No.	This field is used to select the code for an employee or gang, dependant on the Type.  The “ArrowDown” is used for selection.
-Shift Code	This field is used to select the shift for this Pay Transaction.  This field may also be populated from the Calculate Payroll for employees on shift rosters.
-Pay Advice No.	This field is system generated but can be manually overridden.  
-
-The “Pay Advice No.” starts from “1” (used for standard period pay) each pay period for each employee.  You can enter as many Pay Advice numbers as you wish for an employee for a pay run.  
-
-E.g. Pay Advice 2 can be used to pay leave in advance because you wish the payment kept separate to the employee’s standard pay.
-Superannuation Code	This field displays the Super Company code for Superannuation Transaction Types.  You can edit this field when using the Superannuation document type
-Transaction Type Code	This field is used to select the Pay Transaction Type (e.g. Ordinary, Sick or Annual Leave etc).
-
-To see the available Transaction types select the “ArrowDown”.
-Associated Transactions	This field indicates if the Pay Transaction Type has Associated transactions generated when ticked.
+||A combination of the Document Date and the To Date for the Period prints on the Standard Pay Advice against the Leave Transaction.|
+|Document No.|	This field displays the Document Number for the Document Type.|
+|Document Type	|This field displays the Document Type (Superannuation, EFT, Pay Cheque or Cash).|
+|Type	|This field displays the type (Employee, Bank Account or Gang).|
+||**Note** Bank Account is system generated for EFT payments and represents the amount to be paid to the employer bank. | 
+|No.	|This field is used to select the code for an employee or gang, dependant on the Type.  The “ArrowDown” is used for selection.|
+|Shift Code	|This field is used to select the shift for this Pay Transaction.  This field may also be populated from the Calculate Payroll for employees on shift rosters.|
+|Pay Advice No.	|This field is system generated but can be manually overridden.|  
+||The “Pay Advice No.” starts from “1” (used for standard period pay) each pay period for each employee.  You can enter as many Pay Advice numbers as you wish for an employee for a pay run.|  
+||E.g. Pay Advice 2 can be used to pay leave in advance because you wish the payment kept separate to the employee’s standard pay.|
+|Superannuation Code	|This field displays the Super Company code for Superannuation Transaction Types.  You can edit this field when using the Superannuation document type|
+|Transaction Type Code	|This field is used to select the Pay Transaction Type (e.g. Ordinary, Sick or Annual Leave etc).|
+||To see the available Transaction types select the “ArrowDown”.|
+|Associated Transactions	|This field indicates if the Pay Transaction Type has Associated transactions generated when ticked.|
 Description	This field displays the Pay Transaction Type description.
 Classification Code	This field displays the default award classification for the employee.  It can be overridden to pay the employee a different Classification in this pay line 
 Branch Code	When left blank, the payroll transaction uses the Branch Code entered on the Payroll Employee card.  
