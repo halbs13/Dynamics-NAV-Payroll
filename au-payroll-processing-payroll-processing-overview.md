@@ -80,40 +80,28 @@ After you have finished this process you may create the payment and then post th
 |Transaction Type Code	|This field is used to select the Pay Transaction Type (e.g. Ordinary, Sick or Annual Leave etc).|
 ||To see the available Transaction types select the “ArrowDown”.|
 |Associated Transactions	|This field indicates if the Pay Transaction Type has Associated transactions generated when ticked.|
-Description	This field displays the Pay Transaction Type description.
-Classification Code	This field displays the default award classification for the employee.  It can be overridden to pay the employee a different Classification in this pay line 
-Branch Code	When left blank, the payroll transaction uses the Branch Code entered on the Payroll Employee card.  
-
-If a Branch code is entered, the payroll transaction uses the Branch Code entered.
-
-Branch Codes are selected via the “ArrowDown” in the field.
-Division Code	When left blank, the payroll transaction uses the Division Code entered on the Payroll Employee card.  
-
-If a Division code is entered, the payroll transaction uses the Division Code entered.
-
-Division Codes are selected via the “ArrowDown” in the field.
-Payroll Posting Group	The “Payroll Posting Group” defaults from the Payroll card.
-Transaction Posting Group	The “Transaction Posting Group” defaults from the Transaction Type.  You may override this field.
-Global Dimension 1 (This field is named in General Ledger Setup)	When left blank the Pay Transaction takes the Global Dimension 1 from the default entered on the Payroll Employee card. 
- 
-If a Global Dimension 1 is entered, it will be used. 
-To see the Global Dimension 1 values, select the “ArrowDown” in the field.
-Global Dimension 2 (This field is named in General Ledger Setup)	When left blank the Pay Transaction takes the Global Dimension 2 from the default entered on the Payroll Employee card.  
-
-If a Global Dimension 2 is entered, it will be used. 
-To see the Global Dimension 2 values, select the “ArrowDown” in this field.
-
-If your organisation uses additional Dimensions you must add them by selecting the “Navigate ribbon/Dimensions” 
-Job No.	If your organisation uses the Jobs Granule for Payroll enter the Job Number that the employee was working on.  
-
-If left blank the default job from the Payroll Employee card is used.
-Job Task No.	This field is used to select the Task.  
-When left blank, the payroll transaction uses the Task Code entered on the Payroll Employee card. 
- 
-If a task code is entered, the payroll transaction uses the Task Code entered. 
-
-Task Codes are selected via the “ArrowDown” in the field.
-Override Cost Allocations	This field is used to override the Employee’s Cost Allocation percentage split for this pay journal line.
+|Description|	This field displays the Pay Transaction Type description.|
+|Classification Code	|This field displays the default award classification for the employee.  It can be overridden to pay the employee a different Classification in this pay line |
+|Branch Code|	When left blank, the payroll transaction uses the Branch Code entered on the Payroll Employee card.  |
+||If a Branch code is entered, the payroll transaction uses the Branch Code entered.|
+||Branch Codes are selected via the “ArrowDown” in the field.|
+|Division Code	|When left blank, the payroll transaction uses the Division Code entered on the Payroll Employee card.  
+||If a Division code is entered, the payroll transaction uses the Division Code entered.|
+||Division Codes are selected via the “ArrowDown” in the field.|
+|Payroll Posting Group	|The “Payroll Posting Group” defaults from the Payroll card.|
+|Transaction Posting Group	|The “Transaction Posting Group” defaults from the Transaction Type.  You may override this field.
+|Global Dimension 1 |This field is named in General Ledger Setup)	|When left blank the Pay Transaction takes the Global Dimension 1 from the default entered on the Payroll Employee card. |
+|If a Global Dimension 1 is entered, it will be used. To see the Global Dimension 1 values, select the “ArrowDown” in the field.|
+|Global Dimension 2 (This field is named in General Ledger Setup)	|When left blank the Pay Transaction takes the Global Dimension 2 from the default entered on the Payroll Employee card. If a Global Dimension 2 is entered, it will be used. 
+To see the Global Dimension 2 values, select the “ArrowDown” in this field.|
+|If your organisation uses additional Dimensions you must add them by selecting the “Navigate ribbon/Dimensions” |
+|Job No.|	If your organisation uses the Jobs Granule for Payroll enter the Job Number that the employee was working on. | 
+|If left blank the default job from the Payroll Employee card is used.|
+|Job Task No.|	This field is used to select the Task.  |
+|When left blank, the payroll transaction uses the Task Code entered on the Payroll Employee card. |
+||If a task code is entered, the payroll transaction uses the Task Code entered. |
+||Task Codes are selected via the “ArrowDown” in the field.|
+|Override Cost Allocations	|This field is used to override the Employee’s Cost Allocation percentage split for this pay journal line.|
 Start Time	Enter a Start and End Time to automatically calculate the Hours / Mins and units
 End Time	Enter a Start and End Time to automatically calculate the Hours / Mins and units
 Hrs: Mins	Enter the hours and minutes worked and the system will calculate the number of units to be paid.
