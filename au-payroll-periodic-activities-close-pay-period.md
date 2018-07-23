@@ -22,4 +22,4 @@ After selecting either “Close Current” or “Close Selected” menu items
 
   
 
-Click the Yes button to close the period (s), alternatively click No to leave the period (s) open
+Click the Yes button to close the period (s), alternatively click No to leave the period (s) open.
