@@ -1,4 +1,4 @@
-4.4	Payroll Processing Overview
+# 4.4	Payroll Processing Overview
 The following steps must be completed in sequence to successfully produce the payroll:
 
 1.	Select a Payroll for processing
@@ -13,15 +13,15 @@ The following steps must be completed in sequence to successfully produce the pa
 These steps do not include every task that can be performed to generate pays. 
 End of Month processes must be performed after the pay(s) has been produced.
 
-•	Payroll Selection
-•	Pay Journal 
-•	End of Month
-4.5	Pay Journal
+*	Payroll Selection
+*	Pay Journal 
+* End of Month
+
+# 4.5	Pay Journal
 You can access the Pay Journal from the following menu:
 
 Departments/Payroll/Payroll Processing/Pay Journal
  
-
 The Pay Journal is used to enter payroll transactions for exceptions if the employee is automatically paid or Time sheet entry if the employee is not automatically paid.  
 
 Various icons are used to calculate, validate, create payments, post, and report the pays.
@@ -32,49 +32,40 @@ Once the Payroll has been selected on the Pay Journal form all payroll transacti
 
 Only the payroll transactions that change from pay to pay are manually entered (E.g. Personal and Annual Leave, bonus payments etc).  
 
-From the Process section on the Home ribbon,  "Calculate Pays” must be selected to generate the transactions setup in the Payroll Employee card.  This function evaluates all the manually entered and pre-generated transactions and generates additional transactions for tax, superannuation, net pay dissections, deductions, etc.
+From the Process section on the Home ribbon,  **"Calculate Pays”** must be selected to generate the transactions setup in the Payroll Employee card.  This function evaluates all the manually entered and pre-generated transactions and generates additional transactions for tax, superannuation, net pay dissections, deductions, etc.
 
-Once the pay is calculated for the employee the transactions cannot be changed on the pay journal.  If changes are required you must use the “Cancel Calculated Pays” icon from the Functions section of the Actions ribbon.  
+Once the pay is calculated for the employee the transactions cannot be changed on the pay journal.  If changes are required you must use the **“Cancel Calculated Pays”** icon from the Functions section of the Actions ribbon.  
 
 Once the pays have been cancelled you can then make the required changes to the Pay Journal Lines or Payroll Employee cards if required.  
 
-Once you are satisfied with the manual entries run the "Calculate Pays" function again. This process can be repeated until you are satisfied the transactions are correct.
+Once you are satisfied with the manual entries run the **"Calculate Pays"** function again. This process can be repeated until you are satisfied the transactions are correct.
 
 After you have finished this process you may create the payment and then post the pay journal to the General ledger.
 
  
- 
-4.5.1	Pay Journal 
-Field	Comments
-Batch	This field displays the default Payroll Batch name
-Payroll No.	This field displays the Payroll selected for processing.
-Tax Year/Period	This field is used to select the “Tax Year” for the Payroll.  You can only select an open Tax Year.  
-Tax Period	This field is used to select the “Period” for the Payroll.  By default the current period (the next period after the last closed pay period) is displayed.  You can select a future period if you wish but you cannot post periods out of sequence. 
-Working Date Filter	This field is blank by default.  
-It can be used as a filter by entering a date to limit the journal lines displayed.
-
-If time sheets are entered daily, the date can be entered to limit the pay journals lines entered for a specific day.
-
-Note To finalise a pay run you must set this field to blank to display every journal line for payroll processing.
-Employee Filter	This field is blank by default.
-
-It can be used as a filter to display journals lines for a specific employee.
-
-You can enter an Employee Code. or select a code by selecting the “ArrowDown”.
-Display Sequence	This field is used to change the sequence of the displayed journal lines 
-Select an option by selecting the “Arrow Down”.
-The fields described below may not be required by every organisation.  To select or hide columns in the Pay Journal Line by right clicking in the Journal Headings, select “Choose Columns” then select the columns you wish to Show or Hide.
-
- 
-
-Posting Date	This field displays the posting date.  
-The date must be the same for every record in this pay run.  Any records in the current pay run that have a different Posting Date will cause errors during payroll posting.  
-
-This field is populated using the “Pay Date” entered when calculating the pays.
-Document Date	This field is used to select the Work date.  
-
-The default date is the work date entered in the Work Date field.  If the Work date field is left blank then the current pay period end date is used.
-From / To Date	These fields are used to enter leave or specific transaction date ranges if required.  
+# 4.5.1	Pay Journal 
+|Field|	Comments|
+|---|---|
+|Batch|	This field displays the default Payroll Batch name|
+|Payroll No.|	This field displays the Payroll selected for processing.|
+|Tax Year/Period|	This field is used to select the “Tax Year” for the Payroll.  You can only select an open Tax Year.  |
+|Tax Period|	This field is used to select the “Period” for the Payroll.  By default the current period (the next period after the last closed pay period) is displayed.  You can select a future period if you wish but you cannot post periods out of sequence. |
+|Working Date Filter|This field is blank by default.|  
+||It can be used as a filter by entering a date to limit the journal lines displayed.|
+||If time sheets are entered daily, the date can be entered to limit the pay journals lines entered for a specific day.|
+||**Note** To finalise a pay run you must set this field to blank to display every journal line for payroll processing.|
+|Employee Filter|This field is blank by default.|
+||It can be used as a filter to display journals lines for a specific employee.|
+||You can enter an Employee Code. or select a code by selecting the “ArrowDown”.|
+|Display Sequence|	This field is used to change the sequence of the displayed journal lines |
+||Select an option by selecting the “Arrow Down”.|
+|The fields described below may not be required by every organisation.  To select or hide columns in the Pay Journal Line by right clicking in the Journal Headings, select “Choose Columns” then select the columns you wish to Show or Hide.|
+|Posting Date	|This field displays the posting date.  |
+||The date must be the same for every record in this pay run.  Any records in the current pay run that have a different Posting Date will cause errors during payroll posting. | 
+|This field is populated using the “Pay Date” entered when calculating the pays.|
+|Document Date|	This field is used to select the Work date. | 
+||The default date is the work date entered in the Work Date field.  If the Work date field is left blank then the current pay period end date is used.|
+|From / To Date|	These fields are used to enter leave or specific transaction date ranges if required. | 
 A combination of the Document Date
  and the To Date for the Period prints on the Standard Pay Advice against the Leave Transaction.
 Document No.	This field displays the Document Number for the Document Type.
