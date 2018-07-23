@@ -218,7 +218,7 @@ To generate the Employee Time In Lieu List,
 #### Employee Time In Lieu Adm List Preview 
 
 |Field	|Filter|
-|---|---|
+|---|----|
 |The Header Section of the report contains information such as the Report Name, Date, Page No., User and the filters applied to produce the report.  
 |Other information contained in the Detailed Section of the report;
 |•	Emp No.
