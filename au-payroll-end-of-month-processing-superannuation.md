@@ -74,5 +74,6 @@ To open the Calculate & Post Superannuation window,
 The Pay Journal and the Calculate and Post Superannuation will post according to the setup in the Superannuation Company and the Pay Transaction Types.
 
 Debit Super Provision                   +1116.00
+
 Credits Vendors                         -1116.00 
 
