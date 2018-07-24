@@ -129,37 +129,36 @@ After you have finished this process you may create the payment and then post th
 Additional information is displayed below the journal lines on the Pay Journal card.  This information relates to the currently selected journal line. 
 
 
-Field	Comments
-Pay Description	This field displays the description column for the selected transaction journal line.
-Employee Name	This field displays the full name of the employee for the selected journal line.
-Balance	This field displays the sum of the amount field from the first transaction to the selected transaction for the selected employee.  
-Total Balance	The “Total Balance” is the sum of the amount field for all the displayed pay journal line(s).
+|Field|	Comments|
+|---|---|
+|Pay Description|	This field displays the description column for the selected transaction journal line.|
+|Employee Name|	This field displays the full name of the employee for the selected journal line.|
+|Balance	|This field displays the sum of the amount field from the first transaction to the selected transaction for the selected employee. | 
+|Total Balance	|The “Total Balance” is the sum of the amount field for all the displayed pay journal line(s).|
 
-4.5.2	Pay Journal – Home ribbon 
 
- 
-
+# 4.5.2	Pay Journal – Home ribbon 
 The Home ribbon allows for certain processes to be executed.  
 
-
-Field	Comments
-Manage Section
-Delete	This option allows you to delete an un-calculated transactions.
-Process Section
-Calculate Pays	This option uses the manually entered transactions, plus the Allowances and Deductions set up for each Employee in their Payroll Employee card and generates the Journal Pay Transactions
-Post	This option posts the Pay Journal to the General Ledger.  Once you have Posted the Payroll to the General Ledger the amounts cannot be deleted, and errors must be corrected by reversing entries.
-If posting is attempted while an error in the data exists the system will not post any of the data.
-Post and Print	This option performs the post process and also prints a copy of the test report.
-Entry Validation Report	This option is used to check the validity of the transactions in the pay journal.  It must be run and printed before the system allows you to create payments and post the payroll to the General Ledger 
-When error messages occurs on the “Entry Validation Report”, posting to the General Ledger is not possible until the errors have been corrected.
-When warning messages occur you can post the payroll to the General Ledger correcting the warnings is optional
-Create Bank Transfer File	This option is used to create the file of payments for EFT paid employees to be interfaced to your selected bank for each net pay dissection.  
-The dissections have previously been set up on the Payroll Employee card Employee button, Pay Dissections.
-Calculate An Employee’s Pay	This option performs the same function as Calculate Pays for a specific employee or range of employees.
-Cancel Bank Transfer	This option is used to cancel the Bank Transfer file
-Page section
-Refresh	The Refresh function will refresh data on the Pay Journal page.
-Find	The Find function is used to Find information contained in the Pay Journal.
+|Field	|Comments|
+|---|---|
+|Manage Section|
+|Delete|	This option allows you to delete an un-calculated transactions.|
+|Process Section|
+|Calculate Pays	|This option uses the manually entered transactions, plus the Allowances and Deductions set up for each Employee in their Payroll Employee card and generates the Journal Pay Transactions|
+|Post|	This option posts the Pay Journal to the General Ledger.  Once you have Posted the Payroll to the General Ledger the amounts cannot be deleted, and errors must be corrected by reversing entries.|
+||If posting is attempted while an error in the data exists the system will not post any of the data.|
+|Post and Print	|This option performs the post process and also prints a copy of the test report.|
+|Entry Validation Report	|This option is used to check the validity of the transactions in the pay journal.  It must be run and printed before the system allows you to create payments and post the payroll to the General Ledger |
+||When error messages occurs on the “Entry Validation Report”, posting to the General Ledger is not possible until the errors have been corrected.|
+||When warning messages occur you can post the payroll to the General Ledger correcting the warnings is optional|
+|Create Bank Transfer File|	This option is used to create the file of payments for EFT paid employees to be interfaced to your selected bank for each net pay dissection. | 
+|The dissections have previously been set up on the Payroll Employee card Employee button, Pay Dissections.|
+|Calculate An Employee’s Pay	|This option performs the same function as Calculate Pays for a specific employee or range of employees.|
+|Cancel Bank Transfer	|This option is used to cancel the Bank Transfer file|
+|Page section|
+|Refresh	|The Refresh function will refresh data on the Pay Journal page.|
+|Find	|The Find function is used to Find information contained in the Pay Journal.|
 
 4.5.3	Pay Journal – Actions ribbon 
 
