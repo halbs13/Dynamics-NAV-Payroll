@@ -79,6 +79,7 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Repo
 The fields on the Superannuation Registration List Report are:
 
 |Report Field	|Field No.	|Obtained from|
+|---|---|---|
 |Employee No.	|(1)	|This is the Employee No.|
 |Employee Name	|(2)	|This is the Employee Name.|
 |Membership No.	|(3)	|This is the Superannuation Membership No. for the employee.|
