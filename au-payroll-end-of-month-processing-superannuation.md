@@ -47,7 +47,7 @@ If the employee fails to meet the criteria the SGC components are not contribute
 
 This process is used to calculate and post superannuation transactions to the General Ledger and create the Vendor invoices. 
 
-To open the Calculate & Post Superannuation window,
+To open the Calculate & Post Superannuation window
 
 *Departments/Payroll/EOM Processing/Superannuation Processing/Calculate & Post Superannuation*
  
