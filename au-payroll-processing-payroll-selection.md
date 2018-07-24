@@ -1,4 +1,4 @@
-4.2	Payroll Selection
+# 4.2	Payroll Selection
 A Payroll can be selected by you as the default for all the processes, tasks, and activities.  
 If you don’t select a default Payroll when you select a process, task or activity the Payroll Selection window is displayed and you must select the Payroll you wish to perform the activity task or process on before you can continue. 
 
@@ -16,16 +16,15 @@ To open the Payroll Selection window:
 Departments/Payroll/Payroll Processing/Payroll Selection
 
 
- 
-
-Field	Comments
-No.	This field is used to display the Payroll Number 
-Group Account No.	This field is used to display the PAYG Group Number allocated to your company by ATO.
-Company Name	This field is used to display the Name of the Company.
-Ship-To Contact	This field is used to display the name of the contact person to whom items for the payroll should be shipped.
-Company Phone No.	This field is used to display the Company's telephone Number.
-“OK” button	Use this button to make the selected Payroll line your default 
-“Clear Selection” option	Use this button to de-select your default payroll 
+|Field	|Comments|
+|---|---|
+|No.	|This field is used to display the Payroll Number| 
+|Group Account No.	|This field is used to display the PAYG Group Number allocated to your company by ATO.|
+|Company Name	|This field is used to display the Name of the Company.|
+|Ship-To Contact	|This field is used to display the name of the contact person to whom items for the payroll should be shipped.|
+|Company Phone No.	|This field is used to display the Company's telephone Number.|
+|**“OK”**| button	Use this button to make the selected Payroll line your default |
+|**“Clear Selection”**| option	Use this button to de-select your default payroll| 
 
 
  
