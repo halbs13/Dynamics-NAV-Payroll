@@ -157,21 +157,21 @@ Run ID	|(1)|	This identifies the Run ID of the Superannuation Export & Notificat
 
 
 
-5.2.4.2.2	Pay Advice Notification 
+#### Pay Advice Notification 
 
 The Pay Advice Notification Report flags the Employee Superannuation Ledger entry records as reported to your employees.  The following steps outline the process:
 
-•	Select the Pay Advice Notification Report.
-•	Select the Employees or Groups of Employees on the “Superannuation Ledger Entry” tab.
-•	Select the “Payroll No.” you wish to process.
-•	Enter either the “Pay Period End” or “Contribution” date.  If a Payroll is not selected the “Pay Period End” date field is greyed out.
-•	Select the “Run Type”.  It is recommended that the “Run Type” option “Preview no post” is run initially to reconcile the fund amounts before running the report and committing the amounts reported to employees.  When selecting this option a report is produced.  
-•	Enter the “Date Paid to Fund”.  This is the date that the payments were made to the Superannuation Fund.
-•	Enter the “File Export Location”.  Enter the path you wish the “.CSV” file to be placed.  This field is greyed out except for Run Type  “Post and create letter file” or “Employees with no pay next period”
-•	Select either the “Print” or “Preview” button to run the process.
-•	If you have selected the Run Type “Post and create Pay Advice record” then you must run the “Employees with no pay next period” after you have processed your payrolls for the next pay period.  This option will create a .CSV file so that you can use Word and Mail Merge to produce a letter to your employees who were not paid.
+* Select the Pay Advice Notification Report.
+* Select the Employees or Groups of Employees on the “Superannuation Ledger Entry” tab.
+* Select the “Payroll No.” you wish to process.
+* Enter either the “Pay Period End” or “Contribution” date.  If a Payroll is not selected the “Pay Period End” date field is greyed out.
+* Select the “Run Type”.  It is recommended that the “Run Type” option “Preview no post” is run initially to reconcile the fund amounts before running the report and committing the amounts reported to employees.  When selecting this option a report is produced.  
+* Enter the “Date Paid to Fund”.  This is the date that the payments were made to the Superannuation Fund.
+* Enter the “File Export Location”.  Enter the path you wish the “.CSV” file to be placed.  This field is greyed out except for Run Type  “Post and create letter file” or “Employees with no pay next period”
+* Select either the “Print” or “Preview” button to run the process.
+* If you have selected the Run Type “Post and create Pay Advice record” then you must run the “Employees with no pay next period” after you have processed your payrolls for the next pay period.  This option will create a .CSV file so that you can use Word and Mail Merge to produce a letter to your employees who were not paid.
 
-5.2.4.2.3	Example of the Pay Advice message:
+#### Example of the Pay Advice message:
 
 “The Superannuation payment of $9999.99 for the period of dd/mm/yyyy to dd/mm/yyyy was paid into xxxxxxxxxxxxxx for credit to your account 99999999 on dd/mm/yyyy.”
 
@@ -179,31 +179,30 @@ This message will be printed on the Pay Advice for each Superannuation fund the 
 
 Note: Each company has subtle setup differences to meet their business requirements.  It is recommended that the values on the report are verified prior to distribution. 
 
-5.2.4.2.4	Possible Error Messages
+#### Possible Error Messages
 
 The employee’s Superannuation record for the Superannuation Product Code has been changed or deleted after payments have been made to the fund during the Superannuation Reporting period.
 
 In the Payroll Employee card/Navigate ribbon/Superannuation add the deleted Superannuation Product Code.  Change the amounts and percentage value to zero to prevent the deduction from processing in future pay journals.
 
-5.2.4.3	Super. Payment Export Reversal 
+#### Super. Payment Export Reversal 
 
 You may use this process to reverse the Superannuation Notification Report by entering the “SGC Extract Report Run Id” for the current processing month.  The “SGC Extract Report Run Id” is located on the Superannuation Payment Export and Notification Report towards the top left hand corner of the report.  You can only reverse the Payment process in the following conditions:
 
-•	When you have used the Letter (.CSV) file.  You can reverse the process up to one month after the file has been produced.  If you have already issued the letters a letter explaining the changes you have made must be issued to the employees.
-•	When you have used the Pay Advice option.  You can only reverse the process up until you print the Pay Advices in the next pay run.
+* When you have used the Letter (.CSV) file.  You can reverse the process up to one month after the file has been produced.  If you have already issued the letters a letter explaining the changes you have made must be issued to the employees.
+* When you have used the Pay Advice option.  You can only reverse the process up until you print the Pay Advices in the next pay run.
 
 To access the Super. Payment Export Reversal report, 
 
-Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment Export Reversal 
+*Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment Export Reversal* 
  
 
-Field	Comments
-SGC Extract Report Run ID 	Enter the SGC Extract Report Run Id for the Run Id you wish to reverse.
+|Field|	Comments|
+|SGC Extract Report Run ID| 	Enter the SGC Extract Report Run Id for the Run Id you wish to reverse.
+||The Run Id is found at the top left corner of the Superannuation Payment & Notification Report.
+|When you have finished entering your information, click on “OK”.
 
-The Run Id is found at the top left corner of the Superannuation Payment & Notification Report.
-When you have finished entering your information, click on “OK”.
-
-5.2.4.3.1	Running Super. Export & Notification Reversal
+#### Running Super. Export & Notification Reversal
 
 The Reversing process is used to reset the reporting flags where after you have processed the transactions for reporting and wish to make changes.  You can only reverse the transactions if you have not reported the payments to your employees by producing Pay Advices for the next payroll run or created the letter file (.CSV).  The following steps outline the Reversal process.
 
@@ -213,7 +212,7 @@ The Reversing process is used to reset the reporting flags where after you have 
 4.	A message will display the number of records reversed when the process is completed.
 5.	Make any required corrections and repeat your “Super.Payment Export & Notification” process again.
 
-5.2.4.4	Super. Payment History
+#### Super. Payment History
 
 The Super. Payment History report will provide you with information by fund on each of the payments made to an employee.
 
@@ -221,142 +220,144 @@ You enter in the Payroll No., Contribution Date, Date Paid to Fund and whether y
 
 To access the Super. Payment History report, 
 
-Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment History
+*Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment History*
  
 
-
-Field	Comments
-Payroll No.	Select the Payroll No. from the “ArrowDown”.  
-
-If left blank all Payrolls are processed. 
-Contribution Date	Enter in the Contribution Date or the Ending Posting Date that you entered when producing the Super. Payment Export & Notification report.  
-Date Paid to Fund	Enter the date you paid the SGC amounts to the fund.
-Show Detail	If you wish to preview the information in Detail, select this field.
-Superannuation Ledger Entry FastTab – Superannuation Ledger Entry information can be filtered by entering information in this tab.  Otherwise it can be left blank. 
-When you have finished entering your information, select “Preview” or “Print” to produce the file and report.
-
+|Field|	Comments|
+|---|---|
+|Payroll No.|	Select the Payroll No. from the “ArrowDown”.  
+||If left blank all Payrolls are processed. 
+|Contribution Date|	Enter in the Contribution Date or the Ending Posting Date that you entered when producing the Super. Payment Export & Notification report.  
+|Date Paid to Fund|	Enter the date you paid the SGC amounts to the fund.
+||Show Detail	If you wish to preview the information in Detail, select this field.
+|Superannuation Ledger Entry FastTab – Superannuation Ledger Entry information can be filtered by entering information in this tab.  Otherwise it can be left blank. 
+|When you have finished entering your information, select “Preview” or “Print” to produce the file and report.
 
 
-5.2.4.4.1	Employee SGC Reporting History (Super.Payment History Report) – Detail
+
+#### Employee SGC Reporting History (Super.Payment History Report) – Detail
 
  
-
-
 The fields on the Employee SGC Reporting History (Super. Payment History) report are:
 
-Report Field	Field No.	Obtained from
-Fund Name	(1)	This field identifies the Superannuation Fund Code for the employee.
-Superannuation Code	(2)	This field identifies the Superannuation Product Code for the employee.
-Membership No.	(3)	This field is the Employee’s Superannuation Membership No.
-Date Paid To Super Fund	(4)	This field is the Date the Superannuation was paid to the Superannuation Fund.
-Amount paid on Date	(5)	This is the amount that as paid to the Superannuation Fund.
-Fund Total	(6)	This is the Fund Total for the Employee.
-Employee Total	(7)	This is the Employee Total for the Employee.
-Employee No.	(8)	This is the Employee No.
-Employee Name	(9)	This is the Employee Name.
+|Report Field	|Field No.	|Obtained from|
+|---|---|---|
+|Fund Name	|(1)|	This field identifies the Superannuation Fund Code for the employee.
+|Superannuation Code	|(2)|	This field identifies the Superannuation Product Code for the employee.
+|Membership No.|	(3)	|This field is the Employee’s Superannuation Membership No.
+|Date Paid To Super Fund	|(4)|	This field is the Date the Superannuation was paid to the Superannuation Fund.
+|Amount paid on Date	|(5)	|This is the amount that as paid to the Superannuation Fund.
+|Fund Total|	(6)	|This is the Fund Total for the Employee.
+|Employee Total|	(7)	|This is the Employee Total for the Employee.
+|Employee No.|	(8)|	This is the Employee No.
+|Employee Name	|(9)|	This is the Employee Name.
 
-5.2.4.4.2	Employee SGC Reporting History (Super.Payment History Report) – Summary
+
+##### Employee SGC Reporting History (Super.Payment History Report) – Summary
 
  
-
 The fields on the Employee SGC Reporting History (Super. Payment History) report are:
 
-Report Field	Field No.	Obtained from
-Fund Name	(1)	This field identifies the Superannuation Fund Code for the employee.
-Superannuation Code	(2)	This field identifies the Superannuation Product Code for the employee.
-Membership No.	(3)	This field is the Employee’s Superannuation Membership No.
-Date Paid To Super Fund	(4)	This field is the Date the Superannuation was paid to the Superannuation Fund.
-Amount paid on Date	(5)	This is the amount that as paid to the Superannuation Fund.
-Fund Total	(6)	This is the Fund Total for the Employee.
-Employee Total	(7)	This is the Employee Total for the Employee.
-Employee No.	(8)	This is the Employee No.
-Employee Name	(9)	This is the Employee Name.
+|Report Field	|Field No.	|Obtained from|
+|---|---|---|
+|Fund Name	|(1)|	This field identifies the Superannuation Fund Code for the employee.
+|Superannuation Code	|(2)	|This field identifies the Superannuation Product Code for the employee.
+|Membership No.	|(3)|	This field is the Employee’s Superannuation Membership No.
+|Date Paid To Super Fund	|(4)|	This field is the Date the Superannuation was paid to the Superannuation Fund.
+|Amount paid on Date |(5)|	This is the amount that as paid to the Superannuation Fund.
+|Fund Total	|(6)|	This is the Fund Total for the Employee.
+|Employee Total	|(7)|	This is the Employee Total for the Employee.
+|Employee No.	|(8)	|This is the Employee No.
+|Employee Name	|(9)|	This is the Employee Name.
 
  
-5.2.4.5	Superannuation File Layouts
+### Superannuation File Layouts
 
-5.2.4.5.1	New Member Registration Export
+#### New Member Registration Export
+
 The fields contained in the New Member Registration Export file are:
 
-Field Name	Description
-Company Name	The “Company Name” is sourced from the Company Name field on the Payroll card the employee is assigned to.
-Company ABN	The “Company ABN” is sourced from the Company ABN field on the Payroll card the employee is assigned to
-Fund Assigned Employer No.	The “Fund Assigned Employer No.” is sourced from the Superannuation Fund the employee is assigned to.
-Fund ABN	The “Fund ABN” is sourced from the Superannuation Fund the employee is assigned to.
-Superannuation Fund No. (SFN)	The “Superannuation Fund No. (SFN)” is sourced from the Superannuation Fund the employee is assigned to.
-Product ID No. (SPIN)	The “Product ID No. (SPIN)” is sourced from the Superannuation Product assigned on the Employee Superannuation card. 
-Unique Identifier (USI)	The “Unique Identifier (USI)” is sourced from the Superannuation Product the employee is assigned to.
-Title	The “Title” field is sourced from the Employee card.
-Surname	The “Surname” field is sourced from the Employee card.
-First Name	The “First Name” field is sourced from the Employee card.
-Middle Name	The “Middle Name” field is sourced from the Employee card.
-Gender	The “Gender” field is sourced from the Employee card.
-Birth Date	The “Birth Date” field is sourced from the Employee card.
-Job Title	The “Job Title” field is sourced from the Payroll Employee card.
-Address Line 1	The “Address Line 1” field is sourced from the Employee card.
-Address Line 2	The “Address Line 2” field is sourced from the Employee card.
-Suburb	The “Suburb” is sourced from the Employee card.
-Post Code	The “Post Code” field is sourced from the Employee card.
-State 	The “State” field is sourced from the Employee card.
-Country	The “Country” field is sourced from the Employee card.
-E-Mail 	The “E-Mail” field is sourced from the Employee card.
-Phone No.	The “Phone No.” field is sourced from the Employee card.
-Membership No.	The “Membership No.” field is sourced from the Employee Superannuation card.
-Tax File No.	The “Tax File No.” field is sourced from the Payroll Employee card.
-Payroll ID	The “Payroll ID” field is the Employee No. and is sourced from the Employee card.
-Employment Date	The “Employment Date” field is sourced from the Payroll Employee card.
-Termination Date	The “Termination Date” field is sourced from the Payroll Employee card.
-Termination Reason	The “Termination Reason” field is sourced from the Employee card.
-Annual Salary	The Annual Salary information is sourced from the Employee Pay Rates card.
+|Field Name	|Description|
+|---|---|
+|Company Name|	The “Company Name” is sourced from the Company Name field on the Payroll card the employee is assigned to.
+|Company ABN|	The “Company ABN” is sourced from the Company ABN field on the Payroll card the employee is assigned to
+|Fund Assigned Employer No.|	The “Fund Assigned Employer No.” is sourced from the Superannuation Fund the employee is assigned to.
+|Fund ABN|	The “Fund ABN” is sourced from the Superannuation Fund the employee is assigned to.
+|Superannuation Fund No. (SFN)	|The “Superannuation Fund No. (SFN)” is sourced from the Superannuation Fund the employee is assigned to.
+|Product ID No. (SPIN)	|The “Product ID No. (SPIN)” is sourced from the Superannuation Product assigned on the Employee Superannuation card. 
+|Unique Identifier (USI)|	The “Unique Identifier (USI)” is sourced from the Superannuation Product the employee is assigned to.
+|Title|	The “Title” field is sourced from the Employee card.
+|Surname	|The “Surname” field is sourced from the Employee card.
+|First Name|	The “First Name” field is sourced from the Employee card.
+|Middle Name|	The “Middle Name” field is sourced from the Employee card.
+|Gender|	The “Gender” field is sourced from the Employee card.
+|Birth Date|	The “Birth Date” field is sourced from the Employee card.
+|Job Title|	The “Job Title” field is sourced from the Payroll Employee card.
+|Address Line 1|	The “Address Line 1” field is sourced from the Employee card.
+|Address Line 2|	The “Address Line 2” field is sourced from the Employee card.
+|Suburb|	The “Suburb” is sourced from the Employee card.
+|Post Code|	The “Post Code” field is sourced from the Employee card.
+|State| 	The “State” field is sourced from the Employee card.
+|Country|	The “Country” field is sourced from the Employee card.
+|E-Mail| 	The “E-Mail” field is sourced from the Employee card.
+|Phone No.|	The “Phone No.” field is sourced from the Employee card.
+|Membership No.|	The “Membership No.” field is sourced from the Employee Superannuation card.
+|Tax File No.|	The “Tax File No.” field is sourced from the Payroll Employee card.
+|Payroll ID|	The “Payroll ID” field is the Employee No. and is sourced from the Employee card.
+|Employment Date|	The “Employment Date” field is sourced from the Payroll Employee card.
+|Termination Date|	The “Termination Date” field is sourced from the Payroll Employee card.
+|Termination Reason|	The “Termination Reason” field is sourced from the Employee card.
+|Annual Salary|	The Annual Salary information is sourced from the Employee Pay Rates card.
+|Hours worked per Week|	The “Hours worked per Week” information is sourced from the Payroll Employee card.
+|Date Joined Fund|	The “Date Joined Fund” field is populated from the Employee Superannuation card.
 
-Hours worked per Week	The “Hours worked per Week” information is sourced from the Payroll Employee card.
-Date Joined Fund	The “Date Joined Fund” field is populated from the Employee Superannuation card.
 
+#### Generic Payment Format
 
-5.2.4.5.2	Generic Payment Format
 The fields contained in the Generic Payment file are:
 
-Field Name	Mandatory	Description
-Reference	Mandatory	This is the Reference ID for the file and is system generated.
-Contribution Start Date	Mandatory	The “Contribution Start Date” field is populated from the data that you enter into the Super Payment Export & Notification Form. 
-Contribution End Date	Mandatory	The “Contribution End Date” field is populated from the data that you enter into the Super Payment Export & Notification Form. 
-Organisation Name	Mandatory	The “Organisation Name” is sourced from the Payroll Company Name field.
-Organisation ABN	Mandatory	The “Organisation ABN” is sourced from the Payroll Company ABN field.
-Superannuation Fund Employer ID	Mandatory	The “Superannuation Fund Employer ID” is sourced from the Fund Employer ID on the Superannuation Fund.
-Superannuation Fund ABN	Mandatory	The “Superannuation Fund ABN” is sourced from the Fund ABN on the Superannuation Fund.
-Superannuation Fund Banking Institution Name	Mandatory	The “Superannuation Fund Banking Institution Name” is sourced from the Banking Institution Name on the Superannuation Fund.
-Superannuation Fund Bank Account Name	Mandatory	The “Superannuation Fund Bank Account Name” is sourced from the Bank Account Name on the Superannuation Fund.
-Superannuation Fund Bank Account Number	Mandatory	The “Superannuation Fund Bank Account Number” is sourced from the Bank Account Number on the Superannuation Fund.
-Superannuation Fund Bank Branch No.	Mandatory	The “Superannuation Fund Bank Branch No.” is sourced from the Bank Branch No. on the Superannuation Fund.
-Remittance E-Mail	Mandatory	The “Remittance E-Mail” is sourced from the Remittance E-Mail Address on the Superannuation Fund.  (This will be replaced by IP address from 1 July 2014)
-Electronic Service Address	Mandatory	The “Electronic Service Address” is sourced from the Electronic Service Address on the Superannuation Fund.
-Product ID No. (SPIN)	Mandatory	The “Product ID No.” is sourced from the Product ID No. on the Superannuation Product.
-Unique Identifier (USI)	Mandatory	The “Unique Identifier (USI)” is sourced from the Unique Identifier on the Superannuation Product.
-Employee Membership No.	Mandatory	The “Employee Membership No.” is sourced from the Membership No. on the Employee Superannuation table.
-Employee No.	Optional	The “Employee No.” is sourced from the Employee No. on the Payroll Employee table.
-Tax File Number	Mandatory	The “Tax File Number” is sourced from the Tax File Number on the Payroll Employee table.
-Tax File Number Not Provided Indicator	Mandatory	The “Tax File Number” field is updated is an employee does not provide a Tax File Number.
-Title	Optional	The “Title” is sourced from the Title field on the Employee table.
-Employee Last Name	Mandatory	The “Employee Last Name” is sourced from the Last Name on the Employee table.
-Employee First Name	Mandatory	The “Employee First Name” is sourced from the First Name on the Employee table.
-Employee Middle Name	Optional	The “Employee Middle Name” is sourced from the Middle Name on the Employee table.
-Employee Gender	Optional	The “Employee Gender” is sourced from the Gender on the Employee table.
-Employee Birth Date	Optional	The “Employee Birth Date” is sourced from the Birth Date on the Employee table.
-Employment Start Date	Mandatory	The “Employment Start Date” is sourced from the Start Date on the Employee table.
-Employee Termination Date	Optional	The “Employee Termination Date” is sourced from the Termination Date on the Payroll Employee table.
-Employee Address	Optional	The “Employee Address” is sourced from the Address on the Employee table.
-Employee Address 2 	Optional	The “Employee Address 2” is sourced from the Address 2 on the Employee table.
-Employee Suburb	Optional	The “Employee Suburb” is sourced from the City on the Employee table.
-Employee Post Code	Optional	The “Employee Post Code” is sourced from the Post Code on the Employee table.
-Employee State	Optional	The “Employee State” is sourced from the State on the Employee table.
-Employee Country Name	Optional	The “Employee Country” is sourced from the Country on the Employee table.
-Employee E-Mail	Optional	The “Employee E-Mail” is sourced from the E-Mail on the Employee table.
-Employee Phone No	Optional	The “Employee Phone No.” is sourced from the Phone No. on the Employee table.
-Employee Mobile No.	Optional	The “Employee Mobile No.” is sourced from the Mobile No. on the Employee table.
-Employer SGC Amount	Mandatory	The “Employer SGC Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
-Employee Post Tax Contribution – Personal Contributions	Optional	The “Employee Post Tax Contribution” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.
-Employee Salary Sacrifice Amount	Optional	The “Employee Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.
-Employee Non SGC Amount – Employer Contributions Voluntary	Optional	The “Employer Non SGC Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.
+|Field Name	|Mandatory|	Description|
+|---|---|---|
+|Reference	|Mandatory|	This is the Reference ID for the file and is system generated.
+|Contribution Start Date	|Mandatory|	The “Contribution Start Date” field is populated from the data that you enter into the Super Payment Export & Notification Form. 
+|Contribution End Date	|Mandatory|	The “Contribution End Date” field is populated from the data that you enter into the Super Payment Export & Notification Form. 
+|Organisation Name	|Mandatory|	The “Organisation Name” is sourced from the Payroll Company Name field.
+|Organisation ABN	|Mandatory|	The “Organisation ABN” is sourced from the Payroll Company ABN field.
+|Superannuation Fund Employer ID	|Mandatory|	The “Superannuation Fund Employer ID” is sourced from the Fund Employer ID on the Superannuation Fund.
+|Superannuation Fund ABN	|Mandatory|	The “Superannuation Fund ABN” is sourced from the Fund ABN on the Superannuation Fund.
+|Superannuation Fund Banking Institution Name	|Mandatory|	The “Superannuation Fund Banking Institution Name” is sourced from the Banking Institution Name on the Superannuation Fund.
+|Superannuation Fund Bank Account Name	|Mandatory|	The “Superannuation Fund Bank Account Name” is sourced from the Bank Account Name on the Superannuation Fund.
+|Superannuation Fund Bank Account Number	|Mandatory|	The “Superannuation Fund Bank Account Number” is sourced from the Bank Account Number on the Superannuation Fund.
+|Superannuation Fund Bank Branch No.	|Mandatory|	The “Superannuation Fund Bank Branch No.” is sourced from the Bank Branch No. on the Superannuation Fund.
+|Remittance E-Mail	|Mandatory|	The “Remittance E-Mail” is sourced from the Remittance E-Mail Address on the Superannuation Fund.  (This will be replaced by IP address from 1 July 2014)
+|Electronic Service Address	|Mandatory|	The “Electronic Service Address” is sourced from the Electronic Service Address on the Superannuation Fund.
+|Product ID No. (SPIN)	|Mandatory|	The “Product ID No.” is sourced from the Product ID No. on the Superannuation Product.
+|Unique Identifier (USI)	|Mandatory|	The “Unique Identifier (USI)” is sourced from the Unique Identifier on the Superannuation Product.
+|Employee Membership No.	|Mandatory|	The “Employee Membership No.” is sourced from the Membership No. on the Employee Superannuation table.
+|Employee No.	|Optional|	The “Employee No.” is sourced from the Employee No. on the Payroll Employee table.
+|Tax File Number	|Mandatory|	The “Tax File Number” is sourced from the Tax File Number on the Payroll Employee table.
+|Tax File Number Not Provided Indicator	|Mandatory|	The “Tax File Number” field is updated is an employee does not provide a Tax File Number.
+|Title	|Optional|	The “Title” is sourced from the Title field on the Employee table.
+|Employee Last Name|	Mandatory|	The “Employee Last Name” is sourced from the Last Name on the Employee table.
+|Employee First Name	|Mandatory|	The “Employee First Name” is sourced from the First Name on the Employee table.
+|Employee Middle Name	|Optional|	The “Employee Middle Name” is sourced from the Middle Name on the Employee table.
+|Employee Gender	|Optional|	The “Employee Gender” is sourced from the Gender on the Employee table.
+|Employee Birth Date	|Optional|	The “Employee Birth Date” is sourced from the Birth Date on the Employee table.
+|Employment Start Date|	Mandatory|	The “Employment Start Date” is sourced from the Start Date on the Employee table.
+|Employee Termination Date	|Optional|	The “Employee Termination Date” is sourced from the Termination Date on the Payroll Employee table.
+|Employee Address	|Optional|	The “Employee Address” is sourced from the Address on the Employee table.
+|Employee Address 2 	|Optional|	The “Employee Address 2” is sourced from the Address 2 on the Employee table.
+|Employee Suburb |	Optional|	The “Employee Suburb” is sourced from the City on the Employee table.
+|Employee Post Code	|Optional|	The “Employee Post Code” is sourced from the Post Code on the Employee table.
+|Employee State	|Optional|	The “Employee State” is sourced from the State on the Employee table.
+|Employee Country Name	|Optional|	The “Employee Country” is sourced from the Country on the Employee table.
+|Employee E-Mail|	Optional|	The “Employee E-Mail” is sourced from the E-Mail on the Employee table.
+|Employee Phone No	|Optional|	The “Employee Phone No.” is sourced from the Phone No. on the Employee table.
+|Employee Mobile No.|	Optional|	The “Employee Mobile No.” is sourced from the Mobile No. on the Employee table.
+|Employer SGC Amount|	Mandatory|	The “Employer SGC Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
+|Employee Post Tax Contribution – Personal Contributions	|Optional|	The “Employee Post Tax Contribution” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.
+|Employee Salary Sacrifice Amount	|Optional|	The “Employee Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.
+E|mployee Non SGC Amount – Employer Contributions Voluntary|	Optional|	The “Employer Non SGC Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.
 
 
 5.2.4.5.3	ClickSuper Payment Format
