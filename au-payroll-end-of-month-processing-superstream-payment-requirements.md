@@ -513,7 +513,7 @@ The fields contained in the SunSuper Payment file are:
 |Award or Productivity Amount	|Optional|	The “Award or Productivity Amount” field is not exported.
 |Personal Contributions Amount	|Optional|	The “Personal Contributions Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table. 
 |Salary Sacrificed Amount	|Optional|	The “Salary Sacrificed Amount” is sourced from the Employee Pre Tax on the Superannuation Ledger Entry table.
-V|oluntary Amount|	Optional|	The “Voluntary Amount” is sourced from the Employer Non-SGC contributions on the Superannuation Ledger Entry table.
+|Voluntary Amount|	Optional|	The “Voluntary Amount” is sourced from the Employer Non-SGC contributions on the Superannuation Ledger Entry table.
 |Address Type	|Mandatory|	The “Address Type” is defaulted to “POS”.
 |Address 1	|Mandatory|	The “Address 1” is sourced from the Address field on the Employee card for the employee.
 |Address 2 	|Optional|	The “Address 2” is sourced from the Address 2 field on the Employee card for the employee.
@@ -537,169 +537,160 @@ V|oluntary Amount|	Optional|	The “Voluntary Amount” is sourced from the Empl
 
 The fields contained in the SuperStream Alternative file are:
 
-Field Name	Mandatory	Description
-Header section
-
-Version	Mandatory	The “Version” will default to 1.0
-Negatives Supported	Mandatory	The “Negatives Supported” field will default.  These are the guidelines as provided by the ATO.
-
-* Mandatory data field. If this field is not populated, the value 'false' should be assumed.
-* Boolean data field: value must be 'true' or 'false' only.
-* This field is an indicator. 
-- true: this indicates that negative amounts are able to be provided in fields and can be processed
-- false: this indicates that negative amounts in fields must not be used and should not be processed.
-
-* Principles governing use
-- The default position is that negative values are NOT supported.
-- A choice can be made to support negative values in fields on an opt-in basis, to suit special, known requirements. This choice is exercised on the Fund side.
-- Where a Fund opts to allow negatives, the Fund is responsible for specifying the rules governing where and how negative amounts can be added, and the implications for associated payments.
-- Where a Fund opts to allow negatives, the Fund is also responsible for working with their stakeholders - employers and other service providers (for example payroll software companies) - to implement that choice.
-File ID	Optional	The “File ID” is populated by what is entered into the file name.
-Header Section
-
-ID	Mandatory	The “ID” field is defaulted from within the export.
-Source Entity ID		The “Source Entity ID” field is sourced from the Company ABN field on the Payroll card.
-Source Entity ID Type		The “Source Entity ID Type” field is defaulted to http://www.abr.gov.au/abn
-Source Electronic Service Address		This information is not exported.
-Electronic Error Messaging		This information is not exported.
-Sender Section
-
-Sender ABN	Mandatory	The “Sender ABN” is sourced from the ABN field on the Payroll card for the employee.
-Organisational Name	Mandatory	The “Organisation Name” is sourced from the Company Name field on the Payroll card for the employee. 
-Family Name	Mandatory	The “Family Name” is sourced from the Last Name field on the Employee card for the employee.
-Given Name	Mandatory	The “Given Name” is sourced from the First Name field on the Employee card for the employee.
-Other Given Name	Optional	The “Other Given Name” is sourced from the Middle Name field on the Employee card for the employee.
-E-mail Address	Optional	The “E-mail Address” is sourced from the E-Mail field on the Employee card for the employee.
-Telephone No.	Optional	The “Telephone No.” is sourced from the Phone No. field on the Employee card for the employee.
-Payer Section
-
-Payer ABN	Mandatory	The “Payer ABN” is sourced from the ABN field on the Payroll card for the employee.
-Organisational Name	Mandatory	The “Organisational Name” is sourced from the Company Name field on the Payroll card for the employee.
-BSB Number	Mandatory	The “BSB Number” is sourced from the Bank Branch No. field on the company Bank Account.
-Account Number	Mandatory	The “Account Number” is sourced from the Bank Account No. field on the company Bank Account.
-Account Name	Mandatory	The “Account Name” is sourced from the Name field on the company Bank Account. 
-Payee/Receiver Section
-
-Payee/Receiver ABN	Mandatory	The “Payee/Receiver ABN” is sourced from the ABN field on the Superannuation Fund for the employee.
-USI	Optional	The “USI” is sourced from the USI field on the field on the Superannuation Product for the employee. 
-Organisation Name	Mandatory	The “Organisation Name” is sourced from the Fund Name field on the Superannuation Fund for the employee.
-Target Electronic Service Address	Mandatory	The “Target Electronic Service Address” is sourced from the Electronic Service Address field on the Superannuation Fund for the employee.
-Payment Method Code	Mandatory	The “Payment Method Code” is defaulted to DIRECT CREDIT
-Transaction Date	Mandatory	The “Transaction Date” is defaulted to the date as entered in by the user on the report request form.
-Payment/Customer Reference Number	Optional	The “Payment/Customer Reference Number” is not exported.
-Bpay Biller Code	Optional	The “Bpay Biller Code” is not exported.
-Payment Amount	Mandatory	The “Payment Amount” is the total value of the 
-BSB Number	Mandatory	The “BSB Number” is sourced from the Bank Branch No. field on the Superannuation Fund for the employee.
-Account Number	Mandatory	The “Account Number” is sourced from the Bank Account No. field on the Superannuation Fund for the employee.
-Account Name 	Mandatory	The “Account Name” is sourced from the Bank Name field on the Superannuation Fund for the employee.
-Employer Section
-
-Employer ABN	Mandatory	The “Employer ABN” is sourced from the Company ABN field on the Payroll card for the employee.
-Location ID	Optional	The “Location ID” is sourced from the Pay Centre ID field on the Superannuation Fund card for the employee.
-Organisational Name	Mandatory	The “Organisational Name” is sourced from the Company Name field on the Payroll card for the employee.
-Superannuation Fund Generated Employer ID	Mandatory	The “Superannuation Fund Generated Employer ID” is sourced from the Fund Employer No. field on the Superannuation Fund card for the employee.
-Super Fund Member Common
-
-Superannuation Fund Member TFN	Mandatory	The “Superannuation Member TFN” is sourced from the Tax File No. field on the Payroll Employee card for the employee.
-Person Name Title	Optional	The “Person Name Title” is sourced from the Title field on the Employee card for the employee.
-Person Name Suffix	Optional	The “Person Name Suffix” is not exported.
-Family Name	Mandatory	The “Family Name” is sourced from the Last Name field on the Employee card for the employee.
-Given Name	Mandatory	The “Given Name” is sourced from the Last Name field on the Employee card for the employee.
-Other Given Name	Optional	The “Other Given Name” is sourced from the Middle Name field on the Employee card for the employee.
-Gender	Mandatory	The “Gender” is sourced from the Gender field on the Employee card for the employee.
-Birth Date	Mandatory	The “Birth Date” is sourced from the Birth Date field on the Employee card for the employee.
-Address Usage Code	Mandatory	The “Address Usage Code” field is defaulted to POS.
-Address 1	Mandatory	The “Address 1” is sourced from the Address field on the Employee card for the employee.
-Address 2	Optional	The “Address 2” is sourced from the Address 2 field on the Employee card for the employee.
-Address 3	Optional	The “Address 3” is not supported.
-Address 4	Optional	The “Address 4” is not supported.
-Locality Name	Mandatory	The “Locality Name” is sourced from the City field on the Employee card for the employee.
-Post Code	Mandatory	The “Post Code” is sourced from the Post Code field on the Employee card for the employee.
-State	Mandatory	The “State” is sourced from the County field on the Employee card for the employee.
-Country	Mandatory	The “Country” is sourced from the Country field on the Employee card for the employee.
-E-mail Address	Mandatory	The “E-mail Address” is sourced from the E=Mail field on the Employee card for the employee.
-Telephone Landline	Mandatory	The “Telephone Landline” is sourced from the Phone No. field on the Employee card for the employee.
-Telephone Mobile No.	Optional	The “Telephone Mobile No.” is sourced from the Mobile No. field on the Employee card for the employee.
-Member Client Identifier	Optional	The “Member Client Identifier” is sourced from the Membership No. field on the Employee Superannuation card for the employee.
-Payroll Number Identifier	Optional	The “Payroll Number Identifier” is sourced from the Employee No. field on the Payroll Employee card for the employee.
-Employment End Date	Optional	The “Employment End Date” is sourced from the Termination Date field on the Payroll Employee card for the employee.
-Employment End Reason	Optional	The “Employment End Reason” is sourced from the Grounds for Termination Code field on the Employee card for the employee.
-Super Fund Member Contributions Section
-Pay Period Start Date	Mandatory	The “Pay Period Start Date” is the Contribution Start Date as entered by the user in the report request form.
-Pay Period End Date	Mandatory	The “Pay Period End Date” is the Contribution End Date as entered by the user in the report request form.
-Superannuation Guarantee Amount	Optional	The “Superannuation Guarantee Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
-Award or Productivity Amount	Optional	The “Award or Productivity Amount” is not exported.
-Personal Contributions Amount	Optional	The “Personal Contributions Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table. 
-Salary Sacrificed Amount	Optional	The “Salary Sacrificed Amount” is sourced from the Employee Pre Tax on the Superannuation Ledger Entry table.
-Voluntary Amount	Optional	The “Voluntary Amount” is sourced from the Employer Non-SGC contributions on the Superannuation Ledger Entry table.
-Spouse Contributions Amount	Optional	This information is not exported.
-Child Contributions Amount	Optional	This information is not exported.
-Other Third Party Contributions Amount	Optional	This information is not exported.
-Super Fund Member Registration Section
-
-Employment Start Date	Mandatory	The “Employment Start Date” is sourced from the Employment Date field on the Payroll Employee card for the employee.
-At Work Indicator	Optional	The “At Work Indicator” is not supported.
-Annual Salary for Benefits Amount	Optional	The “Annual Salary Benefits Amount” is not exported.
-Annual Salary for Contributions Amount	Optional	The “Annual Salary for Contributions” is the Annual Salary for the employee calculated from the Employee Pay Rate information on the Payroll Employee card.
-Annual Salary for Contributions Effective Start Date	Optional	The “Annual Salary Contributions Effective Start Date” is not exported.
-Annual Salary for Contributions Effective End Date	Optional	The “Annual Salary for Contributions Effective End Date” is not exported.
-Annual Salary for Insurance Amount	Optional	The “Annual Salary for Insurance Amount” is the Annual Salary for the employee calculated from the Employee Pay Rate information on the Payroll Employee card. 
-Weekly Hours Worked Number	Optional	The “Weekly Hours Worked Number” is sourced from the Hours in a Full Week field on the Payroll Employee card for the employee.
-Occupation Description	Optional	The “Occupation Description” is sourced from the Job Title field on the Payroll Employee card for the employee.
-Insurance Opt Out Indicator	Optional	The “Insurance Opt Out Indicator” is not exported.
-Fund Registration Date		The “Fund Registration Date” is sourced from the Date Joined Fund field on the Employee Superannuation card for the employee.
-Benefit Category 	Optional	The “Benefits Category” is not exported.
-Employment Status	Mandatory	The “Employment Status” is EMPLOYMENTSTATUS
-Superannuation Contribution Commence Date	Optional	The “Superannuation Contribution Commence Date” is not exported.
-Superannuation Contribution Cease Date	Optional	The “Superannuation Contribution Cease Date” is not exported.
-Member Registration Amendment Reason	Optional	The “Member Registration Amendment Reason” is not exported.
-Defined Benefits Contributions Section
-Defined Benefit Member Pre Tax Contribution	Optional	The “Defined Benefit Member Pre Tax Contribution” is not exported.
-Defined Benefit Post Tax Contribution	Optional	The “Defined Benefit Post Tax Contribution” is not exported.
-Defined Benefit Notional Employer Contribution	Optional	The “Defined Benefit Notional Employer Contribution” is not exported.
-Ordinary Time Earnings	Optional	The “Ordinary Time Earnings” is not exported.
-Actual Periodic Salary or Wages Earned	Optional	The “Actual Periodic Salary or Wages Earned” is not exported.
-Superannuable Allowances Paid	Optional	The “Superannuable Allowances Paid” is not exported.
-Notional Superannuable Allowances	Optional	The “Notional Superannuable Allowances” is not exported.
-Service Fraction	Optional	The “Service Fraction” is not exported.
-Service Fraction Effective Date	Optional	The “Service Fraction Effective Date” is not exported.
-Full Time Hours	Optional	The “Full Time Hours” is not exported.
-Contracted Hours	Optional	The “Contracted Hours” is not exported.
-Actual Hours Paid	Optional	The “Actual Hours Paid” is not exported.
-Employee Location Identifier	Optional	The “Employee Location Identifier” is not exported.
-Defined Benefits Registration Section
-Service Fraction	Optional	The “Service Fraction” is not exported.
-Service Fraction Start Date	Optional	The “Service Fraction Start Date” is not exported.
-Service Fraction End Date	Optional	The “Service Fraction End Date” is not exported.
-Defined Benefit Employer Rate	Optional	The “Defined Benefit Employer Rate” is not exported.
-Defined Benefit Employer Rate Start Date	Optional	The “Defined Benefit Employer Rate Start Date” is not exported.
-Defined Benefit Employer Rate End Date	Optional	The “Defined Benefit Employer Rate End Date” is not exported.
-Defined Benefit Member Rate	Optional	The “Defined Benefit Member Rate” is not exported.
-Defined Benefit Member Rate Start Date	Optional	The “Defined Benefit Member Rate Start Date” is not exported.
-Defined Member Rate End Date	Optional	The “Defined Member Rate End Date” is not exported.
-Defined Benefit Annual Salary 1	Optional	The “Defined Benefit Annual Salary 1” is not exported.
-Defined Benefit Annual Salary 1 Start Date	Optional	The “Defined Benefit Annual Salary 1 Start Date” is not exported.
-Defined Benefit Annual Salary 1 End Date	Optional	The “Defined Benefit Annual Salary 1 End Date” is not exported.
-Defined Benefit Annual Salary 2	Optional	The “Defined Benefit Annual Salary 2” is not exported.
-Defined Benefit Annual Salary 2 Start Date	Optional	The “Defined Benefit Annual Salary 2 Start Date” is not exported.
-Defined Benefit Annual Salary 2 End Date	Optional	The “Defined Benefit Annual Salary 2 End Date” is not exported.
-Defined Benefit Annual Salary 3	Optional	The “Defined Benefit Annual Salary 3” is not exported.
-Defined Benefit Annual Salary 3 Start Date	Optional	The “Defined Benefit Annual Salary 3 Start Date” is not exported.
-Defined Benefit Annual Salary 3 End Date	Optional	The “Defined Benefit Annual Salary 3 End Date” is not exported.
-Defined Benefit Annual Salary 4	Optional	The “Defined Benefit Annual Salary 4” is not exported.
-Defined Benefit Annual Salary 4 Start Date	Optional	The “Defined Benefit Annual Salary 4 Start Date” is not exported.
-Defined Benefit Annual Salary 4 End Date	Optional	The “Defined Benefit Annual Salary 4 End Date” is not exported.
-Defined Benefit Annual Salary 5	Optional	The “Defined Benefit Annual Salary 5” is not exported.
-Defined Benefit Annual Salary 5 Start Date	Optional	The “Defined Benefit Annual Salary 5 Start Date” is not exported.
-Defined Benefit Annual Salary 5 End Date	Optional	The “Defined Benefit Annual Salary 5 End Date” is not exported.
-Leave Without Pay Code	Optional	The “Leave Without Pay Code” is not exported.
-Leave Without Pay Code Start Date	Optional	The “Leave Without Pay Code Start Date” is not exported.
-Leave Without Pay Code End Date	Optional	The “Leave Without Pay Code End Date” is not exported.
-Annual Salary for Insurance Effective Date	Optional	The “Annual Salary for Insurance Effective Date” is not exported.
-Annual Salary for Benefits Effective Date	Optional	The “Annual Salary for Benefits Effective Date” is not exported.
-Employee Status Effective Date	Optional	The “Employee Status Effective Date” is not exported.
-Employee Benefit Category Effective Date	Optional	The “Employee Benefit Category Effective Date” is not exported.
-Employee Location Identifier	Optional	The “Employee Location Identifier” is not exported.
-Employee Location Identifier Start Date	Optional	The “Employee Location Identifier Start Date” is not exported.
-Employee Location Identifier End Date	Optional	The “Employee Location Identifier End Date” is not exported.
+|Field Name	|Mandatory|	Description|
+|---|---|---|
+|Header section
+|Version|	Mandatory|	The “Version” will default to 1.0
+|Negatives Supported	|Mandatory|	The “Negatives Supported” field will default.  These are the guidelines as provided by the ATO.
+||| * Mandatory data field. If this field is not populated, the value 'false' should be assumed.
+|||* Boolean data field: value must be 'true' or 'false' only.
+|||* This field is an indicator. 
+|||- true: this indicates that negative amounts are able to be provided in fields and can be processed
+|||- false: this indicates that negative amounts in fields must not be used and should not be processed.
+|||* Principles governing use
+|||- The default position is that negative values are NOT supported.
+|||- A choice can be made to support negative values in fields on an opt-in basis, to suit special, known requirements. This choice is exercised on the Fund side.
+|||- Where a Fund opts to allow negatives, the Fund is responsible for specifying the rules governing where and how negative amounts can be added, and the implications for associated payments.
+|||- Where a Fund opts to allow negatives, the Fund is also responsible for working with their stakeholders - employers and other service providers (for example payroll software companies) - to implement that choice.
+|File ID	|Optional|	The “File ID” is populated by what is entered into the file name.
+|Header Section
+|ID	|Mandatory	|The “ID” field is defaulted from within the export.
+|Source Entity ID	||	The “Source Entity ID” field is sourced from the Company ABN field on the Payroll card.
+Source Entity ID Type||		The “Source Entity ID Type” field is defaulted to http://www.abr.gov.au/abn
+|Source Electronic Service Address||		This information is not exported.
+|Electronic Error Messaging||		This information is not exported.
+|Sender Section
+Sender ABN	|Mandatory	|The “Sender ABN” is sourced from the ABN field on the Payroll card for the employee.
+|Organisational Name	|Mandatory|	The “Organisation Name” is sourced from the Company Name field on the Payroll card for the employee. 
+|Family Name	|Mandatory|	The “Family Name” is sourced from the Last Name field on the Employee card for the employee.
+|Given Name	|Mandatory|	The “Given Name” is sourced from the First Name field on the Employee card for the employee.
+|Other Given Name	|Optional|	The “Other Given Name” is sourced from the Middle Name field on the Employee card for the employee.
+|E-mail Address	|Optional	|The “E-mail Address” is sourced from the E-Mail field on the Employee card for the employee.
+|Telephone No.	|Optional|	The “Telephone No.” is sourced from the Phone No. field on the Employee card for the employee.
+|Payer Section
+|Payer ABN	|Mandatory|	The “Payer ABN” is sourced from the ABN field on the Payroll card for the employee.
+|Organisational Name	|Mandatory|	The “Organisational Name” is sourced from the Company Name field on the Payroll card for the employee.
+|BSB Number	|Mandatory|	The “BSB Number” is sourced from the Bank Branch No. field on the company Bank Account.
+|Account Number	|Mandatory|	The “Account Number” is sourced from the Bank Account No. field on the company Bank Account.
+|Account Name	|Mandatory|	The “Account Name” is sourced from the Name field on the company Bank Account. 
+|Payee/Receiver Section
+|Payee/Receiver ABN|	Mandatory|	The “Payee/Receiver ABN” is sourced from the ABN field on the Superannuation Fund for the employee.
+|USI	|Optional|	The “USI” is sourced from the USI field on the field on the Superannuation Product for the employee. 
+|Organisation Name	|Mandatory|	The “Organisation Name” is sourced from the Fund Name field on the Superannuation Fund for the employee.
+|Target Electronic Service Address	|Mandatory|	The “Target Electronic Service Address” is sourced from the Electronic Service Address field on the Superannuation Fund for the employee.
+|Payment Method Code	|Mandatory	|The “Payment Method Code” is defaulted to DIRECT CREDIT
+|Transaction Date	|Mandatory|	The “Transaction Date” is defaulted to the date as entered in by the user on the report request form.
+|Payment/Customer Reference Number	|Optional|	The “Payment/Customer Reference Number” is not exported.
+|Bpay Biller Code	|Optional	|The “Bpay Biller Code” is not exported.
+|Payment Amount	|Mandatory|	The “Payment Amount” is the total value of the 
+|BSB Number	|Mandatory	|The “BSB Number” is sourced from the Bank Branch No. field on the Superannuation Fund for the employee.
+|Account Number	|Mandatory|	The “Account Number” is sourced from the Bank Account No. field on the Superannuation Fund for the employee.
+|Account Name |	Mandatory	|The “Account Name” is sourced from the Bank Name field on the Superannuation Fund for the employee.
+|Employer Section
+|Employer ABN	|Mandatory|	The “Employer ABN” is sourced from the Company ABN field on the Payroll card for the employee.
+|Location ID|	Optional|	The “Location ID” is sourced from the Pay Centre ID field on the Superannuation Fund card for the employee.
+|Organisational Name	|Mandatory|	The “Organisational Name” is sourced from the Company Name field on the Payroll card for the employee.
+|Superannuation Fund Generated Employer ID	|Mandatory|	The “Superannuation Fund Generated Employer ID” is sourced from the Fund Employer No. field on the Superannuation Fund card for the employee.
+|Super Fund Member Common
+|Superannuation Fund Member TFN	|Mandatory|	The “Superannuation Member TFN” is sourced from the Tax File No. field on the Payroll Employee card for the employee.
+|Person Name Title	|Optional	|The “Person Name Title” is sourced from the Title field on the Employee card for the employee.
+|Person Name Suffix	|Optional|	The “Person Name Suffix” is not exported.
+|Family Name	|Mandatory|	The “Family Name” is sourced from the Last Name field on the Employee card for the employee.
+|Given Name	|Mandatory|	The “Given Name” is sourced from the Last Name field on the Employee card for the employee.
+|Other Given Name	|Optional|	The “Other Given Name” is sourced from the Middle Name field on the Employee card for the employee.
+|Gender	|Mandatory|	The “Gender” is sourced from the Gender field on the Employee card for the employee.
+|Birth Date	|Mandatory|	The “Birth Date” is sourced from the Birth Date field on the Employee card for the employee.
+|Address Usage Code	|Mandatory|	The “Address Usage Code” field is defaulted to POS.
+|Address 1	|Mandatory|	The “Address 1” is sourced from the Address field on the Employee card for the employee.
+|Address 2	|Optional|	The “Address 2” is sourced from the Address 2 field on the Employee card for the employee.
+|Address 3	|Optional|	The “Address 3” is not supported.
+|Address 4|	Optional|	The “Address 4” is not supported.
+|Locality Name	|Mandatory|	The “Locality Name” is sourced from the City field on the Employee card for the employee.
+|Post Code	|Mandatory|	The “Post Code” is sourced from the Post Code field on the Employee card for the employee.
+|State	|Mandatory|	The “State” is sourced from the County field on the Employee card for the employee.
+|Country	|Mandatory|	The “Country” is sourced from the Country field on the Employee card for the employee.
+|E-mail Address	|Mandatory|	The “E-mail Address” is sourced from the E=Mail field on the Employee card for the employee.
+|Telephone Landline	|Mandatory|	The “Telephone Landline” is sourced from the Phone No. field on the Employee card for the employee.
+|Telephone Mobile No.	|Optional|	The “Telephone Mobile No.” is sourced from the Mobile No. field on the Employee card for the employee.
+|Member Client Identifier	|Optional|	The “Member Client Identifier” is sourced from the Membership No. field on the Employee Superannuation card for the employee.
+|Payroll Number Identifier	|Optional|	The “Payroll Number Identifier” is sourced from the Employee No. field on the Payroll Employee card for the employee.
+|Employment End Date	|Optional|	The “Employment End Date” is sourced from the Termination Date field on the Payroll Employee card for the employee.
+|Employment End Reason	|Optional|	The “Employment End Reason” is sourced from the Grounds for Termination Code field on the Employee card for the employee.
+|Super Fund Member Contributions Section
+|Pay Period Start Date|	Mandatory|	The “Pay Period Start Date” is the Contribution Start Date as entered by the user in the report request form.
+|Pay Period End Date	|Mandatory|	The “Pay Period End Date” is the Contribution End Date as entered by the user in the report request form.
+|Superannuation Guarantee Amount	|Optional	|The “Superannuation Guarantee Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
+|Award or Productivity Amount	|Optional|	The “Award or Productivity Amount” is not exported.
+|Personal Contributions Amount	|Optional|	The “Personal Contributions Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table. 
+|Salary Sacrificed Amount	|Optional|	The “Salary Sacrificed Amount” is sourced from the Employee Pre Tax on the Superannuation Ledger Entry table.
+|Voluntary Amount	|Optional|	The “Voluntary Amount” is sourced from the Employer Non-SGC contributions on the Superannuation Ledger Entry table.
+|Spouse Contributions Amount	|Optional|	This information is not exported.
+|Child Contributions Amount	|Optional|	This information is not exported.
+|Other Third Party Contributions Amount	|Optional|	This information is not exported.
+|Super Fund Member Registration Section
+|Employment Start Date	|Mandatory|	The “Employment Start Date” is sourced from the Employment Date field on the Payroll Employee card for the employee.
+|At Work Indicator	|Optional|	The “At Work Indicator” is not supported.
+|Annual Salary for Benefits Amount	|Optional|	The “Annual Salary Benefits Amount” is not exported.
+|Annual Salary for Contributions Amount	|Optional|	The “Annual Salary for Contributions” is the Annual Salary for the employee calculated from the Employee Pay Rate information on the Payroll Employee card.
+|Annual Salary for Contributions Effective Start Date|	Optional|	The “Annual Salary Contributions Effective Start Date” is not exported.
+|Annual Salary for Contributions Effective End Date	|Optional|	The “Annual Salary for Contributions Effective End Date” is not exported.
+|Annual Salary for Insurance Amount|	Optional|	The “Annual Salary for Insurance Amount” is the Annual Salary for the employee calculated from the Employee Pay Rate information on the Payroll Employee card. 
+|Weekly Hours Worked Number	|Optional|	The “Weekly Hours Worked Number” is sourced from the Hours in a Full Week field on the Payroll Employee card for the employee.
+|Occupation Description	|Optional	|The “Occupation Description” is sourced from the Job Title field on the Payroll Employee card for the employee.
+|Insurance Opt Out Indicator	|Optional|	The “Insurance Opt Out Indicator” is not exported.
+|Fund Registration Date	||	The “Fund Registration Date” is sourced from the Date Joined Fund field on the Employee Superannuation card for the employee.
+|Benefit Category 	|Optional|	The “Benefits Category” is not exported.
+|mployment Status	|Mandatory|	The “Employment Status” is EMPLOYMENTSTATUS
+|Superannuation Contribution Commence Date	|Optional|	The “Superannuation Contribution Commence Date” is not exported.
+|Superannuation Contribution Cease Date	|Optional|	The “Superannuation Contribution Cease Date” is not exported.
+|Member Registration Amendment Reason	|Optional|	The “Member Registration Amendment Reason” is not exported.
+|Defined Benefits Contributions Section
+|Defined Benefit Member Pre Tax Contribution	|Optional|	The “Defined Benefit Member Pre Tax Contribution” is not exported.
+|Defined Benefit Post Tax Contribution	|Optional|	The “Defined Benefit Post Tax Contribution” is not exported.
+|Defined Benefit Notional Employer Contribution	|Optional|	The “Defined Benefit Notional Employer Contribution” is not exported.
+|Ordinary Time Earnings	|Optional|	The “Ordinary Time Earnings” is not exported.
+|Actual Periodic Salary or Wages Earned	|Optional|	The “Actual Periodic Salary or Wages Earned” is not exported.
+|Superannuable Allowances Paid	|Optional|	The “Superannuable Allowances Paid” is not exported.
+|Notional Superannuable Allowances	|Optional|	The “Notional Superannuable Allowances” is not exported.
+|Service Fraction	|Optional|	The “Service Fraction” is not exported.
+|Service Fraction Effective Date|	Optional|	The “Service Fraction Effective Date” is not exported.
+|Full Time Hours	|Optional|	The “Full Time Hours” is not exported.
+|Contracted Hours	|Optional|	The “Contracted Hours” is not exported.
+|Actual Hours Paid	|Optional|	The “Actual Hours Paid” is not exported.
+|Employee Location Identifier	|Optional|	The “Employee Location Identifier” is not exported.
+|Defined Benefits Registration Section
+|Service Fraction	|Optional|	The “Service Fraction” is not exported.
+|Service Fraction Start Date	|Optional|	The “Service Fraction Start Date” is not exported.
+|Service Fraction End Date	|Optional|	The “Service Fraction End Date” is not exported.
+|Defined Benefit Employer Rate	|Optional|	The “Defined Benefit Employer Rate” is not exported.
+|Defined Benefit Employer Rate Start Date	|Optional|	The “Defined Benefit Employer Rate Start Date” is not exported.
+|Defined Benefit Employer Rate End Date	|Optional|	The “Defined Benefit Employer Rate End Date” is not exported.
+|Defined Benefit Member Rate	|Optional|	The “Defined Benefit Member Rate” is not exported.
+|Defined Benefit Member Rate Start Date	|Optional|	The “Defined Benefit Member Rate Start Date” is not exported.
+|Defined Member Rate End Date	|Optional|	The “Defined Member Rate End Date” is not exported.
+|Defined Benefit Annual Salary 1	|Optional|	The “Defined Benefit Annual Salary 1” is not exported.
+|Defined Benefit Annual Salary 1 Start Date	|Optional|	The “Defined Benefit Annual Salary 1 Start Date” is not exported.
+|Defined Benefit Annual Salary 1 End Date	|Optional|	The “Defined Benefit Annual Salary 1 End Date” is not exported.
+|Defined Benefit Annual Salary 2	|Optional|	The “Defined Benefit Annual Salary 2” is not exported.
+|Defined Benefit Annual Salary 2 Start Date	|Optional|	The “Defined Benefit Annual Salary 2 Start Date” is not exported.
+|Defined Benefit Annual Salary 2 End Date	|Optional|	The “Defined Benefit Annual Salary 2 End Date” is not exported.
+|Defined Benefit Annual Salary 3	|Optional|	The “Defined Benefit Annual Salary 3” is not exported.
+|Defined Benefit Annual Salary 3 Start Date	|Optional|	The “Defined Benefit Annual Salary 3 Start Date” is not exported.
+|Defined Benefit Annual Salary 3 End Date	|Optional|	The “Defined Benefit Annual Salary 3 End Date” is not exported.
+|Defined Benefit Annual Salary 4	|Optional|	The “Defined Benefit Annual Salary 4” is not exported.
+|Defined Benefit Annual Salary 4 Start Date	|Optional|	The “Defined Benefit Annual Salary 4 Start Date” is not exported.
+|Defined Benefit Annual Salary 4 End Date	|Optional|	The “Defined Benefit Annual Salary 4 End Date” is not exported.
+|Defined Benefit Annual Salary 5	|Optional|	The “Defined Benefit Annual Salary 5” is not exported.
+|Defined Benefit Annual Salary 5 Start Date	|Optional|	The “Defined Benefit Annual Salary 5 Start Date” is not exported.
+|Defined Benefit Annual Salary 5 End Date	|Optional|	The “Defined Benefit Annual Salary 5 End Date” is not exported.
+|Leave Without Pay Code	|Optional|	The “Leave Without Pay Code” is not exported.
+|Leave Without Pay Code Start Date	|Optional|	The “Leave Without Pay Code Start Date” is not exported.
+|Leave Without Pay Code End Date	|Optional|	The “Leave Without Pay Code End Date” is not exported.
+|Annual Salary for Insurance Effective Date	|Optional|	The “Annual Salary for Insurance Effective Date” is not exported.
+|Annual Salary for Benefits Effective Date	|Optional|	The “Annual Salary for Benefits Effective Date” is not exported.
+|Employee Status Effective Date	|Optional|	The “Employee Status Effective Date” is not exported.
+|Employee Benefit Category Effective Date	|Optional|	The “Employee Benefit Category Effective Date” is not exported.
+|Employee Location Identifier	|Optional|	The “Employee Location Identifier” is not exported.
+|Employee Location Identifier Start Date	|Optional|	The “Employee Location Identifier Start Date” is not exported.
+|Employee Location Identifier End Date	|Optional|	The “Employee Location Identifier End Date” is not exported.
 
