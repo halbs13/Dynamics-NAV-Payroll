@@ -7,7 +7,7 @@ The following steps are completed in sequence to successfully enter and Transfer
 4.	Open the Pay Journal and Transfer Timesheets
 
 
-**4.2 Payroll Selection**
+# 4.2 Payroll Selection
 
 A Payroll can be selected by you as the default for all the processes, tasks, and activities.  
 If you don’t select a default Payroll when you select a process, task or activity the Payroll Selection window is displayed and you must select the Payroll you wish to perform the activity task or process on before you can continue. 
