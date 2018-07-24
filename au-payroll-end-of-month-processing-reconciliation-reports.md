@@ -36,6 +36,7 @@ Once you have selected the report, a request form will appear with the following
 #### Payment Summary Proof List – Payroll FastTab
 
 |Field	|Filter|
+|---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
 |No.|	Select a Payroll(s) to use as a filter to limit the employee’s printed.
 ||If left blank all Payroll(s) will print
@@ -43,6 +44,7 @@ Once you have selected the report, a request form will appear with the following
 #### Payment Summary Proof List – Payroll Employee FastTab
 
 |Field	|Filter|
+|---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
 |Employee No.|	Select an Employee No(s) to use as a filter to limit the employee’s 
 ||If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.
