@@ -206,7 +206,7 @@ The Navigate ribbon allows for certain processes to be executed.
 |Pay Preview	|The selected employee’s pay details, without calculating the pay is displayed. |
 |Line section|
 |Pay Header	|This option is used to maintain the “No. Tax Weeks”, “No. Leave Periods”, “No. Deduction Periods”, “No. Allowance Periods” and “Payment Method” in the Pay Header details for the selected Employee.|
-|**Note:** Once the pay advice has been calculated you can only change the “No. Leave Periods” and “Payment Method” fields.|
+||**Note:** Once the pay advice has been calculated you can only change the “No. Leave Periods” and “Payment Method” fields.|
 |Leave Accruals	|This option displays the period and to-date totals for all Leave accruals accumulated for the selected employee.|
 |Dimensions	|You have the ability to override the employees Global Dimensions 1 and 2 on the Pay Journal line.  If your organisation uses other Dimensions they can be maintained on this card.|
 |Reports section|
