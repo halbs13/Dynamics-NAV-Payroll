@@ -460,79 +460,81 @@ Employment Type	|Optional|	The “Employment Type” is not exported
 
 The fields contained in the SuperChoice Payment file are:
 
-Field Name	Mandatory	Description
-Employee ID	Optional	The “Employee ID” is sourced from the Employee No. on the Employee Superannuation table.
-Super Fund Member No.	Mandatory	The “Super Fund Member No.” is sourced from the Membership No. on the Employee Superannuation table.
-Title	Optional	The “Title” is sourced from the Title on the Employee table.
-Employee First Name	Mandatory	The “Employee First Name” is sourced from the First Name and Middle on the Payroll Employee table.
-Employee Surname	Mandatory	The “Employee Surname” is sourced from the Last Name on the Payroll Employee table.
-Employee Date of Birth	Mandatory	The “Birth Date” is sourced from the Birth Date on the Employee table.
-Gender	Mandatory	The “Gender” is sourced from the Gender on the Employee table.
-Employee Address Line 1	Mandatory	The “Employee Address Line 1” is sourced from the Address Line 1 on the Employee table.
-Employee Address Line 2	Optional	The “Employee Address Line 2” is sourced from the Address Line 2 on the Employee table.
-Suburb	Mandatory	The “Suburb” is sourced from the City on the Employee table.
-State	Mandatory	The “State” is sourced from the State on the Employee table.
-Post Code	Mandatory	The “Postcode” is sourced from the Postcode on the Employee table.
-Mobile Phone No.	Optional	The “Mobile Phone No.” is sourced from the Mobile Phone No. on the Employee table.
-Employee Email Address 	Optional	The “Employee Email Address” is sourced from the Email on the Employee table.
-Tax File Number	Mandatory	The “Tax File Number” is sourced from the Tax File Number on the Payroll Employee table.
-Fund Name	Mandatory	The “Fund Name” is sourced from the Product Name of the Superannuation Product for the employee. 
-Unique Superannuation Identifier (USI)	Mandatory from 1 July	The “Unique Superannuation Identifier (USI)” is sourced from the Unique Superannuation Identifier (USI) of the Superannuation Product for the employee.
-Product ID No. (SPIN)	Mandatory for APRA funds	The “Product ID No.” is sourced from the Product ID No. of the Superannuation Product for the employee.
+|Field Name|	Mandatory|	Description|
+|---|---|---|
+|Employee ID	|Optional|	The “Employee ID” is sourced from the Employee No. on the Employee Superannuation table.
+|Super Fund Member No.	|Mandatory|	The “Super Fund Member No.” is sourced from the Membership No. on the Employee Superannuation table.
+|Title	|Optional|	The “Title” is sourced from the Title on the Employee table.
+|Employee First Name	|Mandatory|	The “Employee First Name” is sourced from the First Name and Middle on the Payroll Employee table.
+|Employee Surname	|Mandatory|	The “Employee Surname” is sourced from the Last Name on the Payroll Employee table.
+|Employee Date of Birth	|Mandatory|	The “Birth Date” is sourced from the Birth Date on the Employee table.
+|Gender	|Mandatory|	The “Gender” is sourced from the Gender on the Employee table.
+|Employee Address Line 1	|Mandatory|	The “Employee Address Line 1” is sourced from the Address Line 1 on the Employee table.
+|Employee Address Line 2	|Optional|	The “Employee Address Line 2” is sourced from the Address Line 2 on the Employee table.
+|Suburb	|Mandatory|	The “Suburb” is sourced from the City on the Employee table.
+|State	|Mandatory|	The “State” is sourced from the State on the Employee table.
+|Post Code|	Mandatory	|The “Postcode” is sourced from the Postcode on the Employee table.
+|Mobile Phone No.|	Optional	|The “Mobile Phone No.” is sourced from the Mobile Phone No. on the Employee table.
+|Employee Email Address 	|Optional|	The “Employee Email Address” is sourced from the Email on the Employee table.
+|Tax File Number	|Mandatory|	The “Tax File Number” is sourced from the Tax File Number on the Payroll Employee table.
+|Fund Name	|Mandatory|	The “Fund Name” is sourced from the Product Name of the Superannuation Product for the employee. 
+|Unique Superannuation Identifier (USI)|	Mandatory| from 1 July	The “Unique Superannuation Identifier (USI)” is sourced from the Unique Superannuation Identifier (USI) of the Superannuation Product for the employee.
+|Product ID No. (SPIN)|	Mandatory| for APRA funds	The “Product ID No.” is sourced from the Product ID No. of the Superannuation Product for the employee.
+||If the fund has no SPIN the ABN must be provided.
+|Fund Employer No.	|Mandatory|	The “Fund Employer No.” is sourced from the Fund Employer No. of the Superannuation Fund for the employee.
+|Superannuation Fund ABN|	Mandatory| (for SMSF Funds and some APRA)	The “Superannuation Fund ABN” is sourced from the Superannuation Fund ABN of the Superannuation Fund for the employee. 
+|Superannuation Fund Bank Name|	Optional|	The “Superannuation Fund Bank Name” is sourced from the Bank Name on the Superannuation Fund for the employee.
+|Superannuation Bank Account Number	|Mandatory|	The “Superannuation Bank Account Number” is sourced from the Bank Account Number on the Superannuation Fund for the employee.
+|Superannuation BSB	|Mandatory|	The “Superannuation BSB” is sourced from the Bank Branch No. on the Superannuation Fund for the employee.
+|Target Electronic Service Address	|Mandatory|	The “Target Electronic Service Address is sourced from the Electronic Service Address on the Superannuation Fund for the employee.
+|SGC Amount	|Mandatory|	The “SGC Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
+|Employer Additional Amount	|Optional|	The “Employer Additional Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.
+|Salary Sacrifice Amount	|Optional|	The “Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.
+|Member Voluntary Amount	|Optional|	The “Member Voluntary Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.
 
-If the fund has no SPIN the ABN must be provided.
-Fund Employer No.	Mandatory	The “Fund Employer No.” is sourced from the Fund Employer No. of the Superannuation Fund for the employee.
-Superannuation Fund ABN	Mandatory (for SMSF Funds and some APRA)	The “Superannuation Fund ABN” is sourced from the Superannuation Fund ABN of the Superannuation Fund for the employee. 
-Superannuation Fund Bank Name	Optional	The “Superannuation Fund Bank Name” is sourced from the Bank Name on the Superannuation Fund for the employee.
-Superannuation Bank Account Number	Mandatory	The “Superannuation Bank Account Number” is sourced from the Bank Account Number on the Superannuation Fund for the employee.
-Superannuation BSB	Mandatory	The “Superannuation BSB” is sourced from the Bank Branch No. on the Superannuation Fund for the employee.
-Target Electronic Service Address	Mandatory	The “Target Electronic Service Address is sourced from the Electronic Service Address on the Superannuation Fund for the employee.
-SGC Amount	Mandatory	The “SGC Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
-Employer Additional Amount	Optional	The “Employer Additional Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.
-Salary Sacrifice Amount	Optional	The “Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.
-Member Voluntary Amount	Optional	The “Member Voluntary Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.
 
+#### SunSuper Payment Format
 
-
-5.2.4.5.5	SunSuper Payment Format
 The fields contained in the SunSuper Payment file are:
 
-Field Name	Mandatory	Description
-Super Product USI	Mandatory	The “Super Product USI No.” is sourced from the USI field on the Superannuation Product for the employee.
-Payroll ID	Mandatory	The “Payroll ID” is sourced from the Employee No. on the Payroll Employee card for the employee.
-Member ID	Mandatory	The “Member ID” is sourced from the Membership No. field on the Employee Superannuation card for the employee.
-Family Name	Mandatory	The “Family Name” is sourced from the Last Name field on the Employee card for the employee.
-Given Names	Mandatory	The “Given Names” is sourced from the First Name field on the Employee card for the employee.
-Other Given Names	Optional	The “Other Given Names” is sourced from the Middle Name field on the Employee card for the employee. 
-Title	Mandatory	The “Title” is sourced from the Title field on the Employee card for the employee.
-Name Suffix	Optional	The “Name Suffix” field is not exported.
-Date of Birth	Mandatory	The “Date of Birth” is sourced from the Birth Date field Employee card for the employee.
-Gender	Optional	The “Gender” is sourced from the Gender field on the Employee card for the employee.
-Superannuation Guarantee Amount	Mandatory	The “Superannuation Guarantee Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
-Award or Productivity Amount	Optional	The “Award or Productivity Amount” field is not exported.
-Personal Contributions Amount	Optional	The “Personal Contributions Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table. 
-Salary Sacrificed Amount	Optional	The “Salary Sacrificed Amount” is sourced from the Employee Pre Tax on the Superannuation Ledger Entry table.
-Voluntary Amount	Optional	The “Voluntary Amount” is sourced from the Employer Non-SGC contributions on the Superannuation Ledger Entry table.
-Address Type	Mandatory	The “Address Type” is defaulted to “POS”.
-Address 1	Mandatory	The “Address 1” is sourced from the Address field on the Employee card for the employee.
-Address 2 	Optional	The “Address 2” is sourced from the Address 2 field on the Employee card for the employee.
-Address 3	Optional	The “Address 3” is not exported.
-Address 4	Optional	The “Address 4” is not exported.
-Locality (Suburb)	Mandatory	The “Suburb” is sourced from the City field on the Employee card for the employee.
-State	Mandatory	The “State” is sourced from the County field on the Employee card for the employee.
-Post Code	Mandatory	The “Post Code” is sourced from the Post Code field on the Employee card for the employee.
-Country	Mandatory	The “Country” is sourced from the Country field on the Employee card for the employee.
-TFN	Mandatory	The “TFN” is sourced from the Tax File No. field on the Payroll Employee card for the employee.
-Employment Start Date	Mandatory	The “Employment Start Date” is sourced from the Employment Date field on the Employee card for the employee.
-Annual Salary for Insurance	Optional	The “Annual Salary for Insurance” is sourced from the Annual Salary from the Employee Pay Rate card for the employee.
-Employment End Date	Optional	The “Employment End Date” is sourced from the Termination Date on the Employee card for the employee.
-Employment Status	Mandatory	The “Employment Status” is sourced from the Status field on the Employee card for the employee.
-Email	Optional	The “Email” is sourced from the E-mail field on the Employee card for the employee.
-Mobile	Optional	The “Mobile” is sourced from the Mobile Phone No. field on the Employee card for the employee.
-Landline	Optional	The “Landline” is sourced from the Phone No. field on the Employee card for the employee.
+|Field Name|	Mandatory	|Description|
+|---|---|---|
+|Super Product USI	|Mandatory|	The “Super Product USI No.” is sourced from the USI field on the Superannuation Product for the employee.
+|Payroll ID	|Mandatory|	The “Payroll ID” is sourced from the Employee No. on the Payroll Employee card for the employee.
+|Member ID	|Mandatory|	The “Member ID” is sourced from the Membership No. field on the Employee Superannuation card for the employee.
+|Family Name	|Mandatory|	The “Family Name” is sourced from the Last Name field on the Employee card for the employee.
+|Given Names	|Mandatory|	The “Given Names” is sourced from the First Name field on the Employee card for the employee.
+|Other Given Names|	Optional|	The “Other Given Names” is sourced from the Middle Name field on the Employee card for the employee. 
+|Title|	Mandatory	|The “Title” is sourced from the Title field on the Employee card for the employee.
+|Name Suffix	|Optional|	The “Name Suffix” field is not exported.
+|Date of Birth	|Mandatory|	The “Date of Birth” is sourced from the Birth Date field Employee card for the employee.
+|Gender	|Optional|	The “Gender” is sourced from the Gender field on the Employee card for the employee.
+|Superannuation Guarantee Amount	|Mandatory|	The “Superannuation Guarantee Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
+|Award or Productivity Amount	|Optional|	The “Award or Productivity Amount” field is not exported.
+|Personal Contributions Amount	|Optional|	The “Personal Contributions Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table. 
+|Salary Sacrificed Amount	|Optional|	The “Salary Sacrificed Amount” is sourced from the Employee Pre Tax on the Superannuation Ledger Entry table.
+V|oluntary Amount|	Optional|	The “Voluntary Amount” is sourced from the Employer Non-SGC contributions on the Superannuation Ledger Entry table.
+|Address Type	|Mandatory|	The “Address Type” is defaulted to “POS”.
+|Address 1	|Mandatory|	The “Address 1” is sourced from the Address field on the Employee card for the employee.
+|Address 2 	|Optional|	The “Address 2” is sourced from the Address 2 field on the Employee card for the employee.
+|Address 3	|Optional|	The “Address 3” is not exported.
+|Address 4	|Optional	|The “Address 4” is not exported.
+|Locality (Suburb)	|Mandatory|	The “Suburb” is sourced from the City field on the Employee card for the employee.
+|State	|Mandatory|	The “State” is sourced from the County field on the Employee card for the employee.
+|Post Code	|Mandatory|	The “Post Code” is sourced from the Post Code field on the Employee card for the employee.
+|Country	|Mandatory|	The “Country” is sourced from the Country field on the Employee card for the employee.
+|TFN	|Mandatory|	The “TFN” is sourced from the Tax File No. field on the Payroll Employee card for the employee.
+|Employment Start Date	|Mandatory|	The “Employment Start Date” is sourced from the Employment Date field on the Employee card for the employee.
+|Annual Salary for Insurance	|Optional|	The “Annual Salary for Insurance” is sourced from the Annual Salary from the Employee Pay Rate card for the employee.
+|Employment End Date	|Optional|	The “Employment End Date” is sourced from the Termination Date on the Employee card for the employee.
+|Employment Status	|Mandatory|	The “Employment Status” is sourced from the Status field on the Employee card for the employee.
+|Email|	Optional|	The “Email” is sourced from the E-mail field on the Employee card for the employee.
+|Mobile	|Optional	|The “Mobile” is sourced from the Mobile Phone No. field on the Employee card for the employee.
+|Landline|	Optional|	The “Landline” is sourced from the Phone No. field on the Employee card for the employee.
 
 
-5.2.4.5.6	SuperStream Alternative Payment Format
+#### SuperStream Alternative Payment Format
+
 The fields contained in the SuperStream Alternative file are:
 
 Field Name	Mandatory	Description
