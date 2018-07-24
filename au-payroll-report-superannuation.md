@@ -67,33 +67,28 @@ To access the Superannuation Registration List Report,
 
 Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report
 
- 
-
-
-Field	Comments
-Options FastTab
-From Date	Enter in a Date into the field.  
-
-The Superannuation Registration List report will use the input information to calculate the “Cycle To Date Amount”
-Superannuation Fund Product FastTab – Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank. 
-Payroll Employee FastTab – Payroll Employee information can be filtered by entering information in this tab.  Otherwise it can be left blank. 
-When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.
-
- 
+|Field	|Comments|
+|---|---|
+|Options FastTab|
+|From Date	|Enter in a Date into the field.|  
+||The Superannuation Registration List report will use the input information to calculate the “Cycle To Date Amount”|
+|Superannuation Fund Product FastTab – Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank.| 
+|Payroll Employee FastTab – Payroll Employee information can be filtered by entering information in this tab.  Otherwise it can be left blank. |
+|When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.|
 
 The fields on the Superannuation Registration List Report are:
 
-Report Field	Field No.	Obtained from
-Employee No.	(1)	This is the Employee No.
-Employee Name	(2)	This is the Employee Name.
-Membership No.	(3)	This is the Superannuation Membership No. for the employee.
-Date Joined	(4)	This is the date the Employee joined the fund.
-Contribution Amount	(5)	This is the Contribution Amount for the Employee.
-Standard Amount	(6)	This is the Standard Amount for the Employee.
-Cycle to Date Amount	(7)	This is the Cycle to Date Amount for the Employee.
-Period to Date Amount	(8)	This is the Period to Date Amount for the Employee.
-Previous Cyc. Balance Outstanding	(9)	This is the Previous Cycle Balance Outstanding Amount for the Employee.
-Balance Outstanding	(10)	This is the Balance Outstanding for the Employee.
-Payment Due	(11)	This is the Payment Due for the Employee.
+|Report Field	|Field No.	|Obtained from|
+|Employee No.	|(1)	|This is the Employee No.|
+|Employee Name	|(2)	|This is the Employee Name.|
+|Membership No.	|(3)	|This is the Superannuation Membership No. for the employee.|
+|Date Joined	|(4)	|This is the date the Employee joined the fund.|
+|Contribution Amount	|(5)	|This is the Contribution Amount for the Employee.|
+|Standard Amount	|(6)	|This is the Standard Amount for the Employee.|
+|Cycle to Date Amount	|(7)	|This is the Cycle to Date Amount for the Employee.|
+|Period to Date Amount	|(8)	|This is the Period to Date Amount for the Employee.|
+|Previous Cyc. Balance Outstanding	|(9)	|This is the Previous Cycle Balance Outstanding Amount for the Employee.|
+|Balance Outstanding	|(10)	|This is the Balance Outstanding for the Employee.|
+|Payment Due	|(11)	|This is the Payment Due for the Employee.|
 
 
