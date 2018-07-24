@@ -1,4 +1,4 @@
-5.2.3	SuperStream Payment Requirements 
+# SuperStream Payment Requirements 
 
 Under the Superannuation Guarantee you must pay superannuation contributions to the correct superannuation fund, by the cut off dates, for all your eligible employees.  
 
@@ -16,17 +16,17 @@ An export has been created to allow for New Member information to be remitted to
 
 There are 5 Superannuation Payment File options:
 
-•	Generic
-•	ClickSuper
-•	SuperChoice
-•	SunSuper
-•	SuperStream Alternative
+* Generic
+* ClickSuper
+* SuperChoice
+* SunSuper
+* SuperStream Alternative
 
-It is recommended that you review the requirements of the file layouts as contained in section 5.2.4.5 - Superannuation File Layouts to ensure that you have the necessary mandatory information completed.
+It is recommended that you review the requirements of the file layouts to ensure that you have the necessary mandatory information completed.
 
 To open the Superannuation Payments module, 
 
-Department/Payroll/Periodic Activities/Superannuation/Superannuation Payments
+*Department/Payroll/Periodic Activities/Superannuation/Superannuation Payments*
  
 
 The Superannuation Payment Module contains the following Menu Options: 
@@ -37,7 +37,7 @@ Super. Payment Export Reversal – This option is used to reverse the reporting 
 
 New Member Registration Export – This report is used to provide the Employee information to the Superannuation Fund.  The report can be previewed so that any errors or information missing on the Employee file is rectified prior to producing a file.  
 
-5.2.4	Superannuation Payment Reporting
+### Superannuation Payment Reporting
 
 Employers have an obligation to report superannuation contributions to their employees: 
 
@@ -45,7 +45,7 @@ The amount of each superannuation contribution made for the employee during the 
 
 The Super. Payment Export & Notification Report flags the Employee Superannuation Ledger Entry records to report to the employee by either Letter or Pay Advice.  When the report is run you must enter parameters for processing.  
 
-5.2.4.1	New Member Registration Export
+#### New Member Registration Export
 
 The New Member Registration Export produces a file which may be used to send to the Superannuation Fund.  
 
@@ -53,55 +53,51 @@ It is recommended that you preview the report first as it will highlight potenti
 
 To access the New Member Registration Export,
 
-Departments/Payroll/EOM Processing/Superannuation Processing
+*Departments/Payroll/EOM Processing/Superannuation Processing*
 
  
+|Field	|Comments|
+|---|---|
+|Options FastTab
+|Run Type|	Select the process from the list.  
+||Preview no export – This option previews the report and allows you to verify the data before reporting.  This option can be run multiple times.  
+||Export new member file – Used to create a “.CSV” file.  
+|Member File Export Location|	Click on the “AssistEdit” to specify where to save the file.
+|Payroll Employee FastTab – Payroll Employee information can be filtered by entering information in this tab.  Otherwise it can be left blank. 
+|Employee Superannuation FastTab – Employee Superannuation information can be filtered by entering information in this tab. Otherwise it can be left blank.
+|Superannuation Fund Product FastTab– Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank.
+|When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.
 
-Field	Comments
-Options FastTab
-Run Type	Select the process from the list.  
-
-Preview no export – This option previews the report and allows you to verify the data before reporting.  This option can be run multiple times.  
-
-Export new member file – Used to create a “.CSV” file.  
-Member File Export Location	Click on the “AssistEdit” to specify where to save the file.
-Payroll Employee FastTab – Payroll Employee information can be filtered by entering information in this tab.  Otherwise it can be left blank. 
-Employee Superannuation FastTab – Employee Superannuation information can be filtered by entering information in this tab. Otherwise it can be left blank.
-Superannuation Fund Product FastTab– Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank.
-When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.
-
-5.2.4.1.1	New Member Registration Export Report Sample
-
-
- 
-
+#### New Member Registration Export Report Sample
 
 The report fields contained on the New Member Registration Report are:
 
-•	Employee No.
-•	Employee First Name
-•	Employee Last Name
-•	Membership No.
-•	Code
-•	Product Name
+* Employee No.
+* Employee First Name
+* Employee Last Name
+* Membership No.
+* Code
+* Product Name
 
-Missing information will appear in the report and you should update the information accordingly.  Please refer to the in Section 5.2.4.5.1 - New Member Registration Export as to the location of where the data is stored with Dynamics NAV Payroll.
+Missing information will appear in the report and you should update the information accordingly.  
 
-5.2.4.1.2	Possible Error Messages
 
-Each of the Payment File Options will have their own mandatory requirements.  If the files are rejected, please refer to the Superannuation File Layouts in Section 5.2.4.5 of this document.
+### Possible Error Messages
 
-5.2.4.2	Super Payment Export & Notification
+Each of the Payment File Options will have their own mandatory requirements.  
+
+
+#### Super Payment Export & Notification
 
 Employers have an obligation to report superannuation contributions to their employees:
  
-•	The amount of each superannuation contribution made for the employee during the period to which the pay slip relates, the name of any fund to which the contribution was made and the date the contribution was paid.
+* The amount of each superannuation contribution made for the employee during the period to which the pay slip relates, the name of any fund to which the contribution was made and the date the contribution was paid.
 
 The Super Payment Export & Notification Report flags the Employee Superannuation Ledger Entry records to report to the employee by either Letter or Pay Advice.  When the report is run you must enter parameters for processing.  
 
 To access the Super Payment Export & Notification, 
 
-Departments/Payroll/EOM Processing/Superannuation Processing/Super.Payment & Notification Report
+*Departments/Payroll/EOM Processing/Superannuation Processing/Super.Payment & Notification Report*
  
 
 Field	Comments
