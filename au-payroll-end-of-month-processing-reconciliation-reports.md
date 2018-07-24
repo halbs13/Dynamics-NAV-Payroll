@@ -127,6 +127,7 @@ To open the “Pay Transaction Detail” window,
 |Field|	Filter|
 |---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
+
 |---|---|
 |Posting Date|	Enter in a Posting Date range you wish to report on.
 |Payroll No.	|Select a Payroll(s) to use as a filter to limit the employee’s printed.
