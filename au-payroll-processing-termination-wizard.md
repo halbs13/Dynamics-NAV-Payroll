@@ -68,8 +68,8 @@ If the employee is not entitled to this leave entitlement, then override this va
 ||If the employee has any unused Long Service Leave accrued after 15th August 1978 and before the 18th August 1993 the value of service will appear in this field.|
 |Accrued After 17/08/93	|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.|
 ||If the employee has any unused Long Service Leave accrued after 17th August 1993 the value of service will appear in this field. | 
-|As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.
-Select “Next” when you have completed this section.|
+||As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.
+|Select “Next” when you have completed this section.|
 
  
 # 4.9.2.2.3	Outstanding Annual Leave Form
