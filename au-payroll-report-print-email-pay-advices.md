@@ -39,7 +39,7 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
  
 # 8.9.1.1	E-Mail Pay Advice – Options FastTab
 
-|Field	Comments|
+|Field	|Comments|
 |---|---|
 |Pay Advice Message	|Enter in a message to appear on the Pay Advice.|
 
@@ -57,6 +57,6 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
 |Period No.	|Enter or select a “Period No.” to limit the pay advice records for.|
 ||If you leave this field blank, then you will produce pay advices for all payrolls.|
 |Payroll No.	|Enter or select a “Payroll No.” to limit the pay advice records for.|
-|?If you leave this field blank, then you will produce pay advices for all payrolls.|
+||If you leave this field blank, then you will produce pay advices for all payrolls.|
 
  
