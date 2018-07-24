@@ -145,6 +145,7 @@ To open the “Pay Register” window,
 #### Pay Register – Pay Register FastTab
 
 |Field	|Comments|
+|---|---|
 |No.|	From the “ArrowDown” select the Pay Register No.
 
 
