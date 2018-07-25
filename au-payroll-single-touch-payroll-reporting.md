@@ -9,7 +9,9 @@ This report shows the information contained within the file created as part of t
 
 Select the Pay Event Type (usually Update), Update Date and select OK.
 
- 
+
+
+
 
 ## STP Payment Proof List
 
