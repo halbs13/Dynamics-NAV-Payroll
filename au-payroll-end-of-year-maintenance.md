@@ -1,8 +1,8 @@
 # END OF YEAR MAINTENANCE
 
 The following activities must be performed to maintain your Payroll Granule.
-- [Payroll Tax Year - create a new tax year](#create-a-new-payroll-tax-year)
-- [Import Tax Scales - import the new Tax Scales file if the Tax Rates have changed](#import-tax-scales)
+- Payroll Tax Year - create a new tax year
+- Import Tax Scales - import the new Tax Scales file if the Tax Rates have changed
 
 
 ### Create a New Payroll tax year
