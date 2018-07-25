@@ -2,7 +2,7 @@
 
 - [Upgrade Checklist](#upgrade-checklist)
 - [Superannuation Type Code](#superannuation-type-code)
-- [Update YTD Accumulation for Superannuation(#update-ytd-accumulation-for-superannuation)
+- [Update YTD Accumulation for Superannuation](#update-ytd-accumulation-for-superannuation)
 - [Single Touch Upgrade](#single-touch-upgrade)
 - [Payroll User Setup](#payroll-user-setup)
 - [YTD Accumulations](#ytd-accumulations)
