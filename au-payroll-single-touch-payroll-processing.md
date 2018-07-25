@@ -1,6 +1,16 @@
 # Single Touch Payroll Processing
 
 
+- STP Message Structure
+- STP Processing
+- Pay Event
+  - Updage Event
+  - Pay Event EOTY Submission
+- Viewing STP Sumbissions
+- Resending STP Submissions
+- STP Zero Submission
+
+
 ## STP Message Structure
 
 This area holds the information about the setup of the STP files uploaded to the ATO. This next step must be completed prior to creating Pay Events.
