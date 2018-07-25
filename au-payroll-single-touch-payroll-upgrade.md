@@ -18,28 +18,28 @@ Use the checklist below in conjunction with the notes to ensure all required ste
 
 |Step No.|	Task Description	Done|
 |---|---|
-|1.		|Superannuation Transaction Type Code
+|1.		|**Superannuation Transaction Type Code**
 ||Confirm the Pay Transaction Type Code for Superannuation
 ||*Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup* 	
-|2.|		Update YTD Accumulation for Superannuation (SGC)
+|2.|		**Update YTD Accumulation for Superannuation**
 ||Update the P.S. YTD Accumulation Code to GROSS
 ||*Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
-|3.|		Single Touch Upgrade
+|3.|		**Single Touch Upgrade**
 ||Upgrade Payfocus and enter the date you will start using STP
 ||*Payroll/Periodic Activities/Periodic Maintenance/Single Touch Upgrade* 	
-|4.|		Update Payroll Setup
+|4.|		**Update Payroll Setup**
 ||Specify your STP Sending Service Provider
 ||*Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup*
-|5.|		Payroll User Setup
+|5.|	**Payroll User Setup**
 ||Update the Payroll Users so they can create Pay Events/Update Events
 ||*Payroll/Setup/Payroll Setup/Payroll Controls/Payroll User Setup*	
-|6.|		YTD Accumulations
+|6.|		**YTD Accumulations**
 ||Update the STP Allowance Type Codes
 ||*Payroll/Setup/Payroll Setup/General/YTD Accumulations*	
-|7.|		STP Message Structure
+|7.|		**STP Message Structure**
 ||Import the STP Message Structure required by the ATO
 ||*Payroll/Setup/Payroll Setup/Single Touch/STP Message Structure*
-|8.|		Employee Types
+|8.|		**Employee Types**
 ||Update the Basis of Payment field on Employee Types
 ||*Payroll/Setup/Payroll Setup/General/Employee Types*
 
