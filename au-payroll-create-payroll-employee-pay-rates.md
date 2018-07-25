@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon - Pay Rates
+# Payroll Employee card Navigate ribbon Pay Rates
 
 This option is used to maintain the Employee Pay Rate.  Depending on the option in Payroll Setup the employee pay rates are entered as a weekly or hourly rate. Pay Rates allow you to record the history of pay rates previously used by dating the Pay Rate line.
 
@@ -27,3 +27,4 @@ You can enter the Employee rate manually or use an Award Classification rate.
 
 
  
+ [GoToTop](#payroll-employee-card-navigate-ribbon-pay-rates)
