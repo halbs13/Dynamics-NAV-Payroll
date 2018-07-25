@@ -496,7 +496,7 @@ The fields contained in the SuperChoice Payment file are:
 |Fund Name	|Mandatory|	The “Fund Name” is sourced from the Product Name of the Superannuation Product for the employee. 
 |Unique Superannuation Identifier (USI)|	Mandatory| from 1 July	The “Unique Superannuation Identifier (USI)” is sourced from the Unique Superannuation Identifier (USI) of the Superannuation Product for the employee.
 |Product ID No. (SPIN)|	Mandatory| for APRA funds	The “Product ID No.” is sourced from the Product ID No. of the Superannuation Product for the employee.
-||If the fund has no SPIN the ABN must be provided.
+|||If the fund has no SPIN the ABN must be provided.
 |Fund Employer No.	|Mandatory|	The “Fund Employer No.” is sourced from the Fund Employer No. of the Superannuation Fund for the employee.
 |Superannuation Fund ABN|	Mandatory| (for SMSF Funds and some APRA)	The “Superannuation Fund ABN” is sourced from the Superannuation Fund ABN of the Superannuation Fund for the employee. 
 |Superannuation Fund Bank Name|	Optional|	The “Superannuation Fund Bank Name” is sourced from the Bank Name on the Superannuation Fund for the employee.
