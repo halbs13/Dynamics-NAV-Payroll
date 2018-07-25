@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon (Employee section)
+# Payroll Employee card Navigate ribbon (Employee section)
 
 The following items are accessed from the Process section on the Home ribbon:
 
@@ -31,11 +31,10 @@ Selecting the “Comments” icon will allow you to add/review any comments whic
 HR Employee card icon is used to access the Employee card and you can modify that card if required.  This option can be used to create a new Employee card. The information in the Employee card will update and populate the Payroll Employee card. 
 
  
-
 ### Employee card Employee Picture
 Selecting the Employee Picture will allow you to Import/Export or Delete the picture of the employee if it has been stored within the database.
 
- 
+ [GoToTop](#payroll-employee-card-navigate-ribbon-(Employee section))
 
 ### Payroll Employee card Navigate ribbon Alternative Addresses
 Selecting the Alternative Addresses icon will allow you to add/review any alternative addresses stored against the employee’s record.
