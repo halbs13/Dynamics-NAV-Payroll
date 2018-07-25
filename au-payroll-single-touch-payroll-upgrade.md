@@ -110,5 +110,27 @@ Payroll/Setup/Payroll Setup/General/Employee Types
 Ensure that your Employment Basis and Basis of Payment fields match i.e. Employment Basis Full Time should be Basis of Payment Full Time as shown below.
 
  
+## STP Message Structure
 
+This area holds the information about the setup of the STP files uploaded to the ATO. This next step must be completed prior to creating Pay Events.
+
+Two text files were sent with the release notes for HotFix 33, PAYEVNT.0003 Import File.csv and PAYEVNTEMP.0003 Import File.csv and these should be saved into a folder on your PC or network prior to the next step.
+
+Go to:
+
+*Payroll/Setup/Payroll Setup/Single Touch/STP Message Structure*
+
+Select OK.
+ 
+
+Browse to the location on your PC or server where you saved the two files previously mentioned above.
+
+Select PAYEVNT.0003 Import File.csv and select Open
+
+
+
+Browse to the location on your PC or server where you saved the two files previously mentioned above.
+Select PAYEVNTEMP.0003 Import File.csv and select Open
+
+[GoToTop](#single-touch-payroll-processing)
 
