@@ -49,7 +49,7 @@ Selecting the Gangs icon will allow you to review the Work Gangs that has been a
 ### Payroll Employee card Navigate ribbon Posted Pay Advices
 Selecting the “Posted Pay Advices” icon will allow you to review the pay slips which have been posted for the employee.  You can reprint or re-email previously posted pay advices.
 
- 
+ [GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
 
 #### Posted Pay Advices Navigate ribbon
 
@@ -80,6 +80,7 @@ The Superannuation Ledger Entries window lists all the employee’s superannuati
 
 Note: On cost superannuation transactions do not display until the Calculate Monthly Superannuation process has been produced.
 
+ [GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
  
 ### Payroll Employee card Navigate ribbon Leave Ledger Entries
 
@@ -90,6 +91,7 @@ The Leave Ledger Entries window displays all the employee’s leave transactions
 
 Selecting the Statistics icon will display the employee’s payment summary statistics for the Current Pay Period, Current Year and Last Year.  Information relating the Employee Termination Payment (ETP) can also be viewed.  
 
+[GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
 
 
 #### Statistics Payment Summary FastTab
@@ -121,7 +123,7 @@ Selecting the Statistics icon will display the employee’s payment summary stat
 ### Payroll Employee card Navigate ribbon YTD Accumulations
 Selecting the YTD Accumulations icon displays the current year to date accumulations that will print on the Employee's Payment Summary for the employee.  
 
- 
+ [GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
 
 ### Payroll Employee card Navigate ribbon Dimensions
 
@@ -147,3 +149,5 @@ Selecting the “Effective Dimensions” icon will allow you to add/review dimen
 
 Where an organisation has multiple dimensions implemented in addition to the Global Dimensions, then these can be added via the Dimension Set window.
 
+
+[GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
