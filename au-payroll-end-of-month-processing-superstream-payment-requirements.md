@@ -264,7 +264,7 @@ The fields on the Employee SGC Reporting History (Super. Payment History) report
 |Employee Name	|(9)|	This is the Employee Name.
 
 
-##### Employee SGC Reporting History (Super.Payment History Report) – Summary
+#### Employee SGC Reporting History (Super.Payment History Report) – Summary
 
  
 The fields on the Employee SGC Reporting History (Super. Payment History) report are:
