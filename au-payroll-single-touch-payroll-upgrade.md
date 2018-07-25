@@ -6,7 +6,7 @@
 - [Single Touch Upgrade](#single-touch-upgrade)
 - [Payroll User Setup](#payroll-user-setup)
 - [YTD Accumulations](#ytd-accumulations)
-- [STP Message Structure](stp-message-structure)
+- [STP Message Structure](#stp-message-structure)
 - [Employee Types](#employee-types)
 
 
@@ -131,7 +131,7 @@ With the introduction of Working Holiday Makers in 2017 modifications were made 
 
 Ensure that your Employment Basis and Basis of Payment fields match i.e. Employment Basis Full Time should be Basis of Payment Full Time as shown below.
 
-[GoToTop](#single-touch-payroll-upgrade)
+
  
 ## STP Message Structure
 
