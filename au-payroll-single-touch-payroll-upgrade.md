@@ -13,8 +13,8 @@ Use the checklist below in conjunction with the notes to ensure all required ste
 ||Update the P.S. YTD Accumulation Code to GROSS
 ||*Payroll/Setup/Payroll Setup/General/Pay Transaction Types*
 |3.|		Single Touch Upgrade
-Upgrade Payfocus and enter the date you will start using STP
-Payroll/Periodic Activities/Periodic Maintenance/Single Touch Upgrade 	
+||Upgrade Payfocus and enter the date you will start using STP
+||*Payroll/Periodic Activities/Periodic Maintenance/Single Touch Upgrade* 	
 |4.|		Update Payroll Setup
 ||Specify your STP Sending Service Provider
 ||*Payroll/Setup/Payroll Setup/Payroll Controls/Payroll Setup*
