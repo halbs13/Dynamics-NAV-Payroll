@@ -20,6 +20,7 @@ This window is used to define each On Cost pay Transaction Types for an Employee
 |Superannuation Code|This field is used to select the Superannuation Code the On-Cost calculation is applied against in the Pay Journal and EOM process|
 |Not Used|This is ticked to prevent the Line from calculating in the Pay Journal|
 
+[GoToTop](#payroll-employee-card-navigate-ribbon-accumulation-calculations)
 
 #### Employee Allowances
 
@@ -31,6 +32,7 @@ This window is used to define each On Cost pay Transaction Types for an Employee
 |End Date|This field is used to enter the end date for the On Cost Pay Transaction Type.  This field may be left blank if the On Cost Pay Transaction Type is to apply for an ongoing period of time.|
 |Pay Rate|This field defines the Rate applicable to the On Cost calculation.  The Rate is effectively entered as a percentage of the employee’s Gross pay.|
 
+[GoToTop](#payroll-employee-card-navigate-ribbon-accumulation-calculations)
  
 #### Employee Deductions
 
