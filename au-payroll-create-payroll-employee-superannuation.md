@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon - Superannuation
+# Payroll Employee card Navigate ribbon Superannuation
 
 The “Employee Superannuation” window is used to maintain the Superannuation contributions for each employee. You select the Superannuation Product (s), date joined, percentages and amounts to calculate for both employer and employee superannuation.   
 
@@ -13,6 +13,8 @@ The Navigate ribbon contains the following options:
 * Comments - Used to enter comments for the employee superannuation company.
 * Ledger Entries - Displays a list of the Employee Superannuation Ledger Entries for this Superannuation Company.
 To access the Employee Superannuation Card, select the “Edit” icon on the Home ribbon.
+
+
 
 #### Employee Superannuation card – General FastTab
 
@@ -33,7 +35,8 @@ To access the Employee Superannuation Card, select the “Edit” icon on the Ho
 |Comments|	This menu option displays existing comments for this employee, and allows you to enter or modify comments.
 |Ledger Entries|	This menu option lists superannuation ledger entries for the employees that have been posted to the Payroll Superannuation Sub-Ledger.
 
- 
+ [GoToTop](#payroll-employee-card-navigate-ribbon-superannuation)
+ 
 #### Employee Superannuation card – Employer (Concessional) FastTab
 
  
@@ -67,6 +70,7 @@ To access the Employee Superannuation Card, select the “Edit” icon on the Ho
 |Salary Sacrifice Std. Amt|	This field is used to enter the Pre Tax Employee Contribution amount
 |Salary Sacrifice Std. %	| This field is used to enter the Pre Tax Employee Contribution percentage
  
+ [GoToTop](#payroll-employee-card-navigate-ribbon-superannuation)
  
 #### Employee Superannuation card - Contributions FastTab
 
@@ -111,3 +115,4 @@ Note: Only Employer contributions are reported to the employees using SGC Report
 |Base Salary|	This field is used to calculate the Employee SGC % on the value entered instead of on the Pay Transaction Types ticked "Apply to Super".  The amount is entered as the annual salary of the employee. If the "Base Salary" field is zero then the employee’s actual earnings are used to calculate the Amount.
 
  
+ [GoToTop](#payroll-employee-card-navigate-ribbon-superannuation)
