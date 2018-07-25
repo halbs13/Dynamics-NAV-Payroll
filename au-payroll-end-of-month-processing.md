@@ -7,7 +7,7 @@ To access End of Month Processing from the following menu path:
 *Departments/Payroll/EOM Processing*
 
 The following are the available processes under the EOM Processing menu:
-- [Leave Processing - Calculate and Post the Provision to the General Ledger]
+- [Leave Processing - Calculate and Post the Provision to the General Ledger](#au-payroll-end-of-month-processing-leave.md)
 - [Superannuation Processing - Calculate and Post Transactions to the General Ledger]
 - [Payroll Tax Processing – Calculate the liability for Payroll Tax]
 - [Work Cover Processing - Calculate and Post the Expense to the General Ledger]
