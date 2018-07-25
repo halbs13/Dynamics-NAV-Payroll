@@ -6,7 +6,7 @@ The following items are accessed from the Process section on the Home ribbon:
 
 * [Comments](#payroll-employee-card-navigate-ribbon-comments) - is used to access any comments which may have been recorded about the Employee.  
 * [HR Employee card](#payroll-employee-card-navigate-ribbon-hr-employee-card) - is used to access the Employee card and you can modify that card if required. 
-* [Picture](#employee-card-navigate-ribbon-employee-picture) - is used to access the picture of the Employee which may have been stored against the employee’s record.  
+* [Picture](#employee-card-employee-picture) - is used to access the picture of the Employee which may have been stored against the employee’s record.  
 * [Alternative Addresses](#payroll-employee-card-navigate-ribbon-alternative-addresses) - is used to access any Alternative Addresses which may have been stored against the employee’s record.
 * [Gangs](#payroll-employee-card-navigate-ribbon-gangs) – if the employee has been assigned to a Work Gang, then you will be able to access this information from this icon.  
 * [Posted Pay Advices](#posted-pay-advices-navigate-ribbon) - displays details of completed Pay Advices.  Previous pay advices can be reprinted or re-emailed using this option. 
