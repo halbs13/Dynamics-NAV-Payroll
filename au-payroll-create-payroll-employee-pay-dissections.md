@@ -11,8 +11,8 @@ Note: The Main dissection type pays the balance of the employee net pay to the s
 |Transaction Type Code|	This field identifies the Pay Transaction Type assigned to the Net Pay 
 ||The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed by selecting the “ArrowDown” in the field.
 |Pay Dissection Type|	This field is used to select the dissection type used for this bank account;
-||* Main: The Main Pay Dissection type is used to pay the balance of net pay.  You must setup 1 only "Main" Pay Dissection.
-||* Part: The "Part" Pay Dissection type is used to define where specific amounts or a percentage of the employee net pay is banked.  An employee can have unlimited Part pay dissections
+||- Main: The Main Pay Dissection type is used to pay the balance of net pay.  You must setup 1 only "Main" Pay Dissection.
+||- Part: The "Part" Pay Dissection type is used to define where specific amounts or a percentage of the employee net pay is banked.  An employee can have unlimited Part pay dissections
 |Bank Account No.|	This field is used to enter the bank account number for the EFT payment.
 |Bank Account Name|	This field is used to enter the account name corresponding to the Bank Account no.
 |Pay Bank State Branch No.|	This field is used to select the Bank BSB number associated with the Bank Account.
