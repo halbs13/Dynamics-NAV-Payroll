@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon - Pay Dissections
+# Payroll Employee card Navigate ribbon Pay Dissections
 
 This form is used to set up the bank accounts and spilt the employees’ Net pay.  You must complete the following fields for each employee who is to be paid by the EFT Payment Method indicated on the Payroll Employee General tab card:
 
@@ -24,3 +24,5 @@ Note: The Main dissection type pays the balance of the employee net pay to the s
 |EFT Bank List|	This option displays a list of all the Employee Banks.
 |EFT Bank card|	This option displays the selected EFT Bank card.
  
+
+[GoToTop](#payroll-employee-card–navigate-ribbon-pay-dissections)
