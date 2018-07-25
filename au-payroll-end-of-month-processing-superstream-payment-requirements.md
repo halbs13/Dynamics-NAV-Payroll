@@ -17,10 +17,10 @@ An export has been created to allow for New Member information to be remitted to
 There are 5 Superannuation Payment File options:
 
 - [Generic](#generic-payment-format)
-- ClickSuper
-- SuperChoice
-- SunSuper
-- SuperStream Alternative
+- [ClickSuper](#clicksuper-payment-format)
+- [SuperChoice](#superchoice-payment-format)
+- [SunSuper](#sunsuper-payment-format)
+- [SuperStream Alternative](#superstream-alternative-payment-format)
 
 It is recommended that you review the requirements of the file layouts to ensure that you have the necessary mandatory information completed.
 
@@ -36,6 +36,8 @@ Super. Payment Export & Notification – this report flags the Employee Superann
 Super. Payment Export Reversal – This option is used to reverse the reporting flags when an error was made before the amounts have been physically reported to your employees.  If the Payment Advice has been reported to your employees you cannot use this option.
 
 New Member Registration Export – This report is used to provide the Employee information to the Superannuation Fund.  The report can be previewed so that any errors or information missing on the Employee file is rectified prior to producing a file.  
+
+[GoToTop](#superstream-payment-requirements)
 
 ### Superannuation Payment Reporting
 
@@ -68,6 +70,8 @@ To access the New Member Registration Export,
 |Superannuation Fund Product FastTab– Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank.
 |When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.
 
+[GoToTop](#superstream-payment-requirements)
+
 #### New Member Registration Export Report Sample
 
 The report fields contained on the New Member Registration Report are:
@@ -86,6 +90,8 @@ Missing information will appear in the report and you should update the informat
 
 Each of the Payment File Options will have their own mandatory requirements.  
 
+
+[GoToTop](#superstream-payment-requirements)
 
 #### Super Payment Export & Notification
 
@@ -131,6 +137,7 @@ To access the Super Payment Export & Notification,
 |Superannuation Ledger Entry FastTab – Superannuation Ledger Entry information can be filtered by entering information in this tab.  Otherwise it can be left blank. 
 |When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.
 
+[GoToTop](#superstream-payment-requirements)
 
 #### Superannuation Payment Export and Notification Report
  
@@ -155,7 +162,7 @@ Run ID	|(1)|	This identifies the Run ID of the Superannuation Export & Notificat
 |Employee Amount	|(12)|	An amount will appear in this column if the employee has made contributions.
 |Employer Amount	|(13)|	An amount will appear in this column if the employer has made contributions for the employee.
 
-
+[GoToTop](#superstream-payment-requirements)
 
 #### Pay Advice Notification 
 
@@ -185,6 +192,8 @@ The employee’s Superannuation record for the Superannuation Product Code has b
 
 In the Payroll Employee card/Navigate ribbon/Superannuation add the deleted Superannuation Product Code.  Change the amounts and percentage value to zero to prevent the deduction from processing in future pay journals.
 
+[GoToTop](#superstream-payment-requirements)
+
 #### Super. Payment Export Reversal 
 
 You may use this process to reverse the Superannuation Notification Report by entering the “SGC Extract Report Run Id” for the current processing month.  The “SGC Extract Report Run Id” is located on the Superannuation Payment Export and Notification Report towards the top left hand corner of the report.  You can only reverse the Payment process in the following conditions:
@@ -211,6 +220,8 @@ The Reversing process is used to reset the reporting flags where after you have 
 3.	Select OK.
 4.	A message will display the number of records reversed when the process is completed.
 5.	Make any required corrections and repeat your “Super.Payment Export & Notification” process again.
+
+[GoToTop](#superstream-payment-requirements)
 
 #### Super. Payment History
 
@@ -270,6 +281,8 @@ The fields on the Employee SGC Reporting History (Super. Payment History) report
 |Employee No.	|(8)	|This is the Employee No.
 |Employee Name	|(9)|	This is the Employee Name.
 
+
+[GoToTop](#superstream-payment-requirements)
  
 ### Superannuation File Layouts
 
@@ -311,6 +324,7 @@ The fields contained in the New Member Registration Export file are:
 |Hours worked per Week|	The “Hours worked per Week” information is sourced from the Payroll Employee card.
 |Date Joined Fund|	The “Date Joined Fund” field is populated from the Employee Superannuation card.
 
+[GoToTop](#superstream-payment-requirements)
 
 #### Generic Payment Format
 
@@ -359,6 +373,7 @@ The fields contained in the Generic Payment file are:
 |Employee Salary Sacrifice Amount	|Optional|	The “Employee Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.
 |Employee Non SGC Amount – Employer Contributions Voluntary|	Optional|	The “Employer Non SGC Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.
 
+[GoToTop](#superstream-payment-requirements)
 
 #### ClickSuper Payment Format
 
@@ -455,6 +470,7 @@ Employment Type	|Optional|	The “Employment Type” is not exported
 |Member Deducted	|Optional|	The “Member Deducted” is not exported
 |Drug and Alcoholism Contributions	|Optional|	The “Drug and Alcoholism Contributions” is not exported
 
+[GoToTop](#superstream-payment-requirements)
 
 ### SuperChoice Payment Format
 
@@ -492,6 +508,7 @@ The fields contained in the SuperChoice Payment file are:
 |Salary Sacrifice Amount	|Optional|	The “Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.
 |Member Voluntary Amount	|Optional|	The “Member Voluntary Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.
 
+[GoToTop](#superstream-payment-requirements)
 
 #### SunSuper Payment Format
 
@@ -532,6 +549,7 @@ The fields contained in the SunSuper Payment file are:
 |Mobile	|Optional	|The “Mobile” is sourced from the Mobile Phone No. field on the Employee card for the employee.
 |Landline|	Optional|	The “Landline” is sourced from the Phone No. field on the Employee card for the employee.
 
+[GoToTop](#superstream-payment-requirements)
 
 #### SuperStream Alternative Payment Format
 
