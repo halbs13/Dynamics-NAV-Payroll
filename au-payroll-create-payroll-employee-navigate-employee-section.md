@@ -34,7 +34,7 @@ HR Employee card icon is used to access the Employee card and you can modify tha
 ### Employee card Employee Picture
 Selecting the Employee Picture will allow you to Import/Export or Delete the picture of the employee if it has been stored within the database.
 
- [GoToTop](#payroll-employee-card-navigate-ribbon-(Employee section))
+ [GoToTop](#payroll-employee-card-navigate-ribbon-(employee-section)
 
 ### Payroll Employee card Navigate ribbon Alternative Addresses
 Selecting the Alternative Addresses icon will allow you to add/review any alternative addresses stored against the employee’s record.
