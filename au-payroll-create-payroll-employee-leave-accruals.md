@@ -24,7 +24,7 @@ To access the Employee Leave Accrual Card, click on the “Edit” icon on the H
  ||If this field is left blank the balances displayed are as of the current pay period end date or the Dynamics NAV work date whichever is the later. |
  ||If a field is completed the balances are as of the date entered.|
 
-[GoToTop](#payroll-employee-card-navigat-ribbon-leave-accruals)
+[GoToTop](#payroll-employee-card-navigate-ribbon-leave-accruals)
 
 #### Employee Leave Accrual card – Leave Details FastTab
 
@@ -45,7 +45,7 @@ To access the Employee Leave Accrual Card, click on the “Edit” icon on the H
 |Ordinary Value Earned|This field displays the total value of earnings applicable to leave within the Leave Period.|
 |Last Period Calculated|This field displays the ending date of the last pay period.|
 
-[GoToTop](#payroll-employee-card-navigat-ribbon-leave-accruals)
+[GoToTop](#payroll-employee-card-navigate-ribbon-leave-accruals)
 
  
 #### Employee Leave Accrual card - Long Service Leave FastTab
@@ -66,4 +66,4 @@ To access the Employee Leave Accrual Card, click on the “Edit” icon on the H
 * Adjust Balances - This menu item is used to adjust the leave balances for an employee.
 * Leave Breaks - You can enter Leave Breaks to stop the Employee’s leave accruing for the term of the leave break
 
- [GoToTop](#payroll-employee-card-navigat-ribbon-leave-accruals)
+[GoToTop](#payroll-employee-card-navigate-ribbon-leave-accruals)
