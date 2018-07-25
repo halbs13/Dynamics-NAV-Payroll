@@ -72,6 +72,7 @@ The Navigate ribbon provides you with other options for further analyse the entr
 
  
 ### Payroll Employee card Navigate ribbon Super Ledger Entries
+
 The Superannuation Ledger Entries window lists all the employee’s superannuation transactions posted to the Payroll Superannuation Sub-Ledger from the Pay Journal.
 
 Note: On cost superannuation transactions do not display until the Calculate Monthly Superannuation process has been produced.
