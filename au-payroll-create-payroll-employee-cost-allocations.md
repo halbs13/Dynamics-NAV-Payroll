@@ -1,8 +1,10 @@
 # Payroll Employee card – Navigate ribbon - Cost Allocations
 
 This option is used to setup and maintain percentages that split the employee’s costs over several cost centres.
+
  
 E.g. an employee’s earnings may be split 50% to cost centre “A” , 25% to cost centre “B” and 25% to cost centre “C”.  Costs may be split over Branches, Divisions and Dimensions.
+
 
  |Field|Comments|
 |---|---|
@@ -14,5 +16,4 @@ E.g. an employee’s earnings may be split 50% to cost centre “A” , 25% to c
 |||
 ||The “Division Code” is selected via the “ArrowDown” in the field.|
 |Dimensions|This field indicates the Dimensions the transactions will be costed against.|
-|Dimensions – Action ribbon||
-||This button is used to display the Emp Cost Allocation Dimensions window and to maintain the alternative dimension codes for this cost allocation.|
+|Dimensions – Action ribbon|This button is used to display the Emp Cost Allocation Dimensions window and to maintain the alternative dimension codes for this cost allocation.|
