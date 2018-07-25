@@ -49,7 +49,7 @@ Selecting the Gangs icon will allow you to review the Work Gangs that has been a
 ### Payroll Employee card Navigate ribbon Posted Pay Advices
 Selecting the “Posted Pay Advices” icon will allow you to review the pay slips which have been posted for the employee.  You can reprint or re-email previously posted pay advices.
 
- [GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
+
 
 #### Posted Pay Advices Navigate ribbon
 
@@ -91,7 +91,7 @@ The Leave Ledger Entries window displays all the employee’s leave transactions
 
 Selecting the Statistics icon will display the employee’s payment summary statistics for the Current Pay Period, Current Year and Last Year.  Information relating the Employee Termination Payment (ETP) can also be viewed.  
 
-[GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
+
 
 
 #### Statistics Payment Summary FastTab
