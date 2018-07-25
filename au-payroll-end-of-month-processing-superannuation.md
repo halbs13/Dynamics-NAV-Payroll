@@ -4,8 +4,8 @@
 
  Superannuation processing includes the following activities:
 * Bulk Adjustment
-* Calculate Monthly Superannuation  
-* Calculate & Post Superannuation
+* [Calculate Monthly Superannuation](#calculate-monthly-superannuation)  
+* [Calculate & Post Superannuation](#calculate-and-post-superannuation)
 * Super. Payment Export & Notification
 * Super. Payment Export Reversal
 * New Member Registration Export
@@ -35,7 +35,7 @@ To open the Calculate Monthly Superannuation window,
 |Report Only|	Tick this flag to produce a report without updating the Employee Superannuation Ledger records 
 ||Leave this field blank to update the Employee Superannuation Ledger records.
  
-### Calculate & Post Superannuation 
+### Calculate and Post Superannuation 
 
 This process must be run for each payroll on a monthly basis to post and make any required superannuation adjustments.  
 
