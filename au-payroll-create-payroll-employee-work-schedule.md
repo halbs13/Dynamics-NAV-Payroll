@@ -37,6 +37,6 @@ Select the “New” icon to create a new work schedule.
 |Day 1 to 31|	M	|Enter in the number of hours per day intended for the Work Schedule.  Day 1 will present the first day of the pay period.  
 
 
-[GoToTop](#payroll-employee-card–navigate-ribbon-work-schedules)
+[GoToTop](#payroll-employee-card-navigate-ribbon-work-schedules)
 
 
