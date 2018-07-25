@@ -149,7 +149,7 @@ Selecting the “Effective Dimensions” icon will allow you to add/review dimen
 ||This field is used to record the Global Dimension 2.
 
 
-#### Effective Dimensions Navigate ribbon Employee Effective Dimension Set
+### Effective Dimensions Navigate ribbon Employee Effective Dimension Set
 
 Where an organisation has multiple dimensions implemented in addition to the Global Dimensions, then these can be added via the Dimension Set window.
 
