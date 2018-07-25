@@ -1,6 +1,7 @@
 # Payroll Employee card – Navigate ribbon - Deductions
 
-The “Employee Deductions” card is used to set up deductions for this employee. 
+The “Employee Deductions” card is used to set up deductions for the employee. 
+
 
  |Field|Comments|
 |---|---|
