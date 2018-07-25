@@ -1,4 +1,4 @@
-#  End of Month Processing - Payroll Tax
+#  End of Month Processing Payroll Tax
 
 This function is used to calculate State and Territory Payroll Tax.
 
@@ -6,11 +6,11 @@ Payroll Tax is calculated as a percentage of the Employee's Pay.
 
 If you are setting up Payroll Tax for the first time you must ensure that the following areas have been established;
 
-1.	Payroll Tax States – these are established in the Payroll Tax menu item in the Payroll Codes Setup.
-2.	Payroll Tax Groups – if your organisation has payroll tax groups for the purposes of payroll tax these are established in the Payroll Tax Groups menu in the Payroll Codes Setup.
-3.	Branches – once the Payroll Tax States have been established they are attached to the Branch Codes which are also defined on the Payroll Employee card when an employee is setup.
-4.	Payroll Tax on Pay Transaction Types – Payroll Tax codes are established on each of the respective Pay Transaction Type.
-5.	Payroll Tax Rates – Payroll Tax rates are established for each of the States and Territories.
+1.	**Payroll Tax States** – these are established in the Payroll Tax menu item in the Payroll Codes Setup.
+2.	**Payroll Tax Groups** – if your organisation has payroll tax groups for the purposes of payroll tax these are established in the Payroll Tax Groups menu in the Payroll Codes Setup.
+3.	**Branches** – once the Payroll Tax States have been established they are attached to the Branch Codes which are also defined on the Payroll Employee card when an employee is setup.
+4.	**Payroll Tax on Pay Transaction Types** – Payroll Tax codes are established on each of the respective Pay Transaction Type.
+5.	**Payroll Tax Rates – Payroll Tax rates** are established for each of the States and Territories.
 
 Superannuation is also included in the Payroll Tax report and the thresholds are taken into account for each state when calculating the tax.
 
@@ -36,6 +36,8 @@ To open the Calculate Payroll Tax window,
 |End Month Name|	The value in the field will default depending upon the “End Month Date” selected.
 |Print Branch Summary|	Select this field to print a summarised cost allocation for each Branch.
 |Print Department Summary|	Select this field to print a summarised cost allocation for each Department.
+
+[GoToTop](#end-of-month-processing-payroll-tax)
 
  ## Payroll Tax Report
 
@@ -63,6 +65,9 @@ The fields on the Calculate Payroll Tax Report are:
 |Plus Adjustment	|(13)	|This is the value of the Adjustment as setup on the Payroll Tax Rates record.
 |Less Deduction	|(14)|	This is the value of the Monthly Deduction as setup on the Payroll Tax Rates record.
 |Net Taxable Wages|	(15)|	This is the sum of the “Gross Taxable Wages” and “Plus Adjustment, “Less Deduction”.
-||If the value is negligible then zero will be represented in this field.
+|||If the value is negligible then zero will be represented in this field.
 |Tax Rate	|(16)	|This is the Tax Rate as setup on the Payroll Tax Rates record.
 |Payroll Tax Payable	|(17)| 	This is the value of the Payroll Tax Payable for the State.
+
+
+[GoToTop](#end-of-month-processing-payroll-tax)
