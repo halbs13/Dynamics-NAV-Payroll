@@ -41,7 +41,7 @@ You must complete the following tabs and button for each employee
 * [Accumulations Calculations/Employer On Costs](au-payroll-create-payroll-employee-accumulation-calculations.md)
 * [Work Schedules](au-payroll-create-payroll-employee-work-schedule.md)
 
-[GoToTop](#create-payroll-employee)
+
 
 ### Payroll Employee card General FastTab
 
