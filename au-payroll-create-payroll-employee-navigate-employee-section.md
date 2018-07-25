@@ -18,6 +18,7 @@ The following items are accessed from the Process section on the Home ribbon:
 * [Dimensions](#payroll-employee-card-navigate-ribbon-dimensions)- is used to assign and view the Dimensions for this employee. 
 * [Effective Dimensions](#payroll-employee-card-navigate-ribbon-effective-dimensions) - is used to assign effective dates to Dimensions. 
 
+
 ### Payroll Employee card Navigate ribbon Comments
 
 Selecting the “Comments” icon will allow you to add/review any comments which may have been recorded against the employee’s card. 
@@ -26,6 +27,7 @@ Selecting the “Comments” icon will allow you to add/review any comments whic
 |---|---|
 |Date|Enter in the Date that you wish to record the comment.|
 |Comment| Enter in comments relating to the employee.|
+
 
 ### Payroll Employee card Navigate ribbon HR Employee card
 HR Employee card icon is used to access the Employee card and you can modify that card if required.  This option can be used to create a new Employee card. The information in the Employee card will update and populate the Payroll Employee card. 
@@ -40,28 +42,22 @@ Selecting the Employee Picture will allow you to Import/Export or Delete the pic
 Selecting the Alternative Addresses icon will allow you to add/review any alternative addresses stored against the employee’s record.
 
  
-
 ### Payroll Employee card Navigate ribbon Gangs
 Selecting the Gangs icon will allow you to review the Work Gangs that has been assigned to the employee’s record.  
 
  
- 
-### Payroll Employee card Navigate ribbon Posted Pay Advices
+ ### Payroll Employee card Navigate ribbon Posted Pay Advices
 Selecting the “Posted Pay Advices” icon will allow you to review the pay slips which have been posted for the employee.  You can reprint or re-email previously posted pay advices.
-
 
 
 #### Posted Pay Advices Navigate ribbon
 
  
-
-
 |Field|Comments|
 |---|---|
 |Reprint Pay Advice |This option is used to re-print and preview the pay advice selected in the list.|
 |Resend E-Mail Advice| This option is used to resend an emailed pay advice selected in the list.|
 |Ledger Entries|This option lists posted payroll transactions for the selected pay advice.|
-
 
  
 ### Payroll Employee card Navigate ribbon Ledger Entries
@@ -82,6 +78,7 @@ Note: On cost superannuation transactions do not display until the Calculate Mon
 
  [GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
  
+ 
 ### Payroll Employee card Navigate ribbon Leave Ledger Entries
 
 The Leave Ledger Entries window displays all the employee’s leave transactions posted to the Payroll Leave Sub-Ledger.
@@ -90,8 +87,6 @@ The Leave Ledger Entries window displays all the employee’s leave transactions
 ### Payroll Employee card Navigate ribbon Statistics
 
 Selecting the Statistics icon will display the employee’s payment summary statistics for the Current Pay Period, Current Year and Last Year.  Information relating the Employee Termination Payment (ETP) can also be viewed.  
-
-
 
 
 #### Statistics Payment Summary FastTab
@@ -119,16 +114,17 @@ Selecting the Statistics icon will display the employee’s payment summary stat
 |Tax Instalment| This field displays the Tax Instalment value as entered into the Employee Termination Payment table.
 |ETP Code| This field displays the ETP Code value as entered into the Employee Termination Payment table.
 
- 
+
+  [GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
+ 
+ 
 ### Payroll Employee card Navigate ribbon YTD Accumulations
 Selecting the YTD Accumulations icon displays the current year to date accumulations that will print on the Employee's Payment Summary for the employee.  
 
- [GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
 
 ### Payroll Employee card Navigate ribbon Dimensions
 
 Selecting the Dimensions icon will allow you to add/review the dimensions recorded against the employee’s record.  Where an organisation has implemented dimensions in addition to the Global Dimensions then these can be entered into this window.  
-
  
 
 ### Payroll Employee card Navigate ribbon Effective Dimensions
@@ -144,6 +140,7 @@ Selecting the “Effective Dimensions” icon will allow you to add/review dimen
 ||This field is used to record the Global Dimension 1.
 |Global Dimension 2| In the example above, the “Project Code” is setup as Global Dimension 2.  
 ||This field is used to record the Global Dimension 2.
+
 
 #### Effective Dimensions Navigate ribbon Employee Effective Dimension Set
 
