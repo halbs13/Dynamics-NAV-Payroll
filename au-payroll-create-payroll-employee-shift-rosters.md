@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon - Shift Rosters
+# Payroll Employee card Navigate ribbon Shift Rosters
 
 Shift Rosters are used to define specific work patterns for your employees.  The employee is automatically paid the hours defined for the shift.  
  
@@ -14,3 +14,6 @@ Select “Weekly Shift Roster” and then select “OK”
 |Shift|	This field displays the Shift codes previously setup 
 |Description|	The Shift Description 
 ||Monday - Sunday	If ticked the employee will receive payment for the selected shift for this day.
+
+
+[GoToTop](#payroll-employee-card-navigate-ribbon-shift-rosters)
