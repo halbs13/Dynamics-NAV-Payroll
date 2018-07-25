@@ -65,7 +65,7 @@ Go to:
 
 *Payroll/Single Touch Processing/Submit STP Pay Event*
 
-Select New and tick the EOTY Submission box and select OK
+Select New and tick the EOTY Submission box and select OK.
  
 
 ## Viewing STP Submissions
