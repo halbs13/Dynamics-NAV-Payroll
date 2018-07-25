@@ -17,9 +17,11 @@ The processing of the pay runs hasn’t changed. You just need to perform anothe
 
 Once you have completed your pay run, you will then need to create a Pay Event.
 
-Prior to running a Pay Event we strongly recommend you run the STP Payment Proof List and refer to the last page of the report which lists any errors that may cause the Pay Event to be rejected by the ATO. These errors are similar to those that you may have seen in prior years at EOTY e.g. invalid address, post code, etc.
+Prior to running a Pay Event we strongly recommend you run the [STP Payment Proof List](au-payroll-single-touch-payroll-reporting) and refer to the last page of the report which lists any errors that may cause the Pay Event to be rejected by the ATO. These errors are similar to those that you may have seen in prior years at EOTY e.g. invalid address, post code, etc.
+
 
 If there are any errors they can be corrected prior to creating the Pay Event.
+
 
 ### Pay Event
 
@@ -31,28 +33,16 @@ For a new pay run you have just completed select New and OK.
 
 This process will also create a Pay Event for any other outstanding pay runs that a Pay Event has not been already created.
 
- 
-
-Select Yes
-
- 
-Select Yes
-
-Payfocus will now generate the file.
-
- 
-
 Once the file has been generated you will be prompted to Open, Save or Cancel.
 
-  
-
-Select Save. Make sure you save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
+Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
 
 Upload the saved file to your portal of choice. Follow the provided “How To” instructions based on your SSP’s requirements.
 
 If there are no pay runs ready for upload to the ATO or you have created all the relevant pay events you will receive the following message. Select OK.
 
  [GoToTop](#single-touch-payroll-processing)
+
 
 ### Update Event
 
@@ -67,7 +57,6 @@ To perform an update, select Update, enter the Update Date and select OK.
 EOTY Submission should not be ticked at this stage, it is used to finalise your Tax Year (similar to creating your EMPDUPE file).
 
   
-
 ### Pay Event EOTY Submission
 
 If you have just completed your last pay run of the financial year and you have completed any relevant reconciliations you can advise the ATO through a Pay Event.
@@ -78,9 +67,6 @@ Go to:
 
 Select New and tick the EOTY Submission box and select OK
  
-Select Yes
-
-
 
 ## Viewing STP Submissions
 
@@ -110,21 +96,13 @@ You may need to replace the pay event if it contained errors or significant corr
 
 Tick Create File and select OK. 
 
-Select Yes
-
-Once the file has been created you will need to Save the file. Make sure you save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
+Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
 
 Enter any relevant filter options as required, e.g. Payroll No. and select OK.
 
-Select Yes
-
-Select Yes
-
-Payfocus will now generate the file as shown below.
-
 Once the file has been generated you will be prompted to Open, Save or Cancel.
 
-Select Save. Make sure you save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
+Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
 
 Upload the saved file to your Portal of choice. Follow the provided “How To” instructions based on your SSP’s requirements.
 
