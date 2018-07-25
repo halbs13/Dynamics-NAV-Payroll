@@ -1,5 +1,17 @@
 # Single Touch Payroll Upgrade
 
+- [Upgrade Checklist](#upgrade-checklist)
+- [Superannuation Type Code](#superannuation-type-code)
+- [Update YTD Accumulation for Superannuation(#update-ytd-accumulation-for-superannuation)
+- [Single Touch Upgrade](#single-touch-upgrade)
+- [Payroll User Setup](#payroll-user-setup)
+- [YTD Accumulations](#ytd-accumulations)
+- [STP Message Structure](stp-message-structure)
+- [Employee Types](#employee-types)
+
+
+
+
 ## Upgrade Checklist
 
 Use the checklist below in conjunction with the notes to ensure all required steps have been completed.
@@ -31,6 +43,7 @@ Use the checklist below in conjunction with the notes to ensure all required ste
 ||Update the Basis of Payment field on Employee Types
 ||*Payroll/Setup/Payroll Setup/General/Employee Types*
 
+[GoToTop](#single-touch-payroll-upgrade)
 
 ## Superannuation Type Code
 You need to confirm which transaction type code is used for Superannuation.
@@ -40,7 +53,7 @@ Go to:
 
  
 
-## Update YTD Accumulation for Superannuation (SGC)
+## Update YTD Accumulation for Superannuation
 
 You now need to update the YTD Accumulation for the code located in the previous step e.g. 6000 so that the SGC values are correctly reported in a STP Pay Event/Update Event.
 Go to:
@@ -74,7 +87,7 @@ Go to:
 
 On the Single Touch Payroll tab enter in your STP Sending Service Provider Name and select OK.
 
- 
+[GoToTop](#single-touch-payroll-upgrade) 
  
 ## Payroll User Setup
 
@@ -118,6 +131,7 @@ With the introduction of Working Holiday Makers in 2017 modifications were made 
 
 Ensure that your Employment Basis and Basis of Payment fields match i.e. Employment Basis Full Time should be Basis of Payment Full Time as shown below.
 
+[GoToTop](#single-touch-payroll-upgrade)
  
 ## STP Message Structure
 
