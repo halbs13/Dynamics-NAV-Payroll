@@ -20,16 +20,11 @@ Employment Termination Payment is used to enter Employee Termination Pay details
 |Death Benefit|This field indicates termination is due to the employee’s death.|
 |2008 to 2012 FastTab||
 |Tax Installation Deduction Amount|This is the total amount of tax withheld relating to the Termination Payment|
-|||
 |Taxable Component|This is the total amount of the payment less the tax free component. This amount is generally assessable income.|
-|||
 |Tax Free Component|This is the amount of the payment which is tax free. It consists of any pre-July 1983 segment plus any invalidity segment of the payment|
 |Death benefit|A death benefit is an employment termination payment received after another person’s death, in consequence of the termination of the other person’s employment.|
-|||
 |Death Benefit Paid To|Select from Trustee, Dependant or Other|
-|||
 |Termination Date|Enter the termination date|
-|| |
 |Transitional Termination Payment|Transitional arrangements may apply to payments made between 1 July 2007 and 30 June 2012 if the employee was|
 ||entitled, as at 9 May 2006, to such a payment specified under:|
 ||·         a written contract|
@@ -39,12 +34,9 @@ Employment Termination Payment is used to enter Employee Termination Pay details
 |Related to a Prior payment for Same Termination|For various reasons, employment termination payments may be made in more than one instalment. For payments made|
 ||subsequent to the initial payment, the ETP cap, lower cap and upper cap amounts are reduced by the amount of all previous|
 ||Payments that counted towards these caps when the previous payment was made.|
-|||
 |Tax Instalment Deduction Amount|This is the total amount of tax withheld relating to the Termination Payment|
-|||
 |Taxable Component|This is the total amount of the payment less the tax free component. This amount is generally assessable income.|
 |Tax Free Component|This is the amount of the payment which is tax free. It consists of any pre-July 1983 segment plus any invalidity segment of the payment|
-|||
   |ETP Code| The list of ETP codes have been provided by the ATO and furter information is available from the www.ato.gov.au website. The list of ETP codes are:
  ||R – Early Retirement, Genuine Redundancy, Invalidity or Compensation|
  ||S – Payment already made in previous tax year early retirement, Redundancy, Invalidity or Compensation|
