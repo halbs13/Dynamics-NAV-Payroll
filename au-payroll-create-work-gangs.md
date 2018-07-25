@@ -29,4 +29,4 @@ To open the Work Gangs card window:
 |Copy Gang|	This option is used to copy the current work displayed work gang employees to a new work gang or merge them into an existing gang.  
 
 
-
+[GoToTop](#work-gangs)
