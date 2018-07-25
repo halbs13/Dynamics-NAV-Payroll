@@ -30,23 +30,28 @@ Selecting the “Comments” icon will allow you to add/review any comments whic
 
 
 ### Payroll Employee card Navigate ribbon HR Employee card
+
 HR Employee card icon is used to access the Employee card and you can modify that card if required.  This option can be used to create a new Employee card. The information in the Employee card will update and populate the Payroll Employee card. 
 
  
 ### Employee card Employee Picture
+
 Selecting the Employee Picture will allow you to Import/Export or Delete the picture of the employee if it has been stored within the database.
 
  [GoToTop](#payroll-employee-card-navigate-ribbon-employee-section)
 
 ### Payroll Employee card Navigate ribbon Alternative Addresses
+
 Selecting the Alternative Addresses icon will allow you to add/review any alternative addresses stored against the employee’s record.
 
  
 ### Payroll Employee card Navigate ribbon Gangs
+
 Selecting the Gangs icon will allow you to review the Work Gangs that has been assigned to the employee’s record.  
 
  
- ### Payroll Employee card Navigate ribbon Posted Pay Advices
+### Payroll Employee card Navigate ribbon Posted Pay Advices
+
 Selecting the “Posted Pay Advices” icon will allow you to review the pay slips which have been posted for the employee.  You can reprint or re-email previously posted pay advices.
 
 
@@ -120,6 +125,7 @@ Selecting the Statistics icon will display the employee’s payment summary stat
  
  
 ### Payroll Employee card Navigate ribbon YTD Accumulations
+
 Selecting the YTD Accumulations icon displays the current year to date accumulations that will print on the Employee's Payment Summary for the employee.  
 
 
