@@ -25,22 +25,21 @@ The Payroll Employee card is used to create your employee records used to calcul
 
 You must complete the following tabs and button for each employee
 
-* [General] 
-* [Posting]
-* [Rate]
-* [Tax]
-* [Declaration]
-* [Pay Details]
-* [Work Cover]
-* [Navigate Ribbon]
-* [Pay Dissections]
-* [Pay Rates]
-* [Gross & Allowances]
-* [Deductions]
-* [Superannuation] 
-* [Cost Allocations]
-* [Accumulations Calculations/Employer On Costs]
-* [Work Schedules] 
+* [General](#payroll-employee-card-general-fasttab)
+* [Posting](#payroll-employee-card-posting-fasttab)
+* [Rate](#payroll-employee-card-rate-fasttab)
+* [Tax](#payroll-employee-card-tax-fasttab)
+* [Declaration](#payroll-employee-card-declaration-fasttab)
+* [Pay Details](#payroll-employee-card-pay-details-fasttab)
+* [Work Cover](#payroll-employee-card-work-cover-fasttab)
+* [Pay Dissections](au-payroll-create-payroll-employee-pay-dissections.md)
+* [Pay Rates](au-payroll-create-payroll-employee-pay-rates.md)
+* [Gross & Allowances](au-payroll-create-payroll-employee-gross-allowances.md)
+* [Deductions](au-payroll-create-payroll-employee-deductions.md)
+* [Superannuation](au-payroll-create-payroll-employee-superannuation.md)
+* [Cost Allocations](au-payroll-create-payroll-employee-cost-allocations.md)
+* [Accumulations Calculations/Employer On Costs](au-payroll-create-payroll-employee-accumulation-calculations.md)
+* [Work Schedules](au-payroll-create-payroll-employee-work-schedule.md)
 
 ### Payroll Employee card General FastTab
 
