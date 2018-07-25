@@ -1,7 +1,6 @@
 # Single Touch Payroll Processing
 
 
-- [STP Message Structure](#stp-message-structure)
 - [STP Processing](#stp-processing)
 - [Pay Event](#pay-event)
   - [Update Event](#update-event)
@@ -11,29 +10,6 @@
 - [STP Zero Submission](#stp-zero-submission)
 
 
-## STP Message Structure
-
-This area holds the information about the setup of the STP files uploaded to the ATO. This next step must be completed prior to creating Pay Events.
-
-Two text files were sent with these instructions PAYEVNT.0003 Import File.csv and PAYEVNTEMP.0003 Import File.csv and these should be saved into a folder on your PC or network prior to the next step.
-
-Go to:
-
-*Payroll/Setup/Payroll Setup/Single Touch/STP Message Structure*
-
-Select OK.
- 
-
-Browse to the location on your PC or server where you saved the two files previously mentioned above.
-
-Select PAYEVNT.0003 Import File.csv and select Open
-
-
-
-Browse to the location on your PC or server where you saved the two files previously mentioned above.
-Select PAYEVNTEMP.0003 Import File.csv and select Open
-
-[GoToTop](#single-touch-payroll-processing)
  
 ## STP Processing
 
