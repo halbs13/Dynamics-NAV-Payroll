@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon - Gross & Allowances
+# Payroll Employee card Navigate ribbon Gross & Allowances
 
 This area is used to setup permanent Gross Pay Transaction Type and Allowances for employees.   This means that whatever transactions are setup here will either automatically generate based on the Start or End Dates.  An example of when you might set transactions up is where an employee is an “Auto paid” employee.  
 
@@ -10,14 +10,10 @@ E.g. If a “Meal Allowance” transaction is associated with an Overtime Pay Tr
 |Field|Comments|
 |---|---|
 |Transaction Type Code|This field is used to select the Ordinary Pay Transaction Type for the employee’s standard hours (auto pay) You must tick the “Use Full Week Hours” flag|
-|||
 ||Setup any permanent Allowance Transaction Types with a fixed value or units and their “Associated” Pay Transaction Types. |
-|||
 ||E.g. Add a Pay Transaction Type, for Overtime, and leave the fixed value and units’ fields blank.  Add an associate Pay Transaction Type, for Meal Allowance, to the Overtime Pay Transaction Type.  (Whenever an Overtime transaction type is used in the Pay Journal for this employee they will receive the Meal Allowance pay transaction automatically.|
-|||
 ||The “Transaction Type Code” is selected using the “ArrowDown” in the field.|
 |Shift Code|If the employee works a “Shift” enter the shift code (for shifts where an allowance is paid)
-|||
 ||E.g. When the employees work the midnights to dawn shift they will receive the Pay Transaction Type allowance for sleep deprivation automatically.  If the employee does not work this shift then they will not receive this allowance.||Start Date|This field is used to enter the date from which this Pay Transaction Type applies.|
 |End Date|This field is used to enter the date this Pay Transaction Type ceases.  This field is left blank if the Pay Transaction Type is to apply for an indefinite period.|
 |Description|This field displays the Pay Transaction Type description.|
@@ -39,6 +35,7 @@ E.g. If a “Meal Allowance” transaction is associated with an Overtime Pay Tr
 |Associated Transactions|This option is used to setup Pay Transaction Type associated with the Pay Transaction Type on the Gross & Allowances card.|
 |Pay Details Enquiry|This option allows you to preview the employee’s standard pay for the current pay period.|
 
+[GoToTop](#payroll-employee-card-navigat-ribbon-gross-&-allowances)
  
 #### Payroll Employee card – Navigate ribbon – Associated Transactions
 
@@ -51,9 +48,7 @@ For example, a Living Away from Home allowance is associated with the Ordinary P
  |Field|Comments|
  |---|---|
  |Asoc. Transaction Type Code|This field is used to select the Associated Transaction Type.|
- |||
  ||Each time an Allowance that the "Assoc. Transaction Type Code" is linked to is used in the Pay Journal, this transaction is automatically generated.|
- |||
  ||The “Assoc. Transaction Type Code” is selected from the Pay Transaction Type table; this can be accessed by selecting the “ArrowDown”.|
  |Shift Code|Similar to the “Shift Code” described above but the Associated Pay Transaction will only be paid if the specific shift has been worked by the employee.|
  |Start Date|This field is used to enter the date from which this Associated Pay Transaction Type applies|
@@ -73,6 +68,6 @@ For example, a Living Away from Home allowance is associated with the Ordinary P
 |Not Used|This field is ticked when this Associated Pay Transaction is not to be paid for the current pay period only.  The flag will be reset for the next pay period.|
  
  
- 
+ [GoToTop](#payroll-employee-card-navigat-ribbon-gross-&-allowances)
  
  
