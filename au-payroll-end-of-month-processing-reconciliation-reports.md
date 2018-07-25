@@ -1,12 +1,12 @@
-# End of Month Processing – Reconciliation Reports
+# End of Month Processing Reconciliation Reports
 
 There are a number of reports available to assist you with your reconciliation process;
 
-* Payment Summary Proof List – the Payment Summary Proof List report is used to identify the transactions which will appear on the Payment Summaries for your employees. 
-* Posted Payroll Summary Report – the Posted Payroll Summary report contains transactional data by payroll at a summarised level and can be used on a monthly and yearly reporting basis.  This report is primarily used at the end of the financial year and reconciled with the Payment Summary Proof List report.  
-* Pay Transaction Totals Report – the Pay Transaction Total Report will 
-* Pay Transaction Detail 
-* Pay Register
+* [Payment Summary Proof List](#payment-summary-proof-list) – the Payment Summary Proof List report is used to identify the transactions which will appear on the Payment Summaries for your employees. 
+* [Posted Payroll Summary Report](#posted-payroll-summary) – the Posted Payroll Summary report contains transactional data by payroll at a summarised level and can be used on a monthly and yearly reporting basis.  This report is primarily used at the end of the financial year and reconciled with the Payment Summary Proof List report.  
+* [Pay Transaction Totals Report](#pay-transaction-totals) – the Pay Transaction Total Report will 
+* [Pay Transaction Detail](#pay-transaction-detail) 
+* [Pay Register](#pay-register)
 
 *Departments/Payroll/EOM Processing/Reconciliation Reports*
 
@@ -32,6 +32,8 @@ Once you have selected the report, a request form will appear with the following
 |---|---|
 |Tax Year|	Select the Tax Year you wish to reconcile and report
 
+
+[GoToTop](#end-of-month-processing-reconciliation-reports)
 
 #### Payment Summary Proof List – Payroll FastTab
 
@@ -78,6 +80,8 @@ To open the “Posted Payroll Summary” window,
 |No.|	Select a Payroll(s) to use as a filter to limit the employee’s printed.
 ||If left blank all Payroll(s) will print
 
+ 
+ [GoToTop](#end-of-month-processing-reconciliation-reports)
  
 ### Pay Transaction Totals
 
@@ -149,6 +153,6 @@ To open the “Pay Register” window,
 |No.|	From the “ArrowDown” select the Pay Register No.
 
 
-
+[GoToTop](#end-of-month-processing-reconciliation-reports)
 
  
