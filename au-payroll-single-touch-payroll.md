@@ -8,7 +8,7 @@ You will be able to make corrections if you make a mistake. The ATO calls this a
 
 Related Links:
 
-- [Single Touch Payroll Upgrade]
+- [Single Touch Payroll Upgrade]-
 - [Single Touch Payroll Processing]
 - [Single Touch Payroll Reporting]
 
