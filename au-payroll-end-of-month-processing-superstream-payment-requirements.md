@@ -694,3 +694,5 @@ Sender ABN	|Mandatory	|The “Sender ABN” is sourced from the ABN field on the
 |Employee Location Identifier Start Date	|Optional|	The “Employee Location Identifier Start Date” is not exported.
 |Employee Location Identifier End Date	|Optional|	The “Employee Location Identifier End Date” is not exported.
 
+
+[GoToTop](#superStream-payment-requirements)
