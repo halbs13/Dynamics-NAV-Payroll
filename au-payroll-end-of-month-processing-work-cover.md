@@ -2,9 +2,9 @@
 
 Work Cover is used to:
 
-- Create the Workers Compensation Ledger entries
-- Calculate the Workers Compensation Expense
-- Post the Workers Compensation Expense to the General Ledger.
+- [Create the Workers Compensation Ledger entries](#create-work-cover-ledger-entries)
+- [Calculate the Workers Compensation Expense](#calculate-work-cover-expense)
+- [Post the Workers Compensation Expense to the General Ledger.](#post-work-cover-expense)
 
 
 ### Create Work Cover Ledger Entries
@@ -56,6 +56,8 @@ The fields on the Create Work Cover Ledger Entries Report are:
 |Gross Value Applicable to Work Cover	|(8)|	This is the sum of the transactions which are applicable to Work Cover.
 |Levy %	|(9)|	This is the Levy percentage of the Work Cover Rate as established in the setup.
 |Work Cover Contribution	|(10)|	This is the sum of the Work Cover Contribution for the reporting period.
+
+[GoToTop](#end-of-month-processing-–-work-cover)
 
 ### Calculate Work Cover Expense
 
