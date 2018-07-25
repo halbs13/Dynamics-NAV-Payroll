@@ -1,14 +1,14 @@
 # Single Touch Payroll Processing
 
 
-- STP Message Structure
-- STP Processing
-- Pay Event
-  - Updage Event
-  - Pay Event EOTY Submission
-- Viewing STP Sumbissions
-- Resending STP Submissions
-- STP Zero Submission
+- [STP Message Structure](#stp-message-structure)
+- [STP Processing](#stp-processing)
+- [Pay Event](#pay-event)
+  - [Update Event](#update-event)
+  - [Pay Event EOTY Submission](#pay-event-eoty-submission)
+- [Viewing STP Sumbissions](#viewing-stp-submissions)
+- [Resending STP Submissions](#resending-stp-submissions)
+- [STP Zero Submission](#stp-zero-submission)
 
 
 ## STP Message Structure
@@ -33,6 +33,7 @@ Select PAYEVNT.0003 Import File.csv and select Open
 Browse to the location on your PC or server where you saved the two files previously mentioned above.
 Select PAYEVNTEMP.0003 Import File.csv and select Open
 
+[GoToTop](#single-touch-payroll-processing)
  
 ## STP Processing
 
@@ -75,7 +76,7 @@ Upload the saved file to your portal of choice. Follow the provided “How To”
 
 If there are no pay runs ready for upload to the ATO or you have created all the relevant pay events you will receive the following message. Select OK.
 
- 
+ [GoToTop](#single-touch-payroll-processing)
 
 ### Update Event
 
@@ -91,7 +92,7 @@ EOTY Submission should not be ticked at this stage, it is used to finalise your 
 
   
 
-### Pay Event - EOTY Submission
+### Pay Event EOTY Submission
 
 If you have just completed your last pay run of the financial year and you have completed any relevant reconciliations you can advise the ATO through a Pay Event.
 
@@ -118,6 +119,7 @@ You can review your submissions two ways:
 1)	Choose the Submission Details option in the ribbon.
 2)	Choose the Submission Employees option in the ribbon. If you want to view specific employee information you will need to select the relevant employee and select the Submission Employee Details option in the ribbon.
 
+ [GoToTop](#single-touch-payroll-processing)
  
 
 ## Resending STP Submissions
@@ -164,4 +166,4 @@ Select the relevant Tax Year and Update Date and any relevant filters and select
 Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
 
  
-
+[GoToTop](#single-touch-payroll-processing)
