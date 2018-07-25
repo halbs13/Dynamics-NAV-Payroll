@@ -20,7 +20,6 @@ To access the Employee Leave Accrual Card, click on the “Edit” icon on the H
  ||            4 Days = ratio of .75 (4:5)|
  ||            6 Days = ratio of 1.25 (6:5)|
  |As of Date|This field is used to filter the balances. |
- |||
  ||If this field is left blank the balances displayed are as of the current pay period end date or the Dynamics NAV work date whichever is the later. |
  ||If a field is completed the balances are as of the date entered.|
 
