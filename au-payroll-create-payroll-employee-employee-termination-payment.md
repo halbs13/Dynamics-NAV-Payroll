@@ -25,12 +25,10 @@ Employment Termination Payment is used to enter Employee Termination Pay details
 |Death benefit|A death benefit is an employment termination payment received after another person’s death, in consequence of the termination of the other person’s employment.|
 |Death Benefit Paid To|Select from Trustee, Dependant or Other|
 |Termination Date|Enter the termination date|
-|Transitional Termination Payment|Transitional arrangements may apply to payments made between 1 July 2007 and 30 June 2012 if the employee was|
-||entitled, as at 9 May 2006, to such a payment specified under:|
+|Transitional Termination Payment|Transitional arrangements may apply to payments made between 1 July 2007 and 30 June 2012 if the employee was entitled, as at 9 May 2006, to such a payment specified under:|
 ||·         a written contract|
 ||·         an Australian or foreign law (or an instrument under such a law), or|
 ||·         A workplace arrangement under the Workplace Relations Act 1996.|
-|||
 |Related to a Prior payment for Same Termination|For various reasons, employment termination payments may be made in more than one instalment. For payments made|
 ||subsequent to the initial payment, the ETP cap, lower cap and upper cap amounts are reduced by the amount of all previous|
 ||Payments that counted towards these caps when the previous payment was made.|
