@@ -5,7 +5,6 @@ This option allows you to record when an employee has a break in service.  Enter
 #### Employee Leave Breaks card 
 
  
-
 |Field	|Comments|
 |---|---|
 |Start Date|	Enter in the Start Date of the Leave Break|
