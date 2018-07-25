@@ -4,21 +4,21 @@ The following items are accessed from the Process section on the Home ribbon:
 
   
 
-* Comments - is used to access any comments which may have been recorded about the Employee.  
-* HR Employee card - is used to access the Employee card and you can modify that card if required. 
-* Picture - is used to access the picture of the Employee which may have been stored against the employee’s record.  
-* Alternatives Addresses - is used to access any Alternative Addresses which may have been stored against the employee’s record.
-* Gangs – if the employee has been assigned to a Work Gang, then you will be able to access this information from this icon.  
-* Posted Pay Advices - displays details of completed Pay Advices.  Previous pay advices can be reprinted or re-emailed using this option. 
-* Ledger Entries - lists all payroll transactions that have been posted for the employee.  
-* Super Ledger Entries - lists all superannuation transactions that have been posted to the Payroll Superannuation Sub-Ledger for the employee. 
-* Leave Ledger Entries – lists leave transactions that have been posted to the Payroll Leave Sub-Ledger for the employee.
-* Statistics - displays statistics for the current Pay Period, Current Year and Last Year printed on both the payment Summary and ETP. 
-* YTD Accumulations - displays the year to date accumulations.  It also displays where the value is printed on the Employee's Payment Summary.  The totals shown here are for the current employee, while the rest of the information is for all employees, for all payrolls in this database.
-* Dimensions - is used to assign and view the Dimensions for this employee. 
-*Effective Dimensions - is used to assign effective dates to Dimensions. 
+* [Comments](#payroll-employee-card-navigate-ribbon-comments) - is used to access any comments which may have been recorded about the Employee.  
+* [HR Employee card](#payroll-employee-card-navigate-ribbon-hr-employee-card) - is used to access the Employee card and you can modify that card if required. 
+* [Picture](#payroll-employee-card-navigate-ribbon-employee-picture) - is used to access the picture of the Employee which may have been stored against the employee’s record.  
+* [Alternative Addresses](#payroll-employee-card-navigate-ribbon-alternative-addresses) - is used to access any Alternative Addresses which may have been stored against the employee’s record.
+* [Gangs](#payroll-employee-card-navigate-ribbon-gangs) – if the employee has been assigned to a Work Gang, then you will be able to access this information from this icon.  
+* [Posted Pay Advices](#payroll-employee-card-posted-pay-advices) - displays details of completed Pay Advices.  Previous pay advices can be reprinted or re-emailed using this option. 
+* [Ledger Entries](#payroll-employee-card-navigate-ribbon-ledger-entries) - lists all payroll transactions that have been posted for the employee.  
+* [Super Ledger Entries](#payroll-employee-card-navigate-ribbon-super-ledger-entries) - lists all superannuation transactions that have been posted to the Payroll Superannuation Sub-Ledger for the employee. 
+* [Leave Ledger Entries](#payroll-employee-card-navigate-ribbon-ledger-entries) – lists leave transactions that have been posted to the Payroll Leave Sub-Ledger for the employee.
+* [Statistics](#payroll-employee-card-navigate-ribbon-statistics) - displays statistics for the current Pay Period, Current Year and Last Year printed on both the payment Summary and ETP. 
+* [YTD Accumulations](#payroll-employee-card-navigate-ribbon-ytd-accumulations) - displays the year to date accumulations.  It also displays where the value is printed on the Employee's Payment Summary.  The totals shown here are for the current employee, while the rest of the information is for all employees, for all payrolls in this database.
+* [Dimensions](#payroll-employee-card-navigate-ribbon-dimensions)- is used to assign and view the Dimensions for this employee. 
+* [Effective Dimensions](#payroll-employee-card-navigate-ribbon-effective-dimensions) - is used to assign effective dates to Dimensions. 
 
-### Payroll Employee card – Navigate ribbon - Comments
+### Payroll Employee card Navigate ribbon Comments
 
 Selecting the “Comments” icon will allow you to add/review any comments which may have been recorded against the employee’s card. 
 
@@ -27,32 +27,32 @@ Selecting the “Comments” icon will allow you to add/review any comments whic
 |Date|Enter in the Date that you wish to record the comment.|
 |Comment| Enter in comments relating to the employee.|
 
-### Payroll Employee card – Navigate ribbon - HR Employee card
+### Payroll Employee card Navigate ribbon HR Employee card
 HR Employee card icon is used to access the Employee card and you can modify that card if required.  This option can be used to create a new Employee card. The information in the Employee card will update and populate the Payroll Employee card. 
 
  
 
-### Employee card – Employee Picture
+### Employee card Employee Picture
 Selecting the Employee Picture will allow you to Import/Export or Delete the picture of the employee if it has been stored within the database.
 
  
 
-### Payroll Employee card – Navigate ribbon – Alternative Addresses
+### Payroll Employee card Navigate ribbon Alternative Addresses
 Selecting the Alternative Addresses icon will allow you to add/review any alternative addresses stored against the employee’s record.
 
  
 
-### Payroll Employee card – Navigate ribbon – Gangs
+### Payroll Employee card Navigate ribbon Gangs
 Selecting the Gangs icon will allow you to review the Work Gangs that has been assigned to the employee’s record.  
 
  
  
-### Payroll Employee card – Navigate ribbon - Posted Pay Advices
+### Payroll Employee card Navigate ribbon Posted Pay Advices
 Selecting the “Posted Pay Advices” icon will allow you to review the pay slips which have been posted for the employee.  You can reprint or re-email previously posted pay advices.
 
  
 
-#### Posted Pay Advices – Navigate ribbon
+#### Posted Pay Advices Navigate ribbon
 
  
 
@@ -65,7 +65,7 @@ Selecting the “Posted Pay Advices” icon will allow you to review the pay sli
 
 
  
-### Payroll Employee card – Navigate ribbon – Ledger Entries
+### Payroll Employee card Navigate ribbon Ledger Entries
 
 The (Employee) Ledger Entries window lists all the employee’s payroll transactions processed and posted from the Pay Journal.  
 
@@ -76,18 +76,18 @@ The Navigate ribbon provides you with other options for further analyse the entr
 * Dimensions - displays the Dimension Values used to post the selected entry.
 
  
-### Payroll Employee card – Navigate ribbon - Super Ledger Entries
+### Payroll Employee card Navigate ribbon Super Ledger Entries
 The Superannuation Ledger Entries window lists all the employee’s superannuation transactions posted to the Payroll Superannuation Sub-Ledger from the Pay Journal.
 
 Note: On cost superannuation transactions do not display until the Calculate Monthly Superannuation process has been produced.
 
  
-### Payroll Employee card – Navigate ribbon - Leave Ledger Entries
+### Payroll Employee card Navigate ribbon Leave Ledger Entries
 
 The Leave Ledger Entries window displays all the employee’s leave transactions posted to the Payroll Leave Sub-Ledger.
 
  
-### Payroll Employee card – Navigate ribbon - Statistics
+### Payroll Employee card Navigate ribbon Statistics
 
 Selecting the Statistics icon will display the employee’s payment summary statistics for the Current Pay Period, Current Year and Last Year.  Information relating the Employee Termination Payment (ETP) can also be viewed.  
 
@@ -119,18 +119,18 @@ Selecting the Statistics icon will display the employee’s payment summary stat
 |ETP Code| This field displays the ETP Code value as entered into the Employee Termination Payment table.
 
  
-### Payroll Employee card – Navigate ribbon - YTD Accumulations
+### Payroll Employee card Navigate ribbon YTD Accumulations
 Selecting the YTD Accumulations icon displays the current year to date accumulations that will print on the Employee's Payment Summary for the employee.  
 
  
 
-### Payroll Employee card – Navigate ribbon - Dimensions
+### Payroll Employee card Navigate ribbon Dimensions
 
 Selecting the Dimensions icon will allow you to add/review the dimensions recorded against the employee’s record.  Where an organisation has implemented dimensions in addition to the Global Dimensions then these can be entered into this window.  
 
  
 
-### Payroll Employee card – Navigate ribbon – Effective Dimensions
+### Payroll Employee card Navigate ribbon Effective Dimensions
 
 Selecting the “Effective Dimensions” icon will allow you to add/review dimension sets with effective dates.  Where an organisation has multiple dimensions implemented in addition to the Global Dimensions, then these can be added via the Dimension Set window on the Navigate ribbon.
  
@@ -144,7 +144,7 @@ Selecting the “Effective Dimensions” icon will allow you to add/review dimen
 |Global Dimension 2| In the example above, the “Project Code” is setup as Global Dimension 2.  
 ||This field is used to record the Global Dimension 2.
 
-#### Effective Dimensions – Navigate ribbon – Employee Effective Dimension Set
+#### Effective Dimensions Navigate ribbon Employee Effective Dimension Set
 
 Where an organisation has multiple dimensions implemented in addition to the Global Dimensions, then these can be added via the Dimension Set window.
 
