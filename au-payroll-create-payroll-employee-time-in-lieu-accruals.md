@@ -7,4 +7,4 @@ This option displays the “Time in Lieu” balance that has accumulated for the
 |No. Hours Accrued TIL|	This field displays the number of hours and value of Time In Lieu for this employee.
 |Value Only Accrued TIL|	This field displays the value of Time In Lieu for this employee without hours entered
 |Navigate ribbon
-|Adjust Balances|	This option is used to adjust and post the employees TIL balances.
+|Adjust Balances|	This option is used to adjust and post the employees TIL balances
