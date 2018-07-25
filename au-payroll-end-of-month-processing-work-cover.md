@@ -4,7 +4,7 @@ Work Cover is used to:
 
 - [Create the Workers Compensation Ledger entries](#create-work-cover-ledger-entries)
 - [Calculate the Workers Compensation Expense](#calculate-work-cover-expense)
-- [Post the Workers Compensation Expense to the General Ledger.](#post-work-cover-expense)
+- [Post the Workers Compensation Expense to the General Ledger](#post-work-cover-expense)
 
 
 ### Create Work Cover Ledger Entries
