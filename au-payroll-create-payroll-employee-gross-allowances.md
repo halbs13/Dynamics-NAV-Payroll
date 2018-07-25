@@ -1,4 +1,4 @@
-# Payroll Employee card Navigate ribbon Gross & Allowances
+# Payroll Employee card Navigate ribbon Gross and Allowances
 
 This area is used to setup permanent Gross Pay Transaction Type and Allowances for employees.   This means that whatever transactions are setup here will either automatically generate based on the Start or End Dates.  An example of when you might set transactions up is where an employee is an “Auto paid” employee.  
 
@@ -35,7 +35,7 @@ E.g. If a “Meal Allowance” transaction is associated with an Overtime Pay Tr
 |Associated Transactions|This option is used to setup Pay Transaction Type associated with the Pay Transaction Type on the Gross & Allowances card.|
 |Pay Details Enquiry|This option allows you to preview the employee’s standard pay for the current pay period.|
 
-[GoToTop](#payroll-employee-card-navigat-ribbon-gross-&-allowances)
+[GoToTop](#payroll-employee-card-navigat-ribbon-gross-and-allowances)
  
 #### Payroll Employee card – Navigate ribbon – Associated Transactions
 
@@ -68,6 +68,6 @@ For example, a Living Away from Home allowance is associated with the Ordinary P
 |Not Used|This field is ticked when this Associated Pay Transaction is not to be paid for the current pay period only.  The flag will be reset for the next pay period.|
  
  
- [GoToTop](#payroll-employee-card-navigat-ribbon-gross-&-allowances)
+ [GoToTop](#payroll-employee-card-navigat-ribbon-gross-and-allowances)
  
  
