@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon – Work Schedules
+# Payroll Employee card Navigate ribbon Work Schedules
 
 This table is designed to record historical and future dated transactions of the hours an employee has/will work.
 
@@ -35,3 +35,6 @@ Select the “New” icon to create a new work schedule.
 |Payroll No.	|M	|Select the Payroll No. which the Work Schedule is applicable to via the “ArrowDown”.
 |DAY SCHEDULE – Once you nominate and assign a Payroll No. the number of days will default.
 |Day 1 to 31|	M	|Enter in the number of hours per day intended for the Work Schedule.  Day 1 will present the first day of the pay period.  
+
+
+[GoToTop](#payroll-employee card–navigate-ribbon-work-schedules)
