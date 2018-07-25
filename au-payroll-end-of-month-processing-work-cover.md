@@ -1,4 +1,4 @@
-# End of Month Processing – Work Cover
+# End of Month Processing Work Cover
 
 Work Cover is used to:
 
@@ -57,7 +57,7 @@ The fields on the Create Work Cover Ledger Entries Report are:
 |Levy %	|(9)|	This is the Levy percentage of the Work Cover Rate as established in the setup.
 |Work Cover Contribution	|(10)|	This is the sum of the Work Cover Contribution for the reporting period.
 
-[GoToTop](#end-of-month-processing-–-work-cover)
+[GoToTop](#end-of-month-processing-work-cover)
 
 ### Calculate Work Cover Expense
 
@@ -91,6 +91,8 @@ To open the Calculate Work Cover Expense window
 |Document Date|	Enter in Document Date as a filter.
 
 
+[GoToTop](#end-of-month-processing-work-cover)
+
 ### Post Work Cover Expense
 
 The Post Work Cover Provision Report will post the Calculated Work Cover Provision to the General Ledger Granule in NAV Financials.
@@ -117,3 +119,4 @@ To open the Post Work Cover Provision window,
 |Document Date|	The “Document Date” range of the Work Cover Ledger Entries to be processed.
 
  
+ [GoToTop](#end-of-month-processing-work-cover)
