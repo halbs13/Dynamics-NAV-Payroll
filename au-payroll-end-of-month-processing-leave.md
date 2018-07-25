@@ -1,14 +1,14 @@
-# End of Month Processing – Leave
+# End of Month Processing Leave
 
 *Departments/Payroll/EOM Processing/Leave Processing*
 
-* Mass Adjust Leave Balance - The Mass Adjust Leave Balance function is used to adjust leave entitlements or pro rata balances in the employee leave ledger to correct leave balances.  It is also used to enter entitlements when implementing a new Payroll System. You can choose to post the Leave to the General Ledger or only update the Payroll Employee Leave Ledger Entries.
-* Calculate and Post Provision - The Calculate and Post Provision function is used to calculate the leave entitlement and post the expense and provision for Leave to the General Ledger depending on your configuration.  It is usually run at the end of each month after you have finished processing all Payrolls for the calendar month
-* Employee Leave Entitlement Report - The Employee Leave Entitlement Report contains Employee Leave accrual information and can be used to reconcile leave provision postings to the General Ledger.
-* Employee Time In Lieu Adm List - The Employee Time In Lieu Adm List report contains Employee Time In Lieu accrual information.  
+* [Mass Adjust Leave Balance](#end-of-month-processing-mass-adjust-leave-balance) - The Mass Adjust Leave Balance function is used to adjust leave entitlements or pro rata balances in the employee leave ledger to correct leave balances.  It is also used to enter entitlements when implementing a new Payroll System. You can choose to post the Leave to the General Ledger or only update the Payroll Employee Leave Ledger Entries.
+* [Calculate and Post Provision](#end-of-month-processing-calculate-&-post-provision) - The Calculate and Post Provision function is used to calculate the leave entitlement and post the expense and provision for Leave to the General Ledger depending on your configuration.  It is usually run at the end of each month after you have finished processing all Payrolls for the calendar month
+* [Employee Leave Entitlement Report](#employee-leave-entitlement) - The Employee Leave Entitlement Report contains Employee Leave accrual information and can be used to reconcile leave provision postings to the General Ledger.
+* [Employee Time In Lieu Adm List](#employee-time-in-lieu-adm-list) - The Employee Time In Lieu Adm List report contains Employee Time In Lieu accrual information.  
 
 
-### End of Month Processing - Mass Adjust Leave Balance
+### End of Month Processing Mass Adjust Leave Balance
 
 The Mass Adjust Leave Balance function is used to adjust employee leave entitlements or pro rata balances in the employee ledger to correct balances.  It is also used to enter entitlements when implementing a new Payroll System.
 
@@ -40,6 +40,8 @@ To open the Mass Adjust Leave Accruals window,
 ||Leave this option blank to post the provision to the General Ledger
 
 
+[GoToTop](#end-of-month-processing-leave)
+
 #### Mass Adjust Leave Accruals – Home ribbon
 
  |Field	|Comments|
@@ -64,7 +66,7 @@ To open the Mass Adjust Leave Accruals window,
 |Post| 	This option Posts the Leave adjustment to the Employee Leave Sub-Ledger and General Ledger Leave Provision accounts 
 
 
-### End of Month Processing - Calculate & Post Provision
+### End of Month Processing Calculate & Post Provision
 
 The Calculate Leave Provision calculates the Leave Accrual and Entitlements and posts them to the General Ledger Granule of NAV Financials.
 
@@ -83,6 +85,7 @@ Once you have selected the Payroll the Calculate Leave Provisions form is displa
 
 This form has three tabs; Leave Type, Payroll Employee and Options:
 
+ [GoToTop](#end-of-month-processing-leave)
  
 #### Calculate Leave Provision – Options FastTab
 
@@ -125,6 +128,7 @@ To generate the Employee Leave Entitlement Report,
 
 *Departments/Payroll/EOM Processing/Leave Processing/Employee Leave Entitlement*
  
+ [GoToTop](#end-of-month-processing-leave)
 
 #### Employee Leave Entitlement Report – Options FastTab
 
@@ -163,6 +167,7 @@ To generate the Employee Leave Entitlement Report,
 |Division Code|	Enter or Select the Division Code by selecting the “ArrowDown”.
 ||If left blank all employees are processed.
 
+ [GoToTop](#end-of-month-processing-leave)
  
 #### Employee Leave Entitlement Report Preview 
  
@@ -201,6 +206,7 @@ To generate the Employee Time In Lieu List,
 |---|---|
 |Show Employees with Zero Accrued|	Select this option if you wish to show employees with zero accruals.
 
+[GoToTop](#end-of-month-processing-leave)
 
 #### Employee Leave Entitlement Report – Payroll Employee FastTab
 
@@ -232,3 +238,5 @@ To generate the Employee Time In Lieu List,
 |•	Accrued – This field represents the value accrued if the accrual is recorded as a value.
 |•	Taken – This field represents the value taken if the accrual is recorded as a value.
 |•	Entitled – This field represents the entitled value if the accrual is recorded as a value.
+
+[GoToTop](#end-of-month-processing-leave)
