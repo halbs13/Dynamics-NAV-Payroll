@@ -3,7 +3,7 @@
 *Departments/Payroll/EOM Processing/Leave Processing*
 
 * [Mass Adjust Leave Balance](#end-of-month-processing-mass-adjust-leave-balance) - The Mass Adjust Leave Balance function is used to adjust leave entitlements or pro rata balances in the employee leave ledger to correct leave balances.  It is also used to enter entitlements when implementing a new Payroll System. You can choose to post the Leave to the General Ledger or only update the Payroll Employee Leave Ledger Entries.
-* [Calculate and Post Provision](#end-of-month-processing-calculate-&-post-provision) - The Calculate and Post Provision function is used to calculate the leave entitlement and post the expense and provision for Leave to the General Ledger depending on your configuration.  It is usually run at the end of each month after you have finished processing all Payrolls for the calendar month
+* [Calculate and Post Provision](#end-of-month-processing-calculate-and-post-provision) - The Calculate and Post Provision function is used to calculate the leave entitlement and post the expense and provision for Leave to the General Ledger depending on your configuration.  It is usually run at the end of each month after you have finished processing all Payrolls for the calendar month
 * [Employee Leave Entitlement Report](#employee-leave-entitlement) - The Employee Leave Entitlement Report contains Employee Leave accrual information and can be used to reconcile leave provision postings to the General Ledger.
 * [Employee Time In Lieu Adm List](#employee-time-in-lieu-adm-list) - The Employee Time In Lieu Adm List report contains Employee Time In Lieu accrual information.  
 
@@ -66,7 +66,7 @@ To open the Mass Adjust Leave Accruals window,
 |Post| 	This option Posts the Leave adjustment to the Employee Leave Sub-Ledger and General Ledger Leave Provision accounts 
 
 
-### End of Month Processing Calculate & Post Provision
+### End of Month Processing Calculate and Post Provision
 
 The Calculate Leave Provision calculates the Leave Accrual and Entitlements and posts them to the General Ledger Granule of NAV Financials.
 
