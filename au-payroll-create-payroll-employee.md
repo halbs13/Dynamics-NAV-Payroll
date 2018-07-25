@@ -41,6 +41,8 @@ You must complete the following tabs and button for each employee
 * [Accumulations Calculations/Employer On Costs](au-payroll-create-payroll-employee-accumulation-calculations.md)
 * [Work Schedules](au-payroll-create-payroll-employee-work-schedule.md)
 
+[GoToTop](#create-payroll-employee)
+
 ### Payroll Employee card General FastTab
 
 The General FastTab is use to edit the employee name and address details used for Payment Summary production. You must assign the employee to a Payroll which determines the frequency of payment.  You can define the employee’s location, position and payment method. You must select the Employee Type code to determine the type of Payment Summary issued.
@@ -83,6 +85,7 @@ The General FastTab is use to edit the employee name and address details used fo
 |E-Mail Pay Advice	|O|	When this field is ticked, the employee will receive Pay Advice via email. This field can only be ticked if the E-Mail field in the Employee card is populated with a valid email address.
 |E-Mail Payment Summary|	O	|When this field is ticked, the employee will receive the Payment Summary via email. This field can only be ticked if the E-Mail field in the Employee card is populated with a valid email address.
 
+[GoToTop](#create-payroll-employee)
 
 ### Payroll Employee card Posting FastTab
 
@@ -107,7 +110,9 @@ Global Dimensions are used in conjunction with GL Accounts in the General Ledger
 |Gen Bus. Posting Group|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
 |GST Bus. Posting Group|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
 |Currency Code|	O	|Used if multiple currency is being used.  Only 1 currency type can exist for a payroll.
- 
+
+[GoToTop](#create-payroll-employee)
+
 ### Payroll Employee card Rate FastTab
 
 This tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.
@@ -153,14 +158,14 @@ This tab is used to determine the standard hours worked and can be used to calcu
 |Pay Period Rate|	S|	This value reflected in this section is the employee’s pay per pay period.  
 |Annual Rate|	S|	The value reflected in this section is the employee annual rate of pay.
 
+[GoToTop](#create-payroll-employee)
+
 #### Payroll Employee card Employee Worked Hours
 
 In the “Hours In A Full Week” field, select the “DrillDown” button (Shift+F8) to enter into the Employee Worked Hours table.  
 
 This table is designed to record historical and future dated transactions of the hours an employee has/will work.
  
-
-
 |Field	Field |Type|	Comments
 |---|---|---|
 |Employee No.|	M	|This field will contain the Employee’s No.  
@@ -207,12 +212,11 @@ The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This 
 |Fringe Benefit Amount|	O	|This field is used to access the Employee FBT Amount List.  
 |||Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.
 
+[GoToTop](#create-payroll-employee)
 
 ### Payroll Employee card Declaration FastTab
 
 The information entered on this card is obtained from the employees Tax File Number Declaration form.  The information entered is used to work out how much PAYG tax to withhold from payments made to the employee and are used when producing the electronic lodgement file for employment declarations to the ATO.
-
- 
 
 |Field	 |Field Type	|Comments|
 |---|---|---|
@@ -240,7 +244,6 @@ The information entered on this card is obtained from the employees Tax File Num
 
 This tab is used to display pay details for the employees.  Some fields on this tab are calculated and cannot be maintained on this tab.
 
- 
 
 |Field|	Field |Type	Comments|
 |---|---|---|
@@ -264,7 +267,6 @@ This tab is used to display pay details for the employees.  Some fields on this 
 
 The fields on this tab are used to assign Work Cover details to this employee for the purposes of calculating Work Cover liabilities for your employees.
 
- 
 
 |Field	|Field |Type	Comments
 |---|---|---|
@@ -274,3 +276,4 @@ The fields on this tab are used to assign Work Cover details to this employee fo
 |Work Cover Location	|O|	Select the “Work Cover Levy” Location.
 
 
+[GoToTop](#create-payroll-employee)
