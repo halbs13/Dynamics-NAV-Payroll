@@ -17,7 +17,7 @@ The processing of the pay runs hasn’t changed. You just need to perform anothe
 
 Once you have completed your pay run, you will then need to create a Pay Event.
 
-Prior to running a Pay Event we strongly recommend you run the [STP Payment Proof List](au-payroll-single-touch-payroll-reporting) and refer to the last page of the report which lists any errors that may cause the Pay Event to be rejected by the ATO. These errors are similar to those that you may have seen in prior years at EOTY e.g. invalid address, post code, etc.
+Prior to running a Pay Event we strongly recommend you run the [STP Payment Proof List](au-payroll-single-touch-payroll-reporting.md) and refer to the last page of the report which lists any errors that may cause the Pay Event to be rejected by the ATO. These errors are similar to those that you may have seen in prior years at EOTY e.g. invalid address, post code, etc.
 
 
 If there are any errors they can be corrected prior to creating the Pay Event.
