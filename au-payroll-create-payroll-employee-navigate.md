@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon (Pay section)
+# Payroll Employee card Navigate ribbon Pay section
 
 Various options are accessible on the ribbon to set up employee’s bank account dissections, pay rates, gross and allowances, deductions, cost allocations, superannuation and on costs that can be used to calculate and pay the employee.  You also setup Leave, Work Schedules and record Employee Termination Payment information.  
 
@@ -33,3 +33,6 @@ On Costs are costs associated with provisioning for superannuation, incentive pa
 -	**Employee Termination Pay** - This button is used to enter the details for Employee Termination Payments printed on the Employee's Employment Termination Payment (ETP) Summary.
  
 -	**Pay Detail Enquiry** - This button is used to view the employees' standard pay for the current Pay Period.
+
+
+[GoToTop](#payroll-employee-card-navigate-ribbon-pay-section)
