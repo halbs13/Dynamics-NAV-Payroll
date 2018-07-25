@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon – Employee Termination Payment
+# Payroll Employee card Navigate ribbon Employee Termination Payment
 
 Employment Termination Payment is used to enter Employee Termination Pay details to print on the Employee's ETP Summary.  There are 3 fast tabs which are designed to identify which payment period the Employee Termination Payment relates to;
 
@@ -18,7 +18,7 @@ Employment Termination Payment is used to enter Employee Termination Pay details
 |Tax Instalment Deduction Amount|This field displays the total Tax amount already deducted from the accumulated ETP.|
 |Assessable Amount|This field displays the total amount to be taxed.|
 |Death Benefit|This field indicates termination is due to the employee’s death.|
-|2008 to 2012 FastTab||
+|2008 to 2012 FastTab|
 |Tax Installation Deduction Amount|This is the total amount of tax withheld relating to the Termination Payment|
 |Taxable Component|This is the total amount of the payment less the tax free component. This amount is generally assessable income.|
 |Tax Free Component|This is the amount of the payment which is tax free. It consists of any pre-July 1983 segment plus any invalidity segment of the payment|
@@ -26,11 +26,11 @@ Employment Termination Payment is used to enter Employee Termination Pay details
 |Death Benefit Paid To|Select from Trustee, Dependant or Other|
 |Termination Date|Enter the termination date|
 |Transitional Termination Payment|Transitional arrangements may apply to payments made between 1 July 2007 and 30 June 2012 if the employee was entitled, as at 9 May 2006, to such a payment specified under:|
-||·         a written contract|
-||·         an Australian or foreign law (or an instrument under such a law), or|
+||·         A written contract|
+||·         An Australian or foreign law (or an instrument under such a law), or|
 ||·         A workplace arrangement under the Workplace Relations Act 1996.|
 |Related to a Prior payment for Same Termination|For various reasons, employment termination payments may be made in more than one instalment. For payments made|
-||subsequent to the initial payment, the ETP cap, lower cap and upper cap amounts are reduced by the amount of all previous|
+||Subsequent to the initial payment, the ETP cap, lower cap and upper cap amounts are reduced by the amount of all previous|
 ||Payments that counted towards these caps when the previous payment was made.|
 |Tax Instalment Deduction Amount|This is the total amount of tax withheld relating to the Termination Payment|
 |Taxable Component|This is the total amount of the payment less the tax free component. This amount is generally assessable income.|
@@ -46,3 +46,4 @@ Employment Termination Payment is used to enter Employee Termination Pay details
  ||T – Death Benefit Paid to Trustee|
  
 
+[GoToTop](#payroll-employee-card-navigate-ribbon-employee-termination-payment)
