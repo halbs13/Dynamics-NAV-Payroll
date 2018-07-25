@@ -1,4 +1,4 @@
-# End of Month Processing – Deduction Processing
+# End of Month Processing Deduction Processing
 
 *Departments/Payroll/EOM Processing/Deduction Processing*
 
@@ -30,4 +30,7 @@ To open the “Deduction List – Current Period” window,
 |Field|	Comments|
 |---|---|
 |No.|	Select the Deduction Pay Transaction Type you wish to report on from the “ArrowDown”.
+
+
+[GoToTop](#end-of-month-processing-deduction-processing)
 
