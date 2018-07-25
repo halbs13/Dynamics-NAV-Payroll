@@ -16,11 +16,11 @@ An export has been created to allow for New Member information to be remitted to
 
 There are 5 Superannuation Payment File options:
 
-* [Generic] (#generic-payment-format)
-* ClickSuper
-* SuperChoice
-* SunSuper
-* SuperStream Alternative
+- [Generic] (#generic-payment-format)
+- ClickSuper
+- SuperChoice
+- SunSuper
+- SuperStream Alternative
 
 It is recommended that you review the requirements of the file layouts to ensure that you have the necessary mandatory information completed.
 
