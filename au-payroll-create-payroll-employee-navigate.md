@@ -32,7 +32,7 @@ On Costs are costs associated with provisioning for superannuation, incentive pa
  
 -	[Employee Termination Pay](au-payroll-create-payroll-employee-employee-termination-payment.md) - This button is used to enter the details for Employee Termination Payments printed on the Employee's Employment Termination Payment (ETP) Summary.
  
--	[Pay Detail Enquiry] - This button is used to view the employees' standard pay for the current Pay Period.
+-	Pay Detail Enquiry - This button is used to view the employees' standard pay for the current Pay Period.
 
 
 [GoToTop](#payroll-employee-card-navigate-ribbon-pay-section)
