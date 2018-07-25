@@ -121,11 +121,11 @@ To access the Super Payment Export & Notification,
 ||Employees with no pay next period – This option must be used after your Next Pay is posted to general Ledger.  The option selects all employees who did not receive a Pay Advice in the “next pay” after “Post and create Pay Advice record” are run.  A “.CSV” file is then created that you can use to produce a letter for these employees.
 ||Note: If your Company has multiple Payrolls and you select all Payrolls you must ensure that you have completed processing all payrolls before you run this process.  If you don’t the employees contributions not yet paid and posted to the GL will go to the “.CSV” file and the message will not print on their Pay Advice.  You can run this process separately for each of your payrolls.
 |Payment Export Format	There are currently 5 options for you to select from:
-||Generic:  The Generic payment file layout is described in [Generic Payment Format][Generic Payment Format].
-||ClickSuper:  The ClickSuper payment file layout is described in [ClickSuper Payment Format].
-||SuperChoice: The SuperChoice payment file layout is described in [SuperChoice Payment Format].
-||SunSuper: The SunSuper payment file layout is described in Section [SunSuper Payment Format].
-||SuperStream Alternative: The SuperStream Alternative payment file layout is described in [SuperStream Alternative Payment Format].
+||Generic:  The Generic payment file layout is described in [Generic Payment Format](#generic-payment-format).
+||ClickSuper:  The ClickSuper payment file layout is described in [ClickSuper Payment Format](#clicksuper-payment-format).
+||SuperChoice: The SuperChoice payment file layout is described in [SuperChoice Payment Format](#superchoice-payment-format).
+||SunSuper: The SunSuper payment file layout is described in Section [SunSuper Payment Format](#sunsuper-payment-format).
+||SuperStream Alternative: The SuperStream Alternative payment file layout is described in [SuperStream Alternative Payment Format](#superstream-alternative-payment-format).
 |Payment Date|	Enter the date you paid the SGC amounts to the fund.
 |Notification Letter File Export Location|	This field is only used for “Post and create letter file” and “Employees with no pay next period”.  
 ||Enter the path and file name location where you want to create the “.CSV” file.  This field remains greyed out for the other “Run Type” options 
