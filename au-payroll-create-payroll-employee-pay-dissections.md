@@ -24,5 +24,18 @@ Note: The Main dissection type pays the balance of the employee net pay to the s
 |EFT Bank List|	This option displays a list of all the Employee Banks.
 |EFT Bank card|	This option displays the selected EFT Bank card.
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 [GoToTop](#payroll-employee-card–navigate-ribbon-pay-dissections)
