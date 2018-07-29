@@ -1,4 +1,4 @@
-# 6	END OF YEAR PROCESSING
+# END OF YEAR PROCESSING
 A number of Payroll activities must be performed annually or on request. Transactions entered into the Payroll granule during the Tax Year are used to create the:
 * Payment Summaries and Australian Taxation Office (ATO) Electronic Payment Summary (EPS) file. 
 * Employer Termination Payment (ETPs) Summaries - generated using data entered against employees when they are terminated.
@@ -19,7 +19,7 @@ The EOFY Payment Summaries menu option is used to:
 *	Produce the ATO EPS file.  
  
  
-# 6.1	Payment Summary Processing Steps
+## Payment Summary Processing Steps
 1.	Enter Employment Termination Payments (ETPs) for your Terminated employees. 
 
 Departments/Payroll/Employee Maintenance/Payroll Employee card/Navigate ribbon/ Employment Termination Pay card
@@ -35,7 +35,7 @@ Departments/Payroll/Employee Maintenance/Payroll Employee card/Tax tab/Fringe Be
 Payment Summaries may be re-printed at any time and will indicate that they are amended on the top of the page.  
 
  
-# 6.1.1	YTD Accumulator Code Update 
+## YTD Accumulator Code Update 
 The Pay Transaction Types paid to employees are accumulated to Payment Summary YTD Accumulation codes. The codes are used to accumulate YTD amounts reported on the employee’s payment summary.  
  
 Only Pay Transaction Type codes that have an YTD Accumulation code assigned on the General tab are printed on the Payment Summaries.
@@ -51,7 +51,7 @@ Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update
 Run this report to update any changes made in the YTD Accumulation for Payment Summaries of any Pay Transaction Types. Running the report updates YTD figures according to new settings made.
   
  
-# 6.2	Payment Summary Proof List Overview
+## Payment Summary Proof List Overview
 The same menu option is used to:
 
 *	Print the Payment Summary Proof List
@@ -73,7 +73,7 @@ Note:  If an employee has been employed under several different employment types
 A “Payment Summary Proof List” is always printed, by default, when selecting the “Print Payment Summaries” option. This is used to provide proof of the values printed on the Payment Summaries supplied to the ATO.
 
 
-# 6.2.1	Payment Summary Proof List 
+## Payment Summary Proof List 
  To open the “Payment Summary Proof List” window,
 
 Departments/Payroll/EOM Processing/Reconciliation Reports/Payment Summary Proof List
@@ -86,19 +86,19 @@ Once you have selected the report, a request form will appear with the following
 Select “Normal processing”
  
 
-# 6.2.1.1	Payment Summary Proof List – Options FastTab
+#### Payment Summary Proof List – Options FastTab
 | Field	|Comments|
 |---|---|
 |Tax Year|	Select the Tax Year you wish to reconcile and report
 
-# 6.2.1.2	Payment Summary Proof List – Payroll FastTab
+#### Payment Summary Proof List – Payroll FastTab
 |Field	|Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
 |No.	|Select a Payroll(s) to use as a filter to limit the employee’s printed.
 ||If left blank all Payroll(s) will print|
 
-# 6.2.1.3	Payment Summary Proof List – Payroll Employee FastTab
+#### Payment Summary Proof List – Payroll Employee FastTab
 |Field|	Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
@@ -110,7 +110,7 @@ Select “Normal processing”
 Reconcile this report to the Posted Payroll Summary Report and General Ledger until you are satisfied.
 
 
-# 6.3	Overview Payment Summary and the PAYG EPS ATO File 
+## Overview Payment Summary and the PAYG EPS ATO File 
 The same menu option is used to print the Payment Summary Proof List, Payment Summaries, and the ETP’s and to create the Electronic ATO file.  
 
 There are five types of Payment Summaries that can be produced.
@@ -136,7 +136,7 @@ The name of the ATO EPS file is automatically populated as a default.  You must 
 **Note:**  Employment Termination Payment (ETP) summaries are produced automatically during the Payment Summary process if you have entered the employees ETP details on the Payroll Employee card/Navigate ribbon/Employment Termination Pay card. 
 
 
-# 6.3.1	Print Payment Summary, ETP and Create the PAYG ATO File 
+### Print Payment Summary, ETP and Create the PAYG ATO File 
 Use this option to produce your Payment Summaries, ETP Summaries and the ATO EPS file:
 
 Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries
@@ -150,7 +150,7 @@ Once you have selected the report, a request form will appear with the following
 Click “End of Tax Year Processing”
 
 
-# 6.3.1.1	Payment Summary Proof List – Options FastTab
+#### Payment Summary Proof List – Options FastTab
 |Field	|Comments|
 |---|---|
 |Tax Year|	Select the Tax Year you wish to create Payment Summaries, and  ETP’s and the ATO EPS file| 
@@ -178,7 +178,7 @@ Click “End of Tax Year Processing”
 ||Dialog has received confirmation for the layout from the ATO.
 |Supplier File Reference|	This field is used by the ATO to further identify the file for enquiries from the ATO to you.|
 
-# 6.3.1.2	Print Payment Summaries – Payroll FastTab
+#### Print Payment Summaries – Payroll FastTab
 |Field|	Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
@@ -186,7 +186,7 @@ Click “End of Tax Year Processing”
 
 ||If left blank all Payroll(s) will print|
 
-# 6.3.1.3	Payment Summary Proof List – Payroll Employee FastTab
+#### Payment Summary Proof List – Payroll Employee FastTab
 |Field	|Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”|
