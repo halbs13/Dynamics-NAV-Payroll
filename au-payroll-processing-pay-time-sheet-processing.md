@@ -31,8 +31,8 @@ To open the **Payroll Selection** window:
 |Company Name|This field is used to display the Name of the Company.|
 |Ship-To Contact|This field is used to display the name of the contact person to whom items for the payroll should be shipped.|
 |Company Phone No.|This field is used to display the Company's telephone Number.|
-|“OK” button|Use this button to make the selected Payroll line your default |
-|“Clear Selection” option|Use this button to de-select your default payroll |
+|OK button|Use this button to make the selected Payroll line your default |
+|Clear Selection option|Use this button to de-select your default payroll |
 
 # Pay Time Sheet Journal
 
