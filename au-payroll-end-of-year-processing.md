@@ -1,4 +1,5 @@
 # END OF YEAR PROCESSING
+
 A number of Payroll activities must be performed annually or on request. Transactions entered into the Payroll granule during the Tax Year are used to create the:
 * Payment Summaries and Australian Taxation Office (ATO) Electronic Payment Summary (EPS) file. 
 * Employer Termination Payment (ETPs) Summaries - generated using data entered against employees when they are terminated.
@@ -14,10 +15,11 @@ The values printed on the Payment Summaries are taken from the YTD Accumulators.
 
 The EOFY Payment Summaries menu option is used to:
 *	[Print the Payment Summary Proof List](#payment-summary-proof-list-overview)
-*	[Print the Payment Summaries](#print-payment-summary-ato-and-create-the-payg-ato-file)  
+*	[Print the Payment Summaries](#print-payment-summary-etp-and-create-the-payg-ato-file)  
 *	Print Employment Termination Payment Summaries
 *	Produce the ATO EPS file.
  
+[GoToTop](#end-of-year-processing)
  
 ## Payment Summary Processing Steps
 
@@ -50,7 +52,8 @@ When you have finished you can continue End of Year Processing
 *Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update*
  
 Run this report to update any changes made in the YTD Accumulation for Payment Summaries of any Pay Transaction Types. Running the report updates YTD figures according to new settings made.
-  
+ 
+[GoToTop](#end-of-year-processing) 
  
 ## Payment Summary Proof List Overview
 The same menu option is used to:
@@ -110,6 +113,7 @@ Select “Normal processing”
 
 Reconcile this report to the Posted Payroll Summary Report and General Ledger until you are satisfied.
 
+[GoToTop](#end-of-year-processing)
 
 ## Overview Payment Summary and the PAYG EPS ATO File 
 The same menu option is used to print the Payment Summary Proof List, Payment Summaries, and the ETP’s and to create the Electronic ATO file.  
@@ -136,6 +140,7 @@ The name of the ATO EPS file is automatically populated as a default.  You must 
 
 **Note:**  Employment Termination Payment (ETP) summaries are produced automatically during the Payment Summary process if you have entered the employees ETP details on the Payroll Employee card/Navigate ribbon/Employment Termination Pay card. 
 
+[GoToTop](#end-of-year-processing)
 
 ### Print Payment Summary ETP and Create the PAYG ATO File 
 Use this option to produce your Payment Summaries, ETP Summaries and the ATO EPS file:
@@ -196,3 +201,5 @@ Click “End of Tax Year Processing”
 |Employee Type Code|	Select an Employee Type Code(s) to use as a filter to limit the process to only a specific Employee Type |
 |If left blank all Employee Types for the selected Payroll(s) will print.|
 
+
+[GoToTop](#end-of-year-processing)
