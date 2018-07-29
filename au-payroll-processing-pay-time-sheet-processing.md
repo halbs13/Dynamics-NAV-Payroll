@@ -1,4 +1,4 @@
-# 4.1	Pay Time Sheet Processing Overview
+# Pay Time Sheet Processing Overview
 The following steps are completed in sequence to successfully enter and Transfer Timesheets into the Payroll Journal for Processing:
 
 1.	Select a Payroll for processing
@@ -7,7 +7,7 @@ The following steps are completed in sequence to successfully enter and Transfer
 4.	Open the Pay Journal and Transfer Timesheets
 
 
-# 4.2 Payroll Selection
+# Payroll Selection
 
 A Payroll can be selected by you as the default for all the processes, tasks, and activities.  
 If you don’t select a default Payroll when you select a process, task or activity the Payroll Selection window is displayed and you must select the Payroll you wish to perform the activity task or process on before you can continue. 
@@ -22,7 +22,7 @@ If you choose not to select a default Payroll when you select a Process, Task or
 
 To open the **Payroll Selection** window:
 
-Departments|Payroll\Payroll Processing|Payroll Selection
+*Departments|Payroll\Payroll Processing|Payroll Selection*
 
 |Field| Comments|
 |---|---|
@@ -34,7 +34,7 @@ Departments|Payroll\Payroll Processing|Payroll Selection
 |“OK” button|Use this button to make the selected Payroll line your default |
 |“Clear Selection” option|Use this button to de-select your default payroll |
 
-# 4.3	Pay Time Sheet Journal
+# Pay Time Sheet Journal
 
 The Pay Time Sheet Journal card can be used as an area to review timesheets imported into from a third party system or as an area to enter in payroll transaction against jobs for employees.  Various ribbons allow users to perform a multitude of tasks such as: 
 *	Home ribbon (Process section) – provides users with the ability to delete, navigate through pay periods and employees and refresh data,
