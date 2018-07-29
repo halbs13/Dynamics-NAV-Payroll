@@ -39,6 +39,7 @@ Payment Summaries may be re-printed at any time and will indicate that they are 
 
  
 ## YTD Accumulator Code Update 
+
 The Pay Transaction Types paid to employees are accumulated to Payment Summary YTD Accumulation codes. The codes are used to accumulate YTD amounts reported on the employee’s payment summary.  
  
 Only Pay Transaction Type codes that have an YTD Accumulation code assigned on the General tab are printed on the Payment Summaries.
@@ -56,6 +57,7 @@ Run this report to update any changes made in the YTD Accumulation for Payment S
 [GoToTop](#end-of-year-processing) 
  
 ## Payment Summary Proof List Overview
+
 The same menu option is used to:
 
 *	Print the Payment Summary Proof List
@@ -77,10 +79,11 @@ Note:  If an employee has been employed under several different employment types
 A “Payment Summary Proof List” is always printed, by default, when selecting the “Print Payment Summaries” option. This is used to provide proof of the values printed on the Payment Summaries supplied to the ATO.
 
 
-## Payment Summary Proof List 
+## Payment Summary Proof List
+
  To open the “Payment Summary Proof List” window,
 
-Departments/Payroll/EOM Processing/Reconciliation Reports/Payment Summary Proof List
+*Departments/Payroll/EOM Processing/Reconciliation Reports/Payment Summary Proof List*
 
 Once you have selected the report, a request form will appear with the following options:
 
@@ -91,11 +94,13 @@ Select “Normal processing”
  
 
 #### Payment Summary Proof List – Options FastTab
+
 | Field	|Comments|
 |---|---|
 |Tax Year|	Select the Tax Year you wish to reconcile and report
 
 #### Payment Summary Proof List – Payroll FastTab
+
 |Field	|Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
@@ -103,6 +108,7 @@ Select “Normal processing”
 ||If left blank all Payroll(s) will print|
 
 #### Payment Summary Proof List – Payroll Employee FastTab
+
 |Field|	Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
@@ -116,6 +122,7 @@ Reconcile this report to the Posted Payroll Summary Report and General Ledger un
 [GoToTop](#end-of-year-processing)
 
 ## Overview Payment Summary and the PAYG EPS ATO File 
+
 The same menu option is used to print the Payment Summary Proof List, Payment Summaries, and the ETP’s and to create the Electronic ATO file.  
 
 There are five types of Payment Summaries that can be produced.
@@ -145,7 +152,8 @@ The name of the ATO EPS file is automatically populated as a default.  You must 
 ### Print Payment Summary ETP and Create the PAYG ATO File 
 Use this option to produce your Payment Summaries, ETP Summaries and the ATO EPS file:
 
-Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries
+*Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries*
+
 Once you have selected the report, a request form will appear with the following options:
 
 * Normal Processing – this will print the Payment Summary Proof List Report only
@@ -157,6 +165,7 @@ Click “End of Tax Year Processing”
 
 
 #### Payment Summary Proof List – Options FastTab
+
 |Field	|Comments|
 |---|---|
 |Tax Year|	Select the Tax Year you wish to create Payment Summaries, and  ETP’s and the ATO EPS file| 
@@ -185,6 +194,7 @@ Click “End of Tax Year Processing”
 |Supplier File Reference|	This field is used by the ATO to further identify the file for enquiries from the ATO to you.|
 
 #### Print Payment Summaries – Payroll FastTab
+
 |Field|	Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
@@ -193,6 +203,7 @@ Click “End of Tax Year Processing”
 ||If left blank all Payroll(s) will print|
 
 #### Payment Summary Proof List – Payroll Employee FastTab
+
 |Field	|Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”|
