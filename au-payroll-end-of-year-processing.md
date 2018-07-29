@@ -10,25 +10,26 @@ After the Payment Summary is generated the employer and employee pay transaction
 
 The values printed on the Payment Summaries are taken from the YTD Accumulators. If the YTD accumulators on Pay Transaction Types were not setup correctly or changed during the fiscal year you must:
 *	Correct the Pay Transaction Type 
-*	Update the YTD Accumulators values prior to printing the Payment Summaries. 
+*	[Update the YTD Accumulators values prior to printing the Payment Summaries.](#ytd-accumulator-code-update) 
 
 The EOFY Payment Summaries menu option is used to:
-*	Print the Payment Summary Proof List 
-*	Print the Payment Summaries 
+*	[Print the Payment Summary Proof List](#payment-summary-proof-list-overview)
+*	[Print the Payment Summaries](#print-payment-summary-ato-and-create-the-payg-ato-file)  
 *	Print Employment Termination Payment Summaries
-*	Produce the ATO EPS file.  
+*	Produce the ATO EPS file.
  
  
 ## Payment Summary Processing Steps
+
 1.	Enter Employment Termination Payments (ETPs) for your Terminated employees. 
 
-Departments/Payroll/Employee Maintenance/Payroll Employee card/Navigate ribbon/ Employment Termination Pay card
+*Departments/Payroll/Employee Maintenance/Payroll Employee card/Navigate ribbon/ Employment Termination Pay card*
 
 2.	Enter Fringe Benefits (FBT) Gross amounts for your Employees. 
 
-Departments/Payroll/Employee Maintenance/Payroll Employee card/Tax tab/Fringe Benefit Amount field.
+*Departments/Payroll/Employee Maintenance/Payroll Employee card/Tax tab/Fringe Benefit Amount field.*
 
-3.	Run the “Payment Summary Proof List” without producing the Payment Summaries or ATO file and then reconcile the employees YTD values against the Posted Payment Summary report
+3.	Run the [“Payment Summary Proof List”](#payment-summary-proof-list) without producing the Payment Summaries or ATO file and then reconcile the employees YTD values against the Posted Payment Summary report
 
 4.	Once you have reconciled the Payroll you must produce the Payment Summaries together with any Employment Termination Payment Summaries and the ATO EPS file.  
   
@@ -46,7 +47,7 @@ You must select the Tax year and then click “OK”
 
 When you have finished you can continue End of Year Processing
 
-Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update
+*Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update*
  
 Run this report to update any changes made in the YTD Accumulation for Payment Summaries of any Pay Transaction Types. Running the report updates YTD figures according to new settings made.
   
@@ -136,7 +137,7 @@ The name of the ATO EPS file is automatically populated as a default.  You must 
 **Note:**  Employment Termination Payment (ETP) summaries are produced automatically during the Payment Summary process if you have entered the employees ETP details on the Payroll Employee card/Navigate ribbon/Employment Termination Pay card. 
 
 
-### Print Payment Summary, ETP and Create the PAYG ATO File 
+### Print Payment Summary ETP and Create the PAYG ATO File 
 Use this option to produce your Payment Summaries, ETP Summaries and the ATO EPS file:
 
 Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries
