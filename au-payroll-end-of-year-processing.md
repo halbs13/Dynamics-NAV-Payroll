@@ -127,11 +127,11 @@ The same menu option is used to print the Payment Summary Proof List, Payment Su
 
 There are five types of Payment Summaries that can be produced.
   
-1.       Individual Non-Business.
-2.       Labour Hire 
-3.       Personal Services 
-4.       Voluntary Agreement 
-5.       Employment Termination Payment. 
+1. Individual Non-Business.
+2. Labour Hire 
+3. Personal Services 
+4. Voluntary Agreement 
+5. Employment Termination Payment. 
 
 The EOTY Payment Summaries menu option automatically prints the correct Payment Summary Type for each employee when the process is run.  Employees receive the type of Summary based on their “Employee Type Code” on the Payroll Employee card - General tab. The Employee Type code is assigned an “Employment Basis” which determined the type of Payment Summary
 Payment Summaries are not produced for employee with an” Incorporated Company” type.  
@@ -199,7 +199,6 @@ Click “End of Tax Year Processing”
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
 |No.	|Select a Payroll(s) to use as a filter to limit the process to a specific payroll. |
-
 ||If left blank all Payroll(s) will print|
 
 #### Payment Summary Proof List – Payroll Employee FastTab
