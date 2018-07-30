@@ -1,18 +1,18 @@
-# 8.2	Pay Transaction Bulk Generation 
+# Pay Transaction Bulk Generation 
 Pay Transaction processing is used to generate bulk modifications or additional Pay Transactions, Deductions and Allowances for your employees.  They can be used to generate public holidays etc.
 
-*	Bulk Generation Allowances
-*	Bulk Adjustments Deductions
+*	[Bulk Generation Allowances](#pay-transaction-bulk-adjustments-allowances)
+*	[Bulk Adjustments Deductions](#bulk-adjustments-deductions)
 
-# 8.2.1	Pay Transaction - Bulk Adjustments Allowances
+## Pay Transaction Bulk Adjustments Allowances
 The Bulk Adjust Allowance works similar to the Bulk Adjust Deductions for employee’s standard allowances.
 
 To open the Bulk Adjust Allowances window, 
 
-Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Allowances
+*Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Allowances*
  
 
-# 8.2.1.1	Bulk Adjust Allowances – Options FastTab
+#### Bulk Adjust Allowances – Options FastTab
 
 |Field|	Comments|
 |---|---|
@@ -28,7 +28,7 @@ Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Allowances
 |New Allowance Code|This field is used to enter the “New Allowance” Pay Transaction Type when the Create Action has been selected.
 
 
-# 8.2.1.2	Bulk Adjust Allowances – Payroll Employee FastTab
+#### Bulk Adjust Allowances – Payroll Employee FastTab
 
 |Field	|Filter|
 |---|---|
@@ -37,7 +37,7 @@ Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Allowances
 ||To generate allowance for all employees in this Payroll leave the filter blank.|
 ||You may enter the Employee No(s) or select an Employee No(s) by selecting the “ArrowDown".|
 
-# 8.2.1.3	Bulk Adjust Allowances – Employee Allowance FastTab
+#### Bulk Adjust Allowances – Employee Allowance FastTab
 
 |Field	|Filter|
 |---|---|
@@ -48,15 +48,18 @@ Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Allowances
 |Fixed Value	|Used to filter the Employee Allowances with the specified "Fixed Value".|
 
 
-# 8.2.2	Bulk Adjustments Deductions
+
+#### Bulk Adjustments Deductions
+
 This option is used to Bulk Adjust deductions by adding or changing deductions to employees for the selected payroll.
 
 To open the Bulk Adjust Deductions window,
 
-Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Deductions
+*Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Deductions*
  
+ [GoToTop](#pay-transaction-bulk-generation)
 
-# 8.2.2.1	Bulk Adjust Deductions – Options FastTab
+#### Bulk Adjust Deductions – Options FastTab
 
 |Field	|Comments|
 |---|---|
@@ -72,7 +75,7 @@ Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Deductions
 |New Deduction Code|	This field is used to enter the “New Deduction” Pay Transaction Type when the Create Action has been selected.|
 
 
-# 8.2.2.2	Bulk Adjust Deductions – Payroll Employee FastTab
+#### Bulk Adjust Deductions – Payroll Employee FastTab
 
 |Field|	Filter|
 |---|---|
@@ -81,7 +84,7 @@ Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Deductions
 ||To create adjustments for all employees in this Payroll leave the filter blank.|
 ||You may enter the Employee No(s) or select Employee No(s) by selecting the “ArrowDown".|
 
-# 8.2.2.3	Bulk Adjust Deductions – Employee Deduction FastTab
+#### Bulk Adjust Deductions – Employee Deduction FastTab
 
 |Field|	Filter|
 |---|---|
@@ -91,4 +94,5 @@ Departments/Payroll/Periodic Activities/Pay Transactions/Bulk Adjust Deductions
 |Standard Amount|	Create a filter to only select the Employee Deductions with the specified "Standard Amount".|
 |Standard %|	Create a filter to only select the Employee Deductions with the specified "Standard %".|
 
- 
+
+[GoToTop](#pay-transaction-bulk-generation)
