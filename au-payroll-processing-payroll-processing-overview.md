@@ -1,4 +1,4 @@
-# 4.4	Payroll Processing Overview
+# Payroll Processing Overview
 The following steps must be completed in sequence to successfully produce the payroll:
 
 1.	Select a Payroll for processing
@@ -13,14 +13,14 @@ The following steps must be completed in sequence to successfully produce the pa
 These steps do not include every task that can be performed to generate pays. 
 End of Month processes must be performed after the pay(s) has been produced.
 
-*	Payroll Selection
-*	Pay Journal 
-* End of Month
+*	[Payroll Selection](au-payroll-processing-payroll-selection.md)
+*	[Pay Journal](#pay-journal) 
+* [End of Month](au-payroll-end-of-month-processing.md)
 
-# 4.5	Pay Journal
+## Pay Journal
 You can access the Pay Journal from the following menu:
 
-Departments/Payroll/Payroll Processing/Pay Journal
+*Departments/Payroll/Payroll Processing/Pay Journal*
  
 The Pay Journal is used to enter payroll transactions for exceptions if the employee is automatically paid or Time sheet entry if the employee is not automatically paid.  
 
@@ -43,7 +43,8 @@ Once you are satisfied with the manual entries run the **"Calculate Pays"** func
 After you have finished this process you may create the payment and then post the pay journal to the General ledger.
 
  
-# 4.5.1	Pay Journal 
+#### Pay Journal 
+
 |Field|	Comments|
 |---|---|
 |Batch|	This field displays the default Payroll Batch name|
@@ -137,7 +138,8 @@ Additional information is displayed below the journal lines on the Pay Journal c
 |Total Balance	|The “Total Balance” is the sum of the amount field for all the displayed pay journal line(s).|
 
 
-# 4.5.2	Pay Journal – Home ribbon 
+##### Pay Journal – Home ribbon 
+
 The Home ribbon allows for certain processes to be executed.  
 
 |Field	|Comments|
@@ -160,7 +162,7 @@ The Home ribbon allows for certain processes to be executed.
 |Refresh	|The Refresh function will refresh data on the Pay Journal page.|
 |Find	|The Find function is used to Find information contained in the Pay Journal.|
 
-# 4.5.3	Pay Journal – Actions ribbon 
+#### Pay Journal – Actions ribbon 
 
 The Actions ribbon allows for certain processes to be executed.  
 
@@ -189,7 +191,8 @@ Cancel Calculated Pays	This option reverses the Calculations of Pays.|
 ||If posting is attempted while an error in the data exists the system will not post any of the data.|
 |Post and Print	|This option performs the post process and also prints a copy of the test report.|
 
-# 4.5.4	Pay Journal – Navigate ribbon 
+#### Pay Journal – Navigate ribbon 
+
 The Navigate ribbon allows for certain processes to be executed.  
 
 |Field|	Comments|
