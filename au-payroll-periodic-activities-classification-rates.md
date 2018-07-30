@@ -1,4 +1,5 @@
-# 8.1 Classification Rates
+# Classification Rates
+
 The Classification Rate Change Report is used to change Payroll Award Classification Rates of Pay.
 
 The rates held in these records are used to update the Employee Classification rate table for employees in the Classification.  These Classification Codes can also be assigned on the fly within the time sheet entry and pay journal for an employee. 
@@ -10,11 +11,11 @@ The End of Period Close process checks the Date that the Classification Last Cha
 
 To open the Classification Rate Change window, 
 
-Departments/Payroll/Periodic Activities/Change Rates/Classification Rates
+*Departments/Payroll/Periodic Activities/Change Rates/Classification Rates*
  
 
 
-8.1.1.1	Classification Rate Change – Options FastTab
+#### Classification Rate Change – Options FastTab
 
 |Field	|Comments|
 |---|---|
@@ -36,8 +37,9 @@ Departments/Payroll/Periodic Activities/Change Rates/Classification Rates
 |Rounding Precision	|This field is only available when adjusting the over award rate by a percentage |
 ||Enter the "Rounding Precision" for the "Adjust By %" calculation. |
 
+ [GoToTop](#classification-rates)
 
-8.1.1.2	Classification Rate Change – Classification FastTab
+#### Classification Rate Change – Classification FastTab
 
 |Field	|Filter|
 |---|---|
@@ -46,7 +48,8 @@ Departments/Payroll/Periodic Activities/Change Rates/Classification Rates
 |Code|	Select the Award Classification “Code” you wish to change.  If left blank all Award Classifications are processed. You can use this for an across the board pay rise for all employees|
 
 
-8.1.1.3	Apply Classification Rate to Employees
+#### Apply Classification Rate to Employees
+
 The Apply Classification Rate to Employee Report is used to apply the above Classification Rate Change to Payroll Employees.
 
 When a new Classification is selected for the Employee the date to commence paying the Classification rate is entered.
@@ -54,10 +57,10 @@ The Classification is selected, the Classification rates that apply after that d
 
 To open the Apply Class Rate to Employees 
 
-Departments/Payroll/Periodic Activities/Change Rates/Apply Classification Rate to Employees
+*Departments/Payroll/Periodic Activities/Change Rates/Apply Classification Rate to Employees*
  
 
-8.1.1.4	Apply Class. Rate to Employees – Options FastTab
+#### Apply Class. Rate to Employees – Options FastTab
 
 |Field|	Comments|
 |---|---|
@@ -73,7 +76,7 @@ Departments/Payroll/Periodic Activities/Change Rates/Apply Classification Rate t
 ||*	Not In Any Classification - If selected only employees that do not yet belong to any classification will have the new rate applied to them.|
 |Employee Start Date|	Enter the date the employee is to begin on the new classification rate.|
 
-8.1.1.5	Apply Class. Rate to Employees – Apply To Payroll FastTab
+#### Apply Class. Rate to Employees – Apply To Payroll FastTab
 
 |Field|	Filter|
 |---|---|
@@ -81,3 +84,4 @@ Departments/Payroll/Periodic Activities/Change Rates/Apply Classification Rate t
 |No.|	Enter a payroll to filter which employees receive the award rate change. | 
 
  
+ [GoToTop](#classification-rates)
