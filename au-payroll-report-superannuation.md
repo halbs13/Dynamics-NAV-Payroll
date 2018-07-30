@@ -11,8 +11,8 @@ To access the Superannuation Report,
 |Payroll No.	|Select the Payroll No. from the “ArrowDown”.|  
 ||If left blank all Payrolls are processed.| 
 |Total Per Employee	|If you wish the report to provide a Total Per Employee, then select this field.|
-|Superannuation Fund Product FastTab – Superannuation Fund Product information can be filtered by entering information in this tab.  ||Otherwise it can be left blank.| 
-|Superannuation Ledger Entry FastTab – Superannuation Ledger Entry information can be filtered by entering information in this tab.  ||Otherwise it can be left blank. |
+|Superannuation Fund Product FastTab |Superannuation Fund Product information can be filtered by entering information in this tab.  ||Otherwise it can be left blank.| 
+|Superannuation Ledger Entry FastTab |Superannuation Ledger Entry information can be filtered by entering information in this tab.  ||Otherwise it can be left blank. |
 |When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.|
 
 The fields on the Superannuation Report are:
