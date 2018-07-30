@@ -28,5 +28,5 @@ To open the Payroll Selection window:
 |**“Clear Selection”**| option	Use this button to de-select your default payroll| 
 
 
- [goToTop](#payroll-selection)
+ [GoToTop](#payroll-selection)
 
