@@ -45,3 +45,4 @@ To open the Payroll Chang Log – Delete window,
 
 
 [GoToTop](#payroll-change-log-entries)
+
