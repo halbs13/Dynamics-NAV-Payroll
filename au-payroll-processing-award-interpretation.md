@@ -39,6 +39,7 @@ To open the Employee Timesheets Worksheet form,
 |Shortcut Dimension 3-8	|This field is used to override the employees default Dimension Value|
 |Source Code	|A source code indicates where an entry was created and is used internally by the system.|
 
+[GoToTop](#award-interpreter-employee-timesheets-worksheet)
  
 ### Award Interpreter Interpretation Worksheet
 In the top section of this form the Un-Interpreted timesheet lines are displayed for the Employee and Date filter criteria.  The Un-Interpreted lines are copied directly from the Employee Timesheets Worksheet. 
@@ -75,6 +76,7 @@ In the top section of this form the Un-Interpreted timesheet lines are displayed
 |Shortcut Dimension 3-8	|This field is used to override the employees default Dimension Value|
 |Source Code	|A source code indicates where an entry was created and is used internally by the system.|
 
+[GoToTop](#award-interpreter-employee-timesheets-worksheet)
 
 In the bottom section of this form the Interpreted Times for the employee within the date filter are displayed and correspond to the top section entries. The lines are summarised in days unless flagged to summarise in weeks in the Payroll Setup Timesheet tab.
  
@@ -103,8 +105,8 @@ In the bottom section of this form the Interpreted Times for the employee within
 |Charge Units	|This field displays the total value of units generated for this line by the AI|
 |Charge Rate	|This field displays the rate the units will be charged|
 |Charge Amount	|This field displays the Value of the sum (Units x Charge rate)|
-|Sunday - Saturday Units	|This field summarises the units for each line by the day of the week|
-|Charge Monday - Sunday Units	|This field summarises the units for each line by the day of the week|
+|Sunday-Saturday Units	|This field summarises the units for each line by the day of the week|
+|Charge Monday-Sunday Units	|This field summarises the units for each line by the day of the week|
 |Monday - Sunday Public Holiday	|This field indicates if the day of the week was a Public holiday.|
 
 
@@ -113,6 +115,8 @@ The Interpret Button is used to interpret the Un-Interpreted Timesheet Line disp
 The Print Button is used to run the Interpreted Times Report.
 
 The Submit Button is used to pass the Interpreted Lines in the bottom section to the Pay Timesheet Journal. You can open the Pay Time Sheet Journal if you wish and edit the lines. Alternately you can open the Pay Journal and Transfer the lines into the corresponding Pay Period.
+
+[GoToTop](#award-interpreter-employee-timesheets-worksheet)
 
 ### Award Interpreter Interpret button
 
@@ -152,6 +156,8 @@ Apply to the following Day flag: The week ending date is based on the day after 
  
 **Allowance Item Criteria:** After all the Pay Items are interpreted the Allowance items are processed.
  
+ [GoToTop](#award-interpreter-employee-timesheets-worksheet)
+ 
 **Application Type**
 *	Always Applied: The hours are not checked and when the employee has worked the Pay Transaction Type defined in the filter the Allowance is Paid
 *	After Hours: The number of hours worked for the Pay Transaction Type (excludes Min Hours Increase) is checked and if the hours meet the criteria the Allowance is Paid
@@ -176,4 +182,8 @@ Apply to the following Day flag: The week ending date is based on the day after 
 This option transfers interpreted lines to the Posted Interpreted Times table. The lines are transferred as adjustments if an existing posted interpreted time exists. The new / adjustments lines populate the Pay Time Sheet Journal as locked lines where they can be edited if required. 
 
 You can also Transfer the Interpreted Lines directly into the Pay Journal.
+
+[GoToTop](#award-interpreter-employee-timesheets-worksheet)
+
+
 
