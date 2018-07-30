@@ -1,15 +1,14 @@
-# 8.10	Payroll Change Log Entries
+# Payroll Change Log Entries
 The Change Log functionality lets you track all direct modifications a user makes to data in the database.
 
 You can specify each table and field that you want the system to log, and then you must active the change log.
 
 The Payroll Change Log Entries contains information changes to payroll tables only and this information is not available within the standard Change Log area of Dynamics NAV.
 
-Departments/Payroll/Periodic Activities/Periodic Maintenance/Payroll Change Log Entries
+*Departments/Payroll/Periodic Activities/Periodic Maintenance/Payroll Change Log Entries*
  
 
-
-# 8.10.1.1	Payroll Change Log Entries
+#### Payroll Change Log Entries
 
 |Field|	Comments|
 |---|---|
@@ -25,16 +24,17 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Payroll Change Log 
 |New Value	|The “New Value” field records the post update value in the field after it was updated.|
 
 
-# 8.11	Delete Payroll Change Log Entries
+## Delete Payroll Change Log Entries
+
 This function will allow you to delete Payroll Change Log entries.  It is recommended that this activity if performed by a Payroll Supervisor.
 
 To open the Payroll Chang Log – Delete window, 
 
-Departments/Payroll/Periodic Activities/Periodic Maintenance/Delete Payroll Change Log Entries
+*Departments/Payroll/Periodic Activities/Periodic Maintenance/Delete Payroll Change Log Entries*
  
 
 
-# 8.11.1.1	Payroll Change Log Entry – Options FastTab
+#### Payroll Change Log Entry – Options FastTab
 
 |Field|	Filter|
 |---|---|
@@ -42,3 +42,6 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Delete Payroll Chan
 |Date and Time|	Enter in the Date range of the transactions you wish to delete.|
 |Table No.|	Enter in the Table No. (s) of the data you wish to delete|
 
+
+
+[GoToTop](#payroll-change-log-entries)
