@@ -54,6 +54,8 @@ They are maintained in the Item Criteria Worksheet.
 ||Hour
 |**Deleted**| This field indicates the line is no longer used to generate transactions.
 
+[GoToTop](#award-interpreter-allowance-item-criteria-list)
+
 ## Allowance Item Criteria Worksheet
 
 The Allowance Item records are used to interpret the hours into Allowance Pay Transaction Types.
@@ -103,3 +105,4 @@ The Allowance Item records are used to interpret the hours into Allowance Pay Tr
 ||•	30 Minutes
 ||•	Hour
 
+[GoToTop](#award-interpreter-allowance-item-criteria-list)
