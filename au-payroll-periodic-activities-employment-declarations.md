@@ -1,12 +1,12 @@
-# 8.6 Employment Declarations
+# Employment Declarations
 This process is used to create a file for the ATO to submit your employee declarations electronically:
 
 To open the Declaration File Generation window 
 
-Department/Payroll/Periodic Activities/Periodic Maintenance/Employment Declaration
+*Department/Payroll/Periodic Activities/Periodic Maintenance/Employment Declaration*
  
 
-# 8.6.1.1	Declaration File Generation – Options FastTab
+#### Declaration File Generation – Options FastTab
 
 |Field	|Comments|
 |---|---|
@@ -26,10 +26,12 @@ Department/Payroll/Periodic Activities/Periodic Maintenance/Employment Declarati
 ||*	Version 3.0 – Post 1 October 2017|
 
 
-# 8.6.1.2	Declaration File Generation – Payroll FastTab
+#### Declaration File Generation – Payroll FastTab
  
 |Field	|Filter|
 |---|---|
 |Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown".|
 |No.	|Enter or select a “Payroll No.” to limit which payrolls to output Employment Declaration data.|
 
+
+[GoToTop](#employment-declarations)
