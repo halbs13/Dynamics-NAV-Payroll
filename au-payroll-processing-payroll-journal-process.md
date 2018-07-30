@@ -13,7 +13,7 @@ The following steps must be completed in sequence to successfully produce the pa
 5.    Select the **“Entry Validation Report”** icon from the Process section of the Home ribbon.
       - Select the Entry Validation Report.  To continue processing the payroll, it is not enough that you preview this report. You must **print** this report in order to proceed or alternatively generate and save it as a pdf file.  
       - Correct any errors indicated in the report.  
-    - You do not need to cancel every calculated pay to correct any error; you can simply filter for the pays that needed corrections via **“Cancel Calculated Pays”** icon on the Actions ribbon.  
+      - You do not need to cancel every calculated pay to correct any error; you can simply filter for the pays that needed corrections via **“Cancel Calculated Pays”** icon on the Actions ribbon.  
       - Select any of the other reports you wish to run.  
  
 6.    Select the **“Create Bank Transfer File”** icon from the Process section on the Home ribbon.
@@ -38,6 +38,8 @@ The following outline explains how the system processes employee pays.
 3.    **Check Employee Eligible for Pay:** For each Employee on the Payroll the following steps are performed:
       - The Employee is checked to verify if they were terminated prior to this Pay Period.  If terminated, the Employee is not processed.
       - The Employee is checked to verify if they have already been paid up to the end of this period.  If already paid they are not processed.
+   
+   [GoToTop](#payroll-journal-process)   
    
 4.    **Calculate Employee Rate** (Function of Calculate Pays): Using the Employee Classification Rate and the Classification Rate tables, calculate the Employee's current weekly rate.  The Classification Rate is date dependent and is calculated for each Pay Journal line for the Employee entered using the time entry process.
 
@@ -75,3 +77,5 @@ The following outline explains how the system processes employee pays.
 17.	Tax Instalment Deduction Calculation:
       - The tax calculations conform to the requirements of the "Statement of Formulae for calculating Income Tax Instalments" from the Australian Taxation Office.
       - The manually entered and system created Pay Journal Lines are checked to determine the gross taxable income applicable for this pay advice.  The gross taxable income on any previously posted pay advices are also taken into account and the tax instalment for the pay advice is calculated.
+      
+[GoToTop](#payroll-journal-process)      
