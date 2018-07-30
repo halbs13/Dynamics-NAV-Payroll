@@ -1,4 +1,4 @@
-# 4.6	Payroll Journal Process
+# Payroll Journal Process
 The following steps must be completed in sequence to successfully produce the payroll:
 
 1.	Open the Pay Journal
@@ -9,22 +9,24 @@ The following steps must be completed in sequence to successfully produce the pa
 
 4.	Select the **“Calculate Pays”** icon.
  
-a.	Select to Calculate Pays for all employees on the payroll or Calculate An Employee’s Pay to select an employee (You can cancel calculated Pays for all employees or selected employees)
+ a.	Select to Calculate Pays for all employees on the payroll or Calculate An Employee’s Pay to select an employee (You can cancel calculated Pays for all employees or selected employees)
+
 5.	Select the **“Entry Validation Report”** icon from the Process section of the Home ribbon.
 
-a.	Select the Entry Validation Report.  To continue processing the payroll, it is not enough that you preview this report. You must **print** this report in order to proceed or alternatively generate and save it as a pdf file.  
-b.	Correct any errors indicated in the report.  
-c.	You do not need to cancel every calculated pay to correct any error; you can simply filter for the pays that needed corrections via **“Cancel Calculated Pays”** icon on the Actions ribbon.  
-d.	Select any of the other reports you wish to run.  
+ a.	Select the Entry Validation Report.  To continue processing the payroll, it is not enough that you preview this report. You must **print** this report in order to proceed or alternatively generate and save it as a pdf file.  
+ b.	Correct any errors indicated in the report.  
+ c.	You do not need to cancel every calculated pay to correct any error; you can simply filter for the pays that needed corrections via **“Cancel Calculated Pays”** icon on the Actions ribbon.  
+ d.	Select any of the other reports you wish to run.  
+ 
 6.	Select the **“Create Bank Transfer File”** icon from the Process section on the Home ribbon.
-a.	Select Cheque, EFT or Cash as the method of payment you wish to pay the employees.  These options create the actual payments.
-b.	Remit the generated bank file to the bank and on successful upload then you are ready to post the pays to update the various ledgers.  
+ a.	Select Cheque, EFT or Cash as the method of payment you wish to pay the employees.  These options create the actual payments.
+ b.	Remit the generated bank file to the bank and on successful upload then you are ready to post the pays to update the various ledgers.  
 7.	Select the Post icon.
-a.	When you are ready to post the transactions to the General Ledger select the **“Posting”** icon.
-b.	Prior to posting the payroll journal you can reconcile or produce a Test Report.  
-c.	To post the transactions select the **“Post”** or **“Post and Print”** icon.  You will also be given the option of printing/emailing the pay advices from this function or you can choose to print/email them in bulk after the journal has been posted.  
-d.	After these processes have completed you can select to close the Pay Period.  
-e.	If more employees need to be paid or pay corrections are required then you must not close the Pay Period.  You can close the Pay Period later if you wish by selecting the **“Close Pay Period”** icon before you process your next Payroll.
+ a.	When you are ready to post the transactions to the General Ledger select the **“Posting”** icon.
+ b.	Prior to posting the payroll journal you can reconcile or produce a Test Report.  
+ c.	To post the transactions select the **“Post”** or **“Post and Print”** icon.  You will also be given the option of printing/emailing the pay advices from this function or you can choose to print/email them in bulk after the journal has been posted.  
+ d.	After these processes have completed you can select to close the Pay Period.  
+ e.	If more employees need to be paid or pay corrections are required then you must not close the Pay Period.  You can close the Pay Period later if you wish by selecting the **“Close Pay Period”** icon before you process your next Payroll.
 At this point you have completed the payroll for the Pay Period. 
 
 ## 4.7	Payroll Journal Calculations
