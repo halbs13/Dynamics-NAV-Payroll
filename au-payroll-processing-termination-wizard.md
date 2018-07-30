@@ -41,7 +41,7 @@ To open the Termination Wizard window
 
 *Departments/Payroll/Payroll Processing/Termination Wizard*
 
-[GoToTop](#Termination-wizard)
+[GoToTop](#termination-wizard)
 
 ### Standard Termination 
 
@@ -78,7 +78,7 @@ If the employee is not entitled to this leave entitlement, then override this va
 ||As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.
 |Select “Next” when you have completed this section.|
 
- [GoToTop](#Termination-wizard)
+ [GoToTop](#termination-wizard)
  
 ##### Outstanding Annual Leave Form
 
@@ -119,7 +119,7 @@ Select the “Reports” button to preview and/or print the Termination Calculat
 
 The following steps will demonstrate how a termination payment is calculated for an employee who is terminated due to a Bona Fide Redundancy, Invalidity or Retirement.
 
-[GoToTop](#Termination-wizard)
+[GoToTop](#termination-wizard)
 
 #### Employee Form
 
@@ -152,7 +152,7 @@ Long Service Leave entitlements will automatically calculate from the Employee�
 ||As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.|
 |Select “Next” when you have completed this section.|
 
-[GoToTop](#Termination-wizard)
+[GoToTop](termination-wizard)
 
 #### Outstanding Annual Leave Form
 
@@ -198,7 +198,7 @@ As this information can vary between employees, you will need to manually enter 
 ||Hours – Enter in the hours accordingly.  The Value of this transaction will update automatically and is based on the employee’s current base rate.|
 |Select “Next” when you have completed this section.|
 
-[GoToTop](#Termination-wizard)
+[GoToTop](#termination-wizard)
 
 #### Employee Termination Payment Summary Form
 
@@ -234,7 +234,7 @@ The transactions will be processed within the Pay Journal for the employee.  To 
 
 Select the Payroll No. that the employee belongs to from the Payroll List and select “OK”.
 
-[GoToTop](#Termination-wizard)
+[GoToTop](#termination-wizard)
 
 #### Pay Journal
 
@@ -259,5 +259,5 @@ The Status, Termination Date and Reason fields are updated accordingly.
 The Employee Termination Payment area of the Payroll Employee card is updated.  To access this area, go to the Payroll Employee Card, select “Employee Termination Payment” on the Navigate ribbon.
 
  
-[GoToTop](#Termination-wizard)
+[GoToTop](#termination-wizard)
  
