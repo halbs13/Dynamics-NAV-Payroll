@@ -35,7 +35,7 @@ To print Pay Advices, go to
 ### Email Pay Advices
 To print Email Pay Advices, go to 
 
-Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
+*Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices*
  
 ### 	E-Mail Pay Advice – Options FastTab
 
