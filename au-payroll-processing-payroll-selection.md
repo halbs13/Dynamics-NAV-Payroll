@@ -1,4 +1,5 @@
-# 4.2	Payroll Selection
+# Payroll Selection
+
 A Payroll can be selected by you as the default for all the processes, tasks, and activities.  
 If you don’t select a default Payroll when you select a process, task or activity the Payroll Selection window is displayed and you must select the Payroll you wish to perform the activity task or process on before you can continue. 
 
@@ -13,7 +14,7 @@ If you choose not to select a default Payroll when you select a Process, Task or
  
 To open the Payroll Selection window:
 
-Departments/Payroll/Payroll Processing/Payroll Selection
+*Departments/Payroll/Payroll Processing/Payroll Selection*
 
 
 |Field	|Comments|
@@ -27,5 +28,5 @@ Departments/Payroll/Payroll Processing/Payroll Selection
 |**“Clear Selection”**| option	Use this button to de-select your default payroll| 
 
 
- 
+ [goToTop](#payroll-selection)
 
