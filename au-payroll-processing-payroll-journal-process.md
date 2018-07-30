@@ -79,3 +79,4 @@ The following outline explains how the system processes employee pays.
       - The manually entered and system created Pay Journal Lines are checked to determine the gross taxable income applicable for this pay advice.  The gross taxable income on any previously posted pay advices are also taken into account and the tax instalment for the pay advice is calculated.
       
 [GoToTop](#payroll-journal-process)      
+
