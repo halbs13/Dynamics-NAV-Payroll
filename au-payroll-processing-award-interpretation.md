@@ -45,7 +45,7 @@ In the top section of this form the Un-Interpreted timesheet lines are displayed
 
  
 
-# #### Interpretation Worksheet Top Section
+#### Interpretation Worksheet Top Section
 
 |Field	|Comments|
 |---|---|
