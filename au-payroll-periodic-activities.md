@@ -15,3 +15,4 @@ The following tasks can be used to improve productivity:
 *	[Email Pay Advices](au-payroll-report-print-email-pay-advices.md)
 *	[Payroll Change Log Entries](au-payroll-periodic-activities-payroll-change-log-entries.md)
 *	[Delete Payroll Change Log Entries](au-payroll-periodic-activities-payroll-change-log-entries.md)
+
