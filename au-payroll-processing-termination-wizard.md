@@ -1,4 +1,5 @@
-# 4.9.2	Termination Wizard
+# Termination Wizard
+
 Termination payments can be calculated automatically in Dynamics NAV Payroll using the Termination Wizard calculation function.
 
 The Termination Wizard has been designed to cater for the following types of termination payments;
@@ -22,7 +23,8 @@ Prior to processing Termination payments, you will need to ensure the following 
 *	The relevant Pay Transaction Types has been established,
 *	Termination Pay Transactions have been defined on the Termination FastTab on Payroll Setup card.
 
-# 4.9.2.1	Termination Payment Processing Overview
+## Termination Payment Processing Overview
+
 The Termination Wizard will assist you in calculating an employee’s final payment upon termination.  
 
 The following is a guideline to the recommended steps of processing:
@@ -37,12 +39,16 @@ The following is a guideline to the recommended steps of processing:
 8.	Post the journal lines and print pay advices.
 To open the Termination Wizard window
 
-Departments/Payroll/Payroll Processing/Termination Wizard
+*Departments/Payroll/Payroll Processing/Termination Wizard*
 
-# 4.9.2.2	Standard Termination 
+[GoToTop](#Termination-wizard)
+
+### Standard Termination 
+
 The following steps will demonstrate how a termination payment is calculated for an employee who resigns of their own record and is not entitled to an ETP.
 
-# 4.9.2.2.1	Employee Form
+#### Employee Form
+
 Complete the initial screen with the employee’s details such as employee number, the reason and date for termination.
 
 |Field	|Comments|
@@ -54,7 +60,8 @@ Complete the initial screen with the employee’s details such as employee numbe
 |Select “Next” when you have completed this section.|
 
 
-# 4.9.2.2.2	Outstanding Long Service Leave Form
+#### Outstanding Long Service Leave Form
+
 Long Service Leave entitlements will automatically calculate from the Employee’s start date to the finish date.  
 
 If the employee is not entitled to this leave entitlement, then override this value by entering zero.
@@ -71,8 +78,10 @@ If the employee is not entitled to this leave entitlement, then override this va
 ||As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.
 |Select “Next” when you have completed this section.|
 
- 
-# 4.9.2.2.3	Outstanding Annual Leave Form
+ [GoToTop](#Termination-wizard)
+ 
+##### Outstanding Annual Leave Form
+
 Annual Leave entitlements are transferred from the Employee’s Leave Accrual card. 
 
 |Field	|Comments|
@@ -90,20 +99,32 @@ Annual Leave entitlements are transferred from the Employee’s Leave Accrual ca
 |Tax Free Lump Sum D	|This will be discussed in the next section as it relates to ETP or Redundancy payments.|
 |Select “Next” when you have completed this section.|
 
-# 4.9.2.2.4	Employee Termination Request Form
+
+#### Employee Termination Request Form
+
 The Employee Termination Payment screen allows you to enter in the components for the Employee Termination Payments.  For this exercise, select “Next” as this will be discussed in the following section of this document.
 
-# 4.9.2.2.5	Termination Payment Summary Form
+
+#### Termination Payment Summary Form
+
 The Termination Payment Summary Window provides you with a breakdown of the unused leave payments calculated.
 
-# 4.9.2.2.6	Termination Report Form
+
+#### Termination Report Form
+
 Select the “Reports” button to preview and/or print the Termination Calculation Report.
  
-# 4.9.2.3	Redundancy/Retirement/Invalidity Termination 
+ 
+#### Redundancy/Retirement/Invalidity Termination 
+
 The following steps will demonstrate how a termination payment is calculated for an employee who is terminated due to a Bona Fide Redundancy, Invalidity or Retirement.
 
-# 4.9.2.3.1	Employee Form
+[GoToTop](#Termination-wizard)
+
+#### Employee Form
+
 Complete the initial screen with the employee’s details such as employee number, the reason and date for termination. 
+
 
 |Field	|Comments|
 |---|---|
@@ -112,10 +133,13 @@ Reason for Termination	|Select from the “ArrowDown” the reason the employee 
 |Date of Termination	|Enter in the date of termination for the employee.|
 |Select “Next” when you have completed this section.|
 
-# 4.9.2.3.2	Outstanding Long Service Leave Form
+
+#### Outstanding Long Service Leave Form
+
 Long Service Leave entitlements will automatically calculate from the Employee’s start date to the finish date.  If the employee is not entitled to this leave entitlement, then you can override the value by entering zero.  
 
 **Note:** the value of Long Service Leave is categorised as a Lump A payment and appears in the “Accrued After 15/08/78 but Before 18/08/93” section.  Lump A tax rulings will be calculated and applied accordingly.
+
 
 |Field	|Comments|
 |---|---|
@@ -128,7 +152,10 @@ Long Service Leave entitlements will automatically calculate from the Employee�
 ||As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.|
 |Select “Next” when you have completed this section.|
 
-# 4.9.2.3.3	Outstanding Annual Leave Form
+[GoToTop](#Termination-wizard)
+
+#### Outstanding Annual Leave Form
+
 Annual Leave entitlements will transferred from the Employee’s Leave Accrual card.  
 
 **Note:** the value of Annual Leave is categorised as a Lump A payment and appears in the “Before 18/08/93” section.  Lump A tax rulings will be calculated and applied accordingly.
@@ -149,12 +176,14 @@ Annual Leave entitlements will transferred from the Employee’s Leave Accrual c
 |Value	||
 |Select “Next” when you have completed this section.|
 
-# 4.9.2.3.4	Employee Termination Request Form
+
+#### Employee Termination Request Form
+
 The Employee Termination Payment window allows you to enter in the components for the Employee Termination Payments.  Select the **“checkbox”** to the right to enter in the appropriate amounts.
 
  
+#### Employee Termination Payment Form
 
-# 4.9.2.3.5	Employee Termination Payment Form
 The Employee Termination Payment Screen is where you will enter in the Employee Termination Payment information for your employee.  
 
 As this information can vary between employees, you will need to manually enter this information into this window.
@@ -169,7 +198,10 @@ As this information can vary between employees, you will need to manually enter 
 ||Hours – Enter in the hours accordingly.  The Value of this transaction will update automatically and is based on the employee’s current base rate.|
 |Select “Next” when you have completed this section.|
 
-# 4.9.2.3.6	Employee Termination Payment Summary Form
+[GoToTop](#Termination-wizard)
+
+#### Employee Termination Payment Summary Form
+
 The Employee Termination Payment Summary form provides a breakdown of the Employee Termination Payment.  
 
 You must select the “ETP Code” from the “ArrowDown” so that the appropriate tax treatment will be applied to the Employee Termination payment. 
@@ -180,36 +212,52 @@ You must select the “ETP Code” from the “ArrowDown” so that the appropri
 ||Select the ETP Code from the “ArrowDown”|
 |Select “Next” when you have completed this section.|
 
-# 4.9.2.3.7	Termination Payment Summary Form
+
+#### Termination Payment Summary Form
+
 The Termination Payment Summary Window provides you with a breakdown of the unused leave payments calculated. 
 
 You **must** update the **“Payment Date”** field particularly if this termination payment involves a payout of an Employee Termination Payment as the Payment Date information will appear on the Employee Termination Payment Summary.  
 
-# 4.9.2.3.8	Termination Report Form
+
+#### Termination Report Form
+
 Select the “Reports” button to preview and/or print the Termination Calculation Report.
+
  
-# 4.9.2.4	Creating the Pay Journal
+#### Creating the Pay Journal
+
 The transactions will be processed within the Pay Journal for the employee.  To transfer this information to the appropriate pay journal, select the “Create Journal” button.
 
-# 4.9.2.4.1	Select the Payroll
+
+#### Select the Payroll
+
 Select the Payroll No. that the employee belongs to from the Payroll List and select “OK”.
 
-# 4.9.2.4.2	Pay Journal
+[GoToTop](#Termination-wizard)
+
+#### Pay Journal
+
 The entries entered via the Termination Wizard will populate the appropriate journal, ready for you to calculate.  Upon calculation of this payment, no PAYG tax should calculate as the entries are calculated within the Termination Report.
 
 
 After you have finished transferring the information to the pay journal and calculated the pay, go back to the Termination Wizard Summary screen to finalise the transaction.
 
-# 4.9.2.5	Finalising the Transactions
+
+#### Finalising the Transactions
+
 On the Termination Summary Screen, the “Close and Copy” button updates the relevant areas to update the Termination Date and Reason and if an ETP exists, updates the Employee Termination Payment area of the Payroll Employee card.
 
 
-# 4.9.2.5.1	Employee Card – Administration Tab
+#### Employee Card – Administration Tab
+
 The Status, Termination Date and Reason fields are updated accordingly.
 
-# 4.9.2.5.2	Payroll Employee Card – Employee Termination Payment
+
+#### Payroll Employee Card – Employee Termination Payment
+
 The Employee Termination Payment area of the Payroll Employee card is updated.  To access this area, go to the Payroll Employee Card, select “Employee Termination Payment” on the Navigate ribbon.
 
  
-
+[GoToTop](#Termination-wizard)
  
