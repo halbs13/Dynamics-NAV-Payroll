@@ -7,6 +7,7 @@ To access the Superannuation Report,
 *Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report*
 
 |Field	|Comments|
+|---|---|
 |Payroll No.	|Select the Payroll No. from the “ArrowDown”.|  
 ||If left blank all Payrolls are processed.| 
 |Total Per Employee	|If you wish the report to provide a Total Per Employee, then select this field.|
