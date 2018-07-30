@@ -246,3 +246,4 @@ Cancel Cash\Manual Cheques	|This option cancels the Pay Cash or Manual Cheque fu
 
  
 [GoToTop](#payroll-processing-overview)
+
