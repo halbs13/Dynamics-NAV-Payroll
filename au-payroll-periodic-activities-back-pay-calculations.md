@@ -14,10 +14,10 @@ You can choose to produce a report with no update.  The amounts calculated will 
 
 To open the Back Pay Calculation window,
 
-Departments/Payroll/Payroll Processing/Back Pay Calculation
+*Departments/Payroll/Payroll Processing/Back Pay Calculation*
  
 
-4.9.1.1	Back Pay Calculation – Options FastTab
+#### Back Pay Calculation – Options FastTab
 
 |Field|	Comments|
 |---|---|
@@ -49,7 +49,7 @@ Departments/Payroll/Payroll Processing/Back Pay Calculation
 | Pay Period Start Date|	The Starting dates of the current Pay Period.|
 |Pay Period End Date	|The Ending dates of the current Pay Period.|
 
-4.9.1.2	Back Pay Calculation – Payroll Employee FastTab
+#### Back Pay Calculation – Payroll Employee FastTab
 
 |Field	|Filter|
 |---|---|
