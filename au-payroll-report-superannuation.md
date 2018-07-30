@@ -1,10 +1,10 @@
-# 5.2.5	Superannuation Report
+# 	Superannuation Report
 
 The Superannuation Report is used to identify the contributions for the reporting period you nominate.
 
 To access the Superannuation Report, 
 
-Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report
+*Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report*
 
 |Field	|Comments|
 |Payroll No.	|Select the Payroll No. from the “ArrowDown”.|  
@@ -27,13 +27,13 @@ The fields on the Superannuation Report are:
 |Fund Total	|(7)	|This will be the Fund Total Amount.|
 
  
-# 5.2.6	Superannuation Product List Report
+### Superannuation Product List Report
 
 The Superannuation Product List Report will provide information on the Superannuation Products.
 
 To access the Superannuation Product List Report, 
 
-Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report
+*Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report*
  
 |Field	|Comments|
 |---|---|
@@ -59,13 +59,13 @@ The fields on the Superannuation Product List Report are:
 |Cost Trans|	(13)	|This field identifies the Cost Transaction Posting Group (Expense Account) setup on each of the Superannuation Product cards.|
 |Cost Bal Trn	|(14)	|This field identifies the Provision Transaction Posting Group setup on each of the Superannuation Product cards.|
 
-# 5.2.7	Superannuation Registration List
+### Superannuation Registration List
 
 The Superannuation Registration List Report will provide you with information on the contributions by Superannuation Fund/Superannuation Product for your employees.
 
 To access the Superannuation Registration List Report, 
 
-Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report
+*Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report*
 
 |Field	|Comments|
 |---|---|
@@ -92,4 +92,4 @@ The fields on the Superannuation Registration List Report are:
 |Balance Outstanding	|(10)	|This is the Balance Outstanding for the Employee.|
 |Payment Due	|(11)	|This is the Payment Due for the Employee.|
 
-
+[GoToTop](Superannuation_Report)
