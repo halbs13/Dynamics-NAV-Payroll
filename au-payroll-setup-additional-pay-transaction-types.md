@@ -44,6 +44,7 @@ The guidelines are as follows:
   d. **Accum. For Leave Calculations** is set to No Accumulation.
 4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected. 
 
+[GoToTop](#supplementary-information-on-pay-transaction-types)
 
  ### Long Service Leave taxed as a Lump Sum B 
 
@@ -83,6 +84,7 @@ If your organisation accrues and pays leave loading then this will be setup simi
   d. **Accum. For Leave Calculations** is set to No Accumulation.
 4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected.
  
+[GoToTop](#supplementary-information-on-pay-transaction-types)
 
 
 If your organisation accrues and pays leave loading then this will be setup similar to the Annual Leave transaction, however the Rate Conversion Factor on the Calculations FastTab will be set to 0.175 to refelct the 17.5% percentage pay rate.
@@ -112,7 +114,7 @@ If your organisation accrues and pays leave loading then this will be setup simi
    
 
  
-
+[GoToTop](#supplementary-information-on-pay-transaction-types)
  
 
  
