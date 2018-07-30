@@ -41,6 +41,8 @@ To access the Superannuation Product List Report
 |Superannuation Fund Product FastTab – Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank. |
 |When you have finished entering your information, click on “Preview” or “Print” to produce the file and report.|
 
+[GoToTop](#superannuation-report)
+
 The fields on the Superannuation Product List Report are:
 
 |Report Field| Field No. | Obtained from|
