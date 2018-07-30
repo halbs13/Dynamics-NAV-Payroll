@@ -59,4 +59,4 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
 |Payroll No.	|Enter or select a “Payroll No.” to limit the pay advice records for.|
 ||If you leave this field blank, then you will produce pay advices for all payrolls.|
 
-[GoToTop}(#print-pay-advises) 
+[GoToTop}(#print-pay-advices) 
