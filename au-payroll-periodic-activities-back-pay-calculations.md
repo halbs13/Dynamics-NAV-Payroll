@@ -1,4 +1,4 @@
-# PROCESSING BACK PAY CALCLUATIONS
+# PROCESSING BACK PAY CALCULATIONS
 
 When award rates have changed and are backdated prior to the current period, this function is used to generate the pay variance for the periods affected by the new pay rate.  The Back pay adjustments are created in the current pay period for the selected Payroll.  
 
