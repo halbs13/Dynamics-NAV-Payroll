@@ -3,7 +3,7 @@ The Employee Rate Change function is used to change Over Award Payroll Employee 
 
 To open the Employee Rate Change window, 
 
-Departments/Payroll/Periodic Activities/Change Rates/Employee Rates
+*Departments/Payroll/Periodic Activities/Change Rates/Employee Rates*
  
 
 #### Employee Rate Change – Options FastTab
