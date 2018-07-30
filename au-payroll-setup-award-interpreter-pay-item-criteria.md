@@ -49,6 +49,8 @@ They are maintained in the Item Criteria Worksheet.
 |**Apply to Following Day**| This field is used to apply these hours breaching 12midnight to the next day period end date.
 |**Deleted**| This field indicates the line is no longer used to generate transactions.
 
+[GoToTop](#award-interpreter-pay-item-criteria)
+
 ## Pay Item Criteria Worksheet
 
 The Item Criteria Worksheet is used to setup and maintain the Pay and Allowance Criteria Items used to interpret the timesheet lines.
@@ -113,4 +115,4 @@ The Pay Item records are used to interpret the hours into Pay Transaction Types.
 |**Apply to Following Day**|	This field is used to apply this Pay Criteria to the next day's week ending date.
 
 
-
+[GoToTop](#award-interpreter-pay-item-criteria)
