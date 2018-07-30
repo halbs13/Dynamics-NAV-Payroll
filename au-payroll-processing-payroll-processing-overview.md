@@ -42,6 +42,7 @@ Once you are satisfied with the manual entries run the **"Calculate Pays"** func
 
 After you have finished this process you may create the payment and then post the pay journal to the General ledger.
 
+[GoToTop](#payroll-processing-overview)
  
 #### Pay Journal 
 
@@ -127,6 +128,8 @@ After you have finished this process you may create the payment and then post th
 |Bal. Account No.	|This field displays the General Ledger Balancing account number.|
 |Bank Payment Type	|This field is used to indicate the Pay Payment Type. EFT, Manual Cheque, Computer Cheque, Cash, etc|
 
+[GoToTop](#payroll-processing-overview)
+
 Additional information is displayed below the journal lines on the Pay Journal card.  This information relates to the currently selected journal line. 
 
 
@@ -162,6 +165,8 @@ The Home ribbon allows for certain processes to be executed.
 |Refresh	|The Refresh function will refresh data on the Pay Journal page.|
 |Find	|The Find function is used to Find information contained in the Pay Journal.|
 
+[GoToTop](#payroll-processing-overview)
+
 #### Pay Journal – Actions ribbon 
 
 The Actions ribbon allows for certain processes to be executed.  
@@ -190,6 +195,8 @@ Cancel Calculated Pays	This option reverses the Calculations of Pays.|
 |Post	|This option posts the Pay Journal to the General Ledger.  Once you have Posted the Payroll to the General Ledger the amounts cannot be deleted, and errors must be corrected by reversing entries.|
 ||If posting is attempted while an error in the data exists the system will not post any of the data.|
 |Post and Print	|This option performs the post process and also prints a copy of the test report.|
+
+[GoToTop](#payroll-processing-overview)
 
 #### Pay Journal – Navigate ribbon 
 
@@ -238,3 +245,4 @@ The Navigate ribbon allows for certain processes to be executed.
 Cancel Cash\Manual Cheques	|This option cancels the Pay Cash or Manual Cheque function.|
 
  
+[GoToTop](#payroll-processing-overview)
