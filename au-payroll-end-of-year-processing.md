@@ -159,9 +159,7 @@ Once you have selected the report, a request form will appear with the following
 * Normal Processing – this will print the Payment Summary Proof List Report only
 *	End of Tax Year processing – this will print the Payment Summary Proof List Report and options to print PAYG Payment Summaries.
 
- 
-
-Click “End of Tax Year Processing”
+ Click “End of Tax Year Processing”
 
 
 #### Payment Summary Proof List – Options FastTab
@@ -209,7 +207,7 @@ Click “End of Tax Year Processing”
 |Employee No.	|Select an Employee No(s) to limit the process to 1 or more employee’s for the selected payroll(s)|
 ||If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.|
 |Employee Type Code|	Select an Employee Type Code(s) to use as a filter to limit the process to only a specific Employee Type |
-|If left blank all Employee Types for the selected Payroll(s) will print.|
+||If left blank all Employee Types for the selected Payroll(s) will print.|
 
 
 [GoToTop](#end-of-year-processing)
