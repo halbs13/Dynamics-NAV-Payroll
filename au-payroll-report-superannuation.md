@@ -92,4 +92,4 @@ The fields on the Superannuation Registration List Report are:
 |Balance Outstanding	|(10)	|This is the Balance Outstanding for the Employee.|
 |Payment Due	|(11)	|This is the Payment Due for the Employee.|
 
-[GoToTop](Superannuation_Report)
+[GoToTop](#superannuation-report)
