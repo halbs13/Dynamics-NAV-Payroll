@@ -1,9 +1,9 @@
-# 8.8	Print Pay Advices
+# Print Pay Advices
 To print Pay Advices, go to 
 
-Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
+*Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices*
  
-# 8.8.1.1	Pay Advice – Standard A4 – Options FastTab
+### 	Pay Advice – Standard A4 – Options FastTab
 |Field	|Comments|
 |---|---|
 |Message on Pay Advice 	|Enter in a message to appear on the Pay Advice.|
@@ -14,7 +14,7 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
 ||*	Employee No. within Pay Location|
 ||*	Surname within Pay Location|
 
-# 8.8.1.2	Pay Advice – Standard A4 – Posted Pay Advice FastTab
+### 	Pay Advice – Standard A4 – Posted Pay Advice FastTab
 
 |Field	|Filter|
 |---|---|
@@ -32,18 +32,18 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
 |Pay Advice Posting Seq. No.	|Enter or select a “Pay Advice Posting Seq. No.” to limit the pay advice records for.|
 ||This field can be left blank.
 
-# 8.9	Email Pay Advices
+### Email Pay Advices
 To print Email Pay Advices, go to 
 
 Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
  
-# 8.9.1.1	E-Mail Pay Advice – Options FastTab
+### 	E-Mail Pay Advice – Options FastTab
 
 |Field	|Comments|
 |---|---|
 |Pay Advice Message	|Enter in a message to appear on the Pay Advice.|
 
-# 8.9.1.2	Pay Advice – Standard A4 – Posted Pay Advice FastTab
+### Pay Advice – Standard A4 – Posted Pay Advice FastTab
 
 |Field	|Filter|
 |---|---|
@@ -59,4 +59,4 @@ Departments/Payroll/Periodic Activities/Periodic Maintenance/Print Pay Advices
 |Payroll No.	|Enter or select a “Payroll No.” to limit the pay advice records for.|
 ||If you leave this field blank, then you will produce pay advices for all payrolls.|
 
- 
+[GoToTop}(#print-pay-advises) 
