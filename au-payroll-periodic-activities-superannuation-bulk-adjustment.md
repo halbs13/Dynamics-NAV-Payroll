@@ -1,12 +1,13 @@
-## 5.2.8 Superannuation Bulk Adjustment
+# Superannuation Bulk Adjustment
+
 This option is used to create bulk Superannuation changes to the Payroll Employee - Superannuation cards when the employer percentage changes.
 
 To open the **Bulk Adjustments** window,
 
-Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
+*Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment*
  
 
-# 5.2.8.1	Bulk Update Superannuation – Options FastTab
+#### Bulk Update Superannuation – Options FastTab
 
 |Field|	Comments|
 |---|---|
@@ -18,7 +19,7 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
 |Update Employees|	Select this field if you wish to update the employee’s records.|  
  
 
-# 5.2.8.2	Bulk Update Superannuation – Superannuation Company FastTab
+#### Bulk Update Superannuation – Superannuation Company FastTab
 
 |Field|	Filter|
 |---|---|
@@ -29,7 +30,7 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
 
  
 
-# 5.2.8.3	Bulk Update Superannuation – Employee Superannuation FastTab
+#### Bulk Update Superannuation – Employee Superannuation FastTab
 
 |Field	|Filter|
 |---|---|
@@ -37,3 +38,5 @@ Departments/Payroll/EOM Processing/Superannuation Processing/Bulk Adjustment
 |Employee No.| 	Enter or Select the Employee’s you wish to adjust the superannuation records.|
 ||If left blank all employees are selected.|
 
+
+[GoToTop](#superannuation-bulk-adjustment)
