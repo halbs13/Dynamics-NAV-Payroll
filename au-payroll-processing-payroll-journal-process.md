@@ -8,23 +8,23 @@ The following steps must be completed in sequence to successfully produce the pa
 3.    Enter time sheet information for time sheet employees and / or exceptions for automatically paid employees.  An example of this will be leave adjustments, etc.
 
 4.    Select the **“Calculate Pays”** icon.
-   - Select to Calculate Pays for all employees on the payroll or Calculate An Employee’s Pay to select an employee (You can cancel calculated Pays for all employees or selected employees)
+      - Select to Calculate Pays for all employees on the payroll or Calculate An Employee’s Pay to select an employee (You can cancel calculated Pays for all employees or selected employees)
 
 5.    Select the **“Entry Validation Report”** icon from the Process section of the Home ribbon.
-   - Select the Entry Validation Report.  To continue processing the payroll, it is not enough that you preview this report. You must **print** this report in order to proceed or alternatively generate and save it as a pdf file.  
-   - Correct any errors indicated in the report.  
-   - You do not need to cancel every calculated pay to correct any error; you can simply filter for the pays that needed corrections via **“Cancel Calculated Pays”** icon on the Actions ribbon.  
-   - Select any of the other reports you wish to run.  
+      - Select the Entry Validation Report.  To continue processing the payroll, it is not enough that you preview this report. You must **print** this report in order to proceed or alternatively generate and save it as a pdf file.  
+      - Correct any errors indicated in the report.  
+    - You do not need to cancel every calculated pay to correct any error; you can simply filter for the pays that needed corrections via **“Cancel Calculated Pays”** icon on the Actions ribbon.  
+      - Select any of the other reports you wish to run.  
  
 6.    Select the **“Create Bank Transfer File”** icon from the Process section on the Home ribbon.
-   - Select Cheque, EFT or Cash as the method of payment you wish to pay the employees.  These options create the actual payments.
-   - Remit the generated bank file to the bank and on successful upload then you are ready to post the pays to update the various ledgers.  
+      - Select Cheque, EFT or Cash as the method of payment you wish to pay the employees.  These options create the actual payments.
+      - Remit the generated bank file to the bank and on successful upload then you are ready to post the pays to update the various ledgers.  
 7.    Select the Post icon.
-   - When you are ready to post the transactions to the General Ledger select the **“Posting”** icon.
-   - Prior to posting the payroll journal you can reconcile or produce a Test Report.  
-   - To post the transactions select the **“Post”** or **“Post and Print”** icon.  You will also be given the option of printing/emailing the pay advices from this function or you can choose to print/email them in bulk after the journal has been posted.  
-   - After these processes have completed you can select to close the Pay Period.  
-   - If more employees need to be paid or pay corrections are required then you must not close the Pay Period.  You can close the Pay Period later if you wish by selecting the **“Close Pay Period”** icon before you process your next Payroll.
+      - When you are ready to post the transactions to the General Ledger select the **“Posting”** icon.
+      - Prior to posting the payroll journal you can reconcile or produce a Test Report.  
+      - To post the transactions select the **“Post”** or **“Post and Print”** icon.  You will also be given the option of printing/emailing the pay advices from this function or you can choose to print/email them in bulk after the journal has been posted.  
+      - After these processes have completed you can select to close the Pay Period.  
+      - If more employees need to be paid or pay corrections are required then you must not close the Pay Period.  You can close the Pay Period later if you wish by selecting the **“Close Pay Period”** icon before you process your next Payroll.
 
 At this point you have completed the payroll for the Pay Period. 
 
@@ -36,18 +36,18 @@ The following outline explains how the system processes employee pays.
 2.    **Explode Gang** - For each Pay Journal Line for a Gang, the system creates the Pay Journal lines for each Employee in the Gang.  The Gang Employee table is used to locate the Employees who belong in the Gang for the nominated payroll during the period included in the document date.
 
 3.    **Check Employee Eligible for Pay:** For each Employee on the Payroll the following steps are performed:
-   - The Employee is checked to verify if they were terminated prior to this Pay Period.  If terminated, the Employee is not processed.
-   - The Employee is checked to verify if they have already been paid up to the end of this period.  If already paid they are not processed.
+      - The Employee is checked to verify if they were terminated prior to this Pay Period.  If terminated, the Employee is not processed.
+      - The Employee is checked to verify if they have already been paid up to the end of this period.  If already paid they are not processed.
    
 4.    **Calculate Employee Rate** (Function of Calculate Pays): Using the Employee Classification Rate and the Classification Rate tables, calculate the Employee's current weekly rate.  The Classification Rate is date dependent and is calculated for each Pay Journal line for the Employee entered using the time entry process.
 
 5.    **Add Allowances and Deductions** for the Employees in the Payroll:
 
 6.    The Employee's Pay Advice header is checked 
-   - To verify if the Pay Advice is the first advice for this Pay Period.  If it is not, then ordinary Pay Journal lines are not automatically generated.  
-   - The Employee's Pay Advice header is checked for exclusion of permanent details.  
-   - When permanent details are excluded, Allowance and Deduction are not processed.  
-   - The Employee's Pay Advice header is then checked for the Number of times to add the Allowances and Deductions set up.  The units or the fixed value of the Allowance is multiplied by this amount. 
+      - To verify if the Pay Advice is the first advice for this Pay Period.  If it is not, then ordinary Pay Journal lines are not automatically generated.  
+      - The Employee's Pay Advice header is checked for exclusion of permanent details.  
+      - When permanent details are excluded, Allowance and Deduction are not processed.  
+      - The Employee's Pay Advice header is then checked for the Number of times to add the Allowances and Deductions set up.  The units or the fixed value of the Allowance is multiplied by this amount. 
    
 7.    **The Date** of the generated Pay Journal line is set to the end of period date.  
 
@@ -68,9 +68,9 @@ The following outline explains how the system processes employee pays.
 15.   **If the Award** the employee is paid under has Award Associated Transaction, and then these are created.
 
 16.	Superannuation Calculation: 
-      -  Each employee is examined to determine if superannuation contributions are calculated.  If the employer superannuation contribution is subject to a minimum salary check, this is performed.  An employer contribution is only calculated when the employee has earned enough to satisfy this requirement.
-      - Employees that have nominated personal contributions to superannuation are processed.
-      - All fixed value contributions are multiplied by the number of deduction periods set up on the pay advice header. 
+        - Each employee is examined to determine if superannuation contributions are calculated.  If the employer superannuation contribution is subject to a minimum salary check, this is performed.  An employer contribution is only calculated when the employee has earned enough to satisfy this requirement.
+       - Employees that have nominated personal contributions to superannuation are processed.
+       - All fixed value contributions are multiplied by the number of deduction periods set up on the pay advice header. 
     
 17.	Tax Instalment Deduction Calculation:
       - The tax calculations conform to the requirements of the "Statement of Formulae for calculating Income Tax Instalments" from the Australian Taxation Office.
