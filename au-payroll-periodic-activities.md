@@ -10,7 +10,7 @@ The following tasks can be used to improve productivity:
 *	[Pay Transactions Bulk Generation](au-payroll-periodic-activities-pay-transaction-bulk-generation.md) 
 *	[Superannuation Bulk Adjustments](au-payroll-periodic-activities-superannuation-bulk-adjustment.md)
 *	[Employment Declaration](au-payroll-periodic-activities-employment-declarations.md)
-*	[Import Employee BSB Numbers](au-payroll-periodic-activities-import-employee-bsb-numbers)
+*	[Import Employee BSB Numbers](au-payroll-periodic-activities-import-employee-bsb-numbers.md)
 *	[Print Pay Advices](au-payroll-report-print-email-pay-advices.md)
 *	[Email Pay Advices](au-payroll-report-print-email-pay-advices.md)
 *	[Payroll Change Log Entries](au-payroll-periodic-activities-payroll-change-log-entries.md)
