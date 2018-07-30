@@ -1,4 +1,4 @@
-# 10.16	Payroll Reports
+# Payroll Reports
 All Dynamics NAV Payroll reports have the ability of being exported to Excel, Word, PDF and previewed online. 
 
 This section will describe the types of reports available within the Dynamics NAV Payroll module:
@@ -66,3 +66,5 @@ This section will describe the types of reports available within the Dynamics NA
 |Payroll Payment Details Report (Pay Journal)	|This report provides a breakdown of payment information for the employees within the pay journal.|
 |Employees Not Paid (Pay Journal)	|This report provides information on employees not paid within the pay run.|
 |Termination Report (Termination Wizard)	|This report provides information on the breakdown of an employee’s termination payment processed in the Termination Wizard|
+
+[GoToTop](#payroll-reports)
