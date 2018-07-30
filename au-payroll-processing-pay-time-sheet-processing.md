@@ -22,7 +22,7 @@ If you choose not to select a default Payroll when you select a Process, Task or
 
 To open the **Payroll Selection** window:
 
-*Departments|Payroll/Payroll Processing/Payroll Selection*
+*Departments/Payroll/Payroll Processing/Payroll Selection*
 
 |Field| Comments|
 |---|---|
