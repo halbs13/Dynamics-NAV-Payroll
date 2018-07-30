@@ -1,13 +1,12 @@
-# 10.13.14	Award Interpreter Employee Timesheets Worksheet
+# Award Interpreter Employee Timesheets Worksheet
 The Employee Timesheet Worksheet is used to enter the employee times into the Award Interpreter when you are not using Timekeeper.
 
 To open the Employee Timesheets Worksheet form, 
 
-Departments/Payroll/Award Interpretation Processing
+*Departments/Payroll/Award Interpretation Processing*
 
  
-
-# 10.13.14.1	Employee Timesheets Worksheet 
+#### Employee Timesheets Worksheet 
 
 |Field|	Comments|
 |---|---|
@@ -41,12 +40,12 @@ Departments/Payroll/Award Interpretation Processing
 |Source Code	|A source code indicates where an entry was created and is used internally by the system.|
 
  
-# 10.13.15	Award Interpreter Interpretation Worksheet
+### Award Interpreter Interpretation Worksheet
 In the top section of this form the Un-Interpreted timesheet lines are displayed for the Employee and Date filter criteria.  The Un-Interpreted lines are copied directly from the Employee Timesheets Worksheet. 
 
  
 
-# 10.13.15.1	Interpretation Worksheet Top Section
+# #### Interpretation Worksheet Top Section
 
 |Field	|Comments|
 |---|---|
@@ -79,7 +78,7 @@ In the top section of this form the Un-Interpreted timesheet lines are displayed
 
 In the bottom section of this form the Interpreted Times for the employee within the date filter are displayed and correspond to the top section entries. The lines are summarised in days unless flagged to summarise in weeks in the Payroll Setup Timesheet tab.
  
-10.13.15.2	Interpretation Worksheet - Bottom Section
+#### Interpretation Worksheet - Bottom Section
 
 |Field|	Comments|
 |---|---|
@@ -115,7 +114,8 @@ The Print Button is used to run the Interpreted Times Report.
 
 The Submit Button is used to pass the Interpreted Lines in the bottom section to the Pay Timesheet Journal. You can open the Pay Time Sheet Journal if you wish and edit the lines. Alternately you can open the Pay Journal and Transfer the lines into the corresponding Pay Period.
 
-# 10.13.16	Award Interpreter Interpret button
+### Award Interpreter Interpret button
+
 The Interpret Button is used to interpret the Un-Interpreted Timesheet Lines displayed in the top section of the form. Once Interpreted the lines will also display in the bottom section.
 
 **Interpret function:**
@@ -172,7 +172,7 @@ Apply to the following Day flag: The week ending date is based on the day after 
  
 **Rounding:** Rounding of Up Down or Nearest is performed to the Precision defined in the Rounding Precision field of the Item Criteria.
 
-# 10.13.17	Award Interpreter Submit button
+### Award Interpreter Submit button
 This option transfers interpreted lines to the Posted Interpreted Times table. The lines are transferred as adjustments if an existing posted interpreted time exists. The new / adjustments lines populate the Pay Time Sheet Journal as locked lines where they can be edited if required. 
 
 You can also Transfer the Interpreted Lines directly into the Pay Journal.
