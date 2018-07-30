@@ -32,7 +32,7 @@ The fields on the Superannuation Report are:
 
 The Superannuation Product List Report will provide information on the Superannuation Products.
 
-To access the Superannuation Product List Report, 
+To access the Superannuation Product List Report 
 
 *Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report*
  
