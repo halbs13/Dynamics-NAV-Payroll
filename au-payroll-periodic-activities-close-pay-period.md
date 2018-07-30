@@ -1,7 +1,8 @@
-# 8.4	Close the Pay Period
+# Close the Pay Period
+
 To open the Close Pay Period window 
 
-Departments/Payroll/Periodic Activities/Periodic Maintenance/Close Pay Period
+*Departments/Payroll/Periodic Activities/Periodic Maintenance/Close Pay Period*
  
 
 Once the “Close Pay Period” window has opened, select the “Navigate ribbon”
@@ -23,3 +24,6 @@ After selecting either “Close Current” or “Close Selected” menu items
   
 
 Click the Yes button to close the period (s), alternatively click No to leave the period (s) open.
+
+
+[GoToTop](#close-the-pay-period)
