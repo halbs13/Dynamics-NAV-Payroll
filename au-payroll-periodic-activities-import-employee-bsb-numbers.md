@@ -16,3 +16,5 @@ To open the Import Employee BSB Numbers window,
 ||Select "Export" to export the current BSB Numbers information to a text file.
 |Click “OK”
 |You will be directed to a file path for you to locate the Tax Scales to Import.  Once you have selected the file, click “Open”.
+
+
