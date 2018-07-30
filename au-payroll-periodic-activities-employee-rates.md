@@ -1,4 +1,4 @@
-# 8.3 Employee Rates
+# Employee Rates
 The Employee Rate Change function is used to change Over Award Payroll Employee Classification Rates.
 
 To open the Employee Rate Change window, 
@@ -6,7 +6,7 @@ To open the Employee Rate Change window,
 Departments/Payroll/Periodic Activities/Change Rates/Employee Rates
  
 
-8.3.1.1	Employee Rate Change – Options FastTab
+#### Employee Rate Change – Options FastTab
 
 |Field|	Comments|
 |---|---|
@@ -21,7 +21,7 @@ Departments/Payroll/Periodic Activities/Change Rates/Employee Rates
 |Rounding Precision|	Enter the "Rounding Precision" for the "Adjust By %" calculation.  |
 ||The field is only available when adjusting the over award rate by a percentage.|
 
-8.3.1.2	Employee Rate Change – Payroll Employee FastTab
+#### Employee Rate Change – Payroll Employee FastTab
 
 |Field	|Filter|
 |---|---|
@@ -31,3 +31,4 @@ Departments/Payroll/Periodic Activities/Change Rates/Employee Rates
 
 
  
+[GoToTop](#employee-rates)
