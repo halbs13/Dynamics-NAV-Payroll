@@ -27,3 +27,4 @@ Click the Yes button to close the period (s), alternatively click No to leave th
 
 
 [GoToTop](#close-the-pay-period)
+
