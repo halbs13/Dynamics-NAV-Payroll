@@ -68,3 +68,4 @@ This section will describe the types of reports available within the Dynamics NA
 |Termination Report (Termination Wizard)	|This report provides information on the breakdown of an employee’s termination payment processed in the Termination Wizard|
 
 [GoToTop](#payroll-reports)
+
