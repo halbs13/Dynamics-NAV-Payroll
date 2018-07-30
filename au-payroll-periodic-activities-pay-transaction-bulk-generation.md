@@ -96,3 +96,4 @@ To open the Bulk Adjust Deductions window,
 
 
 [GoToTop](#pay-transaction-bulk-generation)
+
