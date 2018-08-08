@@ -58,6 +58,6 @@ To access the Employee Leave Accrual Card, click on the **Edit** icon on the *Ho
 * Leave Accrual card - This menu item displays the Leave Accrual card.
 * Ledger Entries - This menu item displays the employee’s leave transactions posted to the Payroll Leave Sub-Ledger.
 * Adjust Balances - This menu item is used to adjust the leave balances for an employee.
-* Leave Breaks - You can enter Leave Breaks to stop the Employee’s leave accruing for the term of the leave break
+* [Leave Breaks](au-payroll-create-payroll-employee-leave-breaks.md) - You can enter Leave Breaks to stop the Employee’s leave accruing for the term of the leave break
 
 [GoToTop](#leave-accruals)
