@@ -1,4 +1,4 @@
-# Payroll Employee card – Navigate ribbon - Cost Allocations
+# Cost Allocations
 
 This option is used to setup and maintain percentages that split the employee’s costs over several cost centres.
 
