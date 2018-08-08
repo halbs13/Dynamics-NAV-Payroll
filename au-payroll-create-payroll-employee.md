@@ -1,8 +1,8 @@
 # Create Payroll Employee
 
-Prior to setting up a Payroll Employee card you must first set up a Human Resources Employee card. 
+Prior to setting up a Payroll Employee card, you must first set up a [Human Resources Employee](au-payroll-create-employee.md) card. 
 
-*Departments/Payroll/Employee Maintenance/Employee* 
+1.  To create a Payroll Employee, go to the following menu:*Departments/Payroll/Employee Maintenance/Payroll Employees* 
 
 After you have setup the Employee card you can then create the Payroll Employee card using the details entered for the Employee card.  
 
