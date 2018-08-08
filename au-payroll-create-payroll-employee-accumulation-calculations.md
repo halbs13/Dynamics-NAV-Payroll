@@ -14,8 +14,7 @@ This window is used to define each On Cost pay Transaction Types for an Employee
 
 |Field|Comments| 
 |---|---|
-|Transaction Type Code|This field is used to select the Pay Transaction Type for the On Cost calculation.|
-||The “Transaction Type Code” is selected via the **ArrowDown**. Only On Cost Pay Transaction Types are displayed.|
+|Transaction Type Code|This field is used to select the Pay Transaction Type for the On Cost calculation.  The “Transaction Type Code” is selected via the **ArrowDown**. Only On Cost Pay Transaction Types are displayed.|
 |Start Date|This field is used to enter the starting date for the On Cost Pay Transaction Type.|
 |End Date|This field is used to enter the end date for the On Cost Pay Transaction Type.  This field may be left blank if the On Cost Pay Transaction Type is to apply for an ongoing period of time.|
 |Pay Rate|This field defines the Rate applicable to the On Cost calculation.  The Rate is effectively entered as a percentage of the employee’s Gross pay. (9.5% entered as 0.095)|
@@ -28,8 +27,7 @@ This window is used to define each On Cost pay Transaction Types for an Employee
 
 |Field|Comments|
 |---|---|
-|Transaction Type Code|This field is used to select the Pay Transaction Type for the On Cost Allowance.|
-||The “Transaction Type Code” is selected via the **ArrowDown**. Only On Cost Pay Transaction Types are displayed.|
+|Transaction Type Code|This field is used to select the Pay Transaction Type for the On Cost Allowance.  The “Transaction Type Code” is selected via the **ArrowDown**. Only On Cost Pay Transaction Types are displayed.|
 |Start Date|This field is used to enter the starting date for the On Cost Pay Transaction Type.|
 |End Date|This field is used to enter the end date for the On Cost Pay Transaction Type.  This field may be left blank if the On Cost Pay Transaction Type is to apply for an ongoing period of time.|
 |Pay Rate|This field defines the Rate applicable to the On Cost calculation.  The Rate is effectively entered as a percentage of the employee’s Gross pay.|
@@ -40,8 +38,7 @@ This window is used to define each On Cost pay Transaction Types for an Employee
 
  |Field|Comments|
  |---|---|
- |Transaction Type|This field is used to select the Pay Transaction Type for the On Cost Deduction.|
- ||The “Transaction Type Code” is selected via the **ArrowDown**. Only On Cost Pay Transaction Types are displayed.|
+ |Transaction Type|This field is used to select the Pay Transaction Type for the On Cost Deduction.  The “Transaction Type Code” is selected via the **ArrowDown**. Only On Cost Pay Transaction Types are displayed.|
  |Start Date|This field is used to enter the starting date for the On Cost Pay Transaction Type.|
  |End Date|This field is used to enter the end date for the On Cost Pay Transaction Type.  This field may be left blank if the On Cost Pay Transaction Type is to apply for an ongoing period of time.|
  |Pay Rate|This field defines the Rate applicable to the On Cost calculation.  The Rate is effectively entered as a percentage of the employee’s Gross pay.|
