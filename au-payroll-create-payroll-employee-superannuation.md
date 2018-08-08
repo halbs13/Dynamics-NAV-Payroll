@@ -53,7 +53,7 @@ To access the Employee Superannuation Card, select the **Edit** icon on the *Hom
 |---|---|
 |**Superannuation Code**|	This field is used to select the Superannuation Product Code.
 |**Membership No.**|	Enter the employee superannuation fund "Membership No." 
-|**Base Salary**|	To use this field you must have the Standard Salary check box flagged on the [Superannuation Products](au-payroll-create-superannuation-products.md) Options FastTab.  This field is then used to calculate the Employee SGC % on this value instead of using the [Pay Transaction Types](au-payroll-create-pay-transaction-types.md) flagged "App to Super".  This amount is entered as an annual salary for the employee. If this field is zero then the employees actual earnings (Pay Transaction types flagged "App to Super".) are used to calculate the SGC super.
+|**Base Salary**|	To use this field you must have the Standard Salary check box flagged on the [Superannuation Products](au-payroll-setup-superannuation-products.md) Options FastTab.  This field is then used to calculate the Employee SGC % on this value instead of using the [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) flagged "App to Super".  This amount is entered as an annual salary for the employee. If this field is zero then the employees actual earnings (Pay Transaction types flagged "App to Super".) are used to calculate the SGC super.
 |**Date Joined Fund**|	This field is used to enter the date the employee joined the fund.
 |**Last Period Updated**|	This field displays the end date of the last pay period that superannuation was calculated for this employee.
 |**Last Date Modified**|	This field displays the last date this Employee Superannuation record was changed.
