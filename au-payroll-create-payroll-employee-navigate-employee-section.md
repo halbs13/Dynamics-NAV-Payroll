@@ -12,7 +12,7 @@ The following items are accessed from the Process section on the Home ribbon:
 * [Posted Pay Advices](#payroll-employee-card-navigate-ribbon-posted-pay-advices) - displays details of completed Pay Advices.  Previous pay advices can be reprinted or re-emailed using this option. 
 * [Ledger Entries](#payroll-employee-card-navigate-ribbon-ledger-entries) - lists all payroll transactions that have been posted for the employee.  
 * [Super Ledger Entries](#payroll-employee-card-navigate-ribbon-super-ledger-entries) - lists all superannuation transactions that have been posted to the Payroll Superannuation Sub-Ledger for the employee. 
-* [Leave Ledger Entries](#payroll-employee-card-navigate-ribbon-ledger-entries) – lists leave transactions that have been posted to the Payroll Leave Sub-Ledger for the employee.
+* [Leave Ledger Entries](#payroll-employee-card-navigate-ribbon-leave-ledger-entries) – lists leave transactions that have been posted to the Payroll Leave Sub-Ledger for the employee.
 * [Statistics](#payroll-employee-card-navigate-ribbon-statistics) - displays statistics for the current Pay Period, Current Year and Last Year printed on both the payment Summary and ETP. 
 * [YTD Accumulations](#payroll-employee-card-navigate-ribbon-ytd-accumulations) - displays the year to date accumulations.  It also displays where the value is printed on the Employee's Payment Summary.  The totals shown here are for the current employee, while the rest of the information is for all employees, for all payrolls in this database.
 * [Dimensions](#payroll-employee-card-navigate-ribbon-dimensions)- is used to assign and view the Dimensions for this employee. 
