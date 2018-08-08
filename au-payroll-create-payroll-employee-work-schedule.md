@@ -21,7 +21,7 @@ You can setup a number of different work schedule codes which are designed to de
 1.  Select the **New** icon to create a new work schedule.  
 
 |Field	| Mandatory/Optional |Comments|
-|---|---|---|
+|---|:---:|---|
 |**Code**|	M	|Enter in a Code which will describe the Work Schedule.  The code can be numeric or alpha-numeric.
 |**Description**|O	|Enter in a Description which best describes the work pattern of the work schedule.
 |**Payroll No.**|M	|Select the Payroll No. which the Work Schedule is applicable to via the **ArrowDown**.
