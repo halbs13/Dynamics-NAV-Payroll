@@ -25,7 +25,7 @@ You can setup a number of different work schedule codes which are designed to de
 |**Code**|	M	|Enter in a Code which will describe the Work Schedule.  The code can be numeric or alpha-numeric.
 |**Description**|O	|Enter in a Description which best describes the work pattern of the work schedule.
 |**Payroll No.**|M	|Select the Payroll No. which the Work Schedule is applicable to via the **ArrowDown**.
-|**DAY SCHEDULE – Once you nominate and assign a Payroll No. the number of days will default.**
+|**DAY SCHEDULE**||Once you nominate and assign a Payroll No. the number of days will default.|
 |**Day 1 to 31**|	M	|Enter in the number of hours per day intended for the Work Schedule.  Day 1 will present the first day of the pay period.  
 
 
