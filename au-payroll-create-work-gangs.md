@@ -19,7 +19,12 @@ Enter the time worked in the Pay Journal and then attach the work gang to the Pa
 |**Employee No.**|This field is used to select the employees you wish to assign to this work gang.
 |**Employee First Name**|This field is used to display the Employee Name.
 |**Employee Last Name**|	This field is used to display the Employee Name
-|**Navigate ribbon**
+
+
+3.  From the **Navigate** ribbon, you can access the following menus;
+
+|Field	|Comments|
+|---|---|
 |**Card**|This item displays the Payroll Employee card for the selected employee
 |**Ledger Entries**|This item displays the Employees Payroll ledger entries for the selected employee
 |**Copy Gang**|	This option is used to copy the current work displayed work gang employees to a new work gang or merge them into an existing gang.  
