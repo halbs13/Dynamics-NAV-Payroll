@@ -71,7 +71,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 |**Show Leave As Hours**| A checkmark in this field indicates that Leave Balances are shown in hours instead of days on the employee pay advice.  If left blank days is displayed.|         
 |**Post Leave Accruals Only**| A checkmark in this field indicates you want the End of Month Process to only Post the Accruals.  The process increases the Provision and Expenses the Accruals.  It posts the Leave Accruals to the **Leave Provision** and **Leave Expense** posting groups during the **Post Leave Accruals** process.|  
 |**Post Leave Tkn. Adj. in Pay Journal**| A checkmark in this field is used to indicate Leave Taken is posted to a P&L Posting Group other than the provision account.  Note:  If you select this option you must specify the Leave Taken Transaction Posting Group on each Leave Accrual card. The Transaction Posting group on the Leave taken Transaction Type must be a P&L Posting group and must be a different group to the corresponding Leave Accrual.|  
-|**Don't Recalc Pro-Rata**| A checkmark in this field (Recommended) to prevent leave accruals recalculating for employee’s from their last anniversary date each pay period If left blank the Leave Accrual function will re-calculate the employee Pro-rata leave accruals from their last anniversary date to the end of the current pay period each pay period. When the system recalculates the pro-rata leave balance any pro-rata adjustments are ignored.  **Note: Once this setting has been selected, you cannot change it as it will affect your accrual calculations on employee anniversary**.| 
+|**Calc. Incremental Pro-Rata Leave**| A checkmark in this field (Recommended) to prevent leave accruals recalculating for employee’s from their last anniversary date each pay period If left blank the Leave Accrual function will re-calculate the employee Pro-rata leave accruals from their last anniversary date to the end of the current pay period each pay period. When the system recalculates the pro-rata leave balance any pro-rata adjustments are ignored.  **Note: Once this setting has been selected, you cannot change it as it will affect your accrual calculations on employee anniversary**.| 
 |**Produce Individual Employee EOY Payment Summaries per Payroll**| A checkmark in this field indicates that separate payment summaries are required for an employee who is included in different payrolls.|  
 |**EFT Posting By Dimension**| A checkmark in this field indicates the Dimensions setup on the Bank Account will be posted through with the Bank transaction from the Pay Journal.|  
 |**Pay Rates Are Hourly**| A checkmark in this field indicates that Pay Rates are entered as hourly rates against the employee Pay Rates card.  If left blank weekly rates of pay are entered.|  
@@ -125,5 +125,20 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 |**ETP Tax Rate Under Preservation Age Below Cap**| This field is used to indicate the ETP Tax Rate Under Preservation Age below cap.  This information is supplied by the ATO, annually.|  
 |**ETP Tax Rate Under Preservation Age Above Cap**| This field is used to indicate the ETP Tax Rate Under Preservation Age above cap.  This information is supplied by the ATO, annually.|    
 |**ETP Tax Rate Over Whole of Income Cap**| This field is used to indicate the ETP Tax Rate Over Whole of Income Cap.  This information is supplied by the ATO, annually.|
+
+10. On the **Single Touch Payroll** FastTab, fill the fields as described in the following table.
+    
+|Field|Description|  
+|:---------------------------------|:---------------------------------------| 
+|**BMS ID**| This field is a system generated field which produces a unique code for each client and is provided to the ATO for the purposes of Single Touch Payroll reporting.| 
+|**STP Start Date**|This field is system generated with the Start Date of when the STP Upgrade Process is executed.|
+|**STP Pay Event Code**|This field is updated when the STP Upgrade Process is executed and identifies the STP Pay Event code as required by the ATO.  The value generated in this field is "PAYEVNT".|
+|**STP Event Employee Code**|This field is populated when the STP Upgrade Process is executed and identifies the STP Event Employee Code as required by the ATO.  The value generated in this field is "PAYEVNTEMP".|
+|**STP Submission Method**|This field is used to identify the STP Submission Method.  The options available are: "Service Provider" (recommended), "Direct", "Payroll Software".|
+|**STP Sending Service Provider Name**|This field is used to identify the Service Provider Name for the submission of Single Touch Payroll pay events to the ATO.  If you are registered with "SuperChoice" then this will be entered into this field.|
+|**STP Intermediary ABN:**|This field is not expected to be populated as the information will be sourced from the ABN on the [Payrolls](au-payroll-setup-payrolls.md) card.|
+|**STP Registered Agent No.**|This field forms part of the ATO specification but is not expected to be populated.|
+|**STP Intermediary Contact Name**|This field is not exptected to be populated as the information will be sourced from the Contact Name on the [Payrolls](au-payroll-setup-payrolls.md) card.|
+|**
 
 [GoToTop](#to-setup-payroll-setup)
