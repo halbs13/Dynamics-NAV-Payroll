@@ -140,8 +140,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 |**STP Registered Agent No.**|This field forms part of the ATO specification but is not expected to be populated.|
 |**STP Intermediary Contact Name**|This field is not exptected to be populated as the information will be sourced from the Contact Name on the [Payrolls](au-payroll-setup-payrolls.md) card.|
 |**STP Intermediary E-mail Address**|This field is not expected to be populated as the information will be sourced from the Contact E-mail Address on the [Payrolls](au-payroll-setup-payrolls.md) card.|
-|**STP Intermediary Phone No.**|This field is not expected to be populated as the information will be sourced from the Phone No. on the 
-[Payrolls](au-payroll-setup-payrolls.md) card.|
+|**STP Intermediary Phone No.**|This field is not expected to be populated as the information will be sourced from the Phone No. on the [Payrolls](au-payroll-setup-payrolls.md) card.|
 |**STP Payload File Path**|This field is not expected to be populated as the information is required to be completed when using a different STP Submission Method.|
 
 
