@@ -20,7 +20,7 @@ When you initially select the **Superannuation** icon from the Payroll Employee 
 
 The Employee Superannuation List displays the Superannuation Products the employee has been enrolled into.  .  
 
-Before you can add a new Superannuation record to an employee, the [Superannuation Fund](au-payroll-setup-superannuation-funds.md) and the [Superannuation Product](au-payroll-setup-superannuation-products.md) must be setup in Payroll Setup.
+Before you can add a new Superannuation record to an employee, the [Superannuation Fund](au-payroll-setup-superannuation-funds.md) and the [Superannuation Product](au-payroll-setup-superannuation-products.md) must be setup in [Payroll Setup](au-payroll-setup-payroll-setup.md).
 
 
 |Field|	Comments|
