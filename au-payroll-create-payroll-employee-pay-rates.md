@@ -1,8 +1,8 @@
 # Payroll Employee Card Pay Rates
 
-This option is used to maintain the Employee Pay Rate.  Depending on the option in Payroll Setup the employee pay rates are entered as a weekly or hourly rate. Pay Rates allow you to record the history of pay rates previously used by dating the Pay Rate line.
+This option is used to maintain the Employee Pay Rate.  Depending on the option in [Payroll Setup](au-payroll-setup-payroll-setup.md) the employee pay rates are entered as a weekly or hourly rate. Pay Rates allow you to record the history of pay rates previously used by dating the Pay Rate line.
 
-You can enter the Employee rate manually or use an Award Classification rate.
+You can enter the Employee rate manually or use an [Award Classification rate](au-payroll-setup-awards.md).
  
 |Field|	Comments|
 |---|---|
@@ -13,12 +13,12 @@ You can enter the Employee rate manually or use an Award Classification rate.
 |**Award Code**|	This field displays the Award to which the Classification belongs.
 |**Standard Rate**|	This field displays the "Standard Rate" of pay defined by the award classification rate.
 |**Over Award Rate**|	This field displays the "Over Award Weekly Rate" of pay defined by the award classification rate.
-|**Employee Rate**|	This field displays the "Employee Rate" (Total of the “Standard Rate” and “Over Award Rate).  If these two rates are zero the “Employee Rate” is entered manually.  Depending on the option set on the “Payroll Setup” card the rate entered will be weekly or hourly.
-|**Employee Charge Rate**|	This field is used to enter the charge out rate for employees if applicable
+|**Employee Rate**|	This field displays the "Employee Rate" (Total of the “Standard Rate” and “Over Award Rate).  If these two rates are zero the “Employee Rate” is entered manually.  Depending on the option set on the [Payroll Setup](au-payroll-setup-payroll-setup.md) card the rate entered will be weekly or hourly.
+|**Employee Charge Rate**|	This field is used to enter the charge out rate for employees if applicable.
 |**Defunct**|	This field indicates that this Employee rate is not used. Do not defunct rates that have been used and are replace by new rates. The starting dates are used to replace old rates.
 |**Navigate ribbon**
 |**Award**|	This option displays the Award & Associated Transactions card.
-|**Classification**|	This menu option displays the Award Classification card
+|**Classification**|	This menu option displays the Award Classification card.
 
 
  
