@@ -4,7 +4,7 @@ Shift Rosters are used to define specific work patterns for your employees.  The
  
 Pay Transactions Types can be allocated to each shift type for payment.  This allows for the different payment loadings and associated transactions such as meal allowance to be paid to the employees automatically on a shift for a specific pay period.
 
-Select “Weekly Shift Roster” and then select **OK**
+Select “Weekly Shift Roster” and then select **OK**.
 
 |Field	|Comments|
 |---|---|
