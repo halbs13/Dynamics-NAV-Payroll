@@ -19,4 +19,4 @@ To make adjustments to TIL balances, on the *Navigate* ribbon and select the **A
 |**Units**|Complete this field if you wish to record the TIL adjustment.
 |**Value**|Complete this field if you wish to record the TIL value only.
 |**Adjustment Description**|Complete this field if you wish to record a description for this TIL adjustment.
-|**Data Take On**|Select this field if this transaction relates to Take On Data.
+|**Data Take On**|Select this field if this transaction relates to Take On Data.|
