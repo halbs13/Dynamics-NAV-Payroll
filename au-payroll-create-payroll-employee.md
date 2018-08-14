@@ -2,28 +2,21 @@
 
 Prior to setting up a Payroll Employee card, you must first set up a [Human Resources Employee](au-payroll-create-employee.md) card. 
 
-1.  To create a Payroll Employee, go to the following menu:*Departments/Payroll/Employee Maintenance/Payroll Employees* 
+1.  To create an Employee, go to the following menu: *Departments/Payroll/Employee Maintenance/Employees* 
 
-After you have setup the Employee card you can then create the Payroll Employee card using the details entered for the Employee card.  
-
-*Departments/Payroll/Employee Maintenance/Payroll Employees*
-
-Corresponding fields in the Human Resource Employee card populate the Payroll Employee card.  
+2.  After you have setup the Employee card, then create the Payroll Employee card from the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
 
 **Note:** Several fields in the Payroll Employee card are mandatory (you must enter information to continue) whilst other fields are optional which can be filled in at a later stage or be left blank.
 
 The following list is used to indicate the field type on each tab:
+
 * **M**= Mandatory
 * **O** = Optional
 * **S** = System Defined
 
 ## Payroll Employee card
 
-The Payroll Employee card is used to create your employee records used to calculate remuneration and process the payrolls
-
-*Departments/Payroll/Employee Maintenance/Payroll Employees*
-
-You must complete the following tabs and button for each employee
+When setting up a new Payroll Employee, you will complete the following areas for each employee;
 
 * [General](#payroll-employee-card-general-fasttab)
 * [Posting](#payroll-employee-card-posting-fasttab)
@@ -42,48 +35,38 @@ You must complete the following tabs and button for each employee
 * [Work Schedules](au-payroll-create-payroll-employee-work-schedule.md)
 
 
+1.  Select the **New** icon on the Home ribbon to create a new Payroll Employee.
+
+2.  Complete the following information on the **General** FastTab;
 
 ### Payroll Employee card General FastTab
 
 The General FastTab is use to edit the employee name and address details used for Payment Summary production. You must assign the employee to a Payroll which determines the frequency of payment.  You can define the employee’s location, position and payment method. You must select the Employee Type code to determine the type of Payment Summary issued.
 
  
-|Field	|Field Type	|Comments|
+|Field	|Mandatory/Optional	|Comments|
 |---|---|---|
-|General FastTab
-|Employee No.|	M	|This field identifies the Employee throughout the Payroll and Human Resource Granules.
-||| The Employee must exist as an Employee in Human Resources before you can setup a Payroll Employee card.
-|||To setup a Payroll Employee card press the "New" icon on the Home Ribbon and place the cursor in the Employee No field.  
-|||Click the “ArrowDown” button and select the “Employee No.” from the Employee List table. The Payroll Employee has the same Employee No as the Human Resource Employee.
-||| You cannot complete any fields in the Payroll Employee card until you have selected an Employee Number.
-|Job Title |	O	|Select a Job Title if required.  This field is used only for reporting.
-|Employee First Name|	M	|The “Employee First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Employee card is also updated with the change.
-|Employee Last Name|	M	|The “Employee's Last Name” is displayed. The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Employee card is also updated with the change
-|Middle Name|	O	|Enter the Middle name
-|Initials	|O	|Enter the Employees initials
-|Address	|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.  
-|||This field is used when producing the Payment Summaries.
-|Address 2|	O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.  This field is used when producing the Payment Summaries.
-|Post Code/City	|M	|The “Post Code/City” is 2 fields used to record the post code and city. 
-|||Enter or select the post code from the table.
-|||If the post code exists in the Post Code table the City field automatically populates to the city associated with that post code.
-|Phone No.	|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.
-|Mobile Phone No.|	O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.
-|Alpha Search	|M	|This field is used to search for the Employee throughout the Payroll 
-|||The contents of the Alpha Search field do not need to be the same as those of the Employee First and Last Name fields. 
-|Payroll No.|	M|	Use this field to assign the employee to a specific Payroll (To learn more about Payrolls, read General – Payroll section below)
-|Pay Cycle Frequency|	S	|This field is only used to display the pay frequency for the selected Payroll.
-|||The frequency defines the number of tax weeks calculated per Pay Run.
-|Position Code	|O	|This field indicates the position title of the employee.  These codes are common to all payrolls in this database.
-|Shift Code|	O	|This field is used to assign a default shift to this employee. The shift is used in the Pay Journal and may be overridden.
-|Pay Location	|O	|This field is used to indicate the location of the employee to distribute their Pay Advice.
-|||Pay Advices can be printed in Pay Location order for each Payroll 
-|Employee Type Code	|M	|This field determines the type of Payment Summary issued to the employee.  
-|||The employee type code must be updated prior to calculating the pay journal.
-|Payment Method|	M	|This field specifies the employee default Payment Method.  
-|||Cash, Cheque, or EFT.
-|E-Mail Pay Advice	|O|	When this field is ticked, the employee will receive Pay Advice via email. This field can only be ticked if the E-Mail field in the Employee card is populated with a valid email address.
-|E-Mail Payment Summary|	O	|When this field is ticked, the employee will receive the Payment Summary via email. This field can only be ticked if the E-Mail field in the Employee card is populated with a valid email address.
+|**Employee No.**|	M	|This field identifies the Employee throughout the Payroll and Human Resource Granules.  The Employee must exist as an Employee in Human Resources before you can setup a Payroll Employee card.  Click the **ArrowDown** button and select the “Employee No.” from the Employee List table. The Payroll Employee has the same Employee No as the Human Resource Employee.
+|**Job Title** |	O	|Select a Job Title if required.  This field is used only for reporting.
+|**Employee First Name**|	M	|The “Employee First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Employee card is also updated with the change.
+|**Employee Last Name**|	M	|The “Employee's Last Name” is displayed. The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Employee card is also updated with the change
+|**Middle Name**|	O	|Enter the Middle name
+|**Initials**|O	|Enter the Employees initials
+|**Address**|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.  This field is used when producing the Payment Summaries.
+|**Address 2**|	O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.  This field is used when producing the Payment Summaries.
+|**Post Code/City**	|M	|The “Post Code/City” is 2 fields used to record the post code and city. Enter or select the post code from the table.  If the post code exists in the Post Code table the City field automatically populates to the city associated with that post code.
+|**Phone No.**|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.
+|**Mobile Phone No.**|	O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.
+|**Alpha Search**	|M	|This field is used to search for the Employee throughout the Payroll.  The contents of the Alpha Search field do not need to be the same as those of the Employee First and Last Name fields. 
+|**Payroll No.**|	M|	Use this field to assign the employee to a specific Payroll. 
+|**Pay Cycle Frequency**|	S	|This field is only used to display the pay frequency for the selected Payroll.  The frequency defines the number of tax weeks calculated per Pay Run.
+|**Position Code**|O	|This field indicates the position title of the employee.  These codes are common to all payrolls in this database.
+|**Shift Code**|	O	|This field is used to assign a default shift to this employee. The shift is used in the Pay Journal and may be overwritten.
+|**Pay Location**|O	|This field is used to indicate the location of the employee to distribute their Pay Advice.  Pay Advices can be printed in Pay Location order for each Payroll. 
+|**Employee Type Code**|M	|This field determines the type of Payment Summary issued to the employee.   The employee type code must be updated prior to calculating the pay journal.
+|**Payment Method**|	M	|This field specifies the employee default Payment Method.  The options are; Cash, Cheque, or EFT.
+|**E-Mail Pay Advice**|O|	When this field is ticked, the employee will receive Pay Advice via email. This field can only be ticked if the E-Mail field in the Employee card is populated with a valid email address.
+|**E-Mail Payment Summary**|	O	|When this field is ticked, the employee will receive the Payment Summary via email. This field can only be ticked if the E-Mail field in the Employee card is populated with a valid email address.
 
 [GoToTop](#create-payroll-employee)
 
@@ -96,20 +79,17 @@ The Branch Code is attached to a state which determines the state when calculati
 Global Dimensions are used in conjunction with GL Accounts in the General Ledger.
 
  
-
-|Field	|Field Type	|Comments
+|Field	|Mandatory/Optional	|Comments|
 |---|---|---|
-|Posting FastTab
-|Branch|	O	|This field is used to select the Branch.  The branch is used for Payroll Posting Groups and is associated with a State for Payroll Tax calculations.
-|Division Code|	O	|This field is used to select the Division.
-|||The division is used for Payroll Posting Groups
-|Department Code|	O	|This field is used to assign Global Dimension 1 to the employee (setup in the Financial Management granule)
-|Project Code|	O	|This field is used to assign Global Dimension 2 to the employee (setup in the Financial Management granule)
-|Job No|	O	|Selected from the Job numbers in the Job window
-|Job Task No|	O	|Mandatory when a Job No is used.  If not entered the Pay Journal will not post.  This field is only used in NAV5
-|Gen Bus. Posting Group|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
-|GST Bus. Posting Group|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
-|Currency Code|	O	|Used if multiple currency is being used.  Only 1 currency type can exist for a payroll.
+|**Branch**|	O	|This field is used to select the Branch.  The branch is used for Payroll Posting Groups and is associated with a State for Payroll Tax calculations.
+|**Division Code**|	O	|This field is used to select the Division.  The division is used for Payroll Posting Groups.
+|**Global Dimension 1 Code**|	O	|This field is used to assign Global Dimension 1 to the employee. 
+|**Global Dimension 2 Code**|	O	|This field is used to assign Global Dimension 2 to the employee. 
+|**Job No**|	O	|Selected from the Job numbers in the Job window.
+|**Job Task No**|	O	|Mandatory when a Job No is used.  If not entered the Pay Journal will not post.  
+|**Gen Bus. Posting Group**|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
+|**GST Bus. Posting Group**|	O	|Selected from the Posting Group window, this information is primarily used if posting GST transactions from Payroll to the General Ledger.
+|**Currency Code**|	O	|Used if multiple currency is being used.  Only 1 currency type can exist for a payroll.
 
 [GoToTop](#create-payroll-employee)
 
@@ -118,69 +98,60 @@ Global Dimensions are used in conjunction with GL Accounts in the General Ledger
 This tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.
 
  
-|Field	|Field Type|	Comments|
+|Field	|Mandatory/Optional	|Comments|
 |---|---|---|
-|Rate FastTab
-|The first three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.
-|Hours in a Full Week|	M	|This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
+|The following three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.
+|**Hours in a Full Week**|	M	|This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
 |||Hours can be defaulted from the following areas;
 |||•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
 |||•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
 |||A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
-|||Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
-|Hours Worked for TIL|	M	|This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.  
+|||Select the **ArrowDown** to access the “Employee Worked Hours”.
+|**Hours Worked for TIL**|	M	|This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.  
 |||Hours can be defaulted from the following areas;
 |||•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
 |||•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
 |||A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
-|||Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
-|Days Per Week	|M|	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
+|||Select the **ArrowDown** to access the “Employee Worked Hours”.
+|**Days Per Week**|M|	Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
 |||Default Days Per Week can be defaulted from the following areas;
 |||•	Payroll Card – the no. of days can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
 |||•	Award Setup – the hours can be set on the Awards & Associated Transactions table and when an employee record is initially attached to an Award, this field will be populated with the setup contained on the Award Card.
 |||A log  of hours can be maintained in the “Employee Worked Hours” table to record historical and future-dated Worked Hours.   
-|||Click on the “DrillDown” button (Shift+F8) to access the “Employee Worked Hours”.
-|Over Award Applicable	|O	|Tick this field if the employee is entitled to receive Over Award Rates of Pay. Only applicable if using awards
-|Flexitime Applicable|	O	|Tick this field if you wish to calculate an Employee's entitlement based on hours worked.
-|||If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.
-|Work Schedule Code	|O	|The Work Schedule Code is used to define the work pattern worked by an employee.
-|||Click on the “DrillDown” button to access and update the “Employee Worked Hours” table which is used to record historical and future-dated Worked Hours and where the Work Schedule Code can be entered.
-|||The following fields are for display purpose only.  The fields are set up by clicking the Payroll button and then select Pay Rates from the menu.  The Pay Rate displayed is the Current Payroll Period as of the starting date for the Classification Rate.  See the section on Awards in this manual for more details. The following fields are blank if the Employee Start Date is in a future Pay Period in the Pay Rate card
-|Classification Code|	S|	This field displays the “Classification Code” within the award for this employee
-|Award Code|	S	|This field displays the “Award Code” for the employee.
-|Rate Start Date|	S	|This field displays the date the employee started on this Pay Rate.
-|Employee Rat|	S	|The Employee Rate is the “Employee Rate” entered for this employee in the Employee Pay Rate Card.
-|Award Rate|	S	|The Award Rate is the rate that applies to this award classification.
-|Over Award Rate|	S	|The over award pay rate for this award classification.
-|Actual Rate 	|S	|The Actual Rate will be the sum of the “Award Rate” plus the “Over Award Rate” plus the “Employee Weekly Rate”.
-|||This sum is the total actual rate for this employee.
-|Pay Rate|	S	|This is the employee’s actual pay rate multiplied by the Hours in a Full Week.
-|Pay Period Rate|	S|	This value reflected in this section is the employee’s pay per pay period.  
-|Annual Rate|	S|	The value reflected in this section is the employee annual rate of pay.
+|||Select the **ArrowDown** to access the “Employee Worked Hours”.
+|**Over Award Applicable**|O	|Tick this field if the employee is entitled to receive Over Award Rates of Pay. Only applicable if using awards.
+|**Flexitime Applicable**|	O	|Tick this field if you wish to calculate an Employee's entitlement based on hours worked.  If an Employee is not entitled to flexi-time, the “Flexitime Applicable” field should be left blank.
+|**Work Schedule Code**|O	|The Work Schedule Code is used to define the work pattern worked by an employee.  Select the **ArrowDown** to access and update the “Employee Worked Hours” table which is used to record historical and future-dated Worked Hours and where the Work Schedule Code can be entered.
+|||
+|The following fields are for display purpose only.  The fields are set up by clicking the Payroll button and then select Pay Rates from the menu.  The Pay Rate displayed is the Current Payroll Period as of the starting date for the Classification Rate.  See the section on Awards in this manual for more details. The following fields are blank if the Employee Start Date is in a future Pay Period in the Pay Rate card.
+|**Classification Code**|	S|	This field displays the “Classification Code” within the award for this employee.
+|**Award Code**|	S	|This field displays the “Award Code” for the employee.
+|**Rate Start Date**|	S	|This field displays the date the employee started on this Pay Rate.
+|**Employee Rate**|	S	|The Employee Rate is the “Employee Rate” entered for this employee in the [Employee Pay Rate Card](au-payroll-create-payroll-employee-pay-rate.md).
+|**Award Rate**|	S	|The Award Rate is the rate that applies to this award classification.
+|**Over Award Rate**|	S	|The over award pay rate for this award classification.
+|**Actual Rate**|S	|The Actual Rate will be the sum of the “Award Rate” plus the “Over Award Rate” plus the “Employee Weekly Rate”.  This sum is the total actual rate for this employee.
+|**Pay Rate**|	S	|This is the employee’s actual pay rate multiplied by the Hours in a Full Week.
+|**Pay Period Rate**|	S|	This value reflected in this section is the employee’s pay per pay period.  
+|**Annual Rate**|	S|	The value reflected in this section is the employee annual rate of pay.
 
 [GoToTop](#create-payroll-employee)
 
 #### Payroll Employee card Employee Worked Hours
 
-In the “Hours In A Full Week” field, select the “DrillDown” button (Shift+F8) to enter into the Employee Worked Hours table.  
+In the “Hours In A Full Week” field, select the **ArrowDown** to access the Employee Worked Hours table.  
 
 This table is designed to record historical and future dated transactions of the hours an employee has/will work.
  
-|Field	Field |Type|	Comments
+|Field	|Mandatory/Optional	|Comments|
 |---|---|---|
-|Employee No.|	M	|This field will contain the Employee’s No.  
-|||It will default to the number of the employee’s record you are working on.
-|Starting Date|	M	|This field is used to identify when the Worked Hours are effective.
-|Hours in a Full Week|	M|	This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
-|||The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  
-|||If the effective date of this transaction is future-dated, the value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period 
-|Hours Worked for TIL Calc.|	M|	This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.
-|||The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  
-|Days Per Week	|M	|Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.
-|||The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.  
-|Work Schedule Code|	O	|The Work Schedule Code is used to define the work pattern worked by an employee.
-|||The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.
-|Defunct	|O	|Tick this field if you wish to inactivate the transactional record.  
+|**Employee No.**|	M	|This field will contain the Employee’s No. It will default to the number of the employee’s record you are working on.
+|**Starting Date**|	M	|This field is used to identify when the Worked Hours are effective.
+|Hours in a Full Week|	M|	This field is used to determine the standard hours worked for Ordinary pay and for Accruals.  The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  If the effective date of this transaction is future-dated, the value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.
+|**Hours Worked for TIL Calc.**|	M|	This field is used to calculate the value accrued to Time in Lieu.  The Hours worked in excess of this value are accrued to the employee’s TIL entitlement.  The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  
+|**Days Per Week**|M	|Enter the standard number of days in a week the employee works.  This field is used for the calculation and processing of leave.  The values in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.  
+|**Work Schedule Code**|	O	|The Work Schedule Code is used to define the work pattern worked by an employee.  The updates in this field will be displayed on the Payroll Employee card, if the “Start Date” falls within the current pay period.
+|**Defunct**|O	|Tick this field if you wish to inactivate the transactional record.  
 
 
 ### Payroll Employee card Tax FastTab
@@ -190,27 +161,20 @@ The information entered on this tab is obtained from the Employees Tax File Numb
 The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This entry prints on the Payment Summaries
 
  
-
-|Field	|Field| Type	Comments|
+|Field	|Mandatory/Optional	|Comments|
 |---|---|---|
-|Tax FastTab
-|Tax Scale No.|	M	|This code defines the Tax Scale for this employee.
-|||Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.
-|||To select the Tax Scale No, select the “ArrowDown” 
-|HELP Debt|	O	|This field Indicates the employee has a Higher Education Loan Program.  
-|||If ticked the employee will pay extra tax.
-|Student Loan (SFSS)|	O|	This field Indicates the employee has a student loan 
-|||If ticked the employee will pay extra tax.
-|Fixed Tax Rate Applicable|	O|	Tick this field if the employee has applied for and has been granted a variance to their normal tax rate.  A separate letter from the Australian Taxation Office must be provided to the employer before this variation can occur.
-|Fixed tax rate Valid Until Date|	O|	Enter the date the Fixed Tax rate expires.  Once this date has been reached standard taxation according to the Tax Scale outlined above will occur.
-|Fixed Tax Rate|	O	|Enter the percentage value of the fixed tax rate.  The value is entered as a percentage e.g. 25%
-|Medicare Reduction Applicable.|	O|	Tick this field if the employee has been granted a reduction for their Medicare surcharge.  The system automatically calculates the amount of reduction the employee is entitled.
-|Number of Dependants|	O	|This field is used to enter the Number of Dependants if you also ticked the Medicare Reduction Applicable checkbox.  The value entered is used to calculate the Medicare surcharge reduction.
-|Payroll Tax Exempt|	O|	Tick this box if this employee’s earnings are deemed exempt from Payroll Tax (E.g. Apprentice, Registered Trainees)
-|G.S.T. Exempt|	O|	This field is reserved for future development.
-|Payment Summary Raised	|S	|This field is used to indicate the Payment Summary has been issued to the employee.  This field is automatically ticked by the system after Payment Summaries have been printed for this employee and is reset when the first pay is run for the new taxation year.
-|Fringe Benefit Amount|	O	|This field is used to access the Employee FBT Amount List.  
-|||Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.
+|**Tax Scale No.**|	M	|This code defines the Tax Scale for this employee.  Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.  To select the Tax Scale No, select the **ArrowDown**. 
+|**HELP Debt**|	O	|This field Indicates the employee has a Higher Education Loan Program.   If ticked the employee will pay extra tax.
+|**Student Loan (SFSS)**|	O|	This field Indicates the employee has a student loan.   If ticked the employee will pay extra tax.
+|**Fixed Tax Rate Applicable**|	O|	Tick this field if the employee has applied for and has been granted a variance to their normal tax rate.  A separate letter from the Australian Taxation Office must be provided to the employer before this variation can occur.
+|**Fixed tax rate Valid Until Date**|	O|	Enter the date the Fixed Tax rate expires.  Once this date has been reached standard taxation according to the Tax Scale outlined above will occur.
+|**Fixed Tax Rate**|	O	|Enter the percentage value of the fixed tax rate.  The value is entered as a percentage e.g. 25%
+|**Medicare Reduction Applicable**|	O|	Tick this field if the employee has been granted a reduction for their Medicare surcharge.  The system automatically calculates the amount of reduction the employee is entitled.
+|**Number of Dependants**|	O	|This field is used to enter the Number of Dependants if you also ticked the Medicare Reduction Applicable checkbox.  The value entered is used to calculate the Medicare surcharge reduction.
+|**Payroll Tax Exempt**|	O|	Tick this box if this employee’s earnings are deemed exempt from Payroll Tax (E.g. Apprentice, Registered Trainees).
+|**G.S.T. Exempt**|	O|	This field is reserved for future development.
+|**Payment Summary Raised**|S	|This field is used to indicate the Payment Summary has been issued to the employee.  This field is automatically ticked by the system after Payment Summaries have been printed for this employee and is reset when the first pay is run for the new taxation year.
+|**Fringe Benefit Amount**|	O	|This field is used to access the Employee FBT Amount List.   Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.
 
 [GoToTop](#create-payroll-employee)
 
@@ -218,9 +182,8 @@ The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This 
 
 The information entered on this card is obtained from the employees Tax File Number Declaration form.  The information entered is used to work out how much PAYG tax to withhold from payments made to the employee and are used when producing the electronic lodgement file for employment declarations to the ATO.
 
-|Field	 |Field Type	|Comments|
+|Field	|Mandatory/Optional	|Comments|
 |---|---|---|
-|Declaration FastTab
 |Resident	|O|	Tick this field if the employee has indicated they have residential status.
 |Tax Status		
 |Tax Free Threshold Claimed|	O	|Tick this field if the employee has is claiming the Tax Free Threshold.
