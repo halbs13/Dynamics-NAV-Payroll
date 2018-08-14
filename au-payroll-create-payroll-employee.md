@@ -41,11 +41,11 @@ When setting up a new Payroll Employee, you will complete the following areas fo
 
 ### Payroll Employee card General FastTab
 
-The General FastTab is use to edit the employee name and address details used for Payment Summary production. You must assign the employee to a Payroll which determines the frequency of payment.  You can define the employee’s location, position and payment method. You must select the Employee Type code to determine the type of Payment Summary issued.
+The General FastTab is use to edit the employee name and address details used for Payment Summary production/ATO reporting. You must assign the employee to a [Payroll](au-payroll-setup-payrolls.md) which determines the frequency of payment.  You can define the employee’s [location](au-payroll-setup-payroll-codes.md), position and payment method. You must select the [Employee Type](au-payroll-setup-employee-types.md) code to determine the type of Payment Summary issued.
 
  
 |Field	|Mandatory/Optional	|Comments|
-|---|---|---|
+|---|:---:|---|
 |**Employee No.**|	M	|This field identifies the Employee throughout the Payroll and Human Resource Granules.  The Employee must exist as an Employee in Human Resources before you can setup a Payroll Employee card.  Click the **ArrowDown** button and select the “Employee No.” from the Employee List table. The Payroll Employee has the same Employee No as the Human Resource Employee.
 |**Job Title** |	O	|Select a Job Title if required.  This field is used only for reporting.
 |**Employee First Name**|	M	|The “Employee First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Employee card is also updated with the change.
@@ -70,17 +70,19 @@ The General FastTab is use to edit the employee name and address details used fo
 
 [GoToTop](#create-payroll-employee)
 
+3.  Complete the following fields on the **Posting** FastTab;
+
 ### Payroll Employee card Posting FastTab
 
 The Posting FastTab is used to assign the employee to a Branch, Division and the Global Dimensions.  You can also assign a default Job and Task for the employee.
 
-The Branch Code is attached to a state which determines the state when calculating payroll tax.  Branch and Division Codes can be used to determine the GL accounts to post transactions against.
+The [Branch Code](au-payroll-setup-branches.md) is attached to a state which determines the state when calculating payroll tax.  Branch and Division Codes can be used to determine the GL accounts to post transactions against which is defined in the [Payroll Posting Setup](au-payroll-setup-posting-group-setup.md).
 
 Global Dimensions are used in conjunction with GL Accounts in the General Ledger.
 
  
 |Field	|Mandatory/Optional	|Comments|
-|---|---|---|
+|---|:---:|---|
 |**Branch**|	O	|This field is used to select the Branch.  The branch is used for Payroll Posting Groups and is associated with a State for Payroll Tax calculations.
 |**Division Code**|	O	|This field is used to select the Division.  The division is used for Payroll Posting Groups.
 |**Global Dimension 1 Code**|	O	|This field is used to assign Global Dimension 1 to the employee. 
@@ -93,14 +95,18 @@ Global Dimensions are used in conjunction with GL Accounts in the General Ledger
 
 [GoToTop](#create-payroll-employee)
 
+
+4.  Complete the following fields on the **Rate** FastTab;
+
 ### Payroll Employee card Rate FastTab
 
 This tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.
 
- 
 |Field	|Mandatory/Optional	|Comments|
-|---|---|---|
+|---|:---:|---|
+|||
 |The following three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.
+|||
 |**Hours in a Full Week**|	M	|This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
 |||Hours can be defaulted from the following areas;
 |||•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
@@ -124,6 +130,7 @@ This tab is used to determine the standard hours worked and can be used to calcu
 |**Work Schedule Code**|O	|The Work Schedule Code is used to define the work pattern worked by an employee.  Select the **ArrowDown** to access and update the “Employee Worked Hours” table which is used to record historical and future-dated Worked Hours and where the Work Schedule Code can be entered.
 |||
 |The following fields are for display purpose only.  The fields are set up by clicking the Payroll button and then select Pay Rates from the menu.  The Pay Rate displayed is the Current Payroll Period as of the starting date for the Classification Rate.  See the section on Awards in this manual for more details. The following fields are blank if the Employee Start Date is in a future Pay Period in the Pay Rate card.
+|||
 |**Classification Code**|	S|	This field displays the “Classification Code” within the award for this employee.
 |**Award Code**|	S	|This field displays the “Award Code” for the employee.
 |**Rate Start Date**|	S	|This field displays the date the employee started on this Pay Rate.
@@ -137,14 +144,16 @@ This tab is used to determine the standard hours worked and can be used to calcu
 
 [GoToTop](#create-payroll-employee)
 
-#### Payroll Employee card Employee Worked Hours
+5.  Complete the following fields in the **Employee Worked Hours** section;
+
+### Payroll Employee card Employee Worked Hours
 
 In the “Hours In A Full Week” field, select the **ArrowDown** to access the Employee Worked Hours table.  
 
 This table is designed to record historical and future dated transactions of the hours an employee has/will work.
  
 |Field	|Mandatory/Optional	|Comments|
-|---|---|---|
+|---|:---:|---|
 |**Employee No.**|	M	|This field will contain the Employee’s No. It will default to the number of the employee’s record you are working on.
 |**Starting Date**|	M	|This field is used to identify when the Worked Hours are effective.
 |Hours in a Full Week|	M|	This field is used to determine the standard hours worked for Ordinary pay and for Accruals.  The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  If the effective date of this transaction is future-dated, the value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.
@@ -154,6 +163,8 @@ This table is designed to record historical and future dated transactions of the
 |**Defunct**|O	|Tick this field if you wish to inactivate the transactional record.  
 
 
+6.  Complete the following fields on the **Tax** FastTab;
+
 ### Payroll Employee card Tax FastTab
 
 The information entered on this tab is obtained from the Employees Tax File Number Declaration form.  The information entered is used with the Declaration tab to calculate PAYG tax withholding amounts for the employee each pay run.
@@ -162,7 +173,7 @@ The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This 
 
  
 |Field	|Mandatory/Optional	|Comments|
-|---|---|---|
+|---|:---:|---|
 |**Tax Scale No.**|	M	|This code defines the Tax Scale for this employee.  Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.  To select the Tax Scale No, select the **ArrowDown**. 
 |**HELP Debt**|	O	|This field Indicates the employee has a Higher Education Loan Program.   If ticked the employee will pay extra tax.
 |**Student Loan (SFSS)**|	O|	This field Indicates the employee has a student loan.   If ticked the employee will pay extra tax.
@@ -177,6 +188,8 @@ The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This 
 |**Fringe Benefit Amount**|	O	|This field is used to access the Employee FBT Amount List.   Enter the total taxable amount of fringe benefit received by the employee for the corresponding tax year.  The value in these fields print on the Employee’s Payment Summary for the corresponding year.
 
 [GoToTop](#create-payroll-employee)
+
+7.  Complete the following fields on the **Declaration** FastTab;
 
 ### Payroll Employee card Declaration FastTab
 
