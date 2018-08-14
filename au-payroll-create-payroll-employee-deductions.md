@@ -1,4 +1,4 @@
-# Deductions
+# Payroll Employee Card Deductions
 
 The “Employee Deductions” card is used to set up deductions for the employee. 
 
