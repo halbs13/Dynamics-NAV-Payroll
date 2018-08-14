@@ -1,4 +1,4 @@
-# Accumulation Calculations 
+# Payroll Employee Card Accumulation Calculations 
 
 This option is used to setup the calculation for Employer Indirect Costs associated with employees. (Excluding; Pay, Allowance, Deductions and Leave Provisions).  On Costs are costs associated with provisioning for superannuation, incentive payments or bonuses etc.  On Costs do not affect the employee actual net or gross pay.  They are used to reflect the cost of running your business in relation to the cost of an employee.
 
@@ -21,7 +21,7 @@ This window is used to define each On Cost pay Transaction Types for an Employee
 |**Superannuation Code**|This field is used to select the Superannuation Code the On-Cost calculation is applied against in the Pay Journal and EOM process|
 |**Not Used**|This is ticked to prevent the Line from calculating in the Pay Journal|
 
-[GoToTop](#accumulation-calculations)
+[GoToTop](#payroll-employee-card-accumulation-calculations)
 
 ## Employee Allowances
 
@@ -32,7 +32,7 @@ This window is used to define each On Cost pay Transaction Types for an Employee
 |**End Date**|This field is used to enter the end date for the On Cost Pay Transaction Type.  This field may be left blank if the On Cost Pay Transaction Type is to apply for an ongoing period of time.|
 |**Pay Rate**|This field defines the Rate applicable to the On Cost calculation.  The Rate is effectively entered as a percentage of the employee’s Gross pay.|
 
-[GoToTop](#accumulation-calculations)
+[GoToTop](#payroll-employee-card-accumulation-calculations)
  
 ## Employee Deductions
 
@@ -45,5 +45,5 @@ This window is used to define each On Cost pay Transaction Types for an Employee
 |**Not Used**|This is ticked to prevent the Line from calculating in the Pay Journal|
 
 
-[GoToTop](#accumulation-calculations)
+[GoToTop](#payroll-employee-card-accumulation-calculations)
  
