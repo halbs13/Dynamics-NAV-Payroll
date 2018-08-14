@@ -104,9 +104,6 @@ This tab is used to determine the standard hours worked and can be used to calcu
 
 |Field	|Mandatory/Optional	|Comments|
 |---|:---:|---|
-|||
-|The following three fields are used to calculate the hourly rate for each Employee and Accrue Time In Lieu hours.
-|||
 |**Hours in a Full Week**|	M	|This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
 |||Hours can be defaulted from the following areas;
 |||•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
@@ -237,7 +234,7 @@ This tab is used to display pay details for the employees.  Some fields on this 
 |**Termination Date**|	S|The “Termination Date” can only be entered on the [Employee card](au-payroll-create-employee.md). 
 
 
-9.  Complete tthe following fields ont he **Work Cover** FastTab;
+9.  Complete the following fields on the **Work Cover** FastTab;
  
 ### Payroll Employee Card Work Cover FastTab
 
