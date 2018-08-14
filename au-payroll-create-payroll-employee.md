@@ -204,7 +204,7 @@ The information entered on this card is obtained from the employees Tax File Num
 |**Senior Australians tax offset claimed**|	O	|Tick this field if the employee has indicated they wish to claim the Senior Australians tax offset.
 |**Rebates Amt. Claimed**|O	|Enter the value of rebates the employee has claimed.  The employee’s annual tax will be reduced by this amount.
 |**A.B.N.**|O	|This field is used to record the Employee’s ABN number if supplied.
-|**Tax File No.**|	O	|Enter the employee’s Tax File Number.  If you do not have [Payroll Supervisor](au-payroll-setup-payroll-user-setup.md) privileges the TFN will not be shown.
+|**Tax File No.**|	O	|Enter the employee’s Tax File Number.  If you do not have [Payroll Supervisor](au-payroll-setup-payroll-user.md) privileges the TFN will not be shown.
 |**Birth Date**|	O|	Enter the employee’s birth date. 
 |**Date Declaration Signed**|	O	|Enter the date the employee signed the declaration.
 |**Payee Signature**|	O	|Tick this field if the employee has signed their declaration.
