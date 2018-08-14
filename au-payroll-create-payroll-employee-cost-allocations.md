@@ -1,4 +1,4 @@
-# Cost Allocations
+# Payroll Employee Card Cost Allocations
 
 This option is used to setup and maintain percentages that split the employee’s costs over several cost centres.
 
