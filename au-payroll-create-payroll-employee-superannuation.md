@@ -106,7 +106,7 @@ To access the Employee Superannuation Card, select the **Edit** icon on the *Hom
 |**Employer Annual Contribution**|	This field is used to calculate the "Employer Standard Amt.".  Enter the employer's annual contribution and the system calculates the "Employer Standard Amt" based on the pay period frequency.
 |**Employer SGC Amt.**|	The "Employer SGC Amount" is the amount of the employer contribution each period.
 |**Employee Annual Contribution**|	The "Employee Annual Contribution" field is used to calculate the "Employee Standard Amt.".  Enter the employee's annual contribution and the system calculates the "Employee Standard Amt" based on the pay cycle frequency.
-|**Employee Net Pay Contr. Amt.**|	The "Employee Net Pay Contr. Amount" field is used to display the amount of the employee contribution.
+|**Employee Net Pay Contr. Amt.**|	The "Employee Net Pay Contr. Amount" field is used to display the amount of the employee contribution.|
 
 
  
