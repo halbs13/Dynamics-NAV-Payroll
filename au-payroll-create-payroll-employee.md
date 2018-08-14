@@ -14,7 +14,7 @@ The following list is used to indicate the field type on each tab:
 * **O** = Optional
 * **S** = System Defined
 
-## Payroll Employee card
+## Payroll Employee Card
 
 When setting up a new Payroll Employee, you will complete the following areas for each employee;
 
@@ -37,9 +37,9 @@ When setting up a new Payroll Employee, you will complete the following areas fo
 
 1.  Select the **New** icon on the Home ribbon to create a new Payroll Employee.
 
-2.  Complete the following information on the **General** FastTab;
+2.  Complete the following fields on the **General** FastTab;
 
-### Payroll Employee card General FastTab
+### Payroll Employee Card General FastTab
 
 The General FastTab is use to edit the employee name and address details used for Payment Summary production/ATO reporting. You must assign the employee to a [Payroll](au-payroll-setup-payrolls.md) which determines the frequency of payment.  You can define the employee’s [location](au-payroll-setup-payroll-codes.md), position and payment method. You must select the [Employee Type](au-payroll-setup-employee-types.md) code to determine the type of Payment Summary issued.
 
@@ -72,7 +72,7 @@ The General FastTab is use to edit the employee name and address details used fo
 
 3.  Complete the following fields on the **Posting** FastTab;
 
-### Payroll Employee card Posting FastTab
+### Payroll Employee Card Posting FastTab
 
 The Posting FastTab is used to assign the employee to a Branch, Division and the Global Dimensions.  You can also assign a default Job and Task for the employee.
 
@@ -98,7 +98,7 @@ Global Dimensions are used in conjunction with GL Accounts in the General Ledger
 
 4.  Complete the following fields on the **Rate** FastTab;
 
-### Payroll Employee card Rate FastTab
+### Payroll Employee Card Rate FastTab
 
 This tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.
 
@@ -146,7 +146,7 @@ This tab is used to determine the standard hours worked and can be used to calcu
 
 5.  Complete the following fields in the **Employee Worked Hours** section;
 
-### Payroll Employee card Employee Worked Hours
+### Payroll Employee Card Employee Worked Hours
 
 In the “Hours In A Full Week” field, select the **ArrowDown** to access the Employee Worked Hours table.  
 
@@ -165,7 +165,7 @@ This table is designed to record historical and future dated transactions of the
 
 6.  Complete the following fields on the **Tax** FastTab;
 
-### Payroll Employee card Tax FastTab
+### Payroll Employee Card Tax FastTab
 
 The information entered on this tab is obtained from the Employees Tax File Number Declaration form.  The information entered is used with the Declaration tab to calculate PAYG tax withholding amounts for the employee each pay run.
 
@@ -191,65 +191,63 @@ The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This 
 
 7.  Complete the following fields on the **Declaration** FastTab;
 
-### Payroll Employee card Declaration FastTab
+### Payroll Employee Card Declaration FastTab
 
 The information entered on this card is obtained from the employees Tax File Number Declaration form.  The information entered is used to work out how much PAYG tax to withhold from payments made to the employee and are used when producing the electronic lodgement file for employment declarations to the ATO.
 
 |Field	|Mandatory/Optional	|Comments|
-|---|---|---|
-|Resident	|O|	Tick this field if the employee has indicated they have residential status.
-|Tax Status		
-|Tax Free Threshold Claimed|	O	|Tick this field if the employee has is claiming the Tax Free Threshold.
-|Claim FTB	|O|	Tick this field if the employee is claiming the Family Tax Benefit.
-|Claim Zone Allowance|	O	|Tick this field and select the zone region the employee has indicated.
-|Zone|	O|	Select the Zone that applies from the “ArrowDown”.
-|HELP Debt|	O	|Tick this field if the employee has indicated they have a HELP debt. 
-|Student Loan (SFSS)	|O|	Tick this field if the employee has indicated they have a SFSS loan.
-|Claim Pension Rebate|	O	|Tick this field if the employee has indicated they are claiming a Pension Rebate.
-|Use TFN for Super	|O|	Tick this field if the employee has indicated they agree to supply their TFN to their Superannuation Company.
-|Senior Australians tax offset claimed|	O	|Tick this field if the employee has indicated they wish to claim the Senior Australians tax offset.
-|Rebates Amt. Claimed	|O	|Enter the value of rebates the employee has claimed.  The employee’s annual tax will be reduced by this amount.
-|A.B.N.	|O	|This field is used to record the Employee’s ABN number if supplied.
-|Tax File No.|	O	|Enter the employee’s Tax File Number.  If you do not have Payroll Supervisor privileges the TFN will not be shown.
-|Birth Date|	O|	Enter the employee’s birth date 
-|Date Declaration Signed|	O	|Enter the date the employee signed the declaration.
-|Payee Signature|	O	|Tick this field if the employee has signed their declaration.
-|Declaration Lodged|	S|	The system populates this field when you produce the electronic declaration lodgement file.
+|---|:---:|---|
+|**Resident**	|O|	Tick this field if the employee has indicated they have residential status.
+|**Tax Status**||This field will update based on the selection you make in the "Resident" field.		
+|**Tax Free Threshold Claimed**|	O	|Tick this field if the employee has is claiming the Tax Free Threshold.
+|**Claim FTB**|O|	Tick this field if the employee is claiming the Family Tax Benefit.
+|**Claim Zone Allowance**|	O	|Tick this field and select the zone region the employee has indicated.
+|**Zone**|	O|	Select the Zone that applies from the **ArrowDown**.
+|**HELP Debt**|	O	|Tick this field if the employee has indicated they have a HELP debt. 
+|**Student Loan (SFSS)**|O|	Tick this field if the employee has indicated they have a SFSS loan.
+|**Claim Pension Rebate**|	O	|Tick this field if the employee has indicated they are claiming a Pension Rebate.
+|**Use TFN for Super**|O|	Tick this field if the employee has indicated they agree to supply their TFN to their Superannuation Company.
+|**Senior Australians tax offset claimed**|	O	|Tick this field if the employee has indicated they wish to claim the Senior Australians tax offset.
+|**Rebates Amt. Claimed**|O	|Enter the value of rebates the employee has claimed.  The employee’s annual tax will be reduced by this amount.
+|**A.B.N.**|O	|This field is used to record the Employee’s ABN number if supplied.
+|**Tax File No.**|	O	|Enter the employee’s Tax File Number.  If you do not have [Payroll Supervisor](au-payroll-setup-payroll-user-setup.md) privileges the TFN will not be shown.
+|**Birth Date**|	O|	Enter the employee’s birth date. 
+|**Date Declaration Signed**|	O	|Enter the date the employee signed the declaration.
+|**Payee Signature**|	O	|Tick this field if the employee has signed their declaration.
+|**Declaration Lodged**|	S|	The system populates this field when you produce the electronic declaration lodgement file.
 
-### Payroll Employee card Pay Details FastTab
+8.  Complete the following fields on the **Pay Details** FastTab;
+
+### Payroll Employee Card Pay Details FastTab
 
 This tab is used to display pay details for the employees.  Some fields on this tab are calculated and cannot be maintained on this tab.
 
 
-|Field|	Field |Type	Comments|
-|---|---|---|
-|Pay Details FastTab
-|Minimum Net Salary|	O	|This field is used to record the minimum net salary an employee should receive.  An example of where you might store information in this field, is if your employee has a Child Support arrangement and the Child Support Office advises you of the minimum net salary the employee should receive.  Entering an amount in this field ensures the employee will receive this minimum net amount.  
-|||If you have previously entered the amount in the Payroll setup the amount will default from there and you can override the amount 
-|Forward Paid Periods|	S	|This field indicates the number of pay periods that the Employee has been paid in advance.
-|Date Paid Up Until	|S|	This field displays the date to which an Employee has been paid.
-|Last Period Paid	|S	|This field is used to display the last period in which an Employee was paid.
-|Gross Pay	|S	|The “Gross Pay” is the sum of the amounts from Payroll Ledger Entries for gross pay  The default value is year to date, but can be changed using flow filters.
-|Net Pay|	S	|The “Net Pay” is the sum of the amounts from Payroll Ledger Entries for net pay.  The default value is year to date, but can be changed using flow filters.
-|Employment Date|	S	|This field is populated from the Employee card - Employment Date field.  The date cannot be changed 
-|Status	|O|	The default “Status” is Active.  You can Inactivate or Terminate an employee by selecting the value from the look up.
-|Inactive Date	|O	|Enter the date the employee was made “Inactive”.
-|Termination Date|	S|The “Termination Date” can only be entered on the Employee card 
+|Field	|Mandatory/Optional	|Comments|
+|---|:---:|---|
+|**Minimum Net Salary**|	O	|This field is used to record the minimum net salary an employee should receive.  An example of where you might store information in this field, is if your employee has a Child Support arrangement and the Child Support Office advises you of the minimum net salary the employee should receive.  Entering an amount in this field ensures the employee will receive this minimum net amount.  If you have previously entered the amount in the Payroll setup the amount will default from there and you can overwrite the amount. 
+|**Forward Paid Periods**|	S	|This field indicates the number of pay periods that the Employee has been paid in advance.
+|**Date Paid Up Until**|S|	This field displays the date to which an Employee has been paid.
+|**Last Period Paid**|S	|This field is used to display the last period in which an Employee was paid.
+|**Gross Pay**|S	|The “Gross Pay” is the sum of the amounts from Payroll Ledger Entries for gross pay  The default value is year to date, but can be changed using flow filters.
+|**Net Pay**|	S	|The “Net Pay” is the sum of the amounts from Payroll Ledger Entries for net pay.  The default value is year to date, but can be changed using flow filters.
+|**Employment Date**|	S	|This field is populated from the Employee card - Employment Date field.  The date cannot be changed 
+|**Status**|O|	The default “Status” is Active.  You can Inactivate or Terminate an employee by selecting the value from the look up.
+|**Inactive Date**|O	|Enter the date the employee was made “Inactive”.
+|**Termination Date**|	S|The “Termination Date” can only be entered on the [Employee card](au-payroll-create-employee.md). 
 
 
-
+9.  Complete tthe following fields ont he **Work Cover** FastTab;
  
-### Payroll Employee card Work Cover FastTab
+### Payroll Employee Card Work Cover FastTab
 
 The fields on this tab are used to assign Work Cover details to this employee for the purposes of calculating Work Cover liabilities for your employees.
 
 
-|Field	|Field |Type	Comments
-|---|---|---|
-|Work Cover FastTab
-|Work Cover Code	|O	|Select the “Work Cover Code” for the Employee.
-|||Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy.  
-|Work Cover Location	|O|	Select the “Work Cover Levy” Location.
+|Field	|Mandatory/Optional	|Comments|
+|---|:---:|---|
+|**Work Cover Code**|O	|Select the “Work Cover Code” for the Employee.  Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy.  
+|**Work Cover Location**|O|	Select the “Work Cover Levy” Location.
 
 
 [GoToTop](#create-payroll-employee)
