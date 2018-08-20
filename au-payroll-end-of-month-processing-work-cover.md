@@ -87,26 +87,21 @@ The Rate of contribution factor is then calculated using the percentage stored i
 
 The Post Work Cover Provision Report will post the Calculated Work Cover Provision to the General Ledger Granule in NAV Financials.
 
-To open the Post Work Cover Provision window, 
+1.  In the **Search** box, enter **Post Work Cover Provision**, and then choose the related link.  Or go to the following menu:  *Departments/Payroll/Periodic Activities/Work Cover/Post Expense*
 
-*Departments/Payroll/Periodic Activities/Work Cover/Post Expense*
- 
-#### Post Work Cover Expense – Options FastTab
+2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
 |---|---|
-|Posting Date	|The “Posting Date” of the expense.
-|Document No.	|The “Document No.” of the expense.
-|Report Only	|Select this option to produce a report to review entries before you post them.
-||Leave this option blank to produce a report and to post workers compensation ledger entries to the General Ledger.  
+|**Posting Date**|The “Posting Date” of the expense.
+|**Document No.**|The “Document No.” of the expense.
+|**Report Only**|Select this option to produce a report to review entries before you post them.  Leave this option blank to produce a report and to post workers compensation ledger entries to the General Ledger.  
 
-
-#### Post Work Cover Expense – Work Cover Ledger Entry FastTab
+3.  On the **Work Cover Ledger Entry** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
 |---|---|
-|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.
-|Document Date|	The “Document Date” range of the Work Cover Ledger Entries to be processed.
+|**Document Date**|	The “Document Date” range of the Work Cover Ledger Entries to be processed.
 
  
  [GoToTop](#end-of-month-processing-work-cover)
