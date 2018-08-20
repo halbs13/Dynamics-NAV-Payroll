@@ -3,8 +3,8 @@ All Dynamics NAV Payroll reports have the ability of being exported to Excel, Wo
 
 This section will describe the types of reports available within the Dynamics NAV Payroll module:
 
-| Report Name	|Description|****
-|---|---**|
+| Report Name	|Description|
+|---|---|
 |**Setup** Reports**|
 |**Pay Transaction Type List**	|This report contains setup information on the setup of Pay Transaction Types.|
 |**YTD Accumulation Codes**	|This report contains setup information on the YTD Accumulation Codes.|
