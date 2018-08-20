@@ -69,8 +69,9 @@ The guidelines are as follows:
   d. **Accum. For Leave Calculations** is set to No Accumulation.
 4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected.
 
- 
-If your organisation accrues and pays leave loading then this will be setup similar to the Annual Leave transaction, however the Rate Conversion Factor on the Calculations FastTab will be set to 0.175 to refelct the 17.5% percentage pay rate.
+### Leave Loading Transactions
+
+If your organisation accrues and pays leave loading then this will be setup similar to the Annual Leave transaction, however the **Rate Conversion Factor** on the **Calculations** FastTab will be set to 0.175 to refelct the 17.5% percentage pay rate.
 
  
 ### Annual Leave taxed as a Lump Sum A (35%)
@@ -85,9 +86,6 @@ If your organisation accrues and pays leave loading then this will be setup simi
 4.  On the **Parameters** FastTab, the **Apply to Work Cover** is selected.
  
 [GoToTop](#supplementary-information-on-pay-transaction-types)
-
-
-If your organisation accrues and pays leave loading then this will be setup similar to the Annual Leave transaction, however the Rate Conversion Factor on the Calculations FastTab will be set to 0.175 to refelct the 17.5% percentage pay rate.
 
 
 ### In Lieu of Notice
