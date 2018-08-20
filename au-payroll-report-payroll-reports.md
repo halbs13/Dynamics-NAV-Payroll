@@ -37,7 +37,7 @@ This section will describe the types of reports available within the Dynamics NA
 |**Employee With No Tax File No.**	|This report provides information on employees who do not have Tax File Numbers.|
 |**Superannuation Exceptions**	|This report provides Superannuation exceptions such as missing Superannuation funds against employees.|
 
-## Reconcilition Reports
+## Reconciliation Reports
 
 | Report Name	|Description|
 |---|---|
