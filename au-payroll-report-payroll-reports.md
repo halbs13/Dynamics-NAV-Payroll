@@ -5,7 +5,7 @@ This section will describe the types of reports available within the Dynamics NA
 
 | Report Name	|Description|
 |---|---|
-|**Setup** Reports**|
+|**Setup Reports**|
 |**Pay Transaction Type List**	|This report contains setup information on the setup of Pay Transaction Types.|
 |**YTD Accumulation Codes**	|This report contains setup information on the YTD Accumulation Codes.|
 |**Branch / Division Codes**	|This report contains setup information on the Branch and Division Codes.|
