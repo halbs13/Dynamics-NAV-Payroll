@@ -10,7 +10,7 @@ The Payment Summaries and Employment Termination Payment summaries are printed o
 After the Payment Summary is generated the employer and employee pay transactions are flagged; ”Payment Summary Raised” in the Payroll Employee card until the first pay run for the new fiscal year. 
 
 The values printed on the Payment Summaries are taken from the YTD Accumulators. If the YTD accumulators on Pay Transaction Types were not setup correctly or changed during the fiscal year you must:
-*	Correct the Pay Transaction Type 
+*	Correct the [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) 
 *	[Update the YTD Accumulators values prior to printing the Payment Summaries.](#ytd-accumulator-code-update) 
 
 The EOFY Payment Summaries menu option is used to:
@@ -23,34 +23,28 @@ The EOFY Payment Summaries menu option is used to:
  
 ## Payment Summary Processing Steps
 
-1.	Enter Employment Termination Payments (ETPs) for your Terminated employees. 
+1.	Enter **Employment Termination Payments** (ETPs) for your Terminated employees.  Go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employee card/Navigate ribbon/ Employment Termination Pay card*
 
-*Departments/Payroll/Employee Maintenance/Payroll Employee card/Navigate ribbon/ Employment Termination Pay card*
+2.	Enter **Fringe Benefits** (FBT) Gross amounts for your Employees.  Go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employee card/Tax tab/Fringe Benefit Amount field.*
 
-2.	Enter Fringe Benefits (FBT) Gross amounts for your Employees. 
-
-*Departments/Payroll/Employee Maintenance/Payroll Employee card/Tax tab/Fringe Benefit Amount field.*
-
-3.	Run the [“Payment Summary Proof List”](#payment-summary-proof-list) without producing the Payment Summaries or ATO file and then reconcile the employees YTD values against the Posted Payment Summary report
+3.	Run the [“Payment Summary Proof List”](#payment-summary-proof-list) without producing the Payment Summaries or ATO file and then reconcile the employees YTD values against the Posted Payment Summary report.
 
 4.	Once you have reconciled the Payroll you must produce the Payment Summaries together with any Employment Termination Payment Summaries and the ATO EPS file.  
   
-Payment Summaries may be re-printed at any time and will indicate that they are amended on the top of the page.  
+Payment Summaries may be re-printed at any time and if adjustments have been made to the employee's pay, the Payment Summary will indicate that they it has been **Amended** on the top of the page.  
 
  
 ## YTD Accumulator Code Update 
 
 The Pay Transaction Types paid to employees are accumulated to Payment Summary YTD Accumulation codes. The codes are used to accumulate YTD amounts reported on the employee’s payment summary.  
  
-Only Pay Transaction Type codes that have an YTD Accumulation code assigned on the General tab are printed on the Payment Summaries.
+Only Pay Transaction Type codes that have an YTD Accumulation code assigned on the **General** FastTab are printed on the Payment Summaries.
 
-When the Payment Summary YTD Accumulation code has not been correctly applied to the Pay Transaction Type you must correct the PS YTD Accumulation code assigned to the Pay Transaction and then run the YTD Accumulation Code Update to update the values in the Employee Ledger table.  
+When the Payment Summary YTD Accumulation code has not been correctly applied to the Pay Transaction Type you must correct the PS YTD Accumulation code assigned to the [Pay Transaction](au-payroll-setup-pay-transaction-types.md) and then run the YTD Accumulation Code Update to update the values in the Employee Ledger table.  
 
-You must select the Tax year and then click “OK” 
+You must select the Tax year and then click **OK** 
 
-When you have finished you can continue End of Year Processing
-
-*Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update*
+When you have finished you can continue End of Year Processing.  Go to the following menu: *Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update*
  
 Run this report to update any changes made in the YTD Accumulation for Payment Summaries of any Pay Transaction Types. Running the report updates YTD figures according to new settings made.
  
@@ -81,43 +75,35 @@ A “Payment Summary Proof List” is always printed, by default, when selecting
 
 ## Payment Summary Proof List
 
- To open the “Payment Summary Proof List” window,
+1.  In the **Search** box, enter **Payment Summary Proof List**, and then choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Reconciliation Reports/Payment Summary Proof List*
 
-*Departments/Payroll/EOM Processing/Reconciliation Reports/Payment Summary Proof List*
-
-Once you have selected the report, a request form will appear with the following options:
+2.  Once you have selected the report, a request form will appear with the following options:
 
 *	Normal Processing – this will print the Payment Summary Proof List Report only
 *	End of Tax Year processing – this will print the Payment Summary Proof List Report and options to print PAYG Payment Summaries.
 
-Select “Normal processing”
- 
+Select **Normal processing**
 
-#### Payment Summary Proof List – Options FastTab
+3.  On the **Options** FastTab, fill the fields as described in the following table.
 
 | Field	|Comments|
 |---|---|
-|Tax Year|	Select the Tax Year you wish to reconcile and report
+|**Tax Year**|	Select the Tax Year you wish to reconcile and report
 
-#### Payment Summary Proof List – Payroll FastTab
+4.  On the **Payroll** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
 |---|---|
-|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
-|No.	|Select a Payroll(s) to use as a filter to limit the employee’s printed.
-||If left blank all Payroll(s) will print|
+|**No.**|Select a Payroll(s) to use as a filter to limit the employee’s printed.  If left blank all Payroll(s) will print.|
 
-#### Payment Summary Proof List – Payroll Employee FastTab
+5.  On the **Payroll Employee** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
 |---|---|
-|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
-|Employee No.|	Select an Employee No(s) to use as a filter to limit the employee’s| 
-||If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.|
-|Employee Type Code|	Select an Employee Type Code(s) to use as a filter to limit the Payment Summaries details to print| 
-||If left blank all Employee Types for the selected Payroll(s) will print.|
+|**Employee No.**|	Select an Employee No(s) to use as a filter to limit the employee’s.  If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.|
+|**Employee Type Code**|	Select an Employee Type Code(s) to use as a filter to limit the Payment Summaries details to print.  If left blank all Employee Types for the selected Payroll(s) will print.|
 
-Reconcile this report to the Posted Payroll Summary Report and General Ledger until you are satisfied.
+6.  Reconcile this report to the Posted Payroll Summary Report and General Ledger until you are satisfied.
 
 [GoToTop](#end-of-year-processing)
 
@@ -149,65 +135,49 @@ The name of the ATO EPS file is automatically populated as a default.  You must 
 
 [GoToTop](#end-of-year-processing)
 
-### Print Payment Summary ETP and Create the PAYG ATO File 
+## Print Payment Summary ETP and Create the PAYG ATO File 
+
 Use this option to produce your Payment Summaries, ETP Summaries and the ATO EPS file:
 
-*Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries*
+1.  In the **Search** box, enter **EOTY Payment Summaries**, and choose the related link.  Or go to the following menu: *Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries*
 
-Once you have selected the report, a request form will appear with the following options:
+2.  Once you have selected the report, a request form will appear with the following options:
 
 * Normal Processing – this will print the Payment Summary Proof List Report only
 *	End of Tax Year processing – this will print the Payment Summary Proof List Report and options to print PAYG Payment Summaries.
 
- Click “End of Tax Year Processing”
+ Click **End of Tax Year Processing**
 
-
-#### Payment Summary Proof List – Options FastTab
+3.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
 |---|---|
-|Tax Year|	Select the Tax Year you wish to create Payment Summaries, and  ETP’s and the ATO EPS file| 
-|Print Payment Summaries|	Select this field to print the Payment Summaries, ETP’s and produce the ATO EPS file.|                    ||The Employee and their transactions are flagged as “Payment Summaries printed”| 
-|E-Mail Payment Summaries|	Select this field to e-mail out payment summaries to an employees.|  
-||As a prerequisite, the e-mail address must be completed on the Employee Card.|
-|Date|	This date prints as the signatory date on the Payment Summary.  This date has no effect on the production or selection of the payment summaries.| 
-|Authorised Person|	Use this field to enter the Authorised Person’s name registered with the ATO.  This field is printed on each Payment Summary.|  
-||If left blank the Individual Payment Summary must be manually signed by the Authorised signatory from your organisation.|
-|Include Printed|	Select this field to print previously printed Payment Summaries.|  
-||This option is used to reprint Payment Summaries already printed for terminated employees or when an employee has misplaced the original. The payment summary will indicate that it is an amended copy.|
-|INB or BPS PAYG Payment Summary Format|	Select one of the following options;
+|**Tax Year**|	Select the Tax Year you wish to create Payment Summaries, and  ETP’s and the ATO EPS file| 
+|**Print Payment Summaries**|	Select this field to print the Payment Summaries, ETP’s and produce the ATO EPS file.  The Employee and their transactions are flagged as “Payment Summaries printed”| 
+|**E-Mail Payment Summaries**|	Select this field to e-mail out payment summaries to an employees.  As a prerequisite, the e-mail address must be completed on the Employee Card.|
+|**Date**|	This date prints as the signatory date on the Payment Summary.  This date has no effect on the production or selection of the payment summaries.| 
+|**Authorised Person**|	Use this field to enter the Authorised Person’s name registered with the ATO.  This field is printed on each Payment Summary.  If left blank the Individual Payment Summary must be manually signed by the Authorised signatory from your organisation.|
+|**Include Printed**|	Select this field to print previously printed Payment Summaries.  This option is used to reprint Payment Summaries already printed for terminated employees or when an employee has misplaced the original. The payment summary will indicate that it is an amended copy.|
+|**INB or BPS PAYG Payment Summary Format**|	Select one of the following options;
 ||•	Full Page – this is the full page format| which can be used to issue with standard window-faced envelopes
 ||•	Z-Fold – this is the z-fold format which can be used to issue with security sealed stationery.
-|Do not Create Electronics File|	It is recommended that this field is blank when printing Payment Summaries to ensure your ATO EPS file always reflects the amounts printed on the Payment Summaries. | 
-||**Note** This flag has been included for situations where you do not require an ATO EPS file.|
-|File Name|	This field is used to enter the file path and name.  The default value in this field is the file name format required by the ATO. | 
-||You must specify the file path where the file is to be created ; select the “EditAssist” button to specify the directory.|
-||The default file name is “Empdupe.A01”.|  
-||The “01” can be incremented manually when there is more than one Payment Summary print cycle.|
-||When running the process for more than one payroll the process will automatically produce one file for each Payroll.|  
-||The file extension (A01) will be automatically increment for each payroll file produced.|
-|Run Type|	Select “Production” if you wish to produce a file to be sent to the ATO.|  
-||Select “Test” only to send a test file to the ATO for clarification before creating the production file 
-||Dialog has received confirmation for the layout from the ATO.
-|Supplier File Reference|	This field is used by the ATO to further identify the file for enquiries from the ATO to you.|
+|**Do not Create Electronics File**|	It is recommended that this field is blank when printing Payment Summaries to ensure your ATO EPS file always reflects the amounts printed on the Payment Summaries. **Note** This flag has been included for situations where you do not require an ATO EPS file.|
+|**File Name**|	This field is used to enter the file path and name.  The default value in this field is the file name format required by the ATO. You must specify the file path where the file is to be created ; select the **ArrowDown** button to specify the directory.  The default file extension is “Empdupe.A01”.  The “01” can be incremented manually when there is more than one Payment Summary print cycle.  When running the process for more than one payroll the process will automatically produce one file for each Payroll.  The file extension (A01) will be automatically increment for each payroll file produced.|
+|**Run Type**|	Select “Production” if you wish to produce a file to be sent to the ATO.  Select “Test” only to send a test file to the ATO for clarification before creating the production file.  Dialog has received confirmation for the layout from the ATO.
+|**Supplier File Reference**|	This field is used by the ATO to further identify the file for enquiries from the ATO to you.|
 
-#### Print Payment Summaries – Payroll FastTab
+4.  On the **Payroll** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
 |---|---|
-|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”.|
-|No.	|Select a Payroll(s) to use as a filter to limit the process to a specific payroll. |
-||If left blank all Payroll(s) will print|
+|**No.**	|Select a Payroll(s) to use as a filter to limit the process to a specific payroll. If left blank all Payroll(s) will print|
 
-#### Payment Summary Proof List – Payroll Employee FastTab
+5.  On the **Payroll Employee** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
 |---|---|
-|Only the standard fields are covered.  A full list of fields available as filters can be used by selecting the first blank line and selecting the “ArrowDown”|
-|Employee No.	|Select an Employee No(s) to limit the process to 1 or more employee’s for the selected payroll(s)|
-||If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.|
-|Employee Type Code|	Select an Employee Type Code(s) to use as a filter to limit the process to only a specific Employee Type |
-||If left blank all Employee Types for the selected Payroll(s) will print.|
+|**Employee No.**	|Select an Employee No(s) to limit the process to 1 or more employee’s for the selected payroll(s).  If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.|
+|**Employee Type Code**|	Select an Employee Type Code(s) to use as a filter to limit the process to only a specific Employee Type.  If left blank all Employee Types for the selected Payroll(s) will print.|
 
 
 [GoToTop](#end-of-year-processing)
