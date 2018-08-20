@@ -13,7 +13,7 @@
  
 ## Calculate Monthly Superannuation
 
-This option is only used when the On Cost method for calculating employer SGC contributions is used and where the “Calc. Superannuation Monthly” flag is selected on the [Payroll](au-payroll-create-payrolls.md) card to create monthly superannuation transactions to post to the General Ledger.  This process moves the superannuation transactions from the Employee Ledger Entries to the Employee Superannuation Ledger entries and it must be run before the Calculate and Post Superannuation process.
+This option is only used when the On Cost method for calculating employer SGC contributions is used and where the “Calc. Superannuation Monthly” flag is selected on the [Payroll](au-payroll-setup-payrolls.md) card to create monthly superannuation transactions to post to the General Ledger.  This process moves the superannuation transactions from the Employee Ledger Entries to the Employee Superannuation Ledger entries and it must be run before the Calculate and Post Superannuation process.
 
 This process updates the Employee Superannuation Ledger Entry with on-cost superannuation transaction details for Posting to the General Ledger when the “Calculate & Post Superannuation” process is run.  You must print this report for the process to move the on-cost transactions to the Employee Superannuation Ledger Entries table.  You can run this process as often as required.  It is recommended that this process is also run after all Payrolls have been finalised for the calendar month to ensure all the On Cost transactions are moved to the Superannuation Ledger.
 
