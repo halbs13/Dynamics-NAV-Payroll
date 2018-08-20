@@ -30,7 +30,9 @@ The fields on the Superannuation Report are:
 |**Amount**	|(6)	|This is the contribution amount of the employee. |
 |**Fund Total**	|(7)	|This will be the Fund Total Amount.|
 
- 
+[GoToTop](#superannuation-report)
+
+
 ## Superannuation Product List Report
 
 The Superannuation Product List Report will provide information on the Superannuation Products.
@@ -40,8 +42,6 @@ The Superannuation Product List Report will provide information on the Superannu
 2.  On the **Superannuation Fund Product** FastTab -Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank.
 
 3. When you have finished entering your information, click on **Preview** or **Print** to produce the file and report.
-
-[GoToTop](#superannuation-report)
 
 The fields on the Superannuation Product List Report are:
 
@@ -61,6 +61,8 @@ The fields on the Superannuation Product List Report are:
 |**Company SGC. Min. Salary**	|(12)	|This field identifies the Company SGC. Min. Salary value setup on each of the Superannuation Product cards.|
 |**Cost Trans**|	(13)	|This field identifies the Cost Transaction Posting Group (Expense Account) setup on each of the Superannuation Product cards.|
 |**Cost Bal Trn**	|(14)	|This field identifies the Provision Transaction Posting Group setup on each of the Superannuation Product cards.|
+
+[GoToTop](#superannuation-report)
 
 ## Superannuation Registration List
 
