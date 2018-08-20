@@ -3,9 +3,10 @@ All Dynamics NAV Payroll reports have the ability of being exported to Excel, Wo
 
 This section will describe the types of reports available within the Dynamics NAV Payroll module:
 
+## Setup Reports
+
 | Report Name	|Description|
 |---|---|
-|**Setup Reports**|
 |**Pay Transaction Type List**	|This report contains setup information on the setup of Pay Transaction Types.|
 |**YTD Accumulation Codes**	|This report contains setup information on the YTD Accumulation Codes.|
 |**Branch / Division Codes**	|This report contains setup information on the Branch and Division Codes.|
@@ -22,7 +23,11 @@ This section will describe the types of reports available within the Dynamics NA
 |**Work Cover Location**	|This report contains setup information on the Work Cover Locations setup within Payroll.|
 |**Payroll List**	|This report contains setup information on the Payrolls setup within Payroll.|
 |**Gang Employee List**	|This report contains a list of Employees who are assigned to Gangs within Payroll.|
-|**Employee Maintenance Reports**|
+
+## Employee Maintenance Reports
+
+| Report Name	|Description|
+|---|---|
 |**Employee Master List**|This report contains setup information such as personal details, Tax information (not including the Tax File No.) and permanent pay codes setup on the employee’s record.|
 |**Employee Personnel History**	|This report contains setup information such as personal details, banking, tax (including Tax File No. information), superannuation, pay rate, leave accruals and permanent pay codes setup on the employee’s record.| 
 |**Payroll Employee - Addresses**	|This report contains employee address information.|
@@ -31,7 +36,11 @@ This section will describe the types of reports available within the Dynamics NA
 |**Employee Pay History**	|This report provides employee’s earnings grouped by Pay period.
 |**Employee With No Tax File No.**	|This report provides information on employees who do not have Tax File Numbers.|
 |**Superannuation Exceptions**	|This report provides Superannuation exceptions such as missing Superannuation funds against employees.|
-|**Reconciliation Reports**|
+
+## Reconcilition Reports
+
+| Report Name	|Description|
+|---|---|
 |**Pay Transaction Totals**	|This report contains totals by Pay Transaction Type grouped by employee.|
 |**Pay Transaction Details**	|This report contains totals of Pay Transaction Types grouped by Pay Period.|
 |**Superannuation Report**	|This report provides information on Concessional and Non Concessional Superannuation contributions by Superannuation Fund.|
@@ -44,7 +53,11 @@ This section will describe the types of reports available within the Dynamics NA
 |**Posted Payroll Summary Report**	|This report provides a breakdown of the Pay Transactions Types processed grouped by Payroll as well as Branches and Divisions.  It can also be produced in Summary by Payroll.|
 |**Posted Details Generated Report**	|This report provides the details of the pay transaction types which are generated during the calculation of pays.|
 |**Payment Summary Proof List**	|This report provides the information which will print on the employee’s payment summary.  It will also contain any FBT or ETP payments entered on the Employee’s Payroll Employee card.|
-|**Human Resources Reports**|
+
+## Human Resources Reports
+
+| Report Name	|Description|
+|---|---|
 |**Employee Absences by Causes**	|This report provides the taken transactions which are posted against the Absence Registration table when the pays are posted.|
 |**Employee Addresses**	|This report provides the addresses details of the employee from the Employee card. | 
 |**Employee Alt. Addresses**	|This report provides the alternative addresses information setup on the Employee card.|
@@ -59,7 +72,11 @@ This section will describe the types of reports available within the Dynamics NA
 |**Employee Relatives**	|This report provides a list of Relatives which are setup against the employee’s Employee card.|
 |**Staff Absences**	|This reports provides a list of the employee’s absences as posted against the Absence Registration table when the pays are posted.|
 |**Unions**	|This report provides a list of Union codes which are setup against the employee’s Employee card.|
-|**Other System Reports**|
+
+## Other System Reports
+
+| Report Name	|Description|
+|---|---|
 |**Approve & Lock Timesheets (Pay Time Sheet Journal)**	|This report is designed to lock and unlock timesheet information entered into the Pay Time Sheet Journal.  It prepares the entries to be transferred across to the Pay Journal.|
 |**Pro-Forma Timesheet (Pay Time Sheet Journal)**	|This report provides timesheet information grouped by Employee.|
 |**Time Sheet Entry Report (Pay Time Sheet Journal)**	|This report provides timesheet information group by Employee.  It will also provide a summary of employees who have not entered a timesheet.|
