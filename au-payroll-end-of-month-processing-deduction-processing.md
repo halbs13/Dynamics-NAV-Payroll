@@ -6,7 +6,7 @@ The Deduction Processing function is a menu which contains the Deduction List - 
 
 ## Deduction List – Current Period
 
-1.  To access the Deduction List - Current Period report, go to the following menu:  *Departments/Payroll/EOM Processing/Deduction Processing*
+1.  In the **Search** box, enter **Deduction List - Current Period** report, and then choose the related link.  Or go to the following menu:  *Departments/Payroll/EOM Processing/Deduction Processing*
 
 2.  On the **Options** FastTab, the following filters are available for selection;
  
