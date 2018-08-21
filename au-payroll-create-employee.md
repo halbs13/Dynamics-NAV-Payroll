@@ -2,7 +2,7 @@
 
 You must setup an Employee card prior to creating a [Payroll Employee](au-payroll-create-payroll-employee.md) record.  
 
-**Note:** Several fields in the Payroll Employee card are mandatory (you must enter information to continue) whilst other fields are optional which can be filled in at a later stage or be left blank.
+**Note:** There are a few fields contained on the Employee card which are mandatory (you must enter information to continue) whilst other fields are optional which can be filled in at a later stage or be left blank.
 
 The following list is used to indicate the **Field Type** on each tab:
 
@@ -19,19 +19,18 @@ The following list is used to indicate the **Field Type** on each tab:
 |**Employee No.**|	M	|This field identifies the Employee throughout the Payroll and Human Resource Granules.
 |**Job Title** |	O	|Select a Job Title if required.  This field is used only for reporting.
 |**Title**|O|Enter in the Employee's Title
-|Employee First Name|	M	|The “Employee First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Employee card is also updated with the change.
-|Employee Last Name|	M	|The “Employee's Last Name” is displayed. The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Employee card is also updated with the change
-|Middle Name|	O	|Enter the Middle name
-|Initials	|O	|Enter the Employees initials
-|Address	|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.  
-|||This field is used when producing the Payment Summaries.
-|Address 2|	O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.  This field is used when producing the Payment Summaries.
-|Post Code/City	|M	|The “Post Code/City” is 2 fields used to record the post code and city. 
-|||Enter or select the post code from the table.
-|||If the post code exists in the Post Code table the City field automatically populates to the city associated with that post code.
-|Phone No.	|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.
-|Mobile Phone No.|	O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Employee card is also updated with the change.
-|Alpha Search	|M	|This field is used to search for the Employee throughout the Payroll 
+|**First Name**|	M	|The “First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Payroll Employee card is also updated with the change.
+|**Last Name**|	M	|The “Last Name” is displayed. The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Payroll Employee card is also updated with the change.
+|**Middle Name**|	O	|Enter the Middle name.
+|**Initials**	|O	|Enter the Employees initials.
+|**Other Names**| O | This field is used to record if the employee has an Alias Name or Name otherwise known as.
+|**Address**	|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Payroll Employee card is also updated with the change. This field is used when producing the Payment Summaries.
+|**Address 2**|	O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Payroll Employee card is also updated with the change.  This field is used when producing the Payment Summaries.
+|**Post Code/City**	|M	|The “Post Code/City” is 2 fields used to record the post code and city. Enter or select the post code from the table.  If the post code exists in the Post Code table the City field automatically populates to the city associated with the post code.
+|**State**|The "State" field is used to record the State associated with the post code.
+|**Country/Region Code**|The "Country/Region Code" is used to record the Country or Region associated with the post code.
+|**Phone No.**	|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Payroll Employee card is also updated with the change.
+|**Search Name**|M	|This field is used to search for the Employee throughout the Payroll 
 |||The contents of the Alpha Search field do not need to be the same as those of the Employee First and Last Name fields. 
 |Payroll No.|	M|	Use this field to assign the employee to a specific Payroll (To learn more about Payrolls, read General – Payroll section below)
 |Pay Cycle Frequency|	S	|This field is only used to display the pay frequency for the selected Payroll.
