@@ -19,7 +19,7 @@ The following steps must be completed in sequence to successfully produce the pa
 6.    Select the **“Create Bank Transfer File”** icon from the Process section on the Home ribbon.
       - Select Cheque, EFT or Cash as the method of payment you wish to pay the employees.  These options create the actual payments.
       - Remit the generated bank file to the bank and on successful upload then you are ready to post the pays to update the various ledgers.  
-7.    Select the Post icon.
+7.    Select the **Post** icon.
       - When you are ready to post the transactions to the General Ledger select the **“Posting”** icon.
       - Prior to posting the payroll journal you can reconcile or produce a Test Report.  
       - To post the transactions select the **“Post”** or **“Post and Print”** icon.  You will also be given the option of printing/emailing the pay advices from this function or you can choose to print/email them in bulk after the journal has been posted.  
