@@ -103,6 +103,6 @@ The Allowance Item records are used to interpret the hours into Allowance Pay Tr
 ||•	6 Minutes
 ||•	15 Minutes
 ||•	30 Minutes
-||•	Hour
+||•	 Hour
 
 [GoToTop](#award-interpreter-allowance-item-criteria-list)
