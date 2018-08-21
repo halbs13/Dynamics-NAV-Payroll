@@ -28,7 +28,7 @@ The following steps must be completed in sequence to successfully produce the pa
 
 At this point you have completed the payroll for the Pay Period. 
 
-## 4.7	Payroll Journal Calculations
+## Payroll Journal Calculations
 The following outline explains how the system processes employee pays.
 
 1.    **The pay calculation function** uses the manually entered Pay Journal lines together with the parameters, allowances, and deductions set up for each employee and Payroll parameters to generate the Pay Journal lines that make up an employee’s pay.
@@ -38,9 +38,7 @@ The following outline explains how the system processes employee pays.
 3.    **Check Employee Eligible for Pay:** For each Employee on the Payroll the following steps are performed:
       - The Employee is checked to verify if they were terminated prior to this Pay Period.  If terminated, the Employee is not processed.
       - The Employee is checked to verify if they have already been paid up to the end of this period.  If already paid they are not processed.
-   
-   [GoToTop](#payroll-journal-process)   
-   
+     
 4.    **Calculate Employee Rate** (Function of Calculate Pays): Using the Employee Classification Rate and the Classification Rate tables, calculate the Employee's current weekly rate.  The Classification Rate is date dependent and is calculated for each Pay Journal line for the Employee entered using the time entry process.
 
 5.    **Add Allowances and Deductions** for the Employees in the Payroll:
@@ -69,12 +67,12 @@ The following outline explains how the system processes employee pays.
 
 15.   **If the Award** the employee is paid under has Award Associated Transaction, and then these are created.
 
-16.	Superannuation Calculation: 
+16.	**Superannuation Calculation:** 
         - Each employee is examined to determine if superannuation contributions are calculated.  If the employer superannuation contribution is subject to a minimum salary check, this is performed.  An employer contribution is only calculated when the employee has earned enough to satisfy this requirement.
        - Employees that have nominated personal contributions to superannuation are processed.
        - All fixed value contributions are multiplied by the number of deduction periods set up on the pay advice header. 
     
-17.	Tax Instalment Deduction Calculation:
+17.	**Tax Instalment Deduction Calculation:**
       - The tax calculations conform to the requirements of the "Statement of Formulae for calculating Income Tax Instalments" from the Australian Taxation Office.
       - The manually entered and system created Pay Journal Lines are checked to determine the gross taxable income applicable for this pay advice.  The gross taxable income on any previously posted pay advices are also taken into account and the tax instalment for the pay advice is calculated.
       
