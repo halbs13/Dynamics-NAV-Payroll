@@ -13,7 +13,7 @@
  
 ## STP Processing
 
-The processing of the pay runs hasn’t changed. You just need to perform another step as part of your pay run process.
+With the introduction of STP, the pay runs are processed in the same manner with an additional step to be performed as part of the pay run process.  
 
 Once you have completed your pay run, you will then need to create a Pay Event.
 
@@ -23,34 +23,59 @@ Prior to running a Pay Event we strongly recommend you run the [STP Payment Proo
 If there are any errors they can be corrected prior to creating the Pay Event.
 
 
-### Pay Event
+## Pay Event
 
-Go to:
+### Submitting a New Pay Event
 
-*Payroll/Single Touch Processing/Submit STP Pay Event*
+1.  In the **Search** box, enter **Submit STP Pay Event** and choose the related link.  Or go to the following menu: *Payroll/Single Touch Processing/Submit STP Pay Event*
 
-For a new pay run you have just completed select New and OK.
+2.  Complete the fields in the **Edit - Submit STP Pay Event** as described in the following table:
+
+|Field|Comment|
+|---|---|
+|**Pay Event Type**|From the **ArrowDown** select **New**.
+|**EOTY Submission**|This field is only selected if this Pay Event is an **End of Tax Year** submission, otherwise it is not selected when sending submissions for a normal pay period.
+|**Update Date**|This field is only available if resending a submission.
+
+3.  After you have completed your selection, select **OK**.
 
 This process will also create a Pay Event for any other outstanding pay runs that a Pay Event has not been already created.
 
-Once the file has been generated you will be prompted to Open, Save or Cancel.
+4.  You will respond **YES** to the following message: *You are about to create a new pay event for all outstanding pay registers.  Do you want to continue?*.  
 
-Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
+5.  You will respond **YES** to the following message:  *I am notifying the ATO that" *SSP Name (The "SSP Name" will be the service provider who is responsible for transmitting your files) provides this business/these businesses with lodgement gtransaction services; and * this business/these businesses, for the purposes of it transactions with the ATO via the SBR channel, sends (and receives) those transaction to (and from) the ATO via SSP Name.  I declare the information is transmitted in this Single Touch Payroll Even is true and correct and that I am authorised to make this declaration.*
 
-Upload the saved file to your portal of choice. Follow the provided “How To” instructions based on your SSP’s requirements.
+6.  When the Pay Event file is created, you will select **Save**.  The file should be saved in a secure area of your network as the file contains sensitive information about your organisation and employees.
 
-If there are no pay runs ready for upload to the ATO or you have created all the relevant pay events you will receive the following message. Select OK.
+7.  Upload the saved file to your portal of choice.  Follow the provided *How To* instructions based on your SSP's requirements.
+
+#### No Pay Runs
+
+If there are **NO PAY RUNS** ready for upload to the ATO or you have created all the relevant pay events you will receive a message *There are no outstanding pay registers to process* and select **OK**.
 
  [GoToTop](#single-touch-payroll-processing)
 
 
-### Update Event
+### Updating a Pay Event
 
+The update event allows you to provide corrections and revisions of YTD values for your employees. This event can include employees who are no longer being paid but whose YTD values need updating. It also allows you to declare that your employee’s EOTY data is complete.
+
+1.  In the **Search** box, enter **Submit STP Pay Event** and choose the related link.  Or go to the following menu: *Payroll/Single Touch Processing/Submit STP Pay Event*
+
+2.  Complete the fields in the **Edit - Submit STP Pay Event** as described in the following table:
+
+|Field|Comment|
+|---|---|
+|**Pay Event Type**|From the **ArrowDown** select **New**.
+|**EOTY Submission**|This field is only selected if this Pay Event is an **End of Tax Year** submission, otherwise it is not selected when sending submissions for a normal pay period.
+|**Update Date**|This field is only available if resending a submission.
+
+1.  
 Go to:
 
 *Payroll/Single Touch Processing/Submit STP Event*
 
-The update event allows you to provide corrections and revisions of YTD values for your employees. This event can include employees who are no longer being paid but whose YTD values need updating. It also allows you to declare that your employee’s EOTY data is complete.
+
 
 To perform an update, select Update, enter the Update Date and select OK.
 
