@@ -18,7 +18,7 @@ Defined Pay Transactions are used in many parts of system setup, including; supe
 
 Other setup information in the Payroll granule includes [Coinage Denominations](au-payroll-setup-denominations.md), Payment Summary, [Bank Accounts](au-payroll-setup-pay-bank-state-branches.md), [General Ledger Postings](au-payroll-setup-posting-group-setup.md), [Work Care Contributions](au-payroll-end-of-month-processing-work-cover.md), [Employee Types](au-payroll-setup-employee-types.md), [Pay Locations](au-payroll-setup-payroll-codes.md), [Shifts](au-payroll-setup-shift-roster.md), [Employee Positions](au-payroll-setup-payroll-codes.md), [Branches, Divisions](au-payroll-setup-branches.md), [Tax Scales](au-payroll-setup-tax-scales.md), etc.
 
-Information must be setup in the other NAV granules with which the Payroll is integrated to. An employee’s pay is processed when the payroll that employee is assigned to, is posted.
+Information must be setup in the other Business Central granules with which the Payroll is integrated to. An employee’s pay is processed when the payroll that employee is assigned to, is posted.
 
 Many parameters are set up to determine frequency of pay, Pay Period Dates, and Coinage denominations available for paying cash employees and information that will optionally appear on reports and pay slips for that payroll.  
 
