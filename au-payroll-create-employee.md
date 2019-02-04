@@ -10,28 +10,37 @@ The following list is used to indicate the **Field Type** on each tab:
 * **O** = Optional
 * **S** = System Defined
 
-1.  To create an Employee record, go to the following menu:*Departments/Payroll/Employee Maintenance/Employees*
+1.  To create an Employee record, go to the following menu:*Employees*
 
-2.  Select the **New** icon.  On the **General** FastTab, fill the following fields;
+2.  Select the **New** link.  On the **General** FastTab, fill the following fields;
 
 |Field	|Field Type	|Comments|
 |---|:---:|---|
-|**Employee No.**|	M	|This field identifies the Employee throughout the Payroll and Human Resource Granules.
+|**No.**|	M	|This field identifies the Employee throughout the Payroll and Human Resource Granules.
+|**First Name**|	M	|The “First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Payroll Employee card is also updated with the change.
+|**Middle Name**|	O	|Enter the Middle name.
+|**Last Name**|	M	|The “Last Name” is displayed. The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Payroll Employee card is also updated with the change.
 |**Job Title** |	O	|Select a Job Title if required.  This field is used only for reporting.
 |**Title**|O|Enter in the Employee's Title
-|**First Name**|	M	|The “First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Payroll Employee card is also updated with the change.
-|**Last Name**|	M	|The “Last Name” is displayed. The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Payroll Employee card is also updated with the change.
-|**Middle Name**|	O	|Enter the Middle name.
 |**Initials**	|O	|Enter the Employees initials.
 |**Other Names**| O | This field is used to record if the employee has an Alias Name or Name otherwise known as.
+|**Search Name**|M	|This field is used to search for the Employee throughout the Payroll 
+|||The contents of the Alpha Search field do not need to be the same as those of the Employee First and Last Name fields. 
+|**Gender**|O |Select from one of the options the gender of the employee.
+|**Marital Status**|O | Select from one of the options to describe the marital status of the employee.
+|**Company Phone No**|O | Enter in the employee's company phone no.
+|**Company Email**|O| Enter in the employee's company email address.
+|**Last Date Modified**|S |This field is populated with the date that last time the record was modified.
+|**Privacy Blocked**|O |Select this field if you wish for the record to be blocked.
+
+3.  
 |**Address**	|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Payroll Employee card is also updated with the change. This field is used when producing the Payment Summaries.
 |**Address 2**|	O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Payroll Employee card is also updated with the change.  This field is used when producing the Payment Summaries.
 |**Post Code/City**	|M	|The “Post Code/City” is 2 fields used to record the post code and city. Enter or select the post code from the table.  If the post code exists in the Post Code table the City field automatically populates to the city associated with the post code.
 |**State**|The "State" field is used to record the State associated with the post code.
 |**Country/Region Code**|The "Country/Region Code" is used to record the Country or Region associated with the post code.
 |**Phone No.**	|O	|The field is populated from the Employee card.  You can edit this field.  If you change this field the Payroll Employee card is also updated with the change.
-|**Search Name**|M	|This field is used to search for the Employee throughout the Payroll 
-|||The contents of the Alpha Search field do not need to be the same as those of the Employee First and Last Name fields. 
+
 |Payroll No.|	M|	Use this field to assign the employee to a specific Payroll (To learn more about Payrolls, read General – Payroll section below)
 |Pay Cycle Frequency|	S	|This field is only used to display the pay frequency for the selected Payroll.
 |||The frequency defines the number of tax weeks calculated per Pay Run.
