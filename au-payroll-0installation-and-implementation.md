@@ -47,6 +47,4 @@ The following instructions outline the procedures for installing and implementin
       * Add the [Leave types](au-payroll-create-payroll-employee-leave-accruals.md),
       * Add the [Work Schedule](au-payroll-create-payroll-employee-work-schedule.md), if applicable.
 
-8.	Set up employee [Work Gangs](au-payroll-create-work-gangs.md), if applicable.
-
-9.	**CONDUCT PAYROLL TESTING.**
+8.	**CONDUCT PAYROLL TESTING.**
