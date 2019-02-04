@@ -2,11 +2,11 @@
 
 The Payroll granule is used to process an Australian payroll and calculate PAYG tax.
 
-Payroll integrates with the General Ledger and Human Resource granules.  You can elect not to post Payroll to the General Ledger, but the separation of these granules is required for security.  
+Payroll integrates with the General Ledger and Human Resource granules.  You can elect to not post Payroll to the General Ledger, but the separation of these granules is required for security.  
 
 Employees must first be setup in Human Resources before you can set them up as Payroll Employees. 
 
-The Payroll Granule integrates with other Dynamics NAV Granules such as Purchases and Payables, Sales and Receivables, Job Costing, and General Ledger.
+The Payroll module integrates with other D365 Business Central modules such as Purchases and Payables, Sales and Receivables, Job Costing, and General Ledger.
 
 Payroll has numerous parameters that can be customised to suit your own business process to provide maximum flexibility.  Defaults for most of these parameters are created when the Payroll is first installed.  Payroll processing cannot commence until setup is completed in the correct sequence.
 
