@@ -1,6 +1,6 @@
 # SYSTEM INTEGRATION
 
-The Payroll granule can be configured to integrate with the following Microsoft Dynamics NAV granules:
+The Payroll granule can be configured to integrate with the following Dynamics D365 Business Central granules:
 
  * Sales and Receivables
 
