@@ -4,28 +4,22 @@ The following instructions outline the procedures for installing and implementin
 
 **Note: Not all steps are required for every implementation and will be dependant upon your organisation's payroll requirements.**
 
-1.	Import the payroll objects to the database.
-
-2.	In the object designer: 
-
-    * To set up default Pay Transaction Types, Leave, Awards, Posting Groups, etc. Run the following Codeunit: ID **16000400  Payroll-        Initialise** 
-  
-    * To set up the default MS Dynamics NAV security payroll permission groups.  Run the Codeunit: ID **16000401 Payroll-Initialise Permissions**  
-      
+1.	Create users within Business Central and assign permissions; 
+       
       * **PAY-READONLY** to give users read only permission,
       * **PAY-STANDARD** to give general read write permission, 
       * **PAY-SUPER** to give all payroll permissions.
       
-3.	Set up Payroll Users and Permissions
+2.	Set up Payroll Users and Permissions
 
       * You must grant at least one user the **PAY-SUPER** permission.
       * Assign the user either the **Payroll Officer** or **Payroll Supervisor Role Centre**.
   
-4.	[Import the current Tax Scale text file](au-payroll-setup-import-tax-scales.md)
+3.	[Import the current Tax Scale text file](au-payroll-setup-import-tax-scales.md)
 
-5.	[Import the Employee BSB numbers](au-payroll-setup-import-bsb-numbers.md)
+4.	[Import the Employee BSB numbers](au-payroll-setup-import-bsb-numbers.md)
 
-6.	Reivew or set up the following areas;
+5.	Review or set up the following areas;
 
       * [Leave Accruals](au-payroll-setup-leave.md) - Review the defaults set up as part of the Payroll-Initialise function and modify if required.
       * [Payrolls](au-payroll-setup-payrolls.md) - Set up the required Payrolls which determine the frequency in which the employee is paid, the Tax Years and Payroll defaults.  
@@ -37,7 +31,7 @@ The following instructions outline the procedures for installing and implementin
       * [Work Cover Rates & Locations](au-payroll-setup-work-cover.md) 
       
 
-7.	Create Employees in the [Human Resources](au-payroll-create-employee.md) & [Payroll](au-payroll-create-payroll-employee.md) granules:
+6.	Create Employees in the [Human Resources](au-payroll-create-employee.md) & [Payroll](au-payroll-create-payroll-employee.md) granules:
       * Add the [Pay Dissections](au-payroll-create-payroll-employee-pay-dissections.md),
       * Add the [Employee Pay Rates](au-payroll-create-payroll-employee-pay-rates.md),
       * Add any permanent [Allowances and Associated Transactions](au-payroll-create-payroll-employee-gross-allowances.md),
@@ -47,4 +41,4 @@ The following instructions outline the procedures for installing and implementin
       * Add the [Leave types](au-payroll-create-payroll-employee-leave-accruals.md),
       * Add the [Work Schedule](au-payroll-create-payroll-employee-work-schedule.md), if applicable.
 
-8.	**CONDUCT PAYROLL TESTING.**
+7.	**CONDUCT PAYROLL TESTING.**
