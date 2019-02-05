@@ -1,13 +1,13 @@
 # Payroll Employee Card Pay Dissections
 
-This form is used to set up the bank accounts and spilt the employees’ Net pay.  You must complete the following fields for each employee who is to be paid by the EFT Payment Method indicated on the Payroll Employee General tab card:
+This form is used to set up the bank accounts and spilt the employees’ Net pay.  You must complete the following fields for each employee who is to be paid by the EFT Payment Method indicated on the Payroll Employee General FastTab card:
 
 Note: The Main dissection type pays the balance of the employee net pay to the specified bank account and each employee paid by EFT must have a Pay Dissection Type of “Main”.  Other bank accounts (dissections) such as an employee’s savings account must be defined as Pay Dissection Type “Part”.  The employee can have unlimited “Part” bank accounts.
 
  
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Transaction Type Code**|	This field identifies the Pay Transaction Type assigned to the Net Pay.  The “Transaction Type Code” is selected from the Pay Transaction Type table; accessed by selecting the **ArrowDown** in the field.
 |**Pay Dissection Type**|	This field is used to select the dissection type used for this bank account;
 ||- Main: The Main Pay Dissection type is used to pay the balance of net pay.  You must setup 1 only "Main" Pay Dissection.
