@@ -6,12 +6,12 @@ Pay Transaction Types are used to calculate pays, superannuation, leave accruals
 
 Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannuation, Allowances, Deductions, and Leave Payments.
 
-1. In the **Search** box, enter **Pay Transaction Types**, and then choose the related link.
+1. To access the Pay Transaction Types, go to the following menu: *General Setup/Pay Transaction Types*.
 
 2. On the **General** FastTab, fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Code**|This field is used to identify the Pay Transaction Type and is used in Journal lines.|  
 |**Brief Description**|This field is used to provide a short description for the **Pay Transaction Type**.|  
 |**Description**|This field is used to provide a detailed description for the “Pay Transaction Type”.|
@@ -26,7 +26,7 @@ Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannua
 3.  On the **Calcluations** FastTab, fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Rate Amount**|This field is used to apply a fixed rate to a Pay Transaction Type.  When a Rate is entered it is used as the default value. The value can be overridden at the Employee Level.  If this field is left blank the rate must be entered at the Employee Level or at the time of entering the Pay Journal.  The format used to enter this value is determined by the option selected in the “Rate Calculation Method” field.|
 |**Rate Conversion Factor**|This field determines the factor applied to the Rate Amount. 3 decimal places may be entered E.g. Transaction Type for Overtime at time and a half - the Rate Conversion Factor is 1.5. If the Pay Transaction Type is Leave Without Pay then the Rate Conversion factor is 0 (zero).|
 |**Rate Calculation Method**|This field is used to select the type of rate used for the calculation (Percentage, Unit or Employee Pay Rate). E.g. Employee Pay Rate - the Pay Transaction Type uses the Employee’s Pay Rate setup on the Employee’s Payroll Employee card.  Units – Amount entered in the Payroll Employee card for Superannuation or a Deduction Percentage – SGC  9% = 0.09.|
@@ -40,7 +40,7 @@ Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannua
 4.  On the **Leave Application** FastTab, fill the fields in the following table. 
   
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Apply to Leave Taken**|This checkbox only applies to Annual, Long Service, Sick, and Time In Lieu Pay Transaction Types.  Select this box to indicate the transaction is applied as leave taken.   It is used to determine if the entered hours are taken off the leave entitlement balances.|
 |**Leave Type**|This field is used to define the leave entitlement type the hours are taken from. Select the Leave Type from the **ArrowDown**.|
 |**Cause of Absence Code**|This field is used to indicate the cause of absence and is linked to Human Resources Absence Register.  Select the Cause of Absence from the **ArrowDown**.|
@@ -49,7 +49,7 @@ Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannua
 5.  On the **Parameters** FastTab, fill the fields in the following table. 
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Apply to Taxable Income**|This field is used to determine if the value calculated for this Pay Transaction Type is taxable.  Select this field to apply PAYG tax or leave this field blank for exempt transactions.  Note: Pre tax deductions for Salary Sacrifice must have this flag ticked to reduce the tax liability.  Leave this field blank for Post tax deductions.|
 |**Apply to Superannuation**|Select this field to indicate the PayTransaction Type is used in the calculation of percentage based Superannuation amounts.This field determines if the value of this Pay Transaction Type is to be included in the calculation and have SGC calculated.|
 |**Apply to Min. Salary Check**|Tick this field to include this Pay Transaction Type as part of the employee’s “ordinary time earnings”. The “ordinary time earnings” is used with the “Monthly Min. Earnings” field on “Payroll Setup - Superannuation” tab to determine if the employee has earned the minimum monthly pay to be eligible for Superannuation Guarantee Contributions.|
@@ -65,7 +65,7 @@ Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannua
 6.  On the **Posting** FastTab, fill the fields in the following table. 
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Transaction Posting Group**|This field is used to determine the Debit posting group for this “Pay Transaction Type”. The Pay Journal uses this group to determine the GL Account to post against. **Note: This field Increases the Expense Accounts and Decreases the Balance Sheet Accounts**|
 |**On Cost Prov. Posting Group**|This field is only used for On Cost Accumulation Type transactions. It is used to Credit the Provision Accounts.  **Note: This field Increases the Balance Sheet**.|
 |**Do Not Post Dimensions**|Tick this field to stop Dimensions posting for this Pay Transaction Type to the General Ledger Accounts.  This flag might be ticked for Deduction Pay Transaction Types.|
@@ -74,7 +74,7 @@ Examples of Pay Transaction Types are Normal Time, Overtime, Net Pay, Superannua
 |**Timesheet Submission Tracking**|A checkmark in this field indicates that this transaction type is applicable to timesheet tracking used in identifying missing timesheets for a contractor.  An example of where you might use this is tracking missing timesheets on Ordinary time.|
 |**Automatic Timesheet Generation**|A checkmark in this field indicates that a timesheet will be generated for this transaction type.|
 
-7. Click on the **OK** button after you have completed your selection OR Click on the **OK & New** button to create a new record.
+7. Click on the **Arrow** button after you have completed your record.  
 
 You can learn more about setting up [Transaction Groups and Posting Setup](au-payroll-setup-posting-group-setup.md)
   
@@ -85,12 +85,12 @@ This function is used to allocate specific Vendor to the current Pay Transaction
 1.  To create a new record, click on the **New** icon.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Payroll No.**|This field is used to define a vendor by payroll no. if this is transaction is to have a different vendor by payroll. Select the Payroll No. from the **ArrowDown**.|
 |**Vendor No.**|This field is used to define a vendor no. for this transaction type.  Select the Vendor No. from the**ArrowDown**.|
 |**Name**|This field is used for informational purposes only.|
 
-2.  Click on the **OK** button after you have completed your selection.
+2.  Click on the **Arrow** button after you have completed your record.
 
 ## Pay Transaction Types – Payroll Tax
 
@@ -99,11 +99,11 @@ This function determines the “Payroll Tax Code(s)” applicable to this Pay Tr
 1.  To create a new record, click on the **New** button.
   
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Payroll Tax Code**|This field is used to add the Payroll Tax code applicable for this transaction.  Select the Payroll Tax code from the **ArrowDown**.|
 |**Description**|This field is used for informational purposes only.|
 
-2.  Click on the **OK** button after you have completed your selection
+2.  Click on the **Arrow** button after you have completed your selection
 
 You can learn more about setting up [Payroll Tax Rates & Thresholds](au-payroll-setup-payroll-tax.md)
   
@@ -114,12 +114,12 @@ This function is used to allocate on cost accumulators to this Pay Transaction T
 1.  To create a new record, click on the **New** button.
   
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|   
+| :--- | :--- |   
 |**Accumulator Code**|This field is used to add the Accumulator code applicable for this transaction. Select the Accumulator Code from the **ArrowDown**.|
 |**Description**|The Accumulator Description will default through from the code that is selected.|
 |**Negative Accumulator**|A checkmark in this field indicates that you expect the calculation base to be a negative value.|
 
-2.  Click on the **OK** button after you have completed your selection.
+2.  Click on the **Arrow** button after you have completed your selection.
 
 You can learn more about setting up [Accumulation Calculations](au-payroll-setup-calculation-accumulators.md)
 
