@@ -10,7 +10,7 @@ The following list is used to indicate the **Field Type** on each tab:
 * **O** = Optional
 * **S** = System Defined
 
-1.  To create an Employee record, go to the following menu:*Employees*
+1.  To create an Employee record, go to the following menu:  *Employees*
 
 2.  Select the **New** link.  On the **General** FastTab, fill the following fields;
 
