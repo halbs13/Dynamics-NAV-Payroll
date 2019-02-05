@@ -4,13 +4,12 @@ Payroll Posting Groups define the Bank Account to pay the employee from for the 
 
 Each Payroll is assigned to a Payroll Posting Group.  More than one Payroll Posting Group may be setup depending on your General Ledger requirements, e.g. Employees, Contractors.
 
-1.  To access the Payroll Posting Group, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ Posting Group Setup/Payroll
-Posting Groups*
+1. In the **Search** box, enter **Payroll Posting Group**, and then choose the related link, or go to the following menu: *Posting Group Setup/Payroll Posting Groups*
 
 2.  To create a new record, click on the **New** button.
   
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Code**| Enter in a code to identify the Payroll Posting Group.|
 |**Description**| Enter in a description to identify the Payroll Posting Group.|
 |**Bank Account No.**| The “Bank Account No” is selected from a list of bank accounts set up in the General Ledger Granule. The “Bank Account No.” selected is the default bank account used to pay the employees by EFT.|
@@ -28,19 +27,19 @@ The **Dimensions** icon allows for Dimensions to be setup and used to default wh
 
 Transaction Posting Groups are used to determine the General Ledger accounts used for posting.  Each Pay Transaction Type is assigned to a Transaction Posting Group. Together with Payroll Posting Groups, Branch and Divisions you can direct transaction to post to different GL accounts.
 
-1.  To access the Transaction Posting Group, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ Posting Group
-Setup/Transaction Posting Group*
+
+1. In the **Search** box, enter **Transaction Posting Groups**, and then choose the related link, or go to the following menu: *Posting Group Setup/Transaction Posting Groups*
 
 2.  To create a new record, click on the **New** button.
   
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Code**| Enter in a code to identify the Transaction Posting Group.|
 |**Description**| Enter in a description to identify the Transaction Posting Group.|
 
 3.  Click on the **OK** button after you have completed your selection.
 
-The **Setup** icon opens the [Payroll Posting Setup](#to-setup-payroll-posting-setup).  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
+The **Setup** link opens the [Payroll Posting Setup](#to-setup-payroll-posting-setup) from the *Actions* menu.  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
 
 [GoToTop](#how-to-setup-payroll-posting-groups)
 
@@ -61,13 +60,12 @@ The source fields used to select the General Ledger account are as follows:
 You can enter specific Transaction Posting Groups, Branches or Divisions if the Payroll transactions go to different General Ledger accounts.  Otherwise they can be left blank to include all Payroll transactions for the Transaction Posting Groups are used to
 determine the General Ledger accounts used for posting.  Each Pay Transaction Type is assigned to a Transaction Posting Group.  Together with Payroll Posting Groups, Branch and Divisions you can direct transaction to post to different GL accounts.
 
-1.  To access the Payroll Posting Setup, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ Posting Group
-Setup/Payroll Posting Setup*
+1.  To access the Payroll Posting Setup, go to the following menu: *Posting Group Setup/Payroll Posting Setup*
 
 2.  To create a new record, click on the **New** button.
   
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Transaction Posting Group**| Select the Transaction Posting Group from the **ArrowDown**.|
 |**Payroll Posting Group**| The “Payroll Posting Group” is optional and can be selected from the **ArrowDown**.|
 |**Branch Code**| The “Branch Code” is optional and can be selected from the **ArrowDown**.|
@@ -75,7 +73,6 @@ Setup/Payroll Posting Setup*
 |**Pay Account**| The “Pay Account” identifies the GL account the transaction will post to and can be selected from the **ArrowDown”**.|
 |**Account Name**| The name of the General Ledger Account selected will appear in this field.|
 
-3.  Click on the **OK** button after you have completed your selection.
 
 [GoToTop](#how-to-setup-payroll-posting-groups)
 
