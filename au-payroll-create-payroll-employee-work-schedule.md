@@ -1,10 +1,10 @@
 # Payroll Employee Card Work Schedules
 
-This table is designed to record historical and future dated transactions of the hours an employee has/will work.
+This table is designed to record historical and future dated transactions of the hours an employee will work.
 
 
 |Field|	Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Employee No.**|	M	|This field will contain the Employee’s No. and will default to the employee’s record that you are working with.
 |**Starting Date**|	M	|This field is used to identify when the Worked Hours are effective.
 |**Hours in a Full Week**|	M	|This field is used to determine the standard hours worked for Ordinary pay and for Accruals.  Enter the new Worked Hours for Hours in a Full Week.
@@ -21,7 +21,7 @@ You can setup a number of different work schedule codes which are designed to de
 1.  Select the **New** icon to create a new work schedule.  
 
 |Field	| Mandatory/Optional |Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Code**|	M	|Enter in a Code which will describe the Work Schedule.  The code can be numeric or alpha-numeric.
 |**Description**|O	|Enter in a Description which best describes the work pattern of the work schedule.
 |**Payroll No.**|M	|Select the Payroll No. which the Work Schedule is applicable to via the **ArrowDown**.
