@@ -22,39 +22,35 @@ To enable this, new Accumulators and Transaction Accumulators need to be setup a
 Transaction Accumulators – Are accessed via the Pay Transaction Type Card.  This option will allow the selection of as
 many accumulators as required, to be attached to the selected pay transaction type code.
 
-## On Cost Accumulators
+## Calculation Accumulators
 
-1.  To access the On Cost Accumulators, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ General/Calculation
-Accumulators* 
+1.  To access the Calcluation Accumulators, go to the following menu: *General Setup/Calculation Accumulators* 
 
 2. To create a new record, click on the **New** button.
 
 3.  Fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Accumulator Code**|The “Accumulator Code” is used to uniquely identify the Accumulator.|
 |**Accumulator Description**|The “Accumulator Description” field is used to record a description for the Accumulator.|
 
-4.  Click on the **OK** button to close this window.
+4.  Click on the **Arrow** button to close this window.
   
 
 ## Transaction Accumulators
 
-1.  To access the Transaction Accumulators, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ General/Pay
-Transaction Types*
+1.  To access the Transaction Accumulators, go to the following menu: *General Setup/Pay Transaction Types/Navigate menu/Tran. Type/Accumulators*
 
-2.  Select a Transaction Type and click on the **Accumulators** icon.
-
-3.  To create a new record, cick on the **New** button.
+2.  To create a new record, cick on the **New** button.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Accumulator Code**|Select the Accumulator Code from the **ArrowDown**.|
 |**Accumulator Description**|The Description field will be updated with the description from the Accumulator code selected.|
 |**Negative Accumulator**|Tick this field if you expect the calculation base to be a negative value.|
 
-4.  Click on the **OK** button to close this window.
+4.  Click on the **Arrown** button to close this window.
 
 ## Posting Setup
 
