@@ -1,6 +1,6 @@
 # Payroll Employee Card Employee section
 
-The following items are accessed from the Process section on the Home ribbon:
+The following items are accessed from the Employee section on the Navigate ribbon:
 
   
 
@@ -24,7 +24,7 @@ The following items are accessed from the Process section on the Home ribbon:
 Selecting the **Comments** icon will allow you to add/review any comments which may have been recorded against the employee’s card. 
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Date**|Enter in the Date that you wish to record the comment.|
 |**Comment**| Enter in comments relating to the employee.|
 
@@ -59,7 +59,7 @@ Selecting the **Posted Pay Advices** icon will allow you to review the pay slips
 
  
 |Field|Comments|
-|---|---|
+| :--- | :--- |
 |**Reprint Pay Advice** |This option is used to re-print and preview the pay advice selected in the list.|
 |**Resend E-Mail Advice**| This option is used to resend an emailed pay advice selected in the list.|
 |**Ledger Entries**|This option lists posted payroll transactions for the selected pay advice.|
@@ -98,7 +98,7 @@ Selecting the **Statistics** icon will display the employee’s payment summary 
 ### Statistics Payment Summary FastTab
 
 |Field |Comments|
-|---|---|
+| :--- | :--- |
 |**Gross**|This field displays the Gross value that prints on the Payment Summary (This Year column).  The employee sacrificed super has been deducted from these totals.|
 |**Allowances**| This field displays the total of Allowance values that print on the Payment Summary. (This Year column).|
 |**Union or Prof. Assoc. Fees**| This field displays; the total of all Union Fees that print on the Payment Summary as a positive amount
@@ -111,7 +111,7 @@ Selecting the **Statistics** icon will display the employee’s payment summary 
 ### Statistics ETP Payment Summary FastTab
 
 |Field| Comments|
-|---|---|
+| :--- | :--- |
 |**Only data from the “Employee Term. Pmt.” Table is shown.**|
 |**Termination Date**|This field displays the Termination Date as entered into the Employee Termination Payment table.
 |**Payment Date**|This field displays the Payment Date as entered into the Employee Termination Payment table.
@@ -140,7 +140,7 @@ Selecting the **Effective Dimensions** icon will allow you to add/review dimensi
  
  
 |Field |Comments|
-|---|---|
+| :--- | :--- |
 |**Employee No.**| This field will default with the Employee’s No.
 |**Effective Date**| This field is used to record the Effective Date of the Dimension change.
 |**Global Dimension 1**| In the example above, the “Department Code” is setup as Global Dimension 1. This field is used to record the Global Dimension 1.
