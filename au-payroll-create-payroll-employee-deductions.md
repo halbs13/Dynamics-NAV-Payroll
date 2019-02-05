@@ -4,7 +4,7 @@ The “Employee Deductions” card is used to set up deductions for the employee
 
 
 |Field|Comments|
-|---|---|
+| :--- | :--- |
 |**Transaction Type Code**|This field is used to select the Pay Transaction Type for the deduction.  The “Transaction Type Code” is selected via the **ArrowDown**.  Only Deduction Pay Transaction Types are displayed.|
 |**Shift Code**|If a “Shift Code” is selected the deduction will only apply when the employee is paid the particular shift.|
 |**Priority**|This field is used to set the “Priority” this deduction is taken from an employees pay.  If the employee does not have enough net pay to deduct all deductions; the deduction with the lowest priority will not be deducted.  The priority can be set to any value, the lower the number the higher priority the deduction has i.e. a deduction with priority 1will be taken before a deduction with priority 6.  If two deductions have the same priority the deduction will be taken in alphabetical order of the Pay Transaction Type and or amount of net pay that is still available.|
