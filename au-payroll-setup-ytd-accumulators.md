@@ -5,13 +5,12 @@ then used to print Payment Summaries, Pay Advices, and reports.  The YTD Accumu
 
 The YTD accumulations also determine the layout for the Payment Summaries for Taxation.
 
-1.  To access the YTD Accumulation, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/ General/YTD
-Accumulations*
+1.  To access the YTD Accumulations, go to the following menu: *General Setup/YTD Accumulations*
 
 2.  To create a new record, click on the **New** button.
   
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Code**|This field is used to identify the YTD accumulation code and used to assign to a Pay Transaction Type code.|
 |**Short Description**|This field provides an abbreviated description.|
 |**Description**|This field provides for a fuller description.|
