@@ -12,7 +12,7 @@ Branches and Divisions are assigned to Payroll Employee. They are used:
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Code**|This field is used to uniquely identify a Branch.  At least one Branch must be setup.|  
 |**Description**|This field is used to name the Branch.|  
 |**Payroll Tax Code**|This field defines the Payroll Tax code for this branch. Select the **ArrowDown** to the right of the field and select the Code (For more information see: [Payroll Tax](au-payroll-setup-payroll-tax.md).|
@@ -24,12 +24,12 @@ Branches and Divisions are assigned to Payroll Employee. They are used:
 
 ## To setup Branch Divisions
 
-1. On the *Navigate* ribbon, choose the **Divisions** icon. 
+1. On the *Navigate* ribbon from the Branches menu, choose the **Divisions** icon. 
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|    
+| :--- | :--- |    
 |**Code**|This field is used to uniquely identify this Division.|  
 |**Description**|This field is used to name the Division.|  
   
