@@ -2,12 +2,12 @@
 
 This option is used to maintain the leave accrual types for the employee.  The Leave accruals can be setup to default from the “Payroll” card and automatically assigned to new employees when they are created.  If Leave Accruals are not defaulted from the Payroll you can add the Leave Accruals to the employee manually.
 
-To access the Employee Leave Accrual Card, click on the **Edit** icon on the *Home* ribbon.
+To access the Employee Leave Accrual Card, go to the Payroll Employee Card/Navigate/Pay/Leave/Accruals and click on **Edit** on the *Manage* ribbon.
  
 ## Employee Leave Accrual card - General FastTab
 
  |Field|Comments|
- |---|---|
+ | :--- | :--- |
  |**Employee No.**|This field displays the Employee Code|
  |**Leave Type**|This field is used to select the Leave Type you wish to accrue.  (Annual, Sick, LSL, Loading).  The “Leave Type” is selected via the **ArrowDown**.|
  |**Leave Code**|This field is used to select the Leave Accrual code you have previously set up. The “Leave Code” is selected from the Leave Accrual List by selecting the **ArrowDown**.|
@@ -24,7 +24,7 @@ To access the Employee Leave Accrual Card, click on the **Edit** icon on the *Ho
 ## Employee Leave Accrual card – Leave Details FastTab
 
  |Field|Comments|
- |---|---|
+ | :--- | :--- |
  |**Employee No.**|This field displays the Employee Code|
  |**Leave Type**|This field is used to select the Leave Type you wish to accrue.  (Annual, Sick, LSL, Loading).|
  |**Leave Code**|This field is used to select the Leave Accrual code you have previously set up.  The “Leave Code” is selected from the Leave Accrual List by selecting the **ArrowDown**.|
@@ -34,7 +34,7 @@ To access the Employee Leave Accrual Card, click on the **Edit** icon on the *Ho
 ## Employee Leave Accrual card – Leave Values FastTab
 
 |Field|Comments|
-|---|---|
+| :--- | :--- |
 |**Value Only Accrued**|This field displays the total leave accrued as a value. |
 |**Ordinary Value Earned**|This field displays the total value of earnings applicable to leave within the Leave Period.|
 |**Last Period Calculated**|This field displays the ending date of the last pay period.|
@@ -45,7 +45,7 @@ To access the Employee Leave Accrual Card, click on the **Edit** icon on the *Ho
 ## Employee Leave Accrual card - Long Service Leave FastTab
 
  |Field|Comments|
- |---|---|
+ | :--- | :--- |
  |**The fields on this tab are only applicable to Long Service Leave and are unavailable for all other leave Types**||
  |**L.S.L. To 15th August 1978**|This field displays the amount of Long Service Leave accrued prior to the 15th August 1978.|
  |**L.S.L. Aug. 78 to 17th Aug. 93**|This field displays the amount of Long Service Leave accrued between 15th August 1978 and 17th August 1993.|
