@@ -6,12 +6,12 @@ A file containing the Australian banks is delivered with the system.  This file 
 
 You can maintain the bank information and add additional bank details if required.
 
-1. In the **Search** box, enter **Pay Bank State Branches**, and then choose the related link.
+1. To access the Pay Bank State Branches, go to the following menu:  *General Setup/Pay Bank State Branches*.
 
 2. On the **General** FastTab, fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**No**|This field is used to enter the BSB number of the bank.|  
 |**Name**|This field is used to enter the name and branch of the bank.|  
 |**Address**|Enter in the street address for the Bank if known.|
@@ -20,5 +20,5 @@ You can maintain the bank information and add additional bank details if require
 |**Country Code**|Select the Country.|
 |**Contact**|Enter the contact for the bank if known.|
 |**Bank Branch No.**|The value in this field is used in the EFT file and therefore must be valid.|
-|**Exclude from Integration**|A checkmark in this field indicates that this Employee Banks information will not be transferred across to AXiOM. An example of where you might use this is if the BSB number is no longer in use.|
+
    
