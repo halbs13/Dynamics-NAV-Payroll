@@ -15,7 +15,7 @@ They are maintained in the Item Criteria Worksheet.
 1. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Classification Code**| This field displays the Award Classification Code.
 |**Award Code**|This field displays the Award Code.
 |**Pay Transaction Type**|This field displays the Pay Transaction Type code that is generated from this Pay Item criteria.
@@ -55,12 +55,12 @@ They are maintained in the Item Criteria Worksheet.
 
 The Item Criteria Worksheet is used to setup and maintain the Pay and Allowance Criteria Items used to interpret the timesheet lines.
 
-1. To open the Item Criteria Worksheet form, *Departments/Payroll/Setup/Award Interpreter/ Interp. Setup Worksheet*
+1. To open the Item Criteria Worksheet form, *Award Setup/Navigate Menu/Pay Item Criteria*
 
 2. Fill the fields in the following table
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Starting Date**|	This field is used to enter the start date the criteria becomes effective. This date must be on or after the Award Classification Certification date.
 |**Ending Date**| This field is used to enter the date the criteria are no longer used. This date must be after the Starting Date.
 |**Award Code**| This field is used to select the Award.
@@ -82,7 +82,7 @@ The Pay Item records are used to interpret the hours into Pay Transaction Types.
 1.  Fill the fields in the following table 
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Starting Date**| This field is used to enter the date this criteria becomes effective and is used to interpret timesheets. This date must be equal to or greater than the Classification Certification date
 |**Ending Date**|	This field is used to enter the date the criteria is no longer effective.
 |**Award**|	This field is used to apply the criteria to a specific Award. If the Classification is not specified all employees attached to the Award work under the criteria setup for this Award
