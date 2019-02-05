@@ -1,12 +1,12 @@
 # Payroll Reports
-All Dynamics NAV Payroll reports have the ability of being exported to Excel, Word, PDF and previewed online. 
+All D365 Business Central Payroll reports have the ability of being exported to Excel, Word, PDF and previewed online. 
 
-This section will describe the types of reports available within the Dynamics NAV Payroll module:
+This section will describe the types of reports available within the D365 Business Central Payroll module:
 
 ## Setup Reports
 
 | Report Name	|Description|
-|---|---|
+| :--- | :--- |
 |**Pay Transaction Type List**	|This report contains setup information on the setup of Pay Transaction Types.|
 |**YTD Accumulation Codes**	|This report contains setup information on the YTD Accumulation Codes.|
 |**Branch / Division Codes**	|This report contains setup information on the Branch and Division Codes.|
@@ -27,7 +27,7 @@ This section will describe the types of reports available within the Dynamics NA
 ## Employee Maintenance Reports
 
 | Report Name	|Description|
-|---|---|
+| :--- | :--- |
 |**Employee Master List**|This report contains setup information such as personal details, Tax information (not including the Tax File No.) and permanent pay codes setup on the employee’s record.|
 |**Employee Personnel History**	|This report contains setup information such as personal details, banking, tax (including Tax File No. information), superannuation, pay rate, leave accruals and permanent pay codes setup on the employee’s record.| 
 |**Payroll Employee - Addresses**	|This report contains employee address information.|
@@ -40,7 +40,7 @@ This section will describe the types of reports available within the Dynamics NA
 ## Reconciliation Reports
 
 | Report Name	|Description|
-|---|---|
+| :--- | :--- |
 |**Pay Transaction Totals**	|This report contains totals by Pay Transaction Type grouped by employee.|
 |**Pay Transaction Details**	|This report contains totals of Pay Transaction Types grouped by Pay Period.|
 |**Superannuation Report**	|This report provides information on Concessional and Non Concessional Superannuation contributions by Superannuation Fund.|
@@ -53,11 +53,12 @@ This section will describe the types of reports available within the Dynamics NA
 |**Posted Payroll Summary Report**	|This report provides a breakdown of the Pay Transactions Types processed grouped by Payroll as well as Branches and Divisions.  It can also be produced in Summary by Payroll.|
 |**Posted Details Generated Report**	|This report provides the details of the pay transaction types which are generated during the calculation of pays.|
 |**Payment Summary Proof List**	|This report provides the information which will print on the employee’s payment summary.  It will also contain any FBT or ETP payments entered on the Employee’s Payroll Employee card.|
+|**STP Payment Proof List**|This report provides the informationw which will be submitted to the ATO via the Pay Event.|
 
 ## Human Resources Reports
 
 | Report Name	|Description|
-|---|---|
+| :--- | :--- |
 |**Employee Absences by Causes**	|This report provides the taken transactions which are posted against the Absence Registration table when the pays are posted.|
 |**Employee Addresses**	|This report provides the addresses details of the employee from the Employee card. | 
 |**Employee Alt. Addresses**	|This report provides the alternative addresses information setup on the Employee card.|
@@ -76,7 +77,7 @@ This section will describe the types of reports available within the Dynamics NA
 ## Other System Reports
 
 | Report Name	|Description|
-|---|---|
+| :--- | :--- |
 |**Approve & Lock Timesheets (Pay Time Sheet Journal)**	|This report is designed to lock and unlock timesheet information entered into the Pay Time Sheet Journal.  It prepares the entries to be transferred across to the Pay Journal.|
 |**Pro-Forma Timesheet (Pay Time Sheet Journal)**	|This report provides timesheet information grouped by Employee.|
 |**Time Sheet Entry Report (Pay Time Sheet Journal)**	|This report provides timesheet information group by Employee.  It will also provide a summary of employees who have not entered a timesheet.|
