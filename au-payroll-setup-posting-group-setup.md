@@ -18,7 +18,7 @@ Each Payroll is assigned to a Payroll Posting Group.  More than one Payroll Pos
   
 The **Setup** icon opens the [Payroll Posting Setup](#to-setup-payroll-posting-setup).  The Payroll Posting Setup is specific to the selected Payroll Posting Group on this nested form.
 
-The **Dimensions** icon allows for Dimensions to be setup and used to default when posting Leave Transactions with missing dimensions.
+The **Dimensions** link on the *Process* menu allows for Dimensions to be setup and used to default when posting Leave Transactions with missing dimensions.
 
 [GoToTop](#how-to-setup-payroll-posting-groups)
 
