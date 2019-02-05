@@ -8,12 +8,12 @@ This can be created as templates or default rosters.  No payment to the employee
 
 You must copy the Default Shift Roster to the” Weekly Shift Roster” card to create payments.
 
-1. In the **Search** box, enter **Shift Roster**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Shift Roster/Default Shift Roster*.
+1. In the **Search** box, enter **Shift Roster**, and then choose the *Default Shift Roster* link. 
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Payroll No.**|	Displays the “Payroll” the employee is allocated to.
 |**Employee No.**|	Enter or select the “Employee No.” 
 |**Shift**|	Displays the Shift code that was previously setup on the Payroll/Setup/Setup/General/Shifts card.
@@ -23,12 +23,12 @@ You must copy the Default Shift Roster to the” Weekly Shift Roster” card to 
 
 ## Weekly Shift Roster
 
-1. In the **Search** box, enter **Weekly Roster**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Pay Codes Setup/Shift Roster/Weekly Shift Roster*.
+1. In the **Search** box, enter **Shift Roster**, and then choose the *Weekly Shift Roster* link. 
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Payroll No.**|	This field displays the “Payroll” the employee is assigned.
 |**Employee No.**|	Enter or select the “Employee No.”  Use the arrow icons to scroll through the employees.
 |**Week End Date**|	The Pay Period End date for the Shift. 
@@ -40,12 +40,12 @@ You must copy the Default Shift Roster to the” Weekly Shift Roster” card to 
  
 ## Copy the Default Shift Roster
 
-1. On the *Home* ribbon, select the **Copy Roster** icon. 
+1. On the *Process* menu, select the **Copy Roster** icon. 
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Employee No.**|	Enter or select the “Employee No.” you are copying the shift roster for.
 |**Payroll No.**|	Enter the “Payroll” the employee is allocated to.
 
