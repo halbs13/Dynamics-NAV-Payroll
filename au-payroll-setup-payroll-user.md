@@ -21,7 +21,8 @@ Note:  This security is not replicated in the Human Resources granule.
 |**Payroll Filter**|This field is used to limit access to specific Payrolls.  When a Payroll List is displayed, only Payrolls with values that match this criteria is shown.  If employees are attached to a restricted payroll you will not be able to view their Employee Pay Card.  Users can be restricted to single or multiple payrolls. E.g. Payroll1|Payroll2| 
 |**Branch Filter**|This field is used to limit access to only employees within the matching branch code entered on the **Posting** tab of the **Payroll Employee** card.  When an Employee List is displayed only Employees that match the Branch will be shown.  Users can be restricted to single or multiple branches e.g. “ADM|FIN”|  
 |**Division Filter**|This field is used to limit access to employee data with a matching division code entered on the **Posting** tab of the **Payroll Employee** card.  When an Employee List is displayed only Employees that match the Division will be shown.  Users can be restricted to single or multiple divisions.|  
-|**Employee Filter**|This field is used to limit access to employee data with a matching **Employee No.**.  When an Employee List is displayed only Employees that match the Employee filter are shown.|  
+|**Employee Filter**|This field is used to limit access to employee data with a matching **Employee No.**.  When an Employee List is displayed only Employees that match the Employee filter are shown.|
+|**ABR Credential ID/Payer Declarer Identifier**| This field is used to setup an User Id to create a Pay Event for Single Touch Reporting purposes.|
 
 3. Select the **Current Payrolls** icon on the *Process* menu.
 
