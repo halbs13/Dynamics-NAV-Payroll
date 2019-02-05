@@ -2,9 +2,9 @@
 
 Prior to setting up a Payroll Employee card, you must first set up a [Human Resources Employee](au-payroll-create-employee.md) card. 
 
-1.  To create an Employee, go to the following menu: *Departments/Payroll/Employee Maintenance/Employees* 
+1.  To create an Employee, go to the following menu: *Employee Maintenance/Employees* 
 
-2.  After you have setup the Employee card, then create the Payroll Employee card from the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employees*
+2.  After you have setup the Employee card, then create the Payroll Employee card from the following menu: *Employee Maintenance/Payroll Employees*
 
 **Note:** Several fields in the Payroll Employee card are mandatory (you must enter information to continue) whilst other fields are optional which can be filled in at a later stage or be left blank.
 
@@ -45,7 +45,7 @@ The General FastTab is use to edit the employee name and address details used fo
 
  
 |Field	|Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Employee No.**|	M	|This field identifies the Employee throughout the Payroll and Human Resource Granules.  The Employee must exist as an Employee in Human Resources before you can setup a Payroll Employee card.  Click the **ArrowDown** button and select the “Employee No.” from the Employee List table. The Payroll Employee has the same Employee No as the Human Resource Employee.
 |**Job Title** |	O	|Select a Job Title if required.  This field is used only for reporting.
 |**Employee First Name**|	M	|The “Employee First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Employee card is also updated with the change.
@@ -82,7 +82,7 @@ Global Dimensions are used in conjunction with GL Accounts in the General Ledger
 
  
 |Field	|Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Branch**|	O	|This field is used to select the Branch.  The branch is used for Payroll Posting Groups and is associated with a State for Payroll Tax calculations.
 |**Division Code**|	O	|This field is used to select the Division.  The division is used for Payroll Posting Groups.
 |**Global Dimension 1 Code**|	O	|This field is used to assign Global Dimension 1 to the employee. 
@@ -103,7 +103,7 @@ Global Dimensions are used in conjunction with GL Accounts in the General Ledger
 This tab is used to determine the standard hours worked and can be used to calculate Ordinary Time and Leave Accruals.
 
 |Field	|Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Hours in a Full Week**|	M	|This field is used to determine the standard hours worked for Ordinary pay and for Accruals.
 |||Hours can be defaulted from the following areas;
 |||•	Payroll Card – the hours can be set on the Defaults FastTab and when an employee record is initially attached to a Payroll, this field will be populated with the setup contained on the Payroll Card,
@@ -147,7 +147,7 @@ In the “Hours In A Full Week” field, select the **ArrowDown** to access the 
 This table is designed to record historical and future dated transactions of the hours an employee has/will work.
  
 |Field	|Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Employee No.**|	M	|This field will contain the Employee’s No. It will default to the number of the employee’s record you are working on.
 |**Starting Date**|	M	|This field is used to identify when the Worked Hours are effective.
 |Hours in a Full Week|	M|	This field is used to determine the standard hours worked for Ordinary pay and for Accruals.  The value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.  If the effective date of this transaction is future-dated, the value in this field will be updated on the Payroll Employee card, where the “Start Date” falls within the current pay period.
@@ -167,7 +167,7 @@ The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This 
 
  
 |Field	|Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Tax Scale No.**|	M	|This code defines the Tax Scale for this employee.  Tax Scales are provided by the ATO to calculate PAYG withholding tax for Employees.  To select the Tax Scale No, select the **ArrowDown**. 
 |**HELP Debt**|	O	|This field Indicates the employee has a Higher Education Loan Program.   If ticked the employee will pay extra tax.
 |**Student Loan (SFSS)**|	O|	This field Indicates the employee has a student loan.   If ticked the employee will pay extra tax.
@@ -190,7 +190,7 @@ The FBT field is used to add the Employee's Fringe Benefit Tax each year.  This 
 The information entered on this card is obtained from the employees Tax File Number Declaration form.  The information entered is used to work out how much PAYG tax to withhold from payments made to the employee and are used when producing the electronic lodgement file for employment declarations to the ATO.
 
 |Field	|Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Resident**	|O|	Tick this field if the employee has indicated they have residential status.
 |**Tax Status**||This field will update based on the selection you make in the "Resident" field.		
 |**Tax Free Threshold Claimed**|	O	|Tick this field if the employee has is claiming the Tax Free Threshold.
@@ -218,7 +218,7 @@ This tab is used to display pay details for the employees.  Some fields on this 
 
 
 |Field	|Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Minimum Net Salary**|	O	|This field is used to record the minimum net salary an employee should receive.  An example of where you might store information in this field, is if your employee has a Child Support arrangement and the Child Support Office advises you of the minimum net salary the employee should receive.  Entering an amount in this field ensures the employee will receive this minimum net amount.  If you have previously entered the amount in the Payroll setup the amount will default from there and you can overwrite the amount. 
 |**Forward Paid Periods**|	S	|This field indicates the number of pay periods that the Employee has been paid in advance.
 |**Date Paid Up Until**|S|	This field displays the date to which an Employee has been paid.
@@ -239,7 +239,7 @@ The fields on this tab are used to assign Work Cover details to this employee fo
 
 
 |Field	|Mandatory/Optional	|Comments|
-|---|:---:|---|
+| :--- | :---: | :--- |
 |**Work Cover Code**|O	|Select the “Work Cover Code” for the Employee.  Work Cover is set up as a percentage of Gross Wages calculated as the Work Cover Levy.  
 |**Work Cover Location**|O|	Select the “Work Cover Levy” Location.
 
