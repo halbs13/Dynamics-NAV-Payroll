@@ -4,7 +4,6 @@ Payroll Controls are used to define the parameters and rules for the Payroll Gra
                                                                                          
 * [Payroll Setup](au-payroll-setup-payroll-controls-payroll-setup.md)
 * [Payroll User Setup](au-payroll-setup-payroll-control-payroll-user-setup.md) 
-* [Pay Source Codes](au-payroll-setup-payroll-controls-pay-source-codes.md)
 * [Pay Journal Templates](#pay-journal-templates)
 
 ## Pay Journal Templates
@@ -18,12 +17,12 @@ By using the Source Code file, you can insert a code on the journal template tha
 You can create multiple journal batches under each journal template.  That is, several journals, each with its own name, can display in the same window.  This can be used, if users need to have their own journal.
 
 
-1. In the **Search** box, enter **Pay Journal Templates**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Payroll Controls/Pay Journal Templates*.
+1. In the **Search** box, enter **Pay Journal Templates**, and then choose the related link.  
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Name**| This field identifies the code name of the Pay Journal template.
 |**Description**| This field describes the Pay Journal template.
 |**No. Series**| This field is populated with the Payroll No. series where numbers will be allocated from.
@@ -38,12 +37,12 @@ You can create multiple journal batches under each journal template.  That is, s
 This card is used to define and maintain the Pay Journal Batches used with the template.  If you wish to create a new journal batch complete the fields in the table on a new line.
 
 
-1. Select the **Batches** icon on the **Navigate** ribbon.  
+1. Select the **Batches** icon on the **Navigate/Template** menu.  
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Name**|	This field is used to uniquely identify this “Pay Journal Batch”.
 |**Description**|	The “Description” is used to describe this “Pay Journal Batch”.
 |**No. Series**|	This field is used to define the Number Series used to assign document numbers to journal lines in this journal template. To see the Number Series set up in the No. Series table, select the **ArrowDown** in the field.
