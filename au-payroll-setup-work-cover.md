@@ -17,12 +17,12 @@ To setup Work Cover you must:
 
 ## Work Cover Rates
 
-1. In the **Search** box, enter **Work Cover Rates**, and then choose the related link, or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Work Cover/Rates*
+1. In the **Search** box, enter **Work Cover Rates**, and then choose the related link.
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Code**|	This field is used to enter a unique identification code for the Work Cover Rate.
 |**Name**|	This field is used to enter a name for this Work Cover Rate.
 |**Rate %**|	This field is used to enter the rate applicable when calculating the Work Cover Provision.  This percentage is applied to the value of the [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) that have the “Apply to Work Cover” parameter ticked.
@@ -34,12 +34,12 @@ To setup Work Cover you must:
 
 Work Cover Locations are used for reporting purposes only. They may be used in reports to filter information.
 
-1. In the **Search** box, enter **Work Cover Locations**, and then choose the related link, or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Work Cover/Locations*
+1. In the **Search** box, enter **Work Cover Locations**, and then choose the related link. 
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Code**|	This field is used to identify this Work Cover Location.
 |**Name**|	This field is used to enter the name for this location.
  
