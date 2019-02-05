@@ -24,7 +24,7 @@ Before you can add a new Superannuation record to an employee, the [Superannuati
 
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |  
 |**Superannuation Code**|	Use this field to enter or select the Superannuation Product.
 |**Membership No.**|	Enter the employee Membership No.
 |**Date Joined**|	Enter the date the employee joined the fund or the Employee start date.
@@ -44,13 +44,13 @@ Before you can add a new Superannuation record to an employee, the [Superannuati
 |**Base Salary**|	This field is used to calculate the Employee SGC % on the value entered instead of on the Pay Transaction Types ticked "Apply to Super".  The amount is entered as the annual salary of the employee. If the "Base Salary" field is zero then the employee’s actual earnings are used to calculate the Amount.
 
 
-To access the Employee Superannuation Card, select the **Edit** icon on the *Home* ribbon.
+To access the Employee Superannuation Card, select the **Card** icon on the *Navigate* ribbon.
 
 
 ## Employee Superannuation card – General FastTab
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |  
 |**Superannuation Code**|	This field is used to select the Superannuation Product Code.
 |**Membership No.**|	Enter the employee superannuation fund "Membership No." 
 |**Base Salary**|	To use this field you must have the Standard Salary check box flagged on the [Superannuation Products](au-payroll-setup-superannuation-products.md) Options FastTab.  This field is then used to calculate the Employee SGC % on this value instead of using the [Pay Transaction Types](au-payroll-setup-pay-transaction-types.md) flagged "App to Super".  This amount is entered as an annual salary for the employee. If this field is zero then the employees actual earnings (Pay Transaction types flagged "App to Super".) are used to calculate the SGC super.
@@ -70,7 +70,7 @@ To access the Employee Superannuation Card, select the **Edit** icon on the *Hom
 
  
 |Field	|Comments|
-|---|---|
+| :--- | :--- |  
 |**Minimum Salary Check**|	For Employee contributions this field indicates the employee is subject to the minimum salary check before this transaction is deducted from the employee’s salary.  When the "Minimum Salary Check" field is ticked the employee must earn at least the amount entered in the "Minimum Salary" field on the Payroll Employee Pay Details card. 
 |**Employer Factor**|	The employer contributes a percentage of any employee contribution entered. For example, if the Employer Factor is set to 0.50 then the Employer will contribute in addition half the contribution amount/percentage the employee contributes.
 |**SGC Amount**|	The standard amount the employer will contribute each pay period.
@@ -86,7 +86,7 @@ To access the Employee Superannuation Card, select the **Edit** icon on the *Hom
 
  
 |Field|	Comments|
-|---|---|
+| :--- | :--- |  
 |**Period to Date Amt.**|	This field displays the Period to Date contributions paid by the employee.  You can drill down to view the ledger entries.
 |**Life to Date Amt.**|	This field displays the Life to Date contributions paid by the employee.  You can drill down to view the ledger entries.
 |**Non Concessional Section**
@@ -102,7 +102,7 @@ To access the Employee Superannuation Card, select the **Edit** icon on the *Hom
 
  
 |Field	|Comments|
-|---|---|
+| :--- | :--- |  
 |**Employer Annual Contribution**|	This field is used to calculate the "Employer Standard Amt.".  Enter the employer's annual contribution and the system calculates the "Employer Standard Amt" based on the pay period frequency.
 |**Employer SGC Amt.**|	The "Employer SGC Amount" is the amount of the employer contribution each period.
 |**Employee Annual Contribution**|	The "Employee Annual Contribution" field is used to calculate the "Employee Standard Amt.".  Enter the employee's annual contribution and the system calculates the "Employee Standard Amt" based on the pay cycle frequency.
