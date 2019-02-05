@@ -8,7 +8,7 @@ E.g. If a “Meal Allowance” transaction is associated with an Overtime Pay Tr
 
 
 |Field|Comments|
-|---|---|
+| :--- | :--- |
 |**Transaction Type Code**|This field is used to select the Ordinary Pay Transaction Type for the employee’s standard hours (auto pay) You must tick the “Use Full Week Hours” flag.|
 ||Setup any permanent Allowance Transaction Types with a fixed value or units and their “Associated” Pay Transaction Types. E.g. Add a Pay Transaction Type, for Overtime, and leave the fixed value and units’ fields blank.  Add an associate Pay Transaction Type, for Meal Allowance, to the Overtime Pay Transaction Type.  (Whenever an Overtime transaction type is used in the Pay Journal for this employee they will receive the Meal Allowance pay transaction automatically.  The “Transaction Type Code” is selected using the **ArrowDown** in the field.|
 |**Shift Code**|If the employee works a “Shift” enter the shift code (for shifts where an allowance is paid).  E.g. When the employees work the midnights to dawn shift they will receive the Pay Transaction Type allowance for sleep deprivation automatically.  If the employee does not work this shift then they will not receive this allowance.||Start Date|This field is used to enter the date from which this Pay Transaction Type applies.|
