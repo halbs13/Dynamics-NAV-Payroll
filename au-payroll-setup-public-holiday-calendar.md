@@ -1,11 +1,11 @@
 # Public Holiday Calendar
 
-1. In the **Search** box, enter **Public Holiday Calendar**, and then choose the related link or go to the following menu: *Departments/Payroll/Setup/Payroll Setup/General/Public Holiday Calendar*.
+1. In the **Search** box, enter **Public Holiday Calendar**, and then choose the related link. 
 
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Code**|	Enter a code to identify the country base calendar for public holidays
 |**Name**|	Enter a name for your Country public holiday calendar
 |**Date**|	This field is for display only and indicates the date 
@@ -16,7 +16,7 @@
 3. Select the **Maintain Base Calendar Changes** icon on the *Action* ribbon to open the Public Holiday Calendar Changes card.  
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Recurring System	Select from the options:**|•	Annual Recurring|
 ||•	Weekly Recurring|
 ||•	Blank|
