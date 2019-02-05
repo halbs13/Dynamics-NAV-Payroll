@@ -15,7 +15,7 @@ The following list is used to indicate the **Field Type** on each tab:
 2.  Select the **New** link.  On the **General** FastTab, fill the following fields;
 
 |Field	|Field Type	|Comments|
-|---|:---:|---|
+|-------------|:---:|---|
 |**No.**|	M	|This field identifies the Employee throughout the Payroll and Human Resource Granules.
 |**First Name**|	M	|The “First Name” is displayed.  The field is populated from the Employee card.  You can edit this field.  If you change the Employee Name in this field the Payroll Employee card is also updated with the change.
 |**Middle Name**|	O	|Enter the Middle name.
@@ -54,7 +54,7 @@ The following list is used to indicate the **Field Type** on each tab:
 4.  Complete the following fields on the **Administration** FastTab;
 
 |Field	|Field Type	|Comments|
-|---|:---:|---|
+|-------------|:---:|---|
 |**Employment Date**|M |Enter in the employee's commencement date with your company.
 |**Status**|M |This field will default to "Active".  The other options available are "Inactive" and "Terminated".
 |**Inactive Date**|O |This field is used to identify the date the employee became inactive.
@@ -69,7 +69,7 @@ The following list is used to indicate the **Field Type** on each tab:
 5.  Complete the following fields on the **Personal** FastTab;
 
 |Field	|Field Type	|Comments|
-|---|:---:|---|
+|-------------|:---:|---|
 |**Birth Date**|M |Enter in the employee's birth date.
 |**Tax File No.**|S |This field will be encrypted with the employee's Tax File Number as this information is entered and maintained on the Payroll Employee card.
 |**Union Code**|O |This field is used for reporting purposes and to identify the union code your employee is associated with.
