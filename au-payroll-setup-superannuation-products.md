@@ -1,4 +1,5 @@
 # To setup Superannuation Products
+
 Superannuation Products defines the default parameters used for Superannuation Processing including the calculations of employee and employer contributions to an unlimited number of Superannuation funds.
 
 Generally, employees aged over the age of 18, who are paid $450 (before tax) or more in a calendar month are covered by the superannuation guarantee legislation, regardless of their type of employment.  
@@ -7,7 +8,7 @@ The Superannuation Guarantee Contribution (SGC) is a percentage of specific comp
 
 Superannuation contributions by either the employee or the employer are set up as a percentage of the employee’s pay (or base salary), or as a standard amount each pay period. The employer may also contribute a factor of the employee’s superannuation contribution.  Superannuation contribution can be set up to meet the minimum salary amount.  
 
-When calculating Superannuation as a percentage of pay, the process uses the [pay transactions types](au-payroll-setup-pay-transaction-types.md) that have the **Apply to Superannuation** field set to **Yes** on the parameters tab for the Standard Superannuation method and Employee contributions.
+When calculating Superannuation as a percentage of pay, the process uses the [pay transactions types](au-payroll-setup-pay-transaction-types.md) that have the **Apply to Superannuation** field set to **Yes** on the parameters fasttab for the Standard Superannuation method and Employee contributions.
 
 The payments of contributions to the superannuation funds are also recorded.  Payment can be set up to generate at the frequency required by the superannuation fund. Recorded against each Superannuation fund are the contributions made to it by the employee and employer.  
 
@@ -16,10 +17,11 @@ Manual changes can be made to superannuation contribution amounts for the employ
 Cheques to the superannuation fund can be automatically printed from the system.  These can be set up to be a standard amount each month or the actual amount that has been contributed since the last payment was made.
 
 1. In the **Search** box, enter **Superannuation Products**, and then choose the related link.
+
 2. On the **General** FastTab, fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Code**|This field is used to enter a unique Code to identify the Superannuation Company.|  
 |**Product Name**|The Product Name field is used to record the name of the product. Enter in a description (up to 30 characters) to identify the name of the product.|  
 |**Product Reference No.**|The Product Reference No. is issued by the Superannuation Fund and will be recorded in this field. Enter in the Product Reference No. (up to 20 characters).|
@@ -31,12 +33,11 @@ Cheques to the superannuation fund can be automatically printed from the system.
 |**Last Date Calculated**|The Last Date Calculated field will identify the last date Superannuation was calculated.|
 |**Last Date Updated**|The Last Date Updated field will identify when the record was last updated.|
 |**Contact Phone No.**|The Contact Phone No. is used to record the contact number for the Superannuation Fund.|
-|**Exclude from Integration**|A checkmark in this field indicates that this Superannuation Product information will not be transferred across to AXiOM. An example of where you might use this is if the Superannuation fund is no longer in use.|
  
 3. On the **Options** FastTab, fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Standard Salary**|A checkmark in this field indicates the superannuation calculation can be based on an annual amount (Base Salary) entered on the Employee Superannuation card, instead of the employee’s actual earnings.|  
 |**Company SGC Min. Salary**|This field indicates the minimum salary an employee must earn before an employer must contribute.|  
 |**Min. Salary Check Frequency**|This field is the period relating to minimum salary, and is checked during each *Calculate Pays* function.|
@@ -50,7 +51,7 @@ Cheques to the superannuation fund can be automatically printed from the system.
  4. On the **Defaults** FastTab, fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|   
+| :--- | :--- |   
 |**Employee Post-Tax Std. Amt.**|This field is used if you wish to enter a standard amount of Superannuation paid to the Superannuation Company each Pay-Period by the employee.  This amount can be overridden at the employee level.|  
 |**Employee Post-Tax Standard %**|This field is used if you wish to enter a standard percentage of an Employee earning’s to be paid to the Superannuation Company.  The earnings for the period are summed from transactions marked as “Apply to Superannuation”.  The percentage can be overridden at the employee level.|    
 |**Employer SGC Amt.**|This field is used to enter a fixed SGC amount which the Employer will pay Superannuation.  The amount can be overridden at the employee level.|
@@ -60,10 +61,10 @@ Cheques to the superannuation fund can be automatically printed from the system.
 |**Employee Pre-Tax Standard Amt.**|This field is used to enter a standard amount of Superannuation paid to the Superannuation Company each Pay-Period by the employee as a pre-tax (salary sacrifice contribution).  This amount can be overridden at the employee level.|
 |**Employee Pre-Tax Standard %**|This field is used to enter a standard percentage of an Employee earning’s to be paid as a pre-tax (salary sacrifice) contribution to the Superannuation Company.  The earnings for the period are summed from transactions marked as “Apply to Superannuation”.  The percentage can be overridden at the employee level.|
    
-4. On the **Employer Posting** FastTab, fill the fields in the following table.
+5. On the **Employer Posting** FastTab, fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- |
 |**Cost Transaction Posting Group**|This field indicates the Transaction Posting Group assigned to Superannuation transactions.  It is used to determine the debit General Ledger account.|  
 |**Provision Tran. Posting Group**|This field indicates the Transaction Posting Group assigned to Superannuation transactions.  It is used to determine the credit General Ledger account.|    
 
