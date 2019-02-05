@@ -1,6 +1,6 @@
 # Pro Rata Leave Calculation Methods
 
-The system calculates pro-rata leave using 2 different methods:
+Payroll calculates pro-rata leave using 2 different methods:
 
 1.	[Pro-Rata Calculation](#pro-rata-calcluation)
 
