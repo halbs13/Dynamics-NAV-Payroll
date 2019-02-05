@@ -7,7 +7,7 @@ E.g. an employee’s earnings may be split 50% to cost centre “A” , 25% to c
 
 
 |Field|Comments|
-|---|---|
+| :--- | :--- |
 |**Allocation %**|This field determines the percentage of this cost allocation.|
 |**Branch Code**|This field is used to select the branch this cost allocation will be costed against.  The “Branch Code” is selected via the **ArrowDown** in the field.| 
 |**Division Code**|This field is used to select the Division this cost allocation will be costed against.  The “Division Code” is selected via the **ArrowDown** in the field.|
