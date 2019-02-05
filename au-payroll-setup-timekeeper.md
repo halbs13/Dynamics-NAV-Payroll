@@ -6,9 +6,9 @@ The system is fully integrated to:
 
 •	Approve timesheets over the Internet (Optional).
 
-•	Import Jobs and Employees from Dynamics NAV into Time Keeper. 
+•	Import Jobs and Employees from D365 Business Central into Time Keeper. 
 
-•	Export Time Sheets from Time Keeper to Dynamics NAV
+•	Export Time Sheets from Time Keeper to D365 Business Central.
 
 
 ## Setup 
@@ -21,16 +21,14 @@ You must setup the following:
 
 •	Employees
 
-•	Jobs & Job Task Lines / Job Planning Lines or Job Budget Lines (NAV V4)
-
-•	Dynamics NAV Application Server
+•	Jobs & Job Task Lines / Job Planning Lines 
 
 
 ## Process 
 
 The following steps must be performed in sequence to process Timesheets:
 
-Setup the following records in Dynamics NAV
+Setup the following records in D365 Business Central
 
 •	Customer
 
