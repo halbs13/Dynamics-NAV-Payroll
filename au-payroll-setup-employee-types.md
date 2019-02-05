@@ -14,7 +14,7 @@ The above types are automatically created by the Payroll-Initialise Codeunit 160
 2. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Code**|This field is used to enter a unique Code to identify the Employee Type.|  
 |**Full Description**|Enter a Full Description for this code type.|  
 |**Description**|Enter a short description for this code type.|
@@ -23,7 +23,7 @@ The above types are automatically created by the Payroll-Initialise Codeunit 160
 |**Basis of Payment Type**|This field indicates the code is either: Full Time, Part Time, Casual, Labour Hire, and Incorporated Company.  This field also determines the type of Payment Summary the employee receives.|
 |**Payment Summary Type**|This field identifies what type of Payment Summary the employee will receive.  The options available are; **Individual Non Business, Labour Hire, Voluntary Agreement, Personal Services, Other Specified Payments, Incorporated Company**.|
 |**Income Type**|This field identifies whether the employee is a Holiday Maker employee.  The options available are; **S** – Salary or Wages, **H** – Holiday Maker.|
-|**Exclude from Integration**|A checkmark in this field indicates that this Employee Type information will not be transferred across to AXiOM. An example of where you might use this is if the Employee Type is no longer in use or is used to identify internal employees.|
+
    
  [GoToTop](#to-setup-employee-types) 
  
