@@ -7,7 +7,7 @@ Pay Transactions Types can be allocated to each shift type for payment.  This al
 Select “Weekly Shift Roster” and then select **OK**.
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |  
 |**Payroll No.**|	This field displays the “Payroll” the employee is assigned.
 |**Employee No.**|	Enter or select the “Employee No.”
 |**Week End Date**|	The Pay Period End date of the Shift 
