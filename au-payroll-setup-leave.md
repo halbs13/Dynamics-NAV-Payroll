@@ -16,7 +16,7 @@ Leave Accruals can be one of the following types:
 * Long Service Leave
 * Personal Leave
 * Other Leave
-* Time in Lieu
+* Rostered Day Off/Time in Lieu
 
 Each Type can have a different method of entitlement calculated dependant on the length of service.
 
