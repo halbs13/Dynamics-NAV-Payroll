@@ -6,7 +6,7 @@ This option allows you to record when an employee has a break in service.  Enter
 
  
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Start Date**|	Enter in the Start Date of the Leave Break.|
 |**End Date**|	Enter in the End Date of the Leave Break.|
 |**Number of Days**|	This field is a calculated field and will automatically calculate the no. of days from the Start to End Date.|
