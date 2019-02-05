@@ -15,9 +15,7 @@ Various options are accessible on the ribbon to set up employee’s bank account
 -	[Superannuation](au-payroll-create-payroll-employee-superannuation.md) - This icon is used to select the Superannuation Company, date joined, percentages and amounts to calculate for both employer and employee superannuation.   
 Super contributions by both the Employee and the Employer are set up as a percentage or an amount each pay period.  The Employer can also contribute an additional factor of the Employee's Superannuation contribution. 
  
--	[Cost Allocations](au-payroll-create-payroll-employee-cost-allocations.md) - This icon is used to setup and maintain percentages that split the employee’s costs over several cost centres. 
-E.g. an employee’s earnings may be split 50% to cost centre “A” , 25% to cost centre “B” and 25% to cost centre “C”.
-Costs may be split over Branches, Divisions and Dimensions.
+-	[Cost Allocations](au-payroll-create-payroll-employee-cost-allocations.md) - This icon is used to setup and maintain percentages that split the employee’s costs over several cost centres.   E.g. an employee’s earnings may be split 50% to cost centre “A” , 25% to cost centre “B” and 25% to cost centre “C”.  Costs may be split over Branches, Divisions and Dimensions.
  
 -	[Accumulation Calculations/Employer On Costs](au-payroll-create-payroll-employee-accumulation-calculations.md) - This icon is used to setup the calculations for Employer Costs associated with employees. (Excluding Pay, Allowance, Deductions and Leave Provisions.)
 On Costs are costs associated with provisioning for superannuation, incentive payments or bonuses etc.  On Costs do not affect the employee actual net or gross pay.  They are used by to accurately reflect the cost of running your business in relation to the cost of an employee.
