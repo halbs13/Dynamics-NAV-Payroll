@@ -7,7 +7,7 @@ Superannuation Funds are used to define the different type of Superannuation fun
 2. On the **General** FastTab, fill the fields as described in the following table. 
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Code**|This field is used to enter a unique Code to identify the Superannuation Company.|  
 |**Fund Name**|This field is used to enter the name of the Superannuation Fund and is printed on documents.|  
 |**ABN No.**|Enter in a valid 11 digit ABN No. for the Superannuation Fund. The information contained in this field is used in the payment reports and is mandatory.|
@@ -19,7 +19,7 @@ Superannuation Funds are used to define the different type of Superannuation fun
 3. On the **Payment** FastTab, fill the fields as described in the following table. 
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|
+| :--- | :--- |
 |**Pay Bank State Branch No.**|The Pay Bank State Branch No. is used to record the BSB for the Superannuation Funds bank account.   From the **ArrowDown**, select the BSB No. of the Branch.|  
 |**Bank Branch No.**|The Bank Branch No. field is not editable and is populated from the selection of **Pay Bank State Branch No.**.|  
 |**Bank Account No.**|The Bank Account No. field is used to record the Bank Account No. for the Superannuation Funds bank account.   Enter in the Bank Account No. (up to 9 digits) including any leading zero’s in the account. E.g. 000012367.|
@@ -38,7 +38,7 @@ To enter in an Employer No. for each Payroll, choose the **Payroll Setup** icon 
 1. On the **General** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Payroll No.**|Select the Payroll No. from the **ArrowDown**.|  
 |**Fund Code**|The Fund Code field will automatically default to the Fund Code that you are currently updating.|  
 |**Fund Employer No.**|Enter in the Employer No. allocated to you by the Superannuation Fund.  The information contained in this field is used in the pay reports and is **mandatory**|
