@@ -41,13 +41,12 @@ The Award and Classifications menu options are only displayed after you flag the
 
 The Awards card is used to maintain Awards and to link the Award to Gross, Allowances, Associated Transactions, and Classifications. (For example shift allowances that apply to hours worked on a specific shift or to associate Leave Loading with Annual Leave.
 
-1.  To access the Award setup, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Award/Awards &
-Associated Transactions*
+1.  To access the Awards setup, go to the following menu: *Awards Setup/Awards & Associated Transactions*
 
 2.  To create a new record, click on the **New** button.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Code**|This field is used to uniquely identify this Award.
 |**Description**|This field is used to name this Award.
 |**Gross/Allowances**|This field is automatically populated with a checkmark after transaction has been set up for this award.  The value cannot be changed here. To view the transactions set up for the award, select the **ArrowDown**.
@@ -57,16 +56,26 @@ Associated Transactions*
 |**Customer No.**|The Customer No. field is used to identify that this Award pertains to a particular customer.
 |**Public Holiday Calendar**|This field is optional and is used to assign a calendar to determine Public Holidays for this Award for the purposes of Award Interpretation.  Alternatively the Calendar can be attached to the Employee’s Branch and the Employee assigned to the Branch.
 |**Certification Date**|This field is Mandatory and is used to enter  the date the Award is certified for use.   If this date is left blank you cannot setup the Award Interpretation Criteria Items for this Award as this date is verified when setting up Items.
+|**Default Annual Leave Type**|If the Leave Types are to be defaulted from the Award, then enter in the Leave Type code in this field.
+|**Default Annual Leave Code**|If the Leave Codes are to be defaulted from the Award, then enter in the Leave Code in this field.
+|**Default Leave Loading Type**|If the Leave Types are to be defaulted from the Award, then enter in the Leave Type code in this field.
+|**Default Leave Loading Code**|If the Leave Codes are to be defaulted from the Award, then enter in the Leave Code in this field.
+|**Default Personal Leave Type**|If the Leave Types are to be defaulted from the Award, then enter in the Leave Type code in this field.
+|**Default Personal Leave Code**|If the Leave Codes are to be defaulted from the Award, then enter in the Leave Code in this field.
+|**Default Long Service Leave Type**|If the Leave Types are to be defaulted from the Award, then enter in the Leave Type code in this field.
+|**Default Long Service Leave Code**|If the Leave Codes are to be defaulted from the Award, then enter in the Leave Code in this field.
+|**Default Hours Per Week**|If the Default Hours Per Week are to be defaulted from the Award, then enter in the Hours Per Week in this field.
+|**Default Days Per Week**|If the Default Days Per Week are to be defaulted from the Award, then enter in the Day Per Week in this field.
 |**Blocked**|This field is used to block the Award and any of its Classifications for use.
 |**Comments**|This field is optional and is used to indicate a comment is recorded against this Award. To add or maintain comments click the “Navigation Menu” and then select the Comments icon.
 
-3. Click on the **OK** button to close this window.
+3. Click on the **Arrow** button to close this window.
   
  
 [GoToTop](#award-overview)
 
 
-## Navigate Ribbon - Award
+## Navigate Menu - Award
 
 **Gross Allowances** - opens the Gross Allowances window.  You can link this Award Code to a specific Pay Transaction Type(s) to create Award Gross/Allowance records.
 
@@ -89,7 +98,7 @@ The Award Code is linked to a Pay Transaction Type to create an Award Gross / Al
 Where an award has allowances (e.g. uniform allowance) applicable to all employees under this award you can set up the Allowance under the Award so that it generates automatically each pay run.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Transaction Type Code**|This field is used to select the Pay Transaction Type Code for the Gross and Allowance record. Select a “Transaction Type Code” from the **ArrowDown**. You can only select Transaction Types with an “Accumulation Summary Type” of Gross.
 |**Shift Code**|	This field is used to filter the allowance to a specific shift worked by the employees under this award. Select a “Shift Code” from the **ArrowDown**. You can setup several Allowance line for each shift your employees use.
 |**Start Date**|	This field determines the effective date from which this transaction is used.  An “End Date” must be entered when a “Start Date” is entered.
@@ -111,7 +120,7 @@ The Award Code is associated to Pay Transaction Types to create **Award Associat
 Awards may have Associated Transactions created to generate Pay Transactions for each Employee covered by that Award.  These will affect each Pay-run that falls within the date range specified.  If the date fields are blank no date limitations apply.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Originating Tran. Type Code**| This field is used to select the originating Transaction Type Code the Associated Transaction Type applies its conversion factor against. Only Transactions Types with an Accumulation Type other than Deduction, Advance, Tax and Net may be used.
 |**Transaction Type Code**|	This field is used to select the Pay Transaction Type Code generated when the Originating Transaction Type Code is used.  Valid Transaction Types are those with an Accumulation Type not equal to “Net”.
 |**Shift Code**|	This field is used to filter the generation of Associated Transactions to a specific Shift. Select a Shift Code from the **ArrowDown**.
@@ -129,12 +138,12 @@ Awards may have Associated Transactions created to generate Pay Transactions for
 
 ## Award Leave Setup 
 
-The Award Leave Setup is used to defined the rules for Leave specific to each of the Awards.  An award has the potential to dictate what rules are to be incorporated when leave is applied for through the Dynamics AX HRPayFocus portal.
+The Award Leave Setup is used to defined the rules for Leave specific to each of the Awards.  An award has the potential to dictate what rules are to be incorporated when leave is applied for through the D365FO portal.
 
 An example of a requirement is where Compassionate Leave in some awards allows up to 2 days per incidence whereas others may allow for 3 days.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Award Code**| This field is used to identify the Award Code the Award Leave Setup is being configured.
 |**Award Description**|	This field is used to identify the name of the Award.
 |**Transaction Type Code**|	This field is used to identify the Transaction Type of the Leave that is being configured in the Award Leave Setup.  Select a Transaction Type code from the **ArrowDown**.
@@ -147,9 +156,9 @@ An example of a requirement is where Compassionate Leave in some awards allows u
 [GoToTop](#award-overview)
 
 
-## Award Classification List
+## Award Classifications
 
-Classifications are linked to an Award Code to create an “Award Classification” record. 
+Award Classifications are linked to an Award Code to create an “Award Classification” record. 
 
 In the Award Classifications window Classifications assigned to the selected Award are displayed.  New classification can be created from this card and from the menu option.  Classification can only exist in one Award
 
@@ -158,12 +167,12 @@ Once a Classification Rate has been used in a pay-run, it cannot be updated or d
 
 The Classification Rates entered automatically update the employee classification rates 
 
-1.  To access the Award Classifications, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Award/Classifications*
+1.  To access the Award Classifications, go to the following menu: *Award Setup/Awards and Associated Transactions/Navigate Menu/Award/Classifications*
 
 2.  To create a new record, click on the **New** button.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Code**|This field is used to uniquely identify this Award Classification.
 |**Description**|	This field is used to name this classification code.
 |**Award Code**|	This field is used to select records defined in Awards & Associated Transactions.  Select an Award Code from the **ArrowDown**.
@@ -181,14 +190,14 @@ The Classification Rates entered automatically update the employee classificatio
 
 This form is used to define the Classification Rates of Pay.
 
-1.  To access the Classifications & Rates, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Award/Classifications & Rates*
+1.  To access the Classifications & Rates, go to the following menu: *Awards Setup/Classification and Rates*
 
-2.  Select **Edit** once you have launched the window.  
+2.  To edit a record, click on the Manage menu, and select **Edit List**.  
 
 3.  On the **General** FastTab, fill the following fields;
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |    
 |**Code**| Used to identify the Award Classification.
 |**Description**|	Used to name this classification code.
 |**Award Code**|	Select the Award Code from the **ArrowDown**.
@@ -199,13 +208,13 @@ This form is used to define the Classification Rates of Pay.
 4.  On the **Workers Comp** FastTab, fill the following fields;
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |    
 |**Work Cover Code**| This field is used to assign the Workers Compensation Rate to this Classification.  Select the Work Cover Code from the **ArrowDown**.
 
 5.  In the **Award Classification Subform** FastTab, fill the following fields; 
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |    
 |**Starting Date**| The Starting Date is used to define the date this rate is effective for this Award Classification.
 |**Shift Code**|	This field indicates the shift this Award classification is applicable against Award Rate.	The pay rate for this Award Classification line.
 |**Over Award Rate**|	This field is the over award pay rate for this Award Classification.  The Award plus the Over Award rate is the total weekly rate for this Award Classification.
