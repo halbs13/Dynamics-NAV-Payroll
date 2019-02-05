@@ -5,7 +5,7 @@ This option is used to maintain the Employee Pay Rate.  Depending on the option 
 You can enter the Employee rate manually or use an [Award Classification rate](au-payroll-setup-awards.md).
  
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Employee Starting Date**|	This field is used to enter the date the employee commences on this rate of pay. The pay rate does not display on the Payroll Employee card - Rate tab until this Date occurs within or is earlier than the “current” pay period date.
 |**Classification Code**|	This field is the award classification for determining the employee rate.  The classification defines the standard and over award rate of pay for an employee. There must always be a classification code setup and selected.  If your organisation does not use Award/Classifications then the system default **“GENERAL”** must be used and you must enter the “Employee Rate” manually.  The “Classification Code” is selected from the Classification table; by selecting the **ArrowDown**.
 |**Classification Starting Date**|	This field displays the date the award classification rate came into effect.
