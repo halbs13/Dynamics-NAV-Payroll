@@ -7,14 +7,14 @@ There are 2 methods in which to setup Leave accruals;
 
 Leave Accruals cannot be set up for Time in Lieu Leave Types.  
 
-1.  To access the Leave Accruals setup, go to the following menu: *Departments/Payroll/Setup/Payroll Setup/Leave/Accruals*
+1.  To access the Leave Accruals setup, go to the following menu: *Leave Setup/Leave/Accruals*
 
 2.  To create a new record, click on the **New** button.
 
 3.  On the **General** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Leave Type**|This field is used to select the Leave Type you wish to assign to the Accrual.|
 |**Code**|This field identifies the Accrual within this Leave Type. Enter a unique code for the Type.|
 |**Description**|Enter a description to identify the Leave Type.|
@@ -29,7 +29,7 @@ Leave Accruals cannot be set up for Time in Lieu Leave Types. 
 4.  On the **Leave Accrual Subform** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|
+| :--- | :--- |
 |**Award Period No.**|The “Award Period No.” is automatically incremented by the system when a new line is entered.|
 |**Calculation Method**|Select the “Calculation Method for this period.|
 |**No. Days Entitlement**|This field indicates the number of days / hours entitlement in a Leave period.|
@@ -39,14 +39,14 @@ Leave Accruals cannot be set up for Time in Lieu Leave Types. 
 5.  On the **Long Service Leave** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**L.S.L Threshold (Years)**|The Number of years before Long Service Leave is accrued as a liability in the General Ledger.|
 |**Action Prior To Threshold**|This field determines how the L.S.L accrual is handled during the L.S.L. threshold. The options available are: Accrue Only or Accrue & Post and can be selected from the **ArrowDown**.|
 
 6.  On the **Posting** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**No G/L Posting**|Leave this field blank if you wish to post leave accruals to the General Ledger. Tick this field if you don’t wish  to post accruals to the General Ledger.|
 |**Accrual Cost Tran. Posting Group**|The Calculate & Post Leave Provision process uses this field to Debit the Leave Expense account in the General Ledger. This group must be a P&L account.|
 |**Provision Tran. Posting Group**|The Calculate & Post Leave Provision process uses this field to Credit the Leave Provision account in the General Ledger. This group must be a Balance Sheet account.|
@@ -55,14 +55,14 @@ Leave Accruals cannot be set up for Time in Lieu Leave Types. 
 7.  On the **Reporting** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|
+| :--- | :--- |
 |**Max Salary**|This field is used to set the maximum Salary Amount an employee is paid Leave Loading.|
 |**Loading Percentage**|This field is for reporting purposes.|
 
 8.  On the **On-Costs** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Superannuation On-Costs**|Tick to apply “Superannuation On-Cost” to this leave accrual.|
 |**Work Cover On-Costs**|Tick to apply “Work Cover On-Costs” to this leave accrual.|
 |**Additional On-Cost %**|Enter a % to apply “Additional On-Costs” to this leave type.|
@@ -72,12 +72,12 @@ Leave Accruals cannot be set up for Time in Lieu Leave Types. 
    
 ## Leave Accrual Card (Leave Accrued in Hours)
 
-1.  To edit the existing record, click on the “Edit” to update the existing record.
+1.  Double click the record, to edit/update the existing record.
 
 2.  On the **General** FastTab, fill the fields as described in the following table.
  
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**Leave Type**|This field is used to select the Leave Type you wish to assign to the Accrual.|
 |**Code**|This field identifies the Accrual within this Leave Type. Enter a unique code for the Type.|
 |**Description**|Enter a description to identify the Leave Type.|
@@ -93,7 +93,7 @@ Leave Accruals cannot be set up for Time in Lieu Leave Types. 
 3.  On the **Leave Accrual Subform** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**Award Period No.**|The “Award Period No.” is automatically incremented by the system when a new line is entered.|
 |**Calculation Method**|Select the “Calculation Method for this period.|
 |**No. Days Entitlement**|This field indicates the number of days / hours entitlement in a Leave period.|
@@ -104,14 +104,14 @@ Leave Accruals cannot be set up for Time in Lieu Leave Types. 
 4.  On the **Long Service Leave** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|
+| :--- | :--- |
 |**L.S.L Threshold (Years)**|The Number of years before Long Service Leave is accrued as a liability in the General Ledger.|
 |**Action Prior To Threshold**|This field determines how the L.S.L accrual is handled during the L.S.L. threshold. The options available are: Accrue Only or Accrue & Post and can be selected from the **ArrowDown**.|
 
 5.  On the **Posting** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|
+| :--- | :--- |
 |**No G/L Posting**|Leave this field blank if you wish to post leave accruals to the General Ledger. Tick this field if you don’t wish  to post accruals to the General Ledger.|
 |**Accrual Cost Tran. Posting Group**|The Calculate & Post Leave Provision process uses this field to Debit the Leave Expense account in the General Ledger. This group must be a P&L account.|
 |**Provision Tran. Posting Group**|The Calculate & Post Leave Provision process uses this field to Credit the Leave Provision account in the General Ledger. This group must be a Balance Sheet account.|
@@ -120,16 +120,16 @@ Leave Accruals cannot be set up for Time in Lieu Leave Types. 
 6.  On the **Reporting** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**Max Salary**|This field is used to set the maximum Salary Amount an employee is paid Leave Loading.|
 |**Loading Percentage**|This field is for reporting purposes.|
 
 7.  On the **On-Costs** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|
+| :--- | :--- |
 |**Superannuation On-Costs**|Tick to apply “Superannuation On-Cost” to this leave accrual.|
 |**Work Cover On-Costs**|Tick to apply “Work Cover On-Costs” to this leave accrual.|
 |**Additional On-Cost %**|Enter a % to apply “Additional On-Costs” to this leave type.|
 
-8.  Click on the **OK** button to close this window.  
+8.  Click on the **Arrow** button to close this window.  
