@@ -4,7 +4,6 @@ Payroll Controls are used to define the parameters and rules for the Payroll Gra
                                                                                          
 * [Payroll Setup](au-payroll-setup-payroll-controls-payroll-setup.md)
 * [Payroll User Setup](#payroll-user-setup) 
-* [Pay Source Codes](au-payroll-setup-payroll-controls-pay-source-codes.md)
 * [Pay Journal Templates](au-payroll-setup-payroll-controls-pay-journal-templates.md)
 
 ## Payroll User Setup
