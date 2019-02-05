@@ -16,7 +16,7 @@ The system allows flexibility as to how these transactions affect other areas of
 
 Defined Pay Transactions are used in many parts of system setup, including; superannuation defaults, leave entitlements, award classifications, and time in lieu. 
 
-Other setup information required in the Payroll granule includes [Coinage Denominations](au-payroll-setup-denominations.md), [Payment Summary Labels](au-payroll-setup-ytd-accumulations.md), [Bank Accounts](au-payroll-setup-pay-bank-state-branches.md), [General Ledger Postings](au-payroll-setup-posting-group-setup.md), [Work Care Contributions](au-payroll-end-of-month-processing-work-cover.md), [Employee Types](au-payroll-setup-employee-types.md), [Pay Locations](au-payroll-setup-payroll-codes.md), [Shifts](au-payroll-setup-shift-roster.md), [Employee Positions](au-payroll-setup-payroll-codes.md), [Branches, Divisions](au-payroll-setup-branches.md), [Tax Scales](au-payroll-setup-tax-scales.md), etc.
+Other setup information required in the Payroll granule includes [Coinage Denominations](au-payroll-setup-denominations.md), [Payment Summary Labels](au-payroll-setup-ytd-accumulators.md), [Bank Accounts](au-payroll-setup-pay-bank-state-branches.md), [General Ledger Postings](au-payroll-setup-posting-group-setup.md), [Work Care Contributions](au-payroll-end-of-month-processing-work-cover.md), [Employee Types](au-payroll-setup-employee-types.md), [Pay Locations](au-payroll-setup-payroll-codes.md), [Shifts](au-payroll-setup-shift-roster.md), [Employee Positions](au-payroll-setup-payroll-codes.md), [Branches, Divisions](au-payroll-setup-branches.md), [Tax Scales](au-payroll-setup-tax-scales.md), etc.
 
 Information must be setup in the other Business Central granules with which the Payroll is integrated to. An employee’s pay is processed when the payroll that employee is assigned to, is posted.
 
@@ -32,6 +32,6 @@ The following is a non-exhaustive list of additional functions of this Payroll g
 
 •	[Pay Advice](au-payroll-report-print-email-pay-advices.md)
 
-•	[Single Touch Payroll reporting](au-payroll-processing-single-touch-payroll.md)
+•	[Single Touch Payroll reporting](au-payroll-processing-single-touch-payroll-processing.md)
 
 •	[Superannuation](au-payroll-end-of-month-processing-superannuation.md) & [State Payroll Tax reporting](au-payroll-end-of-month-processing-payroll-tax.md)
