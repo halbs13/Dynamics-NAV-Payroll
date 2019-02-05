@@ -7,7 +7,7 @@ Employment Termination Payment is used to enter Employee Termination Pay details
 * Pre 2008 – this tab should be used to record payments made pre 1 July 2007. 
 
 |Field|Comments|
-|---|---|
+| :--- | :--- |
 |**Pre 2008 FastTab**||
 |**No. Days Pre July 1983**|This field displays the total number of days this employee has worked prior 01/07/1983.|
 |**No. Days Post June 1983**|This field displays the total number of days this employee has worked since 30/06/1983.|
