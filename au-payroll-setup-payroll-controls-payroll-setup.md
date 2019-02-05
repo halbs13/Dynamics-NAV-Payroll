@@ -152,8 +152,5 @@ The Payroll Setup is used to define the defaults for the Payroll Granule at a Gl
 |**STP Payload File Path**|This field is not expected to be populated as the information is required to be completed when using a different STP Submission Method.|
 
 
-[GoToTop](#to-setup-payroll-setup)
-
-
 [GoToTop](#payroll-controls-payroll-setup)
 
