@@ -7,7 +7,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 2. On the **General** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Ordinary Pay Tran. Type Code**| Select the **ArrowDown** to select the **Transaction Type Code** for Ordinary Pay.  This transaction type is used when automatic pays are generated for internal employees.|  
 |**Tax Transaction Type Code**| Select the **ArrowDown** to select the **Tax Transaction Type Code**. This transaction type is generated when income tax is calculated by the Payroll system in the pay journal.|  
 |**Net Pay Transaction Type Code**| Select the**ArrowDow** to select the **Net Pay Transaction Type Code**. This transaction type is used for amounts calculated by the Payroll system in the pay journal.  You cannot enter a net pay transaction.  Each employee that is to be paid in a pay will have at least one net pay transaction, plus one more for each nominated dissection.|  
@@ -29,7 +29,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 3. On the **Employer** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Group Account No**| This field displays the current active PAYG group number allocated to the Employer by the Australian Taxation Office (ATO). This field is required when producing Payment Summaries and Electronic files for the ATO.|  
 |**Registered Name**| This field is used to record the Company’s Registered Name.  You can enter a maximum of 30 characters consisting of both numbers and letters. This field is mandatory and printed on numerous documents including Payment Summaries.|  
 |**Registered Name 2**| The Registered Name 2 is a continuation of Registered Name from above.|  
@@ -38,7 +38,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 4. On the **Timesheet Entry** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |  
 |**Control Total By Units**| A checkmark in this field indicates that a control total is to be calculated for all timesheets manually entered through in the Pay Journal. This total will be compared to a total manually entered in the *Reconciliation* function found behind the **Posting** button in the Pay Journal. Posting will occur only when these totals match.|  
 |**Enter Pay Rates**| A checkmark in this field indicates that you are allowed to change the **Rate of Pay** field in the Pay Journal. This feature is only functional when adjustments are entered directly into the Pay Journal and does not apply if timesheet information is processed from Timesheet Entry and the **Job Contract Posting** method on the Labour Hire Setup is set to **Timesheet**.| 
 |**Enter Charge Rates**| A checkmark in this field indicates that you are allowed to change the **Charge Rate** field in the Pay Journal. This feature is only functional when adjustments are entered directly into the Pay Journal and does not apply if timesheet information is processed from Timesheet Entry and the **Job Contract Posting** method on the Labour Hire Setup is set to **Timesheet**.| 
@@ -50,11 +50,11 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 5. On the **Pay Advice** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**Weekly Rate on Pay Advice**| A checkmark in this field indicates that the weekly rate of pay is to print on the pay advice.|         |**Annual Rate on Pay Advice**| A checkmark in this field indicates that the annual rate of pay is to print on the pay advice.|  
 |**YTD Value on Pay Advice**| A checkmark in this field indicates that the YTD values of pay are to print on the pay advice.|  
 |**Employe Super. On Pay Advice**| A checkmark in this field indicates to print the payment period value for employer superannuation contributions on the pay advice.| 
-|**Accrued TIL on Pay Advice**| A checkmark in this field indicates to print the balance of TIL on the pay advice.|  
+|**Accrued RDO/TIL on Pay Advice**| A checkmark in this field indicates to print the balance of RDO/TIL on the pay advice.|  
 |**Annual Leave on Pay Advice**| A checkmark in this field indicates to print the balance of Annual Leave on the pay advice.|  
 |**Personal Leave on Pay Advice**| A checkmark in this field indicates to print the balance of Personal Leave on the pay advice.|  
 |**L.S.L on Pay Advice**| A checkmark in this field indicates to print the balance of Long Service Leave on the pay advice.| 
@@ -62,12 +62,12 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 |**Annual Leave on Pay Advice**| A checkmark in this field is used to exclude pro rata accrual amounts (for annual leave, personal leave, and long service leave) from printing on the pay advice.| 
 |**Pay Advice Email File Path**| This field is used to identify the folder where the Pay Advice will be temporarily stored as a PDF before it is emailed out.|
 |**E-mail Sending Type**| This field is used to identify if pay advice emails will be sent manually or automatically. The options available are: **Manually**, **Automatically**.|
-|**E-Mail Application Type**| This field is used to identify which email application will be used to email the pay advices. The options available are: **Microsoft Outlook – this will use the User’s outlook to send the pay advices** and **SMTP – this will use the email server to send the pay advices.**|
+
    
 6. On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|   
+| :--- | :--- |   
 |**Show Leave As Hours**| A checkmark in this field indicates that Leave Balances are shown in hours instead of days on the employee pay advice.  If left blank days is displayed.|         
 |**Post Leave Accruals Only**| A checkmark in this field indicates you want the End of Month Process to only Post the Accruals.  The process increases the Provision and Expenses the Accruals.  It posts the Leave Accruals to the **Leave Provision** and **Leave Expense** posting groups during the **Post Leave Accruals** process.|  
 |**Post Leave Tkn. Adj. in Pay Journal**| A checkmark in this field is used to indicate Leave Taken is posted to a P&L Posting Group other than the provision account.  Note:  If you select this option you must specify the Leave Taken Transaction Posting Group on each Leave Accrual card. The Transaction Posting group on the Leave taken Transaction Type must be a P&L Posting group and must be a different group to the corresponding Leave Accrual.|  
@@ -82,7 +82,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 7. On the **Superannuation** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- | 
 |**Auto Post Min Threshold Adjust**| A checkmark in this field will automatically adjust the SGC calculation for an employee to the Minimum SGC threshold amount when using **on-costing calculation method**.|         
 |**Super. Adj. Reason Code**| This field is used to default the reason code for any Superannuation adjustments.|  
 |**Min. Age to Accrue SGC**| Enter in the minimum age for SGC amounts to start calculating for an employee.  If your organisation does not have an age restriction then this field can be left blank.|  
@@ -101,7 +101,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
  8. On the **Termination** FastTab, fill the fields as described in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**L.S.L. Accrued Before 16.08.78**| Select the **ArrowDown** to select the Long Service Leave Pre Aug 78 **(Lump Sum B)** pay transaction type.|         
 |**L.S.L. Accrued After 16.08.78 Before 17.08.93**| Select the **ArrowDown** to select the Long Service Leave Pre Aug 93 **(Lump Sum A)** pay transaction type.|  
 |**L.S.L. Accrued After 16.08.93**| Select the **ArrowDown** to select the Long Service Leave Post Aug 93 **(Gross Salary & Wages)** pay transaction type.|  
@@ -114,7 +114,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
  9. On the **ETP Tax** FastTab, fill the fields as described in the following table.
     
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**ETP Preservation Age**| This field is used to indicate the ETP Preservation age.  This information is supplied by the ATO, annually.| 
 |**ETP Preservation Age Birth Year Threshold**| This field is used to indicate the ETP Preservation age birth year threshold.  This information is supplied by the ATO, annually.|  
 |**ETP Preservation Age Upper Limit**| This field is used to indicate the ETP Preservation age upper limit income for the purpose of calculating tax.  This information is supplied by the ATO, annually.|         
@@ -129,7 +129,7 @@ The Payroll Setup defines global settings and rules within the payroll.  Many of
 10. On the **Single Touch Payroll** FastTab, fill the fields as described in the following table.
     
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- | 
 |**BMS ID**| This field is a system generated field which produces a unique code for each client and is provided to the ATO for the purposes of Single Touch Payroll reporting.| 
 |**STP Start Date**|This field is system generated with the Start Date of when the STP Upgrade Process is executed.|
 |**STP Pay Event Code**|This field is updated when the STP Upgrade Process is executed and identifies the STP Pay Event code as required by the ATO.  The value generated in this field is "PAYEVNT".|
