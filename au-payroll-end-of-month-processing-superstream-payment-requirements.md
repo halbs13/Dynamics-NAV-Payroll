@@ -357,7 +357,7 @@ The fields contained in the Generic Payment file are:
 |**Employment Start Date**|	Mandatory|	The “Employment Start Date” is sourced from the Start Date on the Employee table.
 |**Employee Termination Date**|Optional|	The “Employee Termination Date” is sourced from the Termination Date on the Payroll Employee table.
 |**Employee Address**|Optional|	The “Employee Address” is sourced from the Address on the Employee table.
-|**Employee Address 2 **|Optional|	The “Employee Address 2” is sourced from the Address 2 on the Employee table.
+|**Employee Address 2**|Optional|	The “Employee Address 2” is sourced from the Address 2 on the Employee table.
 |**Employee Suburb**|	Optional|	The “Employee Suburb” is sourced from the City on the Employee table.
 |**Employee Post Code**|Optional|	The “Employee Post Code” is sourced from the Post Code on the Employee table.
 |**Employee State**|Optional|	The “Employee State” is sourced from the State on the Employee table.
