@@ -17,12 +17,12 @@ This option is only used when the On Cost method for calculating employer SGC co
 
 This process updates the Employee Superannuation Ledger Entry with on-cost superannuation transaction details for Posting to the General Ledger when the “Calculate & Post Superannuation” process is run.  You must print this report for the process to move the on-cost transactions to the Employee Superannuation Ledger Entries table.  You can run this process as often as required.  It is recommended that this process is also run after all Payrolls have been finalised for the calendar month to ensure all the On Cost transactions are moved to the Superannuation Ledger.
 
-1.  In the **Search** box, enter **Calculate Monthly Superannuation**, and then choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Superannuation Processing/Calculate Monthly Superannuation*
+1.  In the **Search** box, enter **Calculate Monthly Superannuation**, and then choose the related link.  Or go to the following menu: *Actions Workspace/Superannuation Processing/Calculate Monthly Superannuation*
 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Calculation Date**|	Enter the date you want the Monthly Superannuation transactions calculated and moved to the Employee Superannuation Ledger.  The last date of the month must be entered to ensure all transactions for the month are picked up for the calculations.
 |**Month to Calculate**|	This field displays the month used for the after you enter the Calculation Date.
 |**Month Start Date**|	This field displays the 1st date of the above month after the date has been entered.
@@ -43,12 +43,12 @@ If the employee fails to meet the criteria the SGC components are not contribute
 
 This process is used to calculate and post superannuation transactions to the General Ledger and create the Vendor invoices. 
 
-1.  In the **Search** box, enter **Calculate & Post Superannuation**, and then choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Superannuation Processing/Calculate & Post Superannuation*
+1.  In the **Search** box, enter **Calculate & Post Superannuation**, and then choose the related link.  Or go to the following menu: *Actions Workspace/Superannuation Processing/Calculate & Post Superannuation*
  
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Payroll No.**|	This field displays the selected payroll number. 
 |**Posting Date**|	This field is used to enter the date you want the Superannuation transactions posted to in the GL.  
 |**Month Start Date**|	This field displays the 1st date of the Posting date month. 
