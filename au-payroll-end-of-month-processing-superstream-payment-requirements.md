@@ -257,8 +257,8 @@ The fields on the Employee SGC Reporting History (Super. Payment History) report
 |**Amount paid on Date**|(5)|This is the amount that as paid to the Superannuation Fund.
 |**Fund Total**|	(6)	|This is the Fund Total for the Employee.
 |**Employee Total**|	(7)	|This is the Employee Total for the Employee.
-|Employee No.**|	(8)|	This is the Employee No.
-|Employee Name**|(9)|	This is the Employee Name.
+|**Employee No.**|	(8)|	This is the Employee No.
+|**Employee Name**|(9)|	This is the Employee Name.
 
 
 ### Employee SGC Reporting History (Super.Payment History Report) – Summary
