@@ -25,7 +25,7 @@ There are 5 Superannuation Payment File options:
 It is recommended that you review the requirements of the file layouts to ensure that you have the necessary mandatory information completed.
 
 1.  In the **Search** box, enter **Superannuation Payments**, and then choose the related link.  Or go to the following menu: 
-*Department/Payroll/Periodic Activities/Superannuation/Superannuation Payments*
+*Actions Workspace/Superannuation/Superannuation Payments*
  
 The Superannuation Payment Module contains the following Menu Options: 
 
@@ -52,12 +52,12 @@ The New Member Registration Export produces a file which may be used to send to 
 It is recommended that you preview the report first as it will highlight potential issues with the file such as invalid tax file numbers and missing information.
 
 1.  In the **Search** box, enter **New Member Registration Export**, and then choose the related link.  Or go to the following menu:
-*Departments/Payroll/EOM Processing/Superannuation Processing*
+*Actions Workspace/Superannuation Processing*
 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
  
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Run Type**|	Select the process from the list.  
 ||**Preview no export** – This option previews the report and allows you to verify the data before reporting.  This option can be run multiple times.  
 ||**Export new member file** – Used to create a “.CSV” file.  
@@ -103,11 +103,11 @@ Employers have an obligation to report superannuation contributions to their emp
 The Super Payment Export & Notification Report flags the Employee Superannuation Ledger Entry records to report to the employee by either Letter or Pay Advice.  When the report is run you must enter parameters for processing.  
 
 1.  In the **Search** box, enter **Super Payment Export & Notification**, and then choose the related link.  Or go to the following menu:
-*Departments/Payroll/EOM Processing/Superannuation Processing/Super.Payment & Notification Report*
+*Actions Workspace/Superannuation Payment/Super.Payment & Notification Report*
  
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Payroll No.**|	The Payroll No. can be selected from the **ArrowDown**.  If left blank all Payrolls are processed. 
 |**Start Posting Date**|	Enter the Start Posting Date of the period you want to include.  This will filter transactions in the Superannuation Ledger Entry table based on the date that you enter in this field.
 |**End Posting Date**|	Enter the End Posting Date of the period you want to include.  This will filter transactions in the Superannuation Ledger Entry table based on the date that you enter in this field.
@@ -142,7 +142,7 @@ The Super Payment Export & Notification Report flags the Employee Superannuation
 The fields on the Superannuation Payment Export & Notification report are:
 
 |Report Field|	Field No.|	Obtained from|
-|---|---|---|
+| :--- | :--- | :--- |
 |**Run ID**|(1)|	This identifies the Run ID of the Superannuation Export & Notification. If you need to reverse the report, you will use this record no.
 |**Run Type**|(2)|	This identifies the run type of the report.  The run type values are:
 |||•	Export Payment and create notification letter
@@ -187,7 +187,7 @@ Note: Each company has subtle setup differences to meet their business requireme
 
 The employee’s Superannuation record for the Superannuation Product Code has been changed or deleted after payments have been made to the fund during the Superannuation Reporting period.
 
-In the Payroll Employee card/Navigate ribbon/Superannuation add the deleted Superannuation Product Code.  Change the amounts and percentage value to zero to prevent the deduction from processing in future pay journals.
+Add the deleted Superannuation Product Code in the Employee Superannuation on the Payroll Employee card.  Change the amounts and percentage value to zero to prevent the deduction from processing in future pay journals.
 
 [GoToTop](#superstream-payment-requirements)
 
@@ -199,10 +199,11 @@ You may use this process to reverse the Superannuation Notification Report by en
 * When you have used the Pay Advice option.  You can only reverse the process up until you print the Pay Advices in the next pay run.
 
 1.  In the **Search** box, enter **Super. Payment Export Reversal** report, and choose the related link.  Or go to the following menu:
-*Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment Export Reversal* 
+*Actions Workspace/Superannuation Payment/Super. Payment Export Reversal* 
 
 
-|Field|	Comments|
+|Field|Comments|
+| :--- | :--- |
 |**SGC Extract Report Run ID**| 	Enter the SGC Extract Report Run Id for the Run Id you wish to reverse. The Run Id is found at the top left corner of the Superannuation Payment & Notification Report.
 
 2.  When you have finished entering your information, click on **OK**.
@@ -226,11 +227,11 @@ The Super. Payment History report will provide you with information by fund on e
 You enter in the Payroll No., Contribution Date, Date Paid to Fund and whether you want to display the information in detail.
 
 1.  In the **Search** box, enter **Super. Payment History** report, and choose the related link.  Or go to the following menu:
-*Departments/Payroll/EOM Processing/Superannuation Processing/Super. Payment History*
+*Actions Workspace/Superannuation Payment/Super. Payment History*
  
 
-|Field|	Comments|
-|---|---|
+|Field|Comments|
+| :--- | :--- |
 |**Payroll No.**|	Select the Payroll No. from the **ArrowDown**.  If left blank all Payrolls are processed. 
 |**Contribution Date**|	Enter in the Contribution Date or the Ending Posting Date that you entered when producing the Super. Payment Export & Notification report.  
 |**Date Paid to Fund**|	Enter the date you paid the SGC amounts to the fund.  
@@ -248,7 +249,7 @@ You enter in the Payroll No., Contribution Date, Date Paid to Fund and whether y
 The fields on the Employee SGC Reporting History (Super. Payment History) report are:
 
 |Report Field	|Field No.	|Obtained from|
-|---|---|---|
+| :--- | :---: | :--- |
 |**Fund Name**|(1)|	This field identifies the Superannuation Fund Code for the employee.
 |**Superannuation Code**|(2)|	This field identifies the Superannuation Product Code for the employee.
 |**Membership No.**|	(3)	|This field is the Employee’s Superannuation Membership No.
@@ -266,7 +267,7 @@ The fields on the Employee SGC Reporting History (Super. Payment History) report
 The fields on the Employee SGC Reporting History (Super. Payment History) report are:
 
 |Report Field	|Field No.	|Obtained from|
-|---|---|---|
+| :--- | :---: | :--- |
 |**Fund Name**|(1)|	This field identifies the Superannuation Fund Code for the employee.
 |**Superannuation Code**|(2)	|This field identifies the Superannuation Product Code for the employee.
 |**Membership No.**|(3)|	This field is the Employee’s Superannuation Membership No.
@@ -287,7 +288,7 @@ The fields on the Employee SGC Reporting History (Super. Payment History) report
 The fields contained in the New Member Registration Export file are:
 
 |Field Name	|Description|
-|---|---|
+| :--- | :--- |
 |**Company Name**|	The “Company Name” is sourced from the Company Name field on the Payroll card the employee is assigned to.
 |**Company ABN**|	The “Company ABN” is sourced from the Company ABN field on the Payroll card the employee is assigned to
 |**Fund Assigned Employer No.**|	The “Fund Assigned Employer No.” is sourced from the Superannuation Fund the employee is assigned to.
@@ -327,7 +328,7 @@ The fields contained in the New Member Registration Export file are:
 The fields contained in the Generic Payment file are:
 
 |Field Name	|Mandatory|	Description|
-|---|---|---|
+| :--- | :---: | :--- |
 |**Reference**|Mandatory|	This is the Reference ID for the file and is system generated.
 |**Contribution Start Date**|Mandatory|	The “Contribution Start Date” field is populated from the data that you enter into the Super Payment Export & Notification Form. 
 |**Contribution End Date**|Mandatory|	The “Contribution End Date” field is populated from the data that you enter into the Super Payment Export & Notification Form. 
@@ -375,8 +376,8 @@ The fields contained in the Generic Payment file are:
 
 The fields contained in the ClickSuper Payment file are:
 
-|Field Name	|Mandatory|	Description
-|---|---|---|
+|Field Name	|Mandatory|Description|
+| :--- | :---: | :--- |
 |**Reference**|Mandatory|	This is the Reference ID for the file and is system generated.
 |**Total Payment**|Optional	|This is the Total Payment for the Employee sourced from the Superannuation Ledger Entry table.
 |**Sender ID**|Optional|	The “Sender ID” field is not exported.
@@ -472,8 +473,8 @@ The fields contained in the ClickSuper Payment file are:
 
 The fields contained in the SuperChoice Payment file are:
 
-|Field Name|	Mandatory|	Description|
-|---|---|---|
+|Field Name|Mandatory|Description|
+| :--- | :---: | :--- |
 |**Employee ID**|Optional|	The “Employee ID” is sourced from the Employee No. on the Employee Superannuation table.
 |**Super Fund Member No.**|Mandatory|	The “Super Fund Member No.” is sourced from the Membership No. on the Employee Superannuation table.
 |**Title**|Optional|	The “Title” is sourced from the Title on the Employee table.
@@ -509,8 +510,8 @@ The fields contained in the SuperChoice Payment file are:
 
 The fields contained in the SunSuper Payment file are:
 
-|Field Name|	Mandatory	|Description|
-|---|---|---|
+|Field Name|Mandatory|Description|
+| :--- | :---: | :--- |
 |**Super Product USI**	|Mandatory|	The “Super Product USI No.” is sourced from the USI field on the Superannuation Product for the employee.
 |**Payroll ID**	|Mandatory|	The “Payroll ID” is sourced from the Employee No. on the Payroll Employee card for the employee.
 |**Member ID**	|Mandatory|	The “Member ID” is sourced from the Membership No. field on the Employee Superannuation card for the employee.
@@ -550,8 +551,8 @@ The fields contained in the SunSuper Payment file are:
 
 The fields contained in the SuperStream Alternative file are:
 
-|Field Name	|Mandatory|	Description|
-|---|---|---|
+|Field Name|Mandatory|Description|
+| :--- | :---: | :--- |
 |**Header section**
 |**Version**|	Mandatory|	The “Version” will default to 1.0
 |**Negatives Supported**|Mandatory|	The “Negatives Supported” field will default.  These are the guidelines as provided by the ATO.
