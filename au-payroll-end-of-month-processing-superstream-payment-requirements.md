@@ -248,7 +248,7 @@ You enter in the Payroll No., Contribution Date, Date Paid to Fund and whether y
  
 The fields on the Employee SGC Reporting History (Super. Payment History) report are:
 
-|Report Field	|Field No.	|Obtained from|
+|Report Field|Field No.|Obtained from|
 | :--- | :---: | :--- |
 |**Fund Name**|(1)|	This field identifies the Superannuation Fund Code for the employee.
 |**Superannuation Code**|(2)|	This field identifies the Superannuation Product Code for the employee.
@@ -287,7 +287,7 @@ The fields on the Employee SGC Reporting History (Super. Payment History) report
 
 The fields contained in the New Member Registration Export file are:
 
-|Field Name	|Description|
+|Field Name|Description|
 | :--- | :--- |
 |**Company Name**|	The “Company Name” is sourced from the Company Name field on the Payroll card the employee is assigned to.
 |**Company ABN**|	The “Company ABN” is sourced from the Company ABN field on the Payroll card the employee is assigned to
@@ -409,7 +409,7 @@ The fields contained in the ClickSuper Payment file are:
 |**Post Code**|Optional|	The “Post Code” is not exported
 |**Country**|Optional	|The “Country” is not exported
 |**Contributor Type**|	Mandatory|	The “Contributor Type” will default to “EMPLOYER”
-|**Contributor ID|	Optional**|The “Contributor ID” is sourced from the Fund Employer No. on the Superannuation Fund for the employee.
+|**Contributor ID**|	Optional**|The “Contributor ID” is sourced from the Fund Employer No. on the Superannuation Fund for the employee.
 |**Contributor Business Name**|Mandatory|	The “Contributor Business Name” is sourced from the Company Name on the Payroll for the employee.
 |**Contributor ABN**|Mandatory	|The “Contributor ABN” is sourced from the Company ABN on the Payroll for the employee.
 |**Contact Given Name**|	Mandatory|	The “Contact Given Name” is sourced from the Contact Person on the Payroll for the employee.
@@ -432,7 +432,7 @@ The fields contained in the ClickSuper Payment file are:
 |**Home Contact Number**|Optional	|The “Home Contact Number” is sourced from the Phone No. on the Employee table.
 |**Work Contact Number**|Optional|	The “Work Contact Number” is sourced from the Work Contact Number on the Employee table.
 |**Mobile Contact Number**|Optional|	The “Mobile Contact Number” is sourced from the Mobile Phone No. on the Employee table.
-|**TFN **|Optional	|The “TFN” is sourced from the Tax File Number on the Payroll Employee table.
+|**TFN**|Optional	|The “TFN” is sourced from the Tax File Number on the Payroll Employee table.
 |**Alternate Addressee**|Optional|	The “Alternate Addressee” is not exported
 |**Address Line 1**|Optional|	The “Address Line 1” is not exported
 |**Address Line 2**| 	Optional|	The “Address Line 2” is not exported
@@ -440,9 +440,9 @@ The fields contained in the ClickSuper Payment file are:
 |**State**|	Optional|	The “State” is not exported
 |**Postcode**|Optional|	The “Postcode” is not exported
 |**Country**|Optional	|The “Country” is not exported
-|**Date Joined Co**	|Optional|	The “Date Joined Co” is sourced from the Employment Date on the Employee table.
-|**Date Left Co**	|Optional	|The “Date Left Co” is sourced from the Termination Date on the Employee table.
-|**Occupation**	|Optional|	The “Occupation” is not exported
+|**Date Joined Co**|Optional|	The “Date Joined Co” is sourced from the Employment Date on the Employee table.
+|**Date Left Co**|Optional	|The “Date Left Co” is sourced from the Termination Date on the Employee table.
+|**Occupation**|Optional|	The “Occupation” is not exported
 |**Employment Type**|Optional|	The “Employment Type” is not exported
 |**Part Time Hours**	|Optional|	The “Part Time Hours” is not exported
 |**Salary Amount**	|Optional|	The “Salary Amount” is not exported
@@ -452,10 +452,10 @@ The fields contained in the ClickSuper Payment file are:
 |**Cont. Period End Date**|	Optional	|The “Contribution End Date” field is populated from the data that you enter into the Super Payment Export & Notification Form 
 |**SGC Amount**	|Mandatory|	The “SGC Amount” is sourced from the Employer SGC contributions on the Superannuation Ledger Entry table.
 |**Salary Sacrifice Amount**|	Optional|	The “Salary Sacrifice Amount” is sourced from the Employee Salary Sacrifice contributions on the Superannuation Ledger Entry table.
-|**Non SGC Amount|	Optional**|	The “Non SGC Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.
-|**Member Voluntary Amount**	|Optional|	The “Member Voluntary Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.
+|**Non SGC Amount**|Optional**|	The “Non SGC Amount” is sourced from the Employer Non SGC contributions on the Superannuation Ledger Entry table.
+|**Member Voluntary Amount**|Optional|	The “Member Voluntary Amount” is sourced from the Employee Post Tax on the Superannuation Ledger Entry table.
 |**Spouse Contributions**|	Optional|	The “Spouse Contributions” is not exported
-|**Salary Sacrifice Voluntary	|Optional**|	The “Salary Sacrifice” is not exported
+|**Salary Sacrifice Voluntary**|Optional|	The “Salary Sacrifice” is not exported
 |**Member Regular**	|Optional|	The “Member Regular” is not exported
 |**Productivity Contributions**|	Optional|	The “Productivity Contributions” is not exported
 |**Redundancy Contributions**	|Optional|	The “Redundancy Contributions” is not exported
