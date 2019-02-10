@@ -13,12 +13,12 @@ Workers Compensation is calculated as a percentage of the Employee's Pay.  The a
 
 Pay transactions that are not applicable to Work Cover are calculated and stored as "Value of Gross not applicable to Work Cover".  The Rate of contribution factor is then calculated using the percentage stored in the Work Cover Rate record.
 
-1.  In the **Search** box, enter **Create Ledger Entries**, and choose the related link. Or go to the following menu: *Department/Payroll/EOM Processing/Work Cover Processing/Create Ledger Entries*
+1.  In the **Search** box, enter **Create Ledger Entries**, and choose the related link. Or go to the following menu: *Actions Workspace/Work Cover Processing/Create Ledger Entries*
  
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**External Document No.**|	This field is Mandatory.  |Enter a meaningful document name or number to help you identify where the transactions have come from when you review the transactions in the General Ledger.
 |**Report Only**	|Select this field if you want to preview or print the information in “Report Only” mode.
 |**Include Calculated**|	Select this field if you want to include already calculated transactions.
@@ -29,7 +29,7 @@ Pay transactions that are not applicable to Work Cover are calculated and stored
 3.  On the **Employee Ledger Entry** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
-|---|---|
+| :--- | :--- |
 |**Tax Year**|	Enter the Tax Year you wish to process.
 |**Period No.**|	Enter the Pay Period(s) you wish to process.
 |**Work Cover Code**|	Enter the Workers Comp. Code you wish to process
@@ -40,7 +40,7 @@ Pay transactions that are not applicable to Work Cover are calculated and stored
 The fields on the Create Work Cover Ledger Entries Report are:
 
 |Report Field	|Field No.|	Obtained from|
-|---|---|---|
+| :--- | :---: | :--- |
 |**Employee No.**	|(1)|	This is the Employee No. field.
 |**Name**	|(2)|	This is the Name of the employee.
 |**Work Cover Rate Code**	|(3)|	This is the value of the Work Cover Rate Code as established in the setup.
@@ -63,12 +63,12 @@ Work Cover is calculated as a percentage of the Employee's Pay.  The value used 
 Pay transactions that are not applicable to Work Cover are also calculated and stored as "Value of Gross not applicable to Work Cover ".  
 The Rate of contribution factor is then calculated using the percentage stored in the Work Cover Rate record.
 
-1.  In the **Search** box, enter **Calculate Work Cover Expense**, and then choose the related link.  Or go to the following menu:  *Departments/ Payroll/Periodic Activities/Work Cover/Calculate Expense*
+1.  In the **Search** box, enter **Calculate Work Cover Expense**, and then choose the related link.  Or go to the following menu:  *Actions Workspace/Work Cover Processing/Calculate Expense*
  
  2.  On the **Options Entry** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
-|---|---|
+| :--- | :---: | 
 |**Date of Calculation**|	The “Date of Calculation” is the date the provision is calculated.
 |**Calculate Levy Rate**	|- Current Configuration
 ||- Originally Created
@@ -77,7 +77,7 @@ The Rate of contribution factor is then calculated using the percentage stored i
 3.  On the **Work Cover Ledger Entry** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :---: |
 |**Document Date**|	Enter in Document Date as a filter.
 
 
@@ -85,14 +85,14 @@ The Rate of contribution factor is then calculated using the percentage stored i
 
 ### Post Work Cover Expense
 
-The Post Work Cover Provision Report will post the Calculated Work Cover Provision to the General Ledger Granule in NAV Financials.
+The Post Work Cover Provision Report will post the Calculated Work Cover Provision to the General Ledger.
 
-1.  In the **Search** box, enter **Post Work Cover Provision**, and then choose the related link.  Or go to the following menu:  *Departments/Payroll/Periodic Activities/Work Cover/Post Expense*
+1.  In the **Search** box, enter **Post Work Cover Provision**, and then choose the related link.  Or go to the following menu:  *Actions Workspace/Work Cover Processing/Post Expense*
 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Posting Date**|The “Posting Date” of the expense.
 |**Document No.**|The “Document No.” of the expense.
 |**Report Only**|Select this option to produce a report to review entries before you post them.  Leave this option blank to produce a report and to post workers compensation ledger entries to the General Ledger.  
@@ -100,7 +100,7 @@ The Post Work Cover Provision Report will post the Calculated Work Cover Provisi
 3.  On the **Work Cover Ledger Entry** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**Document Date**|	The “Document Date” range of the Work Cover Ledger Entries to be processed.
 
  
