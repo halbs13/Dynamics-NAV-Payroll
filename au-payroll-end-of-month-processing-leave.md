@@ -7,18 +7,18 @@ The End of Month Leave Process menu contains the following processes;
 * [Employee Leave Entitlement Report](#employee-leave-entitlement) - The Employee Leave Entitlement Report contains Employee Leave accrual information and can be used to reconcile leave provision postings to the General Ledger.
 * [Employee Time In Lieu Adm List](#employee-time-in-lieu-adm-list) - The Employee Time In Lieu Adm List report contains Employee Time In Lieu accrual information.  
 
-To access the End of Month Leave Processing, go to the following menu: *Departments/Payroll/EOM Processing/Leave Processing*
+To access the End of Month Leave Processing, go to the following menu: *Actions Workspace/Leave Processing*
 
 ## End of Month Processing Mass Adjust Leave Balance
 
 The Mass Adjust Leave Balance function is used to adjust employee leave entitlements or pro rata balances in the employee ledger to correct balances.  It is also used to enter entitlements when implementing a new Payroll System.
 
-1.  In the **Search** box, enter in **Mass Adjust Leave Balances**, and the choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Leave Processing/Mass Adjust Leave Balances*
- 
+1.  In the **Search** box, enter in **Mass Adjust Leave Balances**, and the choose the related link.  
+
 2.  Fill the fields as described in the following table.
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Employee No.**|Enter or select the Employee No. by selecting the **ArrowDown**.
 |**Leave Type**|	Select the Leave Type by selecting the **ArrowDown**.
 |**Leave Code**|	Select a Leave Code by selecting the **ArrowDown**.
@@ -36,7 +36,7 @@ The Mass Adjust Leave Balance function is used to adjust employee leave entitlem
 3.  The following icons are available on the **Home** ribbon.
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Delete**|	Select this option if you wish to delete the transaction line.
 |**Post**|This option Posts the Leave adjustment to the Employee Leave Sub-Ledger and General Ledger Leave Provision accounts. 
 |**Refresh**|	The Refresh function will refresh data on the Journal page.
@@ -45,7 +45,7 @@ The Mass Adjust Leave Balance function is used to adjust employee leave entitlem
 4.  The following icons are available on the **Actions** ribbon.
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Tick Data Take-On Column**|	Select this option to only affect the Payroll Employee leave balances and not to post the adjustment to the General Ledger.  This option is used to enter leave balances for a payroll implementation.
 |**Un-tick Data Take-On Column**|	Select this option to post the provision to the General Ledger.
 |**Post**|This option Posts the Leave adjustment to the Employee Leave Sub-Ledger and General Ledger Leave Provision accounts. 
@@ -53,11 +53,11 @@ The Mass Adjust Leave Balance function is used to adjust employee leave entitlem
 
 ## End of Month Processing Calculate and Post Provision
 
-The Calculate Leave Provision calculates the Leave Accrual and Entitlements and posts them to the General Ledger Granule of NAV Financials.
+The Calculate Leave Provision calculates the Leave Accrual and Entitlements and posts them to the General Ledger.  
 
 This Report uses the current Leave Days accrued and entitled for each Employee and multiplies these by the current Employee pay rate to calculate the provision value for each Employee.
 
-1.  In the **Search** box, enter in **Calculate and Post Provision**, and the choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Leave Processing/Calculate and Post Provision*
+1.  In the **Search** box, enter in **Calculate and Post Provision**, and the choose the related link.  Or go to the following menu: *Actions Workspace/Leave Processing/Calculate and Post Provision*
  
 2.  Fill the fields as described in the following table.
 
@@ -66,7 +66,7 @@ This Report uses the current Leave Days accrued and entitled for each Employee a
 4.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**Date of Calculation**|	This field is Mandatory.  Enter the date you wish the transactions to Post to the General Ledger.
 |**Document No.**|	This field is Mandatory.  Enter a meaningful document name or number to help you identify where the transactions have come from when you review the transactions in the General Ledger.
 |**Post to G/L**|This field is Optional.  Select this option when you wish to post the Leave Expense and Provision to the General Ledger.  If you leave this option blank you will be previewing the report in “Report Only” mode which generates how the transactions will appear when posted to the General Ledger.
@@ -74,17 +74,18 @@ This Report uses the current Leave Days accrued and entitled for each Employee a
 5.  On the **Leave Type** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**Code**|Select the Leave Type you wish to process.  If left blank then all leave types are processed.
 
 6.  On the **Payroll Employee** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**Employee No.**|	Enter or Select the Employee No. by selecting the **ArrowDown**.   If left blank all employees are processed.
   
 ### Leave Reporting
-There are 2 leave reports available from within the Leave Processing menu and throughout the Dynamics NAV Payroll module:
+
+There are 2 leave reports available from within the Leave Processing menu:
 
 1.	Employee Leave Entitlement
 2.	Employee Time In Lieu Adm List
@@ -93,12 +94,12 @@ There are 2 leave reports available from within the Leave Processing menu and th
 ### Employee Leave Entitlement
 The Employee Leave Entitlement Report contains Employee Leave accrual information and can be used to reconcile leave provision postings to the General Ledger.
 
-1.  In the **Search** box, enter in **Employee Leave Entitlement**, and the choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Leave Processing/Employee Leave Entitlement*
+1.  In the **Search** box, enter in **Employee Leave Entitlement**, and the choose the related link.  Or go to the following menu: *Actions WorkspaceLeave Processing/Employee Leave Entitlement*
 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**As At Date**|	Enter in the date you wish the leave entitlements to be calculated to.  Please note that this function only works on leave accrual ledger transactions which have been posted to the Leave Accrual Ledger Entry table.  This date will not forecast accruals in the future.
 |**Exclude Zero Accruals**|	Select this option if you wish to exclude zero accruals.
 |**Group by Global Dimension 1**|	Select this option if you wish to group the entitlements by Global Dimension 1.
@@ -111,13 +112,13 @@ The Employee Leave Entitlement Report contains Employee Leave accrual informatio
 3.  On the **Leave Type** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
-|---|---|
+| :--- | :--- |
 |**Code**|	Select the Leave Type you wish to process.  If left blank then all leave types are processed.
 
 4.  On the **Payroll Employee** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
-|---|---|
+| :--- | :--- |
 |**Payroll No.**|	Enter or Select the Payroll No. by selecting the **ArrowDown**.  If left blank all employees are processed.
 |**Employee No.**|	Enter or Select the Employee No. by selecting the **ArrowDown**.  If left blank all employees are processed.
 |**Branch Code**|	Enter or Select the Branch Code by selecting the **ArrowDown**.  If left blank all employees are processed.
@@ -160,18 +161,18 @@ The Employee Leave Entitlement Report when printed or previewed contains the fol
 
 The Employee Time In Lieu Adm List report contains Employee Time In Lieu accrual information.  
 
-1.  In the **Search** box, enter in **Employee Time In Lieu Adm List**, and the choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Leave Processing/Employee Time In Lieu Adm List* 
+1.  In the **Search** box, enter in **Employee Time In Lieu Adm List**, and the choose the related link.  Or go to the following menu: *Actions Workspace/Leave Processing/Employee Time In Lieu Adm List* 
 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
-|---|---|
+| :--- | :--- |
 |**Show Employees with Zero Accrued**|	Select this option if you wish to show employees with zero accruals.
 
 3.  On the **Payroll Employee** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
-|---|---|
+| :--- | :--- |
 |**Payroll No.**|Enter or Select the Payroll No. by selecting the **ArrowDown**.  If left blank all employees are processed.
 |**Branch Code**|	Enter or Select the Branch Code by selecting the **ArrowDown**.  If left blank all employees are processed.
 |**Division Code**|	Enter or Select the Division Code by selecting the **ArrowDown**.  If left blank all employees are processed.
