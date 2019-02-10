@@ -16,12 +16,12 @@ To ensure that each of the employee pay transactions applicable to Payroll Tax a
 
 ## Calculate Payroll Tax
 
-1.  In the **Search** box, enter **Calculate Payroll Tax**, and then choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Payroll Tax Processing*
+1.  In the **Search** box, enter **Calculate Payroll Tax**, and then choose the related link.  Or go to the following menu: *Actions Workspace/Payroll Tax Processing*
 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
  
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Payroll No.**|	Select the “Payroll No.” you wish to use to calculate Payroll Tax otherwise leave blank for all payrolls.
 |**Payroll Tax Code**|	Select the Payroll Tax Code that you wish to calculate Payroll Tax otherwise leave blank for all Payroll Tax codes.
 |**Start of Month Date**|	Select the first day of the month that you wish to include in your payroll tax calculation.
@@ -38,7 +38,7 @@ To ensure that each of the employee pay transactions applicable to Payroll Tax a
 The fields on the Calculate Payroll Tax Report are:
 
 |Report Field|	Field No.	|Obtained from|
-|---|---|---|
+| :--- | :--- | :--- |
 |**State Code**|	(1)	|This is the State Code
 |**State Description**|(2)|	This is the State Description
 |**Transaction Detail section**
