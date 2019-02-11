@@ -2,12 +2,12 @@
 
 The Employee Timesheet Worksheet is used to enter the employee times into the Award Interpreter when you are not using Timekeeper.
 
-1.  In the **Search** box, enter **Employee Timesheets Worksheet**, and choose the related link.  Or go to the following menu: *Departments/Payroll/Award Interpretation Processing*
+1.  In the **Search** box, enter **Employee Timesheets Worksheet**, and choose the related link.  
 
 2.  Fill the fields as described in the following table.
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Employee No Filter**|This field is used to select or enter the Payroll Employee code that you wish to enter Timesheet lines against.  The options available are “Day” or “Weekly”.|
 |**Total Hours**|	This field displays the total number of hours entered for the employee within the specified date range|
 |**Employee no.**|	This field displays the employee number entered in the Employee No Filter by default. You may enter a different Employee No. and rename the record if you wish to enter a line for someone else without changing the Employee Filter. . The different employee will not display in the grid unless you change the Employee No. filter to include the employee.|
@@ -43,7 +43,7 @@ In the top section of this form the Un-Interpreted timesheet lines are displayed
 #### Interpretation Worksheet Top Section
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Employee no.**|	This field displays the employee number entered in the Employee No Filter by default. You may enter a different Employee No. and rename the record if you wish to enter a line for someone else without changing the Employee Filter. The different employee will not display in the grid unless you change the Employee No. filter to include the employee.|
 |**Job No.**|	This field is used to assign the hours worked to a specific Job. |
 |**Modified Since Interpretation** |	This field will be ticked when this line has previously been interpreted and then this line edited. You should interpret the lines again.|
@@ -76,7 +76,7 @@ In the bottom section of this form the Interpreted Times for the employee within
 #### Interpretation Worksheet - Bottom Section
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Employee no.**	|This field displays the employee number entered in the Employee No Filter. |
 |**Job No.**	|This field is used to display the Job No. the hours worked will post against. |
 |**Job Task No**	|This field is used to display the Job Task No. the hours worked will post against.|
