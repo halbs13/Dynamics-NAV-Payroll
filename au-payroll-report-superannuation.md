@@ -3,12 +3,12 @@
 The Superannuation Report is used to identify the contributions for the reporting period you nominate.
 
 1.  In the **Search** box, enter **Superannuation Report**, and then choose the related link.  Or go to the following menu:
-*Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report*
+*Actions Workspace/Superannuation Reports/Superannuation Report*
 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
-|---|---|
+| :--- | :---: |
 |**Payroll No.**|Select the Payroll No. from the **ArrowDown**.  If left blank all Payrolls are processed.| 
 |**Total Per Employee**|If you wish the report to provide a Total Per Employee, then select this field.|
 
@@ -21,7 +21,7 @@ The Superannuation Report is used to identify the contributions for the reportin
 The fields on the Superannuation Report are:
 
 |Report Field	|Field No.	|Obtained from|
-|---|---|---|
+| :--- | :---: | :--- |
 |**Transaction Type Code**	|(1)	|This identifies the Transaction Type code for the contribution.  This information will be available on each of the Superannuation Products.|
 |**Tran. Type Description**	|(2)	|This field identifies the description of the Transaction Type code for the contribution.|
 |**Employee No.**	|(3)	|This is the Employee No.|
@@ -37,7 +37,7 @@ The fields on the Superannuation Report are:
 
 The Superannuation Product List Report will provide information on the Superannuation Products.
 
-1.  In the **Search** box, enter **Superannuation Product List**, and then choose the related link.  Or go to the following menu:  *Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report*
+1.  In the **Search** box, enter **Superannuation Product List**, and then choose the related link.  Or go to the following menu:  *Actions Workspace/Superannuation Reports/Superannuation Product List*
 
 2.  On the **Superannuation Fund Product** FastTab -Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank.
 
@@ -46,7 +46,7 @@ The Superannuation Product List Report will provide information on the Superannu
 The fields on the Superannuation Product List Report are:
 
 |Report Field| Field No. | Obtained from|
-|---|---|---|
+| :--- | :---: | :--- |
 |**Code**|(1)	|This is the Superannuation Fund/Superannuation Product code.|
 |**Product Name**	|(2)	|This is the Superannuation Fund/Superannuation Product Name.|
 |**Product Reference No.**	|(3)	|This is the Product Reference No. setup on each of the Superannuation Product cards.|
@@ -68,12 +68,12 @@ The fields on the Superannuation Product List Report are:
 
 The Superannuation Registration List Report will provide you with information on the contributions by Superannuation Fund/Superannuation Product for your employees.
 
-1.  In the **Search** box, enter **Superannuation Registration List**, and then choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Superannuation Processing/Superannuation Report*
+1.  In the **Search** box, enter **Superannuation Registration List**, and then choose the related link.  Or go to the following menu: *Actions Workspace/Superannuation Reports/Superannuation Registration List*
 
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
-|---|---|
+| :--- | :---: |
 |**From Date**	|Enter in a Date into the field.  The Superannuation Registration List report will use the input information to calculate the “Cycle To Date Amount”.|
 
 2.  On the **Superannuation Fund Product** FastTab – Superannuation Fund Product information can be filtered by entering information in this tab.  Otherwise it can be left blank.
@@ -84,8 +84,8 @@ The Superannuation Registration List Report will provide you with information on
 
 The fields on the Superannuation Registration List Report are:
 
-|Report Field	|Field No.	|Obtained from|
-|---|---|---|
+|Report Field	|Field No.|Obtained from|
+| :--- | :---: | :--- |
 |**Employee No.**	|(1)	|This is the Employee No.|
 |**Employee Name**	|(2)	|This is the Employee Name.|
 |**Membership No.**	|(3)	|This is the Superannuation Membership No. for the employee.|
