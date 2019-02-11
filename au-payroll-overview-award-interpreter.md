@@ -40,5 +40,5 @@ Once the Award Interpreter has been setup the following steps must be performed 
 5.	Interpretation Worksheet
 6.	Automatic Interpretation - only used Timekeeper
 7.	Pay Timesheet Journal
-8.	Pay Journal
+8.	Pay Journal.
  
