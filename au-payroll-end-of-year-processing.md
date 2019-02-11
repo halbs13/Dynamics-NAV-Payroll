@@ -23,9 +23,9 @@ The EOFY Payment Summaries menu option is used to:
  
 ## Payment Summary Processing Steps
 
-1.	Enter **Employment Termination Payments** (ETPs) for your Terminated employees.  Go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employee card/Navigate ribbon/ Employment Termination Pay card*
+1.	Enter **Employment Termination Payments** (ETPs) for your Terminated employees.  Go to the following menu: *Payroll Employee card/Navigate ribbon/ Employment Termination Pay card*
 
-2.	Enter **Fringe Benefits** (FBT) Gross amounts for your Employees.  Go to the following menu: *Departments/Payroll/Employee Maintenance/Payroll Employee card/Tax tab/Fringe Benefit Amount field.*
+2.	Enter **Fringe Benefits** (FBT) Gross amounts for your Employees.  Go to the following menu: *Payroll Employee card/Tax tab/Fringe Benefit Amount field.*
 
 3.	Run the [“Payment Summary Proof List”](#payment-summary-proof-list) without producing the Payment Summaries or ATO file and then reconcile the employees YTD values against the Posted Payment Summary report.
 
@@ -44,7 +44,7 @@ When the Payment Summary YTD Accumulation code has not been correctly applied to
 
 You must select the Tax year and then click **OK** 
 
-When you have finished you can continue End of Year Processing.  Go to the following menu: *Departments/Payroll/EOFY Processing/End of Tax Year/YTD Accumulation Code Update*
+When you have finished you can continue End of Year Processing.  Go to the following menu: *Actions Workspace/End of Tax Year/YTD Accumulation Code Update*
  
 Run this report to update any changes made in the YTD Accumulation for Payment Summaries of any Pay Transaction Types. Running the report updates YTD figures according to new settings made.
  
@@ -75,7 +75,7 @@ A “Payment Summary Proof List” is always printed, by default, when selecting
 
 ## Payment Summary Proof List
 
-1.  In the **Search** box, enter **Payment Summary Proof List**, and then choose the related link.  Or go to the following menu: *Departments/Payroll/EOM Processing/Reconciliation Reports/Payment Summary Proof List*
+1.  In the **Search** box, enter **Payment Summary Proof List**, and then choose the related link.  Or go to the following menu: *Actions Workspace/Reconciliation Reports/Payment Summary Proof List*
 
 2.  Once you have selected the report, a request form will appear with the following options:
 
@@ -87,19 +87,19 @@ Select **Normal processing**
 3.  On the **Options** FastTab, fill the fields as described in the following table.
 
 | Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Tax Year**|	Select the Tax Year you wish to reconcile and report
 
 4.  On the **Payroll** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**No.**|Select a Payroll(s) to use as a filter to limit the employee’s printed.  If left blank all Payroll(s) will print.|
 
 5.  On the **Payroll Employee** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
-|---|---|
+| :--- | :--- |
 |**Employee No.**|	Select an Employee No(s) to use as a filter to limit the employee’s.  If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.|
 |**Employee Type Code**|	Select an Employee Type Code(s) to use as a filter to limit the Payment Summaries details to print.  If left blank all Employee Types for the selected Payroll(s) will print.|
 
@@ -139,7 +139,7 @@ The name of the ATO EPS file is automatically populated as a default.  You must 
 
 Use this option to produce your Payment Summaries, ETP Summaries and the ATO EPS file:
 
-1.  In the **Search** box, enter **EOTY Payment Summaries**, and choose the related link.  Or go to the following menu: *Departments/Payroll/EOFY Processing/End of Tax Year/EOTY Payment Summaries*
+1.  In the **Search** box, enter **EOTY Payment Summaries**, and choose the related link.  Or go to the following menu: *Actions Workspace/End of Tax Year/EOTY Payment Summaries*
 
 2.  Once you have selected the report, a request form will appear with the following options:
 
@@ -151,7 +151,7 @@ Use this option to produce your Payment Summaries, ETP Summaries and the ATO EPS
 3.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Tax Year**|	Select the Tax Year you wish to create Payment Summaries, and  ETP’s and the ATO EPS file| 
 |**Print Payment Summaries**|	Select this field to print the Payment Summaries, ETP’s and produce the ATO EPS file.  The Employee and their transactions are flagged as “Payment Summaries printed”| 
 |**E-Mail Payment Summaries**|	Select this field to e-mail out payment summaries to an employees.  As a prerequisite, the e-mail address must be completed on the Employee Card.|
@@ -169,13 +169,13 @@ Use this option to produce your Payment Summaries, ETP Summaries and the ATO EPS
 4.  On the **Payroll** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
-|---|---|
+| :--- | :--- |
 |**No.**	|Select a Payroll(s) to use as a filter to limit the process to a specific payroll. If left blank all Payroll(s) will print|
 
 5.  On the **Payroll Employee** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**Employee No.**	|Select an Employee No(s) to limit the process to 1 or more employee’s for the selected payroll(s).  If left blank all Employee Payment Summaries details for the selected Payroll(s) will print.|
 |**Employee Type Code**|	Select an Employee Type Code(s) to use as a filter to limit the process to only a specific Employee Type.  If left blank all Employee Types for the selected Payroll(s) will print.|
 
