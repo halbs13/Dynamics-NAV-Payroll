@@ -1,6 +1,6 @@
 # General Ledger Posting
 
-After you have posted the Payroll and Superannuation Transactions to the General Ledger you can verify that the Dimensions have flowed through by reviewing the Chart of Accounts in the General Ledger granule.  The transaction values are summarised by the Account and Dimension Codes.
+After you have posted the Payroll and Superannuation Transactions to the General Ledger you can verify that the Dimensions have flowed through by reviewing the Chart of Accounts in the General Ledger.  The transaction values are summarised by the Account and Dimension Codes.
 
  
 ## Chart of Accounts
