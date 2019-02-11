@@ -2,12 +2,12 @@
 
 The Employee Rate Change function is used to change Over Award Payroll Employee Classification Rates.
 
-1.  In the **Search** box, enter **Employee Rate Change**, and then choose the related link.  Or go to the following menu:  *Departments/Payroll/Periodic Activities/Change Rates/Employee Rates*
+1.  In the **Search** box, enter **Employee Rate Change**, and then choose the related link.  Or go to the following menu:  *Actions Workspace/Periodic Activities/Change Rates/Employee Rates*
  
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Employee Start Date**| 	Enter the date the employee is to begin on the new rate.|
 |**Award Filter**|	Select an Award to apply the rate change. If left blank all Awards are processed.|
 |**Classification Filter**|	Select an Award Classification to apply the rate change. If left blank all Award Classifications are processed.|
@@ -21,7 +21,7 @@ The Employee Rate Change function is used to change Over Award Payroll Employee 
 3.  On the **Payroll Employee** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**Employee No.**|	Enter an employee to limit which employees receive the Over Award Classification Rate change.  |
 |**Payroll No.**|	Enter a payroll to limit the Employee’s by payroll|
 
