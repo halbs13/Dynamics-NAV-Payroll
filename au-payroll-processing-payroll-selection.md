@@ -13,11 +13,11 @@ You can remove your default Payroll in the Payroll Selection window by selecting
 If you choose not to select a default Payroll when you select a Process, Task or Activity the Payroll Selection window is displayed and you must select the Payroll you wish to perform the activity task or process on before you can continue. This selected Payroll only applies to the current activity. 
 
  
-1.  In the **Search** box, enter **Payroll Selection**, and then choose the related link.  Or go to the following menu: *Departments/Payroll/Payroll Processing/Payroll Selection*
+1.  In the **Search** box, enter **Payroll Selection**, and then choose the related link.  Or go to the following menu: *Actions Workspace/Payroll Processing/Payroll Selection*
 
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**No.**	|This field is used to display the Payroll Number| 
 |**Group Account No.**	|This field is used to display the PAYG Group Number allocated to your company by ATO.|
 |**Company Name**	|This field is used to display the Name of the Company.|
