@@ -1,4 +1,5 @@
 # Pay Time Sheet Processing Overview
+
 The following steps are completed in sequence to successfully enter and Transfer Timesheets into the Payroll Journal for Processing:
 
 1.	Select a Payroll for processing
@@ -22,10 +23,10 @@ You can remove your default Payroll in the Payroll Selection window by selecting
 If you choose not to select a default Payroll when you select a Process, Task or Activity the Payroll Selection window is displayed and you must select the Payroll you wish to perform the activity task or process on before you can continue. This selected Payroll only applies to the current activity. 
 
 1.  In the **Search** box, enter **Payroll Selection**, and choose the related link.  Or go to the following menu:  
-*Departments/Payroll/Payroll Processing/Payroll Selection*
+*Actions Workspace/Payroll Processing/Payroll Selection*
 
 |Field| Comments|
-|---|---|
+| :--- | :--- |
 |**No.**|this field is uised to display the Payroll Number|
 |**Group Account Number**|This field is used to display the PAYG Group Number allocated to your company by ATO.|
 |**Company Name**|This field is used to display the Name of the Company.|
@@ -38,11 +39,11 @@ If you choose not to select a default Payroll when you select a Process, Task or
 
 The Pay Time Sheet Journal card can be used as an area to review timesheets imported into from a third party system or as an area to enter in payroll transaction against jobs for employees.  Various ribbons allow users to perform a multitude of tasks such as:
 
-*	Home ribbon (Process section) – provides users with the ability to delete, navigate through pay periods and employees and refresh data,
-*	Actions ribbon (General section) – provides the user with navigation access to pay periods and employees
-*	Actions ribbon (Print section) – provides users with access to the timesheet reports
-*	Navigate ribbon (Line section) – provides users with access the Dimensions for the transaction line, Pay Transaction type cards and Classification rates for the employee
-*	Navigate ribbon (Employee section) – provides users with access to the employee’s Payroll Employee card or Ledger Entries.
+*	Manage menu – provides users with the ability to delete.
+* Process menu - you can navigate through periods and employees from this menu.
+*	Actions menu – provides the user with navigation access to pay periods and employees and access to the timesheet reports.
+*	Navigate menu (Line section)  – provides users with access the Dimensions for the transaction line, Pay Transaction type cards and Classification rates for the employee
+*	Navigate menu (Employee section) – provides users with access to the employee’s Payroll Employee card or Ledger Entries.
 
 1.	You must select a Payroll if you have not previously selected a default Payroll.  
 
