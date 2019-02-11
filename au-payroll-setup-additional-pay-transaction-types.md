@@ -108,7 +108,7 @@ If your organisation accrues and pays leave loading then this will be setup simi
 3.  On the **Leave Application** FastTab, the following fields need to be selected;
   a. **Accum. For Leave Calculations** is set to No Accumulation.
 4.  On the **Parameters** FastTab, the following fields need to be selected;
-  a. **Apply to Taxable Income** is selected,
+  a. **Apply to Taxable Income** is selected.
    
 
  
