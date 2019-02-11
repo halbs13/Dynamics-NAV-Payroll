@@ -61,7 +61,7 @@ The following outline explains how the system processes employee pays.
 
 12.   **If the Allowance or Deduction** is not for a fixed value, and then the rate of the Pay Journal line is calculated.  The Transaction Type is checked to determine if there is a fixed rate which is used instead.  If the transaction type is not for a fixed rate then the Employee's Classification Weekly Rate is calculated for the date of the Pay Journal line.  The transaction type is checked to determine if any Over Award Rate exists.  The hourly rate is then determined using the hour's basis of the Pay transaction type.
 
-13.   **The conversion factor** is then applied to the Pay Journal line.  The conversion factor is taken from the Pay transaction type.  The hourly rate is multiplied by the conversion factor in order to obtain the Pay rate for the Pay Journal line.  The journal line amount is calculated by multiplying the derived pay rate by the units entered in the pay journal line 
+13.   **The conversion factor** is then applied to the Pay Journal line.  The conversion factor is taken from the Pay transaction type.  The hourly rate is multiplied by the conversion factor in order to obtain the Pay rate for the Pay Journal line.  The journal line amount is calculated by multiplying the derived pay rate by the units entered in the pay journal line. 
 
 14.   If the Pay Journal Line has **Associated Transactions**, then these are created. 
 
