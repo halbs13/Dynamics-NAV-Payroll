@@ -10,12 +10,12 @@ The next Classification and length of service can be maintained to allow for aut
 
 The End of Period Close process checks the Date that the Classification Last Changed for the employee, to determine when this occurs.  If the Classification is due to be changed within the next Pay Period, then it is updated when you close the period.
 
-1.  In the **Search** box, enter **Classification Rate Change**, and choose the related link.  Or go to the following menu: *Departments/Payroll/Periodic Activities/Change Rates/Classification Rates*
+1.  In the **Search** box, enter **Classification Rate Change**, and choose the related link.  Or go to the following menu: *Actions Workspace/Periodic Activities/Change Rates/Classification Rates*
  
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Classification Start Date**|	Enter the date the new classification pay rate becomes effective.  **Note** the pay rate change is effective from the first day of the pay period that this date falls within. The system will not spilt the employees pay rate automatically in the same pay period for the old rate and the new rate.| 
 |**Award Rate**|	Select one of the following options;|
 ||*	Adjust By Amount - Select this option to adjust the current award rate by the value entered in the "Adjustment" field.|
@@ -34,7 +34,7 @@ The End of Period Close process checks the Date that the Classification Last Cha
 3.  On the **Classification** FastTab, fill the fields as described in the following table.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**Award Code**|	Select the “Award Code” the classification is under that you wish to change.  If left blank all awards are used.|
 |**Code**|	Select the Award Classification “Code” you wish to change.  If left blank all Award Classifications are processed. You can use this for an across the board pay rise for all employees|
 
@@ -46,12 +46,12 @@ The Apply Classification Rate to Employee Report is used to apply the above Clas
 When a new Classification is selected for the Employee the date to commence paying the Classification rate is entered.  The Classification is selected, the Classification rates that apply after that date, and before today are copied into the Employee rates table.  The first rate is given the date that was entered, and any subsequent rates are given the date from which that Classification rate started applying.
 
 1.  In the **Search** box, enter **Apply Class Rate to Employees**, and then choose the related link.  Or go to the following menu;
-*Departments/Payroll/Periodic Activities/Change Rates/Apply Classification Rate to Employees*
+*Actions Workspace/Periodic Activities/Change Rates/Apply Classification Rate to Employees*
  
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Apply Award**|	Select the Award to apply the rate change.  If left blank then all Awards are processed.|
 |**Apply Classification**	|Select the Award Classification to apply the rate change.  If left blank then all Award Classifications are processed.|
 |**Apply Most Recent Rate**|	Select this field to apply the most recent award classification rate to the employee. Un-select this field to use the award classification rate with the "Classification Rate Start" date entered below.|
@@ -65,7 +65,7 @@ When a new Classification is selected for the Employee the date to commence payi
 3.  On the **Payroll** FastTab, fill the fields as described in the following table.
 
 |Field|	Filter|
-|---|---|
+| :--- | :--- |
 |**No.**|	Enter a payroll to filter which employees receive the award rate change. | 
 
  
