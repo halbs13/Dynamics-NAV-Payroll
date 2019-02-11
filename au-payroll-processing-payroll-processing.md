@@ -4,4 +4,4 @@ Depending on your requirements, you will use either [Pay Timesheet Journals](au-
 
 Pay Timesheet Journals are used to enter employee timesheets into the Payroll by employee.    Once completed you may then transfer the approved and locked timesheets into the Pay Journal.   
 
-The Pay Journal may also be used to enter employee timesheets into the Payroll. 
+The Pay Journal may also be used to enter employee timesheets for payment processing. 
