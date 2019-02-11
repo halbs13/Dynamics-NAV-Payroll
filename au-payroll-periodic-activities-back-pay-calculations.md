@@ -12,12 +12,12 @@ You can make adjustments to the transaction lines generated in the Pay Journal i
 
 This function is used to calculate Back Pay for selected Payroll(s), Employees, and Period(s).  You can choose to produce a report with no update.  The amounts calculated will adjust the Job Cost for the jobs worked during the previously processed period if applicable.
 
-1.  In the **Search** box, enter **Back Pay Calculation**, and then choose the related link.  Or go to the following menu: *Departments/Payroll/Payroll Processing/Back Pay Calculation*
+1.  In the **Search** box, enter **Back Pay Calculation**, and then choose the related link.  Or go to the following menu: *Actions Workspace/Payroll Processing/Back Pay Calculation*
  
 2.  On the **Options** FastTab, fill the fields as described in the following table.
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |The first 4 fields specify the period of time to apply the back pay calculation.|
 |**Tax Year From**|	Select the From Tax Year and Period for the back pay calculation by selecting the **ArrowDown**.  Selecting a record populates the “Tax Year” and the “Period” in the “From” fields.|
 |**Period From**|	Select the From Tax Year and Period for the back pay calculation by selecting the **ArrowDown**.  Selecting a record populates the “Tax Year” and the “Period” in the “From” fields.|
@@ -41,7 +41,7 @@ This function is used to calculate Back Pay for selected Payroll(s), Employees, 
 3.  On the **Payroll Employee** FastTab, fill the fields as described below.
 
 |Field	|Filter|
-|---|---|
+| :--- | :--- |
 |**Employee No.**|	Select the Employee(s) No. by selecting the **ArrowDown**.  Leave blank to include all employee in this payroll.|
 
 
