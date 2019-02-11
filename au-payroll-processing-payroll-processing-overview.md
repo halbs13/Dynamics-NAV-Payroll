@@ -43,12 +43,12 @@ After you have finished this process you may create the payment and then post th
 ## Pay Journal 
 
 1.  In the **Search** box, enter **Pay Journal**, and then choose the related link.  Or go to the following menu:
-*Departments/Payroll/Payroll Processing/Pay Journal*
+*Actions Workspace/Payroll Processing/Pay Journal*
 
 2.  The **Pay Journal Header** contains, the fields as described in the table below.
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Batch**|	This field displays the default Payroll Batch name|
 |**Payroll No.**|	This field displays the Payroll selected for processing.|
 |**Tax Year/Period**|	This field is used to select the “Tax Year” for the Payroll.  You can only select an open Tax Year.  |
@@ -60,7 +60,7 @@ After you have finished this process you may create the payment and then post th
 3.  The **Detailed section of the Pay Journal** contains, the fields as described in the table below.
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Posting Date**|This field displays the posting date.  The date must be the same for every record in this pay run.  Any records in the current pay run that have a different Posting Date will cause errors during payroll posting. This field is populated using the “Pay Date” entered when calculating the pays.|
 |**Document Date**|	This field is used to select the Work date. The default date is the work date entered in the Work Date field.  If the Work date field is left blank then the current pay period end date is used.|
 |**From / To Date**|	These fields are used to enter leave or specific transaction date ranges if required. A combination of the Document Date and the To Date for the Period prints on the Standard Pay Advice against the Leave Transaction.|
@@ -109,7 +109,7 @@ Additional information is displayed below the journal lines on the Pay Journal c
 
 
 |Field|	Comments|
-|---|---|
+| :--- | :--- |
 |**Pay Description**|	This field displays the description column for the selected transaction journal line.|
 |**Employee Name**|	This field displays the full name of the employee for the selected journal line.|
 |**Balance**|This field displays the sum of the amount field from the first transaction to the selected transaction for the selected employee. | 
@@ -121,7 +121,7 @@ Additional information is displayed below the journal lines on the Pay Journal c
 The Home ribbon allows for certain processes to be executed.  
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Delete**|	This option allows you to delete an un-calculated transactions.|
 |**Calculate Pays**	|This option uses the manually entered transactions, plus the Allowances and Deductions set up for each Employee in their Payroll Employee card and generates the Journal Pay Transactions|
 |**Post**|	This option posts the Pay Journal to the General Ledger.  Once you have Posted the Payroll to the General Ledger the amounts cannot be deleted, and errors must be corrected by reversing entries.  If posting is attempted while an error in the data exists the system will not post any of the data.|
@@ -140,7 +140,7 @@ The Home ribbon allows for certain processes to be executed.
 The Actions ribbon allows for certain processes to be executed.  
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Add Default Roster**|	This option is used to copy the selected employee’s default roster into the pay journal. You do not need to perform this function to calculate an employees pay.  The “Calculate Pays” function automatically generates and pays the Employee’s roster.|
 |**Add Permanent Details**|	This option is used to create transactions for each permanent deduction and allowance set up for the selected employee. You do not need to perform this function to calculate an employees pay.  The “Calculate Pays” function automatically generates and pays the Employee’s Standard Pay, Allowances, Deductions, etc.|
 |**Transfer Time Sheets**	|This option is used to transfer timesheet entries into the Pay Journal|
