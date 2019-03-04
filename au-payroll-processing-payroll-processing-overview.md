@@ -116,13 +116,20 @@ Additional information is displayed below the journal lines on the Pay Journal c
 |**Total Balance**|The “Total Balance” is the sum of the amount field for all the displayed pay journal line(s).|
 
 
-## Pay Journal – Home ribbon 
+## Pay Journal – Manage section 
 
-The Home ribbon allows for certain processes to be executed.  
+The Manage section allows for certain processes to be executed.  
 
 |Field	|Comments|
 | :--- | :--- |
 |**Delete**|	This option allows you to delete an un-calculated transactions.|
+
+## Pay Journal – Process section 
+
+The Process section allows for certain processes to be executed.  
+
+|Field	|Comments|
+| :--- | :--- |
 |**Calculate Pays**	|This option uses the manually entered transactions, plus the Allowances and Deductions set up for each Employee in their Payroll Employee card and generates the Journal Pay Transactions|
 |**Post**|	This option posts the Pay Journal to the General Ledger.  Once you have Posted the Payroll to the General Ledger the amounts cannot be deleted, and errors must be corrected by reversing entries.  If posting is attempted while an error in the data exists the system will not post any of the data.|
 |**Post and Print**	|This option performs the post process and also prints a copy of the test report.|
@@ -130,14 +137,12 @@ The Home ribbon allows for certain processes to be executed.
 |**Create Bank Transfer File**|	This option is used to create the file of payments for EFT paid employees to be interfaced to your selected bank for each net pay dissection. The dissections have previously been set up on the Payroll Employee card Employee button, Pay Dissections.|
 |**Calculate An Employee’s Pay**	|This option performs the same function as Calculate Pays for a specific employee or range of employees.|
 |**Cancel Bank Transfer**	|This option is used to cancel the Bank Transfer file|
-|**Refresh**	|The Refresh function will refresh data on the Pay Journal page.|
-|**Find**	|The Find function is used to Find information contained in the Pay Journal.|
 
 [GoToTop](#payroll-processing-overview)
 
-## Pay Journal – Actions ribbon 
+## Pay Journal – Actions - Functions section 
 
-The Actions ribbon allows for certain processes to be executed.  
+The Functions section allows for certain processes to be executed.  
 
 |Field	|Comments|
 | :--- | :--- |
@@ -147,6 +152,14 @@ The Actions ribbon allows for certain processes to be executed.
 |**Calculate Pays**	|This option uses the manually entered transactions, plus the Allowances and Deductions set up for each Employee in their Payroll Employee card and generates the Journal Pay Transactions|
 |**Calculate An Employee’s Pay**	|This option performs the same function as Calculate Pays for a specific employee or range of employees.
 Cancel Calculated Pays	This option reverses the Calculations of Pays.  All Pay Journal lines created by the Pay Generation function are reversed. All manually entered Pay Journal lines are flagged as “unprocessed” and may be maintained. You can cancel the Calculated Pays for individual employees or all the employees. When cheques or EFT Payments have been processed the pay calculation cannot be reversed.  You must void the cheques and cancel the bank transfer to cancel the calculated pays. A Calculated Pay cannot be cancelled after you have posted the pay to the General Ledger.  You must process reversing entries in the next pay run to correct the errors.|
+|**Cancel Calculated Pays**|This options is used to cancel calculated pays.
+
+## Pay Journal – Actions - Posting section 
+
+The Posting section allows for certain processes to be executed.  
+
+|Field	|Comments|
+| :--- | :--- |
 |**Reconcile**|	This report is only used if you have flagged the “Control Total By Units” option in “Payroll Setup”. This option is used to check all manually entered Pay Journal Lines against entered Control Totals for this batch. If the Control Totals do not balance you will not be able to post the payroll transactions.|
 |**Test Report**	|This option creates a batch listing of the Pay Journal, highlighting any errors that will prevent posting, or warnings.|
 |**Post**	|This option posts the Pay Journal to the General Ledger.  Once you have Posted the Payroll to the General Ledger the amounts cannot be deleted, and errors must be corrected by reversing entries. If posting is attempted while an error in the data exists the system will not post any of the data.|
@@ -154,12 +167,12 @@ Cancel Calculated Pays	This option reverses the Calculations of Pays.  All Pay J
 
 [GoToTop](#payroll-processing-overview)
 
-#### Pay Journal – Navigate ribbon 
+#### Pay Journal – Navigate - Employee section 
 
-The Navigate ribbon allows for certain processes to be executed.  
+The Employee section allows for certain processes to be executed.  
 
-|Field|	Comments|
-|---|---|
+|Field	|Comments|
+| :--- | :--- |
 |**Card**	|This option is used to display the Payroll Employee card.|
 |**Ledger Entries**	|This option is used to display all Employee ledger entries.|
 |**G/L Cost Allocations**	|This option is used to display the cost allocations for the selected Pay Journal Line.|
@@ -167,9 +180,24 @@ The Navigate ribbon allows for certain processes to be executed.
 |**Associated Transactions**	|This option displays the transactions associated with the current Pay Journal Line.  You can use this window to make additions, deletions, and modifications to the associated transaction.|
 |**Pay Details Enquiry**	|This option defaults to the selected employee, but you can select another employee.  The report displays an employee’s pay details without calculating the pay.  Details for current pay, YTD accumulations, and leave accruals are displayed or printed.|
 |**Pay Preview**	|The selected employee’s pay details, without calculating the pay is displayed. |
+
+
+#### Pay Journal – Navigate - Line section 
+
+The Line section allows for certain processes to be executed.  
+
+|Field	|Comments|
+| :--- | :--- |
 |**Pay Header**	|This option is used to maintain the “No. Tax Weeks”, “No. Leave Periods”, “No. Deduction Periods”, “No. Allowance Periods” and “Payment Method” in the Pay Header details for the selected Employee.  **Note:** Once the pay advice has been calculated you can only change the “No. Leave Periods” and “Payment Method” fields.|
 |**Leave Accruals**	|This option displays the period and to-date totals for all Leave accruals accumulated for the selected employee.|
 |**Dimensions**	|You have the ability to override the employees Global Dimensions 1 and 2 on the Pay Journal line.  If your organisation uses other Dimensions they can be maintained on this card.|
+
+#### Pay Journal – Navigate - Reports section 
+
+The Reports section allows for certain processes to be executed.  
+
+|Field	|Comments|
+| :--- | :--- |
 |**Entry Validation Report**	|This option is used to check the validity of the transactions in the pay journal.  It must be run and printed before the system allows you to create payments and post the payroll to the General Ledger.  When error messages occurs on the “Entry Validation Report”, posting to the General Ledger is not possible until the errors have been corrected.  When warning messages occur you can post the payroll to the General Ledger correcting the warnings is optional.|
 |**Details Generated Report**	|This option prints a detailed list of each employee pay.|
 |**Payroll Details Report**	|This option prints a detailed breakdown of the pay run.|
@@ -177,6 +205,13 @@ The Navigate ribbon allows for certain processes to be executed.
 |**Payroll Payment Details**	|This option prints a breakdown of the pay run by payment type.|
 |**Employee Not Paid**|This option prints a report identifying employees not paid in this run.|
 |**Batch Print Reports**	|This option is used to print the above reports in a batch process. Each report can be individually selected or de-selected from the batch print process.  If the “Entry Validation Report” reports any errors in the pay run then the batch print process will not allow you to print the reports.|
+
+#### Pay Journal – Navigate - Payments section 
+
+The Payments section allows for certain processes to be executed.  
+
+|Field	|Comments|
+| :--- | :--- |
 |**Payment Details**	|This option displays all payments made in this pay for the selected employee.|
 |**Preview Cheque**	|When an Employee is paid by cheque this option displays the details for the cheque printed for the currently selected Employee's Net Pay.|
 |**Print Cheque**| This option prints the Cheques for the Payroll prior to posting the pay Run. You must enter the Bank Account The payment is made from.  Cheque Ledger Entry records for the Bank Account will be updated with the cheques produced.  After the cheques are printed you cannot Cancel the Employee's Pays or delete the journal lines unless the cheques are voided first.|
