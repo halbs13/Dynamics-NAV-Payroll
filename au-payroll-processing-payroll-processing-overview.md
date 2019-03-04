@@ -148,11 +148,11 @@ The Functions section allows for certain processes to be executed.
 | :--- | :--- |
 |**Add Default Roster**|	This option is used to copy the selected employee’s default roster into the pay journal. You do not need to perform this function to calculate an employees pay.  The “Calculate Pays” function automatically generates and pays the Employee’s roster.|
 |**Add Permanent Details**|	This option is used to create transactions for each permanent deduction and allowance set up for the selected employee. You do not need to perform this function to calculate an employees pay.  The “Calculate Pays” function automatically generates and pays the Employee’s Standard Pay, Allowances, Deductions, etc.|
-|**Transfer Time Sheets**	|This option is used to transfer timesheet entries into the Pay Journal|
-|**Calculate Pays**	|This option uses the manually entered transactions, plus the Allowances and Deductions set up for each Employee in their Payroll Employee card and generates the Journal Pay Transactions|
-|**Calculate An Employee’s Pay**	|This option performs the same function as Calculate Pays for a specific employee or range of employees.
-Cancel Calculated Pays	This option reverses the Calculations of Pays.  All Pay Journal lines created by the Pay Generation function are reversed. All manually entered Pay Journal lines are flagged as “unprocessed” and may be maintained. You can cancel the Calculated Pays for individual employees or all the employees. When cheques or EFT Payments have been processed the pay calculation cannot be reversed.  You must void the cheques and cancel the bank transfer to cancel the calculated pays. A Calculated Pay cannot be cancelled after you have posted the pay to the General Ledger.  You must process reversing entries in the next pay run to correct the errors.|
-|**Cancel Calculated Pays**|This options is used to cancel calculated pays.
+|**Transfer Time Sheets**|This option is used to transfer timesheet entries into the Pay Journal|
+|**Calculate Pays**|This option uses the manually entered transactions, plus the Allowances and Deductions set up for each Employee in their Payroll Employee card and generates the Journal Pay Transactions|
+|**Calculate An Employee’s Pay**|This option performs the same function as Calculate Pays for a specific employee or range of employees.|
+|**Cancel Calculated Pays**|This option reverses the Calculations of Pays.  All Pay Journal lines created by the Pay Generation function are reversed. All manually entered Pay Journal lines are flagged as “unprocessed” and may be maintained. You can cancel the Calculated Pays for individual employees or all the employees. When cheques or EFT Payments have been processed the pay calculation cannot be reversed.  You must void the cheques and cancel the bank transfer to cancel the calculated pays. A Calculated Pay cannot be cancelled after you have posted the pay to the General Ledger.  You must process reversing entries in the next pay run to correct the errors.|
+
 
 ## Pay Journal – Actions - Posting section 
 
