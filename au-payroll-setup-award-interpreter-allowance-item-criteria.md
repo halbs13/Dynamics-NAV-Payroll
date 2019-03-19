@@ -15,7 +15,7 @@ They are maintained in the Item Criteria Worksheet.
 1. Fill the fields in the following table.
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------|  
+| :--- | :--- |
 |**Classification Code**| This field is displays the Award Classification Code.
 |**Award Code**| This field displays the Award.
 |**Pay Transaction Type**| This field displays the Pay Transaction Type code that is generated from this Allowance Item criterion. The pay Transaction type must have an Accumulation Type of Allowance.
@@ -60,12 +60,12 @@ They are maintained in the Item Criteria Worksheet.
 
 The Allowance Item records are used to interpret the hours into Allowance Pay Transaction Types.
 
-1. To open the Item Criteria Worksheet form, *Departments/Payroll/Setup/Award Interpreter/ Interp. Setup Worksheet*
+1. To open the Item Criteria Worksheet form, *Actions Workspace/Setup/Award Interpreter Setup Worksheet*
 
 2. Fill the fields in the following table
 
 |Field|Description|  
-|:---------------------------------|:---------------------------------------| 
+| :--- | :--- |
 |**Starting Date**|	This field is used to enter the date this criteria becomes effective and is used to interpret timesheets. This date must be equal to or greater than the Classification Certification date.
 |**Ending Date**|	This field is used to enter the date the criteria is no longer effective.
 |**Award Code**|	This field is used to apply the criteria to a specific Award. If the Classification is not specified all employees attached to the Award work under the criteria setup for this Award.
