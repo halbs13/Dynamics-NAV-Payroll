@@ -17,7 +17,7 @@ The following instructions outline the procedures for installing and implementin
   
 3.	[Import the current Tax Scale text file](au-payroll-setup-import-tax-scales.md)
 
-4.	[Import the Employee BSB numbers](au-payroll-setup-import-bsb-numbers.md)
+4.	[Import the Employee BSB numbers](au-payroll-setup-import-bank-state-branch-numbers.md)
 
 5.	Review or set up the following areas;
 
