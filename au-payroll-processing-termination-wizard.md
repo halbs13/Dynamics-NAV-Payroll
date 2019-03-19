@@ -1,6 +1,6 @@
 # Termination Wizard
 
-Termination payments can be calculated automatically in Dynamics NAV Payroll using the Termination Wizard calculation function.
+Termination payments can be calculated automatically in Business Central Payroll using the Termination Wizard calculation function.
 
 The Termination Wizard has been designed to cater for the following types of termination payments;
 
@@ -13,7 +13,7 @@ The Termination Wizard has been designed to cater for the following types of ter
 *	Invalidity
 *	Retirement to an approved retirement scheme
 
-It is recommended that any Ordinary and Termination payments be processed on separate pay advices and preferably after the main pay has been processed.  This will ensure that the leave accrual is updated correctly prior to calculating the employee’s final payment.
+It is recommended that Ordinary and Termination payments are processed on separate pay advices and preferably after the main pay has been processed.  This will ensure that the leave accrual is updated correctly prior to calculating the employee’s final payment.
 
 Further information relating to the calculation of termination payments can be located on the ATO website at www.ato.gov.au.
 
@@ -29,7 +29,7 @@ The Termination Wizard will assist you in calculating an employee’s final paym
 
 The following is a guideline to the recommended steps of processing:
 
-1.	Finalise and Ordinary payment including worked hours, etc. on Pay Advice 1, if applicable.
+1.	Finalise Ordinary payment including worked hours, etc. on Pay Advice 1, if applicable.
 2.	If the payment for Worked hours has not yet been posted, you will need to calculate out the accrual for these hours to include in your calculations.
 3.	Calculate the termination payment for unused annual leave, etc. using the Termination Wizard.
 4.	Transfer the termination payment from the wizard to the pay journal using the **“Create Journal”** function.
@@ -37,6 +37,7 @@ The following is a guideline to the recommended steps of processing:
 6.	Select the **“Close & Copy”** icon, this will update the Employee card with the Termination date and Termination reason.
 7.	Create the EFT bank file
 8.	Post the journal lines and print pay advices.
+
 To open the Termination Wizard window
 
 1.  In the **Search** box, enter **Termination Wizard**, and choose the related link.  Or go to the following menu: *Departments/Payroll/Payroll Processing/Termination Wizard*
