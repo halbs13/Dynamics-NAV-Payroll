@@ -17,7 +17,7 @@ With the introduction of STP, the pay runs are processed in the same manner with
 
 Once you have completed your pay run, you will then need to create a Pay Event.
 
-Prior to running a Pay Event we strongly recommend you run the [STP Payment Proof List](au-payroll-single-touch-payroll-reporting.md) and refer to the last page of the report which lists any errors that may cause the Pay Event to be rejected by the ATO. These errors are similar to those that you may have seen in prior years at EOTY e.g. invalid address, post code, etc.
+Prior to running a Pay Event we strongly recommend you run the [STP Payment Proof List](au-payroll-report-single-touch-reporting.md) and refer to the last page of the report which lists any errors that may cause the Pay Event to be rejected by the ATO. These errors are similar to those that you may have seen in prior years at EOTY e.g. invalid address, post code, etc.
 
 
 If there are any errors they can be corrected prior to creating the Pay Event.
@@ -27,12 +27,12 @@ If there are any errors they can be corrected prior to creating the Pay Event.
 
 ### Submitting a New Pay Event
 
-1.  In the **Search** box, enter **Submit STP Pay Event** and choose the related link.  Or go to the following menu: *Payroll/Single Touch Processing/Submit STP Pay Event*
+1.  In the **Search** box, enter **Submit STP Pay Event** and choose the related link.  Or go to the following menu: *Actions Workspace/Single Touch Processing/Submit STP Pay Event*
 
 2.  Complete the fields in the **Edit - Submit STP Pay Event** as described in the following table:
 
 |Field|Comment|
-|---|---|
+| :--- | :--- |
 |**Pay Event Type**|From the **ArrowDown** select **New**.
 |**EOTY Submission**|This field is only selected if this Pay Event is an **End of Tax Year** submission, otherwise it is not selected when sending submissions for a normal pay period.
 |**Update Date**|This field is only available if resending a submission.
@@ -60,12 +60,12 @@ If there are **NO PAY RUNS** ready for upload to the ATO or you have created all
 
 The update event allows you to provide corrections and revisions of YTD values for your employees. This event can include employees who are no longer being paid but whose YTD values need updating. It also allows you to declare that your employee’s EOTY data is complete.
 
-1.  In the **Search** box, enter **Submit STP Pay Event** and choose the related link.  Or go to the following menu: *Payroll/Single Touch Processing/Submit STP Pay Event*
+1.  In the **Search** box, enter **Submit STP Pay Event** and choose the related link.  Or go to the following menu: *Actions Workspace/Single Touch Processing/Submit STP Pay Event*
 
 2.  Complete the fields in the **Edit - Submit STP Pay Event** as described in the following table:
 
 |Field|Comment|
-|---|---|
+| :--- | :--- |
 |**Pay Event Type**|From the **ArrowDown** select **New**.
 |**EOTY Submission**|This field is only selected if this Pay Event is an **End of Tax Year** submission, otherwise it is not selected when sending submissions for a normal pay period.
 |**Update Date**|This field is only available if resending a submission.
@@ -111,38 +111,30 @@ You can review your submissions two ways:
 
 ## Resending STP Submissions
 
-If you need to replace the previously submitted Pay Event, go to:
+If you need to replace the previously submitted Pay Event, you can do this by *Resending STP Submissions*.
 
-*Payroll/Single Touch Processing/STP Submissions*
+1. Go to the following menu; *Actions Workspace/History/STP Submissions*
 
-Select the Resend Last Pay Event option in the ribbon.
+2. Click on the Actions menu and select *Resend Last Pay Event*.
 
-You may need to replace the pay event if it contained errors or significant corrupt data.
+3. Slide the button to the right and select OK.
 
-Tick Create File and select OK. 
+4. You will respond **YES** to the following message:  *I am notifying the ATO that" *SSP Name (The "SSP Name" will be the service provider who is responsible for transmitting your files) provides this business/these businesses with lodgement gtransaction services; and * this business/these businesses, for the purposes of it transactions with the ATO via the SBR channel, sends (and receives) those transaction to (and from) the ATO via SSP Name.  I declare the information is transmitted in this Single Touch Payroll Even is true and correct and that I am authorised to make this declaration.*
 
-Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
+5.  When the Pay Event file is created, you will select **Save**.  The file should be saved in a secure area of your network as the file contains sensitive information about your organisation and employees.
 
-Enter any relevant filter options as required, e.g. Payroll No. and select OK.
+7.  Upload the saved file to your portal of choice.  Follow the provided *How To* instructions based on your SSP's requirements.
 
-Once the file has been generated you will be prompted to Open, Save or Cancel.
-
-Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
-
-Upload the saved file to your Portal of choice. Follow the provided “How To” instructions based on your SSP’s requirements.
-
+[GoToTop](#single-touch-payroll-processing)
 
 ## STP Zero Submission
 
 If you have changed Payroll systems within the financial year and need to clear out the values previously sent to the ATO through Pay Events, you will need to create an Update Event. You only need to perform this step if your new Payroll system will take on current YTD values previously created in Payfocus.
 
-Go to:
+1. In the **Search** box, enter **STP Zero Submission** and choose the related link.
 
-*Payroll/Periodic Activities/Periodic Maintenance/STP Zero Submission*
+2. Select the relevant Tax Year and Update Date and any relevant filters and select OK.
 
-Select the relevant Tax Year and Update Date and any relevant filters and select OK.
-
-Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
-
+3. Save the file in a secure area of your network as the file contains sensitive information about your organisation and employees.
  
 [GoToTop](#single-touch-payroll-processing)
