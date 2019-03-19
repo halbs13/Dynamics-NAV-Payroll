@@ -11,6 +11,7 @@ Correction files are referred to by the ATO as an **Update Event**.
 Related Links:
 
 - [Single Touch Payroll Processing](au-payroll-processing-single-touch-payroll-processing.md)
+- [Single Touch Reporting](au-payroll-report-single-touch-reporting.md)
 
 
 
