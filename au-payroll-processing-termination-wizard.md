@@ -38,9 +38,10 @@ The following is a guideline to the recommended steps of processing:
 7.	Create the EFT bank file
 8.	Post the journal lines and print pay advices.
 
+
 To open the Termination Wizard window
 
-1.  In the **Search** box, enter **Termination Wizard**, and choose the related link.  Or go to the following menu: *Departments/Payroll/Payroll Processing/Termination Wizard*
+1.  In the **Search** box, enter **Termination Wizard**, and choose the related link.  Or go to the following menu: *Actions Workspace/Payroll Processing/Termination Wizard*
 
 ### Standard Termination 
 
@@ -51,24 +52,24 @@ The following steps will demonstrate how a termination payment is calculated for
 1.  Complete the initial screen with the employee’s details such as employee number, the reason and date for termination.
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Employee No.**|	Enter in the employee no. or select from the **ArrowDown**. |
-|**Name**	|This will automatically default from the Employee No. that you select.|
-|**Reason for Termination**	|Select from the **ArrowDown** the reason the employee is terminating.|
-|**Date of Termination**	|Enter in the date of termination for the employee.|
+|**Name**|This will automatically default from the Employee No. that you select.|
+|**Reason for Termination**|Select from the **ArrowDown** the reason the employee is terminating.|
+|**Date of Termination**|Enter in the date of termination for the employee.|
 
 2.  Select **Next** when you have completed this section.
 
 #### Outstanding Long Service Leave Form
 
-3.  Long Service Leave entitlements will automatically calculate from the Employee’s start date to the finish date.  If the employee is not entitled to this leave entitlement, then override this value by entering zero.
+3.  Long Service Leave entitlements will **automatically calculate from the Employee’s start date to the finish date**.  If the employee is not entitled to this leave entitlement, then override this value by entering zero.
  
 
 |Field	|Comments|
-|---|---|
-|**Accrued Before 16/08/78**	|The value of this accrual is identified as a Lump B payment and is taxed accordingly.  If the employee has any unused Long Service Leave accrued before the 16th August 1978 the value of service will appear in this field.|
-|**Accrued After 15/08/78 but Before 18/08/93**	|The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Long Service Leave accrued after 15th August 1978 and before the 18th August 1993 the value of service will appear in this field.|
-|**Accrued After 17/08/93**	|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Long Service Leave accrued after 17th August 1993 the value of service will appear in this field.  As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.
+| :--- | :--- |
+|**Accrued Before 16/08/78**|The value of this accrual is identified as a Lump B payment and is taxed accordingly.  If the employee has any unused Long Service Leave accrued before the 16th August 1978 the value of service will appear in this field.|
+|**Accrued After 15/08/78 but Before 18/08/93**|The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Long Service Leave accrued after 15th August 1978 and before the 18th August 1993 the value of service will appear in this field.|
+|**Accrued After 17/08/93**|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Long Service Leave accrued after 17th August 1993 the value of service will appear in this field.  As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.
 
 4.  Select **Next** when you have completed this section.
 
@@ -77,13 +78,13 @@ The following steps will demonstrate how a termination payment is calculated for
 5.  Annual Leave entitlements are transferred from the Employee’s Leave Accrual card. 
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Before 18/08/93**|	
-|**Accrued Trans. Type**	|The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Annual Leave accrued before the 18th August 1993 the value of service will appear in this field.|
-|**Loading Trans.** |Type	The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Leave Loading accrued before the 18th August 1993 the value of service will appear in this field.|
-|**After 17/08/93**	|
-|**Accrued Trans. Type**	|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Annual Leave accrued after 17th August 1993 the value of service will appear in this field. | 
-|**Loading Trans. Type**	|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Leave Loading accrued after 17th August 1993 the value of service will appear in this field.|  
+|**Accrued Trans. Type**|The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Annual Leave accrued before the 18th August 1993 the value of service will appear in this field.|
+|**Loading Trans.**|Type	The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Leave Loading accrued before the 18th August 1993 the value of service will appear in this field.|
+|**After 17/08/93**|
+|**Accrued Trans. Type**|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Annual Leave accrued after 17th August 1993 the value of service will appear in this field. | 
+|**Loading Trans. Type**|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Leave Loading accrued after 17th August 1993 the value of service will appear in this field.|  
 |**Tax Free Lump Sum D**|This will be discussed in the next section as it relates to ETP or Redundancy payments.|
 
 6.  Select **Next** when you have completed this section.
@@ -115,8 +116,8 @@ The following steps will demonstrate how a termination payment is calculated for
 
 
 |Field	|Comments|
-|---|---|
-|**Employee No.**	|Enter in the employee no. or select from the **ArrowDown**. |
+| :--- | :--- |
+|**Employee No.**|Enter in the employee no. or select from the **ArrowDown**. |
 |**Reason for Termination**|Select from the **ArrowDown** the reason the employee is terminating.|
 |**Date of Termination**|Enter in the date of termination for the employee.|
 
@@ -129,10 +130,10 @@ The following steps will demonstrate how a termination payment is calculated for
 
 
 |Field	|Comments|
-|---|---|
+| :--- | :--- |
 |**Accrued Before 16/08/78**|The value of this accrual is identified as a Lump B payment and is taxed accordingly.  If the employee has any unused Long Service Leave accrued before the 16th August 1978 the value of service will appear in this field.|
 |**Accrued After 15/08/78 but Before 18/08/93**	|The value of this accrual is identified as a Lump A payment and is taxed accordingly. If the employee has any unused Long Service Leave accrued after 15th August 1978 and before the 18th August 1993 the value of service will appear in this field.|
-|**Accrued After 17/08/93**	|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Long Service Leave accrued after 17th August 1993 the value of service will appear in this field.  As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.|
+|**Accrued After 17/08/93**|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Long Service Leave accrued after 17th August 1993 the value of service will appear in this field.  As noted above Long Service Leave is automatically calculated and may need to be adjusted or overridden.|
 
 4.  Select **Next** when you have completed this section.
 
@@ -141,11 +142,11 @@ The following steps will demonstrate how a termination payment is calculated for
 5.  Annual Leave entitlements will transferred from the Employee’s Leave Accrual card.  **Note:** the value of Annual Leave is categorised as a Lump A payment and appears in the “Before 18/08/93” section.  Lump A tax rulings will be calculated and applied accordingly.
 
 |Field	|Comments|
-|---|---|
-|**Accrued Trans. Type**	|The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Annual Leave accrued before the 18th August 1993 the value of service will appear in this field.|
-|**Loading Trans. Type**	|The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Leave Loading accrued before the 18th August 1993 the value of service will appear in this field.|
-|**Accrued Trans. Type**	|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Annual Leave accrued after 17th August 1993 the value of service will appear in this field. | 
-|**Loading Trans. Type**	|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Leave Loading accrued after 17th August 1993 the value of service will appear in this field.|  
+| :--- | :--- |
+|**Accrued Trans. Type**|The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Annual Leave accrued before the 18th August 1993 the value of service will appear in this field.|
+|**Loading Trans. Type**|The value of this accrual is identified as a Lump A payment and is taxed accordingly.  If the employee has any unused Leave Loading accrued before the 18th August 1993 the value of service will appear in this field.|
+|**Accrued Trans. Type**|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Annual Leave accrued after 17th August 1993 the value of service will appear in this field. | 
+|**Loading Trans. Type**|The value of this accrual is identified as Gross Salary & Wages and is taxed accordingly.  If the employee has any unused Leave Loading accrued after 17th August 1993 the value of service will appear in this field.|  
 |**Tax Free Lump Sum D**|Select the “Pay Transaction Type” for the Lump Sum D payment from the **ArrowDown**.  Enter in any bona fide redundancy or approved early retirement scheme amount that falls under the “Tax Free” amount defined by the ATO.|
 
 6.  Select **Next** when you have completed this section.
@@ -161,13 +162,13 @@ The following steps will demonstrate how a termination payment is calculated for
 8.  The Employee Termination Payment Screen is where you will enter in the Employee Termination Payment information for your employee.  As this information can vary between employees, you will need to manually enter this information into this window.
 
 |Field	|Comments|
-|---|---|
-|**Tax-Free Component (Pre-July 1983 Component Amount)**	|Select the pay transaction type from the **ArrowDown** to record your transactions.| 
-||**Hours** – Enter in the hours accordingly.  The Value of this transaction will update automatically and is based on the employee’s current base rate.|
-|**Taxable Component (Post June 1983 Untaxed Amount)**	|Select the pay transaction type from the **ArrowDown** to record your transactions.|
-||**Hours** – Enter in the hours accordingly.  The Value of this transaction will update automatically and is based on the employee’s current base rate.|
-|**Tax-Free Component (Post June 1994 Invalidity Amount)** |Select the pay transaction type from the **ArrowDown** to record your transactions.|
-||**Hours** – Enter in the hours accordingly.  The Value of this transaction will update automatically and is based on the employee’s current base rate.|
+| :--- | :--- |
+|**Tax-Free Component (Pre-July 1983 Component Amount)**|Select the pay transaction type from the **ArrowDown** to record your transactions| 
+|**Hours**|Enter in the hours accordingly.  The Value of this transaction will update automatically and is based on the employee’s current base rate.|
+|**Taxable Component (Post June 1983 Untaxed Amount)**|Select the pay transaction type from the **ArrowDown** to record your transactions.|
+|**Hours**|Enter in the hours accordingly.  The Value of this transaction will update automatically and is based on the employee’s current base rate.|
+|**Tax-Free Component (Post June 1994 Invalidity Amount)**|Select the pay transaction type from the **ArrowDown** to record your transactions.|
+|**Hours**|Enter in the hours accordingly.  The Value of this transaction will update automatically and is based on the employee’s current base rate.|
 
 9.  Select **Next** when you have completed this section.
 
@@ -178,8 +179,8 @@ The following steps will demonstrate how a termination payment is calculated for
 11. You must select the **ETP Code** from the **ArrowDown** so that the appropriate tax treatment will be applied to the Employee Termination payment. 
 
 |Field	|Comments|
-|---|---|
-|**ETP Code**	|The ATO provided a number of categories to identify the treatment of tax associated with Employee Termination Payments.  Select the ETP Code from the **ArrowDown**.|
+| :--- | :--- |
+|**ETP Code**|The ATO provided a number of categories to identify the treatment of tax associated with Employee Termination Payments.  Select the ETP Code from the **ArrowDown**.|
 
 12. Select **Next** when you have completed this section.
 
